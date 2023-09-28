@@ -1,0 +1,11 @@
+<krpano>
+  <include url="%FIRSTXML%/skin/scrollimg/galley.xml" />
+  <include url="%FIRSTXML%/skin/info/info.xml" />
+  <include url="%SWFPATH%/public/action.xml" />
+  <plugin name="soundinterface" url="%SWFPATH%/plugins/soundinterface.swf" alturl="%SWFPATH%/plugins/soundinterface.js" rootpath="%CURRENTXML%" preload="true" keep="true" mute="true" />
+  <textstyle name="smalltext" font="Arial" fontsize="12" bold="false" border="false" background="false" textcolor="0x000000" alpha="1" textalign="bottom" xoffset="" yoffset="" effect="glow(0xffffff,0.7,4,2);dropshadow(2,45,0xffffff,3,1);" />
+  <events onmousedown="" onmouseup="" onxmlcomplete="" onpreviewcomplete="" onloadcomplete="" />
+  <plugin name="gyro" url="%SWFPATH%/plugins/gyro.js" keep="true" enabled="false" camroll="true" friction="0.5" velastic="0.2" devices="html5" />
+  <textstyle name="text_style" font="Arial" fontsize="12" bold="false" edge="bottomleft" xoffset="-10" yoffset="48" textalign="left" border="false" background="true" backgroundcolor="0xffffff" textcolor="0x000000" effect="glow(0xffffff,1,8,100); dropshadow(9,9,0xffffff,30,200); " alpha="0.7" />
+  <style name="hotspottext_style" url="%SWFPATH%/plugins/textfield.swf" align="bottom" autowidth="false" enabled="true" roundedge="5" border="false" textshadow="1" keep="false" />
+</krpano>

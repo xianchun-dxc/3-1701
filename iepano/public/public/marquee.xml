@@ -1,0 +1,26 @@
+﻿<krpano>
+  <action name="marquee">
+    txtadd(text1width,"-","get(layer[showtext].width)");
+    inc(layer[showtext].x,1,get(stagewidth),get(text1width));
+    delayedcall(0.005, marquee(););
+  </action>
+  <action name="shin_sx">
+    set(sx,get(skin.openmarquee));if(get(sx),set(plugin[zfblogo].y,30);set(layer[skin_left].y,8);set(layer[skin_title].y,25);  marquee();)
+  </action>
+<layer name="mubu" onloaded="shin_sx();" type="container" align="top" width="100%" height="28" bgcolor="0xffffff" bgalpha="0.7" visible="get:skin.openmarquee" keep="true">
+ 
+    <layer name="showtext" style="text" backgroundalpha="0.0" css="text-align:center;font-family:微软雅黑; font-size:16px; color:#000000;letter-spacing:5px;" x="-100" y="0" html="get:skin.marqueetext" handcursor="false" enabled="false"/> 
+	
+</layer>
+ <style name="text" url="%SWFPATH%/plugins/textfield.swf" align="right" autowidth="true" autoheight="auto"/>
+
+<krpano devices="mobile">
+
+    <layer name="mubu" height="29"> 
+         <layer name="showtext" css="text-align:center;font-family:微软雅黑; font-size:16px; color:#000000;letter-spacing:5px;padding-top:2px"/> 	
+    </layer> 
+	
+</krpano>
+
+
+</krpano>

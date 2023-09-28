@@ -1,0 +1,9 @@
+<krpano version="1.19" onstart="">
+  <control mousetype="drag" />
+  <config scene_name="主卫" scene_num="k_11337544190" scene_map="false" heading="0" type_id="1004" up_scene="%FIRSTXML%/scene/k_11261379258/scene.xml" down_scene="%FIRSTXML%/scene/k_11337544190/scene.xml" scene_type="sphere" hlookat="0" vlookat="0" info_type="0" scene_infopic="" scene_xml="scene/k_11337544190/scene.xml" view_img="scene/k_11337544190/kc.jpg" gisinfo="" pstime="" />
+  <include url="image.xml" />
+  <events onmousedown="" onmouseup="" onxmlcomplete="start();" onloadcomplete="" onclick="" onremovepano="" name="k_11337544190" />
+  <data name="scene_content">
+  </data>
+  <view hlookat="0" vlookat="0" fov="120" fovtype="MFOV" fovmin="75" fovmax="140" limitfov="true" fisheye="0.0" fisheyefovlink="0.0" limitview="range" hlookatmin="-180" hlookatmax="180" vlookatmin="-90" vlookatmax="90" />
+</krpano>

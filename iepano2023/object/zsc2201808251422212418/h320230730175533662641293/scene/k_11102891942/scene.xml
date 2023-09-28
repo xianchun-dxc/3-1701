@@ -1,0 +1,11 @@
+<krpano version="1.19" onstart="">
+  <control mousetype="drag" />
+  <config scene_name="书房" scene_num="k_11102891942" scene_map="false" heading="0" type_id="1004" up_scene="" down_scene="" scene_type="sphere" hlookat="0" vlookat="0" info_type="0" scene_infopic="" scene_xml="scene/k_11102891942/scene.xml" view_img="scene/k_11102891942/kc.jpg" gisinfo="" pstime="" />
+  <include url="image.xml" />
+  <events onmousedown="" onmouseup="" onxmlcomplete="start();" onloadcomplete="" onclick="" onremovepano="" name="k_11102891942" />
+  <data name="scene_content">
+  </data>
+  <view hlookat="0" vlookat="0" fov="120" fovtype="MFOV" fovmin="75" fovmax="140" limitfov="true" fisheye="0.0" fisheyefovlink="0.0" limitview="range" hlookatmin="-180" hlookatmax="180" vlookatmin="-90" vlookatmax="90" />
+  <hotspot name="h_89620189585" url="%FIRSTXML%/src/a1.png" keep="false" capture="true" ath="115.4449866547669" atv="33.90510211886858" zoom="false" distorted="false" visible="true" enabled="true" handcursor="true" children="true" zorder="1" alpha="1" blendmode="normal" smoothing="true" refreshrate="auto" onhover="" onclick="js(speech(次卧););action(loadblend,%FIRSTXML%/scene/k_11261379258/scene.xml,ZOOMBLEND(2.0, 2.0, easeInOutSine));" details="8" flying="0" inverserotation="false" usecontentsize="false" type="hotspot" onover="" onout="" onloaded="add_tooltip();do_crop_animation(128,128, 20);" scenename="%FIRSTXML%/scene/k_11261379258/scene.xml" scale="0.4" alturl="%FIRSTXML%/src/a1.png" style="" blend="放大效果" devices="all" nametext="次卧" istext="1" img_width="128" />
+  <hotspot name="h_89620183008" url="%FIRSTXML%/src/a2.png" keep="false" capture="true" ath="134.1395151964338" atv="30.61351880813841" zoom="false" distorted="false" visible="true" enabled="true" handcursor="true" children="true" zorder="1" alpha="1" blendmode="normal" smoothing="true" refreshrate="auto" onhover="" onclick="js(speech(客厅););action(loadblend,%FIRSTXML%/scene/k_1689119762/scene.xml,ZOOMBLEND(2.0, 2.0, easeInOutSine));" details="8" flying="0" inverserotation="false" usecontentsize="false" type="hotspot" onover="" onout="" onloaded="add_tooltip();do_crop_animation(128,128, 20);" scenename="%FIRSTXML%/scene/k_1689119762/scene.xml" scale="0.4" alturl="%FIRSTXML%/src/a2.png" style="" blend="放大效果" devices="all" nametext="客厅" istext="1" img_width="128" />
+</krpano>
