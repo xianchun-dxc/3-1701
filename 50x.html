@@ -1,21 +1,109 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Error</title>
-<style>
-    body {
-        width: 35em;
-        margin: 0 auto;
-        font-family: Tahoma, Verdana, Arial, sans-serif;
-    }
-</style>
-</head>
-<body>
-<h1>An error occurred.</h1>
-<p>Sorry, the page you are looking for is currently unavailable.<br/>
-Please try again later.</p>
-<p>If you are the system administrator of this resource then you should check
-the error log for details.</p>
-<p><em>Faithfully yours, nginx.</em></p>
-</body>
-</html>
+const { app, session, BrowserWindow, ipcMain } = require("electron");
+const path = require("path");
+const http = require("http");
+const fs = require("fs");
+let mainWindow;
+let firstLoad = true;
+function startHttpServer() {
+  if (!firstLoad) {
+    return;
+  }
+  firstLoad = false;
+  const server = http.createServer((req, res) => {
+    console.log(req.url);
+    // res.writeHead(200);
+    // res.end("done");
+    mainWindow.setProgressBar(0.4);
+    fs.readFile(__dirname + req.url, "utf8", (err, data) => {
+      if (err) {
+        res.writeHead(500);
+        res.end("Error");
+        return;
+      }
+      res.writeHead(200, { "Content-Type": "application/json" });
+      res.end(data);
+    });
+  });
+
+  const port = 8884; // 指定端口号
+  server.listen(port, () => {
+    console.log(`Http server is listening on port ${port}`);
+  });
+
+  // 监听 app-quit 事件，在事件处理函数中关闭 HTTP 服务
+  app.on("app-quit", () => {
+    server.close();
+  });
+}
+
+const mainWindowWidth = 400;
+const mainWindowHeight = 600;
+
+function createWindow() {
+  session.defaultSession
+    .loadExtension(path.join(__dirname, "myext"))
+    .then(() => {
+      mainWindow = new BrowserWindow({
+        width: mainWindowWidth,
+        height: mainWindowHeight,
+        autoHideMenuBar: true,
+        webPreferences: {
+          nodeIntegration: true,
+          contextIsolation: false,
+          webviewTag: true,
+          devTools: true
+        }
+      });
+      mainWindow.on("closed", function () {
+        mainWindow = null;
+        childWindow = null;
+      });
+
+      mainWindow.webContents.on("did-finish-load", () => {
+        startHttpServer();
+      });
+
+      session.defaultSession.webRequest.onBeforeRequest((details, callback) => {
+        const url = details.url.toLocaleLowerCase();
+        if (
+          url.includes("acs-") ||
+          url.includes("static/eb/js/index")
+          // url.includes("static/eb/css/index")
+        ) {
+          callback({ cancel: true });
+        } else {
+          callback({});
+        }
+      });
+
+      // mainWindow.loadURL("https://www.baidu.com");
+      // mainWindow.loadFile("index2.html");
+      mainWindow.loadURL('https://yiyan.baidu.com')
+      mainWindow.webContents.executeJavaScript(`
+          var script = document.createElement('script');
+          script.type = "text/javascript";
+          script.src = "http://127.0.0.1:8884/index.0402.js";
+          document.head.appendChild(script);
+      `);
+
+      ipcMain.on("load-url", (event, url) => {
+        if (url === "exit") {
+          app.quit();
+          return;
+        }
+      });
+
+      ipcMain.on("extension-message", (event, arg) => {
+        console.log(arg); // 打印来自扩展程序的消息
+        event.reply("main-message", "Hello from main process22!");
+      });
+    });
+}
+
+app.whenReady().then(() => {
+  createWindow();
+});
+
+app.on("window-all-closed", () => {
+  if (process.platform !== "darwin") app.quit();
+});
