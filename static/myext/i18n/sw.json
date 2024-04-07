@@ -1,0 +1,321 @@
+{
+  "sidebar": "Upau wa kando",
+  "shortcut": "Kitufe cha njia ya mkato",
+  "ask": "Uliza",
+  "save": "Ihifadhi",
+  "cancel": "Ghairi",
+  "ok": "sawa",
+  "submit": "Wasilisha",
+  "send": "Tuma",
+  "copy": "Nakili",
+  "copied": "Imenakiliwa",
+  "clear": "Wazi",
+  "collapse": "Kunja utepe",
+  "done": "Imekamilika",
+  "manage": "Dhibiti",
+  "template": "kiolezo",
+  "edit": "Hariri",
+  "add": "Ongeza",
+  "feedback": "Maoni",
+  "tweetit": "Twiti",
+  "whatNew": "Mambo Mapya",
+  "gotIt": "Nimeelewa",
+  "settings": "Mipangilio",
+  "general": "Usanidi wa jumla",
+  "archive": "kumbukumbu",
+  "searchPage": "Tafuta Ukurasa",
+  "addons": "Viongezi",
+  "webStore": "Duka la Wavuti",
+  "webApp": "Programu ya Wavuti",
+  "language": "Lugha",
+  "theme": "Mandhari",
+  "model": "Mfano",
+  "version": "Toleo",
+  "more": "Zaidi",
+  "listen": "Sikiliza",
+  "customPrompt": "Agizo maalum",
+  "currentTpl": "Kiolezo cha sasa:",
+  "editTpl": "Hariri kiolezo hiki",
+  "delteTpl": "Futa kiolezo hiki",
+  "restoreTpl": "Rejesha kiolezo hiki",
+  "archiveTpl": "Hifadhi kiolezo hiki kwenye kumbukumbu",
+  "showTpl": "Onyesha kiolezo hiki",
+  "promptName": "Jina la haraka",
+  "promptContent": "Maudhui ya haraka",
+  "contactUs": "Wasiliana nasi",
+  "issueType": "Aina ya Suala",
+  "pinExt": "Pini kiendelezi",
+  "yourEmailAddress": "Anwani yako ya barua pepe",
+  "troubleshooting": "Utatuzi wa shida",
+  "openSidebar": "Fungua utepe",
+  "pasteSelection": "Bandika uteuzi",
+  "pasteTextPage": "Bandika maandishi kutoka kwa ukurasa",
+  "getAnotherKey": "Pata Ufunguo Mwingine",
+  "showSearchPanel": "Onyesha Paneli ya Utafutaji",
+  "getItNow": "Ipate Sasa",
+  "alwaysDisplay": "Onyesha kila wakati",
+  "popupPage": {
+    "thank": "Asante kwa kutumia kiendelezi cha {{APP_NAME}}!",
+    "desc": "Unaweza kutumia kiendelezi hiki kwenye kurasa nyingi za wavuti, isipokuwa kurasa ambazo kivinjari huzuia utendakazi wa hati, kama vile duka la wavuti la kiendelezi na kurasa za mipangilio ya kivinjari.",
+    "try": "Jisikie huru kujaribu kiendelezi hiki kwenye ukurasa mwingine wowote wa tovuti, <i>kama huu</i>."
+  },
+  "setupPage": {
+    "welcome": "Karibu kwenye {{APP_NAME}}! Huu ndio mwanzo wa safari yako:",
+    "pinTips": "Bandika {{APP_NAME}} kwa ufikiaji rahisi",
+    "stepTitle": "Ili kufikia {{APP_NAME}} kwa urahisi zaidi, tafadhali weka aikoni ya utepe ikiwa imebandikwa kwa hatua zifuatazo:",
+    "step1": "Bofya aikoni ya mafumbo {{icon}} karibu na avatar ya wasifu wako.",
+    "step2": "Katika menyu kunjuzi, tafuta {{APP_NAME}}.",
+    "step3": "Bofya \"Ibandike ikoni\" ili kuibandika."
+  },
+  "getKeyPage": {
+    "welcome": "Karibu kwenye {{APP_NAME}}! Hii ndio safari yako ya kuanza:",
+    "stepTitle": "Jinsi ya kupata ufunguo wa API na $18 OpenAI Credits <i>bila malipo</i>.",
+    "step1": "Hatua ya 1: Pata ufunguo wa API",
+    "step1-1": "<i>Ingia akaunti yako ya OpenAI</i> Ikiwa huna akaunti, Jisajili <b>HAPA</b>",
+    "step1-2": "Tembelea ukurasa wa Ufunguo wa OpenAI API",
+    "step1-3": "Unda ufunguo mpya wa siri na uinakili kama ifuatavyo",
+    "step2": "Hatua ya 2: Bandika Ufunguo wa API kwenye kisanduku kilicho hapa chini",
+    "step2-tips": "Usijali. Ufunguo wako wa API unatumika tu ndani ya kiendelezi cha ChatGPT. Kutumia API ni thabiti zaidi kuliko kutumia ChatGPT moja kwa moja.",
+    "step3": "Hatua ya 3: Angalia salio lako la hadi <i>$18 hapa</i>"
+  },
+  "optionPage": {
+    "howToAccess": "Jinsi ya kufikia ChatGPT",
+    "sidebarProvider": "{{APP_NAME}} itatoa ufikiaji, na hakuna haja ya kuisanidi.",
+    "webappProvider": "Programu ya wavuti ya API ya ChatGPT ni ya bure, lakini inaweza kuwa si dhabiti wakati fulani.",
+    "webappGPT4": "Imependekezwa kwa mtumiaji wa Plus (Support GPT-4)",
+    "GPT4Desc": "Ikiwa wewe ni <b>mtumiaji wa ChatGPT Plus</b>, sasa una chaguo la kuchagua <b>GPT-4</b>. Walakini, OpenAI inaweza kupunguza idadi ya ujumbe unaoweza kutuma kwa siku. Ikiwa wewe si mtumiaji wa Plus, huenda usiweze kuitumia au inaweza isiwe dhabiti.",
+    "apiKeyProvider": "API rasmi ya OpenAI ni thabiti zaidi na inatozwa kulingana na matumizi.",
+    "apiKeyLocally": "Ufunguo wako wa API umehifadhiwa kwenye kivinjari chako na haujatumwa popote pengine.",
+    "ownURL": "Tumia URL yangu mwenyewe",
+    "apiFreeGuide": "Fuata mwongozo ili kupata ufunguo wa API na hadi salio la $18 kutoka OpenAI <i>bila malipo</i>",
+    "displaySearchRes": "Onyesha majibu ya ChatGPT pamoja na kurasa za matokeo ya utafutaji",
+    "whenToAsk": "Wakati wa kuuliza ChatGPT",
+    "promptTplForSearch": "Kiolezo cha haraka kwa Google na wengine",
+    "addNewTplForSearch": "Ongeza kiolezo kipya cha kidokezo",
+    "launchSidebar": "Zindua utepe",
+    "sidebarLocation": "Mahali pa Upau wa kando",
+    "sidebarLeftOrRight": "Weka kando upande wa kushoto au kulia",
+    "sidebarIcon": "Aikoni ya Upau wa kando",
+    "sidebarIconAccess": "Fikia utepe kupitia ikoni iliyo kwenye kona ya chini ya kulia ya ukurasa. Unaweza kuburuta ili kuisogeza juu na chini",
+    "easiestWayUse": "Njia rahisi zaidi ya kutumia {{APP_NAME}}",
+    "displayWhenSelect": "Onyesha wakati maandishi yamechaguliwa",
+    "promptTplForSidebar": "Kiolezo cha haraka cha upau wa kando",
+    "dragSidebarTpl": "Buruta na uangushe ili kupanga upya kiolezo AU hifadhi zile ambazo hutatumia kwenye kumbukumbu",
+    "addNewTplForSidebar": "Ongeza kiolezo kipya cha haraka",
+    "editSearchTplTip": "tumia {{keywords}} kurejelea maneno muhimu ya utafutaji wako",
+    "editSearchTplPlaceholder": "{{keywords}} katika maudhui ya kidokezo yatabadilishwa na maneno yako muhimu ya utafutaji kiotomatiki",
+    "editSidebarTplTip": "Bandika au ingiza maudhui hapa",
+    "showOnList": "Onyesha kwenye orodha",
+    "translatorNavTitle": "Utafutaji wa Haraka",
+    "translatorTitle": "Dirisha la Kutafuta Haraka",
+    "translatorFabTitle": "Aikoni ya Utafutaji Haraka",
+    "translatorFabDesc": "Fikia kidirisha cha kutafuta haraka kupitia ikoni.",
+    "translatorFabToggleLabel": "Onyesha wakati maandishi yamechaguliwa",
+    "translatorTplTitle": "Kiolezo cha haraka cha dirisha ibukizi",
+    "translatorTplDesc": "Kiolezo kikuu cha kwanza kitatumika kama amri chaguo-msingi kwa dirisha ibukizi.",
+    "translatorPrimaryTemplates": "Violezo kuu",
+    "translatorTemplatesNotes": "*Ibukizi hii inashiriki violezo sawa na utepe. Ikiwa unahitaji kuhariri au kuongeza kiolezo, tafadhali kirekebishe katika <b>Mipangilio ya utepe</b>.",
+    "translatorIntroTitle": "🤔 Utafutaji Haraka ni nini?",
+    "translatorIntroDesc": "Utafutaji Haraka ni kitendo cha haraka cha Upau wa Kando wa ChatGPT, unaotoa zana mbalimbali muhimu.\n\nInaonekana mara moja unapochagua maandishi. Kwa kubofya mara moja tu, unaweza kutafsiri maandishi kwa haraka, kuyaandika upya, kupata maelezo na mengine mengi. Zaidi ya hayo, unaweza kupanga upya mpangilio wa zana na kubinafsisha vidokezo vyako mwenyewe.\n\nIli kuwezesha Upau wa Kando wa ChatGPT, unachohitaji kufanya ni kubofya ikoni ya Utafutaji Haraka.",
+    "translatorHostFabConfigLabel": "Orodha ya tovuti ambazo Utafutaji Haraka umezimwa",
+    "feedbackTypes": {
+      "bug": {
+        "name": "Ripoti ya Tatizo",
+        "title": {
+          "label": "Muhtasari wa Tatizo",
+          "tip": "Hebu tujue ni nini kilienda vibaya kwa maneno machache."
+        },
+        "detail": {
+          "label": "Maelezo ya Tatizo",
+          "tip": "Tafadhali eleza kwa kina nini kilienda vibaya, hatua zozote ulizochukua, na ujumbe wa hitilafu ulizopata."
+        }
+      },
+      "fr": {
+        "name": "Ombi la Kipengele",
+        "title": {
+          "label": "Kichwa",
+          "tip": "Ombi lako linahusu nini?"
+        },
+        "detail": {
+          "label": "Maelezo",
+          "tip": "Tafadhali toa maelezo ya kina ya kipengele kipya unachotaka."
+        }
+      }
+    }
+  },
+  "sidebarPanel": {
+    "askChatGPT": "Uliza ChatGPT:",
+    "savePrompt": "Hifadhi haraka",
+    "saveNewPrompt": "Hifadhi kama kidokezo kipya",
+    "replacePrompt": "Badilisha kidokezo",
+    "inputPlaceholder1": "Ingiza kidokezo au chagua kutoka kwa menyu",
+    "inputPlaceholder2": "Bandika au ingiza maudhui hapa",
+    "startNewLine": "Bonyeza {{shortcut}} ili kuanzisha laini mpya",
+    "inputPlaceholderCodes": "Bandika au weka misimbo hapa",
+    "inputPlaceholderQA": "Bandika au swali la kuingiza hapa",
+    "response": "Jibu:",
+    "stopGenerating": "Acha kuzalisha",
+    "regenerate": "Tengeneza jibu upya"
+  },
+  "translator": {
+    "quickActions": "Utafutaji wa haraka",
+    "disableHostFabLabel": "Zima kwenye tovuti hii",
+    "disableFabLabel": "Zima kwenye Tovuti Zote"
+  },
+  "changeLogPage": {
+    "rate5Star": "<b>Unapenda kiendelezi chetu?</b> Tafadhali tukadirie nyota tano kwenye duka la wavuti ili utusaidie kukua",
+    "newInVersion": "Nini Kipya katika toleo la {{versionId}}",
+    "logs": {
+      "1_0_11": [
+        "Fikia vitendo kwa haraka kupitia kidirisha ibukizi bila kufungua utepe.",
+        "Ongeza usaidizi kwa lugha za ziada.",
+        "Hifadhi mapendeleo ya lugha ya mtumiaji unapotumia kipengele cha kutafsiri.",
+        "Suluhisha mizozo ya njia za mkato kwenye mifumo kama vile GitHub na zingine."
+      ],
+      "1_0_10": [
+        "Tumia lugha 50+ sasa!"
+      ],
+      "1_0_8": [
+        "Saidia GPT-4 kwa watumiaji wa Plus! Angalia ukurasa wa mipangilio!"
+      ],
+      "1_0_7": [
+        "Kumbuka haraka iliyotumiwa mara ya mwisho",
+        "Boresha nafasi ya paneli ya chatGPT kwenye kurasa za utafutaji",
+        "Ongeza chaguo ili kuweka upau wa kando ikoni ya ukurasa kwenye upande wa kushoto",
+        "Boresha ukubwa wa kifurushi",
+        "Ongeza hali ya giza",
+        "Tumia proksi yako ya url ya API"
+      ],
+      "1_0_6": [
+        "Boresha kipengele cha muhtasari katika ukurasa wa Youtube"
+      ],
+      "1_0_5": [
+        "Kumbuka eneo la ikoni ya utepe",
+        "Boresha vitufe vya njia za mkato",
+        "Hifadhi violezo vya haraka kutoka kwa utepe moja kwa moja"
+      ],
+      "1_0_4": [
+        "Agiza upya vipengee vya haraka katika orodha kunjuzi",
+        "Weka kwenye kumbukumbu vipengee vya haraka ambavyo hutatumia",
+        "Msaada wa majibu katika lugha 50+"
+      ],
+      "1_0_3": [
+        "CMD/Ctrl + Enter ili kufanya haraka \"Wasilisha\"",
+        "Chaguo la kuficha kidirisha katika ukurasa wa matokeo ya utafutaji",
+        "Tumia ESC kuficha utepe",
+        "Msaada muhtasari wa makala ndefu"
+      ],
+      "1_0_2": [
+        "Ongeza kitufe cha kusitisha ili uache kutoa majibu",
+        "Badilisha eneo la kitufe cha kukunja"
+      ],
+      "1_0_1": [
+        "Boresha kipengele cha muhtasari katika ukurasa wa Youtube",
+        "Rekebisha hitilafu kadhaa zinazohusiana na kunakili/kubandika na kuchapisha"
+      ]
+    }
+  },
+  "searchTool": {
+    "questionMark": "Anzisha ChatGPT kwa kuambatisha alama ya kuuliza baada ya hoja yako",
+    "askForQuery": "Uliza ChatGPT kwa swali hili",
+    "fiveStart": "Je, ungependa kufurahia kiendelezi hiki? Tupe ukadiriaji wa nyota 5 kwenye {{store}}",
+    "loginAndCloudflareCheck": "Tafadhali ingia na upite ukaguzi wa Cloudflare kwenye {{web}}",
+    "braveTrouble": "Bado haifanyi kazi? Fuata {{url}}",
+    "cloudflareCheck": "OpenAI inahitaji kupitisha ukaguzi wa usalama kila baada ya muda fulani. Hili likiendelea kutokea, badilisha mtoa huduma wa AI hadi OpenAI API katika <i>chaguo za viendelezi</i>.",
+    "failedResponse": "Imeshindwa kupakia majibu kutoka kwa ChatGPT:",
+    "waitResponse": "Inasubiri jibu la ChatGPT..."
+  },
+  "msg": {
+    "enterAPIKey": "Tafadhali weka ufunguo wako wa OpenAI API",
+    "selectModel": "Tafadhali chagua muundo sahihi",
+    "changeSaved": "Mabadiliko yamehifadhiwa",
+    "fiveStart": "Tupe nyota 5",
+    "errSiderApiLimit": "Umetumia mikopo yote isiyolipishwa iliyotolewa nasi, tafadhali fuata <i>maagizo hapa</i> ili kupata API kutoka OpenAI.",
+    "loginAndCloudflareCheck": "Ili kuitumia, tafadhali ingia na upitishe ukaguzi wa Cloudflare kwenye <i>chat.openai.com</i>",
+    "invalidApiKey": "Ufunguo wa API ni batili, tafadhali pata nyingine.",
+    "getApiKeyGuide": "Unahitaji kitufe cha OpenAI API ili kuifanya ifanye kazi. Fuata mwongozo wetu ili upate ufunguo wa API na salio la $18 la OpenAI <i>bila malipo</i>.",
+    "thankForFeedback": "Asante. Fomu iliwasilishwa kwa ufanisi. Tutawasiliana nawe baada ya muda mfupi.",
+    "writeSomething": "Tafadhali andika kitu.",
+    "enterEmail": "Weka barua pepe ili kupokea masasisho kuhusu suala hilo.",
+    "emailRequired": "Barua pepe inahitajika.",
+    "promptNameRequired": "Jina la kidokezo linahitajika.",
+    "nameYourPrompt": "Taja kidokezo chako",
+    "promptTplRequired": "Kiolezo cha haraka kinahitajika.",
+    "deletePromptWarn": "Je, ungependa kufuta kiolezo hiki cha kidokezo?",
+    "restorePromptWarn": "Je, ungependa kurejesha kiolezo hiki cha kidokezo?",
+    "notValidEmail": "si barua pepe halali"
+  },
+  "options": {
+    "theme": {
+      "auto": "moja kwa moja",
+      "light": "mode mkali",
+      "dark": "hali ya giza"
+    },
+    "triggerMode": {
+      "always": {
+        "title": "Kila mara",
+        "desc": "Uliza ChatGPT kwenye kila utafutaji"
+      },
+      "questionMark": {
+        "title": "Alama ya swali",
+        "desc": "Uliza ChatGPT ikiwa maneno msingi yanaisha na alama ya kuuliza (?)"
+      },
+      "manually": {
+        "title": "Kwa mikono",
+        "desc": "Uliza ChatGPT unapobofya kitufe tu"
+      }
+    },
+    "sidebarLocation": {
+      "left": "upande wa kushoto",
+      "right": "upande wa kulia"
+    },
+    "searchPromptTpl": {
+      "default": {
+        "title": "Chaguomsingi",
+        "template": "Je, unaweza kuniambia kitu kuhusu {{keywords}}? Ikiwezekana, unaweza kunipa viungo kuihusu? Ikiwa {{keywords}} ni swali linalohusiana na msimbo, tafadhali andika tu msimbo"
+      },
+      "list": {
+        "title": "Maneno Muhimu kwa Maswali",
+        "template": "Orodhesha swali 1 maarufu zaidi kuhusu \"{{keywords}}\". Kisha, Jibu swali hili. Mwishowe, orodhesha maswali mengine 4."
+      },
+      "suggest": {
+        "title": "Pata maneno muhimu yanayohusiana",
+        "template": "{{keywords}} ni maneno yangu muhimu ya utafutaji katika Google. Tafadhali nipe seti 5 za maneno muhimu yanayohusiana."
+      }
+    },
+    "sidebarPromptTpl": {
+      "summarize": {
+        "title": "Fanya muhtasari",
+        "template": "Fanya muhtasari wa hili kwa mwanafunzi wa darasa la pili:"
+      },
+      "similar-pages": {
+        "title": "Kurasa zinazofanana",
+        "template": "Tafuta kurasa 10 zinazofanana na maudhui yafuatayo kwa kiungo:"
+      },
+      "grammar": {
+        "title": "Sarufi",
+        "template": "Sahihisha hii kwa Kiingereza sanifu:"
+      },
+      "explain": {
+        "title": "Eleza",
+        "template": "Eleza maudhui yafuatayo:"
+      },
+      "explain-codes": {
+        "title": "Eleza Kanuni",
+        "template": "Eleza kanuni zifuatazo:"
+      },
+      "rewrite": {
+        "title": "Andika upya",
+        "template": "Andika upya maudhui yafuatayo:"
+      },
+      "translate": {
+        "title": "Tafsiri",
+        "template": "Tafsiri maudhui yafuatayo kwa lugha {{lang}}:"
+      },
+      "qa": {
+        "title": "Maswali na Majibu",
+        "template": "Jibu swali hili:"
+      }
+    }
+  }
+}

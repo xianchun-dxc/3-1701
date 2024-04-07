@@ -1,0 +1,315 @@
+{
+  "sidebar": "Sidebar ||| {\"alias\": \"侧边栏\"}",
+  "shortcut": "Shortcut key",
+  "ask": "Ask",
+  "save": "Save ||| {\"alias\": \"Save it\"}",
+  "cancel": "Cancel",
+  "ok": "OK",
+  "submit": "Submit",
+  "send": "Send",
+  "copy": "Copy",
+  "copied": "Copied",
+  "clear": "Clear",
+  "collapse": "Collapse ||| {\"alias\": \"Collapse sidebar\", \"zh_CN\": \"收起侧边栏\"}",
+  "done": "Done",
+  "manage": "Manage",
+  "template": "template",
+  "edit": "Edit",
+  "add": "Add",
+  "feedback": "Feedback",
+  "tweetit": "Tweet it",
+  "whatNew": "What's New",
+  "gotIt": "Got it",
+  "settings": "Settings",
+  "general": "General ||| {\"alias\": \"General configuration\"}",
+  "archive": "Archive ||| {\"alias\": \"归档\"}",
+  "searchPage": "Search Page",
+  "addons": "Add-ons",
+  "webStore": "Web Store",
+  "webApp": "Webapp",
+  "language": "Language",
+  "theme": "Theme",
+  "model": "Model",
+  "version": "Version",
+  "more": "More",
+  "listen": "Listen",
+  "customPrompt": "Custom prompt",
+  "currentTpl": "Current template: ",
+  "editTpl": "Edit this template",
+  "delteTpl": "Delete this template",
+  "restoreTpl": "Restore this template",
+  "archiveTpl": "Archive this template",
+  "showTpl": "Show this template",
+  "promptName": "Prompt Name",
+  "promptContent": "Prompt Content",
+  "contactUs": "Contact Us",
+  "issueType": "Issue Type",
+  "pinExt": "Pin extension ||| {\"zh_CN\": \"固定扩展\"}",
+  "yourEmailAddress": "Your Email Address",
+  "troubleshooting": "Troubleshooting",
+  "openSidebar": "Open sidebar",
+  "pasteSelection": "Paste selection",
+  "pasteTextPage": "Paste text from page",
+  "getAnotherKey": "Get Another Key ||| {\"zh_CN\": \"获取另一个密钥\"}",
+  "showSearchPanel": "Show Search Panel",
+  "getItNow": "Get It Now",
+  "alwaysDisplay": "Always Display",
+  "popupPage": {
+    "thank": "Thank you for using the {{APP_NAME}} extension!",
+    "desc": "You can use this extension on most web pages, with the exception of pages where the browser restricts the running of scripts, such as the extension web store and browser settings pages.",
+    "try": "Feel free to try out this extension on any other webpage, <i>such as this one</i>."
+  },
+  "setupPage": {
+    "welcome": "Welcome to {{APP_NAME}}! Here is the start of your journey:",
+    "pinTips": "Pin {{APP_NAME}} for easy access",
+    "stepTitle": "To access the {{APP_NAME}} easier, please keep the sidebar icon pinned by following steps below:",
+    "step1": "Click the puzzle icon {{icon}} next to your profile avatar.",
+    "step2": "In the drop-down menu, find {{APP_NAME}}.",
+    "step3": "Click the “Pin icon” to pin it."
+  },
+  "getKeyPage": {
+    "welcome": " Welcome to {{APP_NAME}}! Here is your journey to begin:",
+    "stepTitle": "How to get an API key and $18 OpenAI Credits <i>for free</i>.",
+    "step1": "Step 1: Get API key",
+    "step1-1": "<i>Login your OpenAI account</i> If you don't have an account, Sign up <b>HERE</b>",
+    "step1-2": "Visit OpenAI API Key page",
+    "step1-3": "Create a new secret key and copy it as follow ||| {\"zh_CN\": \"创建一个新的密钥并按如下方式复制它\"}",
+    "step2": "Step 2: Paste API Key in the box below",
+    "step2-tips": "Don't worry. Your API key is only used locally within the ChatGPT extension. Using the API is more stable than directly using ChatGPT.",
+    "step3": "Step 3: Check your up to <i>$18 credits here</i> ||| {\"zh_CN\": \"第 3 步：在<i>此处</i>查看您18美元的积分\"}"
+  },
+  "optionPage": {
+    "howToAccess": "How to access ChatGPT",
+    "sidebarProvider": "The {{APP_NAME}} will provide access, and there is no need to set it up.",
+    "webappProvider": "The API powering ChatGPT webapp is free, but it may be unstable at times.",
+    "webappGPT4": "Recommended for Plus user (Support GPT-4)",
+    "GPT4Desc": "If you are a <b>ChatGPT Plus user</b>, you now have the option to choose <b>GPT-4</b>. However, OpenAI may limit the number of messages you can send per day. If you are not a Plus user, you may not be able to use it or it may not be stable.",
+    "apiKeyProvider": "The official OpenAI API is more stable and charges based on usage.",
+    "apiKeyLocally": "Your API Key is stored locally on your browser and never sent anywhere else.",
+    "ownURL": "Use my own URL",
+    "apiFreeGuide": "Follow the guide to get the API key and up to $18 credits from OpenAI <i>for free</i>",
+    "displaySearchRes": "Display ChatGPT response alongside search result pages",
+    "whenToAsk": "When to ask ChatGPT",
+    "promptTplForSearch": "Prompt template for Google and others",
+    "addNewTplForSearch": "Add a new prompt template",
+    "launchSidebar": "Launch the sidebar",
+    "sidebarLocation": "Sidebar Location",
+    "sidebarLeftOrRight": "Place the sidebar on the left or right side",
+    "sidebarIcon": "Sidebar Icon",
+    "sidebarIconAccess": "Access the sidebar through the icon located in the lower right corner of the page. You can drag to move it up and down",
+    "easiestWayUse": "The easiest way to use {{APP_NAME}}",
+    "displayWhenSelect": "Display when text is selected",
+    "promptTplForSidebar": "Prompt template for sidebar",
+    "dragSidebarTpl": "Drag and drop to reorder template OR archive those you will not use",
+    "addNewTplForSidebar": "Add new prompt template",
+    "editSearchTplTip": "use {{keywords}} to refer your search keywords",
+    "editSearchTplPlaceholder": "{{keywords}} in the prompt content will be replaced with your search keywords automagically",
+    "editSidebarTplTip": "Paste or input content here",
+    "showOnList": "Show on the list",
+    "translatorNavTitle": "Quick Lookup",
+    "translatorTitle": "Quick Lookup Window",
+    "translatorFabTitle": "Quick Lookup icon",
+    "translatorFabDesc": "Access the quick lookup window through the icon.",
+    "translatorFabToggleLabel": "Display when text is selected",
+    "translatorTplTitle": "Prompt template for popup window",
+    "translatorTplDesc": "The first main template will be used as the default command for the popup window.",
+    "translatorPrimaryTemplates": "Main templates",
+    "translatorTemplatesNotes": "*This popup shares same templates with the sidebar. If you need to edit or add a template, please modify it in the <b>sidebar Settings</b>.",
+    "translatorIntroTitle": "🤔 What is Quick Lookup? ",
+    "translatorIntroDesc": "Quick Lookup is a quick action of ChatGPT Sidebar, providing a range of useful tools. \n\nIt appears instantly when you select text. With just one click, you can quickly translate texts, rewrite them, get explanations, and much more. Additionally, you are able to rearrange the order of the tools and customize your own prompts. \n\nTo activate ChatGPT Sidebar, all you need to do is click on the Quick Lookup icon.  ",
+    "translatorHostFabConfigLabel": "List of websites where Quick Lookup is disable ",
+    "feedbackTypes": {
+      "bug": {
+        "name": "Bug Report ||| {\"alias\": \"Problem Report\"}",
+        "title": {
+          "label": "Bug Summary ||| {\"alias\": \"Problem Summary\"}",
+          "tip": "Let us know what went wrong in a few words."
+        },
+        "detail": {
+          "label": "Bug Details ||| {\"alias\": \"Problem Details \"}",
+          "tip": "Please describe in detail what went wrong, any actions you took, and error messages you got."
+        }
+      },
+      "fr": {
+        "name": "Feature Request",
+        "title": {
+          "label": "Title",
+          "tip": "What's your request about?"
+        },
+        "detail": {
+          "label": "Description",
+          "tip": "Please provide a detailed description of new feature you want."
+        }
+      }
+    }
+  },
+  "sidebarPanel": {
+    "askChatGPT": "Ask ChatGPT: ",
+    "savePrompt": "Save prompt",
+    "saveNewPrompt": "Save as a new prompt",
+    "replacePrompt": "Replace the prompt",
+    "inputPlaceholder1": "Input prompt or choose from menu",
+    "inputPlaceholder2": "Paste or input content here",
+    "startNewLine": "Press {{shortcut}} to start a new line",
+    "inputPlaceholderCodes": "Paste or input codes here",
+    "inputPlaceholderQA": "Paste or input question here",
+    "response": "Response:",
+    "stopGenerating": "Stop generating",
+    "regenerate": "Regenerate response"
+  },
+  "translator": {
+    "quickActions": "Quick lookups ",
+    "disableHostFabLabel": "Disable on this website ",
+    "disableFabLabel": "Disable on All websites "
+  },
+  "changeLogPage": {
+    "rate5Star": "<b>Love our extension?</b> Please rate us five stars on the web store to help us grow",
+    "newInVersion": "New in version {{versionId}} ||| {\"alias\": \"What's New in version {{versionId}}\"} ",
+    "logs": {
+      "1_0_11": [
+        "Quickly access actions through a pop-up window without opening the sidebar.",
+        "Add support for additional languages.",
+        "Retain the user's language preference when using the translation feature.",
+        "Resolve shortcut conflicts on platforms like GitHub and others."
+      ],
+      "1_0_10": ["Support 50+ languages now!"],
+      "1_0_8": ["Support GPT-4 for Plus users! Check settings page!"],
+      "1_0_7": [
+        "Remember prompt used last time",
+        "Optimize the position of the chatGPT panel on search pages",
+        "Add an option to put the sidebar in-page icon on the left side",
+        "Optimize package size",
+        "Add dark mode",
+        "Support your API url proxy"
+      ],
+      "1_0_6": ["Improve summarize feature in Youtube page"],
+      "1_0_5": [
+        "Remember the location of sidebar icon",
+        "Improve shortcut keys",
+        "Save prompt templates from the sidebar directly"
+      ],
+      "1_0_4": [
+        "Re-order prompt items in the dropdown list",
+        "Archive prompt items you will not use",
+        "Support response in 50+ languages"
+      ],
+      "1_0_3": [
+        "CMD/Ctrl + Enter to do quick “Submit”",
+        "Option to hide panel in the search results page",
+        "Support ESC to hide sidebar",
+        "Support summarize long article"
+      ],
+      "1_0_2": [
+        "Add stop button to stop generating response",
+        "Change the place of collapse button"
+      ],
+      "1_0_1": [
+        "Improve summarize feature in Youtube page",
+        "Fix some bugs related to copy/paste and print"
+      ]
+    }
+  },
+  "searchTool": {
+    "questionMark": "Trigger ChatGPT by appending a question mark after your query",
+    "askForQuery": "Ask ChatGPT for this query",
+    "fiveStart": "Enjoy this extension? Give us a 5-star rating at {{store}}",
+    "loginAndCloudflareCheck": "Please login and pass Cloudflare check at {{web}}",
+    "braveTrouble": "Still not working? Follow {{url}}",
+    "cloudflareCheck": "OpenAI requires passing a security check every once in a while. If this keeps happening, change AI provider to OpenAI API in the <i>extension options</i>.",
+    "failedResponse": "Failed to load response from ChatGPT:",
+    "waitResponse": "Waiting for ChatGPT response..."
+  },
+  "msg": {
+    "enterAPIKey": "Please enter your OpenAI API key",
+    "selectModel": "Please select a valid model",
+    "changeSaved": "Changes saved",
+    "fiveStart": "Give us a 5-star",
+    "errSiderApiLimit": "You have used all of the free credits provided by us, please follow the <i>instructions here</i> to get an API from OpenAI.",
+    "loginAndCloudflareCheck": "To use it, please login and pass Cloudflare check at <i>chat.openai.com</i>",
+    "invalidApiKey": "API key is invalid, please get another.",
+    "getApiKeyGuide": "You need an OpenAI API key to make it work. Follow our guide to get the API key and $18 OpenAI credits <i>for free</i>.",
+    "thankForFeedback": "Thank you. The form was submitted successfully. We will contact you shortly.",
+    "writeSomething": "Please write something.",
+    "enterEmail": "Enter an email address to receive updates on the issue.",
+    "emailRequired": "Email is required.",
+    "promptNameRequired": "Prompt name is required.",
+    "nameYourPrompt": "Name your prompt",
+    "promptTplRequired": "Prompt template is required.",
+    "deletePromptWarn": "Do you want to delete this prompt template?",
+    "restorePromptWarn": "Do you want to restore this prompt template?",
+    "notValidEmail": "not a valid email"
+  },
+  "options": {
+    "theme": {
+      "auto": "Auto ||| {\"alias\": \"自动\"}",
+      "light": "Light ||| {\"alias\": \"bright mode\"}",
+      "dark": "Dark ||| {\"alias\": \"dark mode\"}"
+    },
+    "triggerMode": {
+      "always": {
+        "title": "Always",
+        "desc": "Ask ChatGPT on every search"
+      },
+      "questionMark": {
+        "title": "Question Mark",
+        "desc": "Ask ChatGPT if the keywords ends with a question mark (?)"
+      },
+      "manually": {
+        "title": "Manually",
+        "desc": "Ask ChatGPT only when you click the button"
+      }
+    },
+    "sidebarLocation": {
+      "left": "Left ||| {\"alias\": \"left side\"}",
+      "right": "Right ||| {\"alias\": \"right side\"}"
+    },
+    "searchPromptTpl": {
+      "default": {
+        "title": "Default",
+        "template": "Can you tell me something about {{keywords}}? If possible, can you give me some links about it? If {{keywords}} is a code related question, please just write the code"
+      },
+      "list": {
+        "title": "Keywords to Questions",
+        "template": "List 1 most popular question about \"{{keywords}}\". Then, Answer this question. At last, list another 4 questions."
+      },
+      "suggest": {
+        "title": "Get related keywords",
+        "template": "{{keywords}} are my search keywords in Google. Please give me 5 sets of related keywords."
+      }
+    },
+    "sidebarPromptTpl": {
+      "summarize": {
+        "title": "Summarize",
+        "template": "Summarize this for a second-grade student: "
+      },
+      "similar-pages": {
+        "title": "Similar pages",
+        "template": "Find 10 similar pages to the following content with link: "
+      },
+      "grammar": {
+        "title": "Grammar",
+        "template": "Correct this to standard English: "
+      },
+      "explain": {
+        "title": "Explain",
+        "template": "Explain the following content: "
+      },
+      "explain-codes": {
+        "title": "Explain Codes",
+        "template": "Explain the following codes: "
+      },
+      "rewrite": {
+        "title": "Rewrite",
+        "template": "Rewrite the following content: "
+      },
+      "translate": {
+        "title": "Translate",
+        "template": "Translate the following content to {{lang}} language: "
+      },
+      "qa": {
+        "title": "Q&A",
+        "template": "Answer this question: "
+      }
+    }
+  }
+}

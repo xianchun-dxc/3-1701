@@ -1,0 +1,321 @@
+{
+  "sidebar": "Sivupalkki",
+  "shortcut": "Pikanäppäin",
+  "ask": "Kysyä",
+  "save": "Tallenna se",
+  "cancel": "Peruuttaa",
+  "ok": "OK",
+  "submit": "Lähetä",
+  "send": "Lähettää",
+  "copy": "Kopio",
+  "copied": "Kopioitu",
+  "clear": "Asia selvä",
+  "collapse": "Tiivistä sivupalkki",
+  "done": "Tehty",
+  "manage": "Hallitse",
+  "template": "sapluuna",
+  "edit": "Muokata",
+  "add": "Lisätä",
+  "feedback": "Palaute",
+  "tweetit": "Tweettaa",
+  "whatNew": "Uudet ominaisuudet",
+  "gotIt": "Sain sen",
+  "settings": "asetukset",
+  "general": "Yleinen konfigurointi",
+  "archive": "arkisto",
+  "searchPage": "Hakusivu",
+  "addons": "Lisäosat",
+  "webStore": "Verkkokauppa",
+  "webApp": "Verkkosovellus",
+  "language": "Kieli",
+  "theme": "Teema",
+  "model": "Malli",
+  "version": "Versio",
+  "more": "Lisää",
+  "listen": "Kuunnella",
+  "customPrompt": "Mukautettu kehote",
+  "currentTpl": "Nykyinen malli:",
+  "editTpl": "Muokkaa tätä mallia",
+  "delteTpl": "Poista tämä malli",
+  "restoreTpl": "Palauta tämä malli",
+  "archiveTpl": "Arkistoi tämä malli",
+  "showTpl": "Näytä tämä malli",
+  "promptName": "Kehotusnimi",
+  "promptContent": "Pikasisältö",
+  "contactUs": "Ota meihin yhteyttä",
+  "issueType": "Ongelman tyyppi",
+  "pinExt": "Pin-laajennus",
+  "yourEmailAddress": "Sähköpostiosoitteesi",
+  "troubleshooting": "Ongelmien karttoittaminen",
+  "openSidebar": "Avaa sivupalkki",
+  "pasteSelection": "Liitä valinta",
+  "pasteTextPage": "Liitä tekstiä sivulta",
+  "getAnotherKey": "Hanki toinen avain",
+  "showSearchPanel": "Näytä hakupaneeli",
+  "getItNow": "Hae se nyt",
+  "alwaysDisplay": "Aina Näytä",
+  "popupPage": {
+    "thank": "Kiitos, että käytit laajennusta {{APP_NAME}}!",
+    "desc": "Voit käyttää tätä laajennusta useimmilla verkkosivuilla, lukuun ottamatta sivuja, joilla selain rajoittaa komentosarjojen suorittamista, kuten laajennuksen verkkokauppa ja selaimen asetussivut.",
+    "try": "Voit vapaasti kokeilla tätä laajennusta millä tahansa muulla verkkosivulla, <i>kuten tällä</i>."
+  },
+  "setupPage": {
+    "welcome": "Tervetuloa sovellukseen {{APP_NAME}}! Tässä on matkasi alku:",
+    "pinTips": "Kiinnitä {{APP_NAME}} käyttääksesi sitä helposti",
+    "stepTitle": "Jotta {{APP_NAME}} on helpompi käyttää, pidä sivupalkin kuvake kiinnitettynä seuraavien ohjeiden mukaisesti:",
+    "step1": "Napsauta profiilisi avatarin vieressä olevaa palapelikuvaketta {{icon}}.",
+    "step2": "Etsi avattavasta valikosta {{APP_NAME}}.",
+    "step3": "Kiinnitä se napsauttamalla \"Kiinnitä-kuvaketta\"."
+  },
+  "getKeyPage": {
+    "welcome": "Tervetuloa sovellukseen {{APP_NAME}}! Tässä on matkasi alkuun:",
+    "stepTitle": "API-avaimen ja 18 dollarin OpenAI-krediittien hankkiminen <i>ilmaiseksi</i>.",
+    "step1": "Vaihe 1: Hanki API-avain",
+    "step1-1": "<i>Kirjaudu sisään OpenAI-tilillesi</i> Jos sinulla ei ole tiliä, rekisteröidy <b>TÄSTÄ</b>",
+    "step1-2": "Vieraile OpenAI API Key -sivulla",
+    "step1-3": "Luo uusi salainen avain ja kopioi se seuraavasti",
+    "step2": "Vaihe 2: Liitä API-avain alla olevaan kenttään",
+    "step2-tips": "Älä huoli. API-avainta käytetään vain paikallisesti ChatGPT-laajennuksessa. API:n käyttö on vakaampaa kuin suoraan ChatGPT:n käyttäminen.",
+    "step3": "Vaihe 3: Tarkista enintään <i>18 dollarin saldosi täältä</i>"
+  },
+  "optionPage": {
+    "howToAccess": "Kuinka käyttää ChatGPT:tä",
+    "sidebarProvider": "{{APP_NAME}} tarjoaa käyttöoikeuden, eikä sitä tarvitse määrittää.",
+    "webappProvider": "Sovellusliittymää käyttävä ChatGPT-verkkosovellus on ilmainen, mutta se voi toisinaan olla epävakaa.",
+    "webappGPT4": "Suositellaan Plus-käyttäjälle (tuki GPT-4)",
+    "GPT4Desc": "Jos olet <b>ChatGPT Plus -käyttäjä</b>, sinulla on nyt mahdollisuus valita <b>GPT-4</b>. OpenAI voi kuitenkin rajoittaa päivässä lähetettävien viestien määrää. Jos et ole Plus-käyttäjä, et ehkä pysty käyttämään sitä tai se ei ehkä ole vakaa.",
+    "apiKeyProvider": "Virallinen OpenAI API on vakaampi ja veloittaa käytön mukaan.",
+    "apiKeyLocally": "API-avaimesi tallennetaan paikallisesti selaimeesi, eikä sitä koskaan lähetetä minnekään muualle.",
+    "ownURL": "Käytä omaa URL-osoitettani",
+    "apiFreeGuide": "Seuraa opasta saadaksesi API-avaimen ja jopa 18 dollarin hyvitystä OpenAI:lta <i>ilmaiseksi</i>",
+    "displaySearchRes": "Näytä ChatGPT-vastaus hakutulossivujen vieressä",
+    "whenToAsk": "Milloin kysyä ChatGPT:ltä",
+    "promptTplForSearch": "Kehotusmalli Googlelle ja muille",
+    "addNewTplForSearch": "Lisää uusi kehotemalli",
+    "launchSidebar": "Käynnistä sivupalkki",
+    "sidebarLocation": "Sivupalkin sijainti",
+    "sidebarLeftOrRight": "Aseta sivupalkki vasemmalle tai oikealle puolelle",
+    "sidebarIcon": "Sivupalkin kuvake",
+    "sidebarIconAccess": "Siirry sivupalkkiin sivun oikeassa alakulmassa olevan kuvakkeen kautta. Voit siirtää sitä ylös ja alas vetämällä",
+    "easiestWayUse": "Helpoin tapa käyttää {{APP_NAME}}",
+    "displayWhenSelect": "Näyttö, kun teksti on valittuna",
+    "promptTplForSidebar": "Kehotusmalli sivupalkkiin",
+    "dragSidebarTpl": "Järjestä malli uudelleen vetämällä ja pudottamalla TAI arkistoi ne, joita et käytä",
+    "addNewTplForSidebar": "Lisää uusi kehotemalli",
+    "editSearchTplTip": "käytä {{keywords}} hakusanojen viittaamiseen",
+    "editSearchTplPlaceholder": "{{keywords}} kehotteen sisällössä korvataan automaattisesti hakusanoillasi",
+    "editSidebarTplTip": "Liitä tai syötä sisältö tähän",
+    "showOnList": "Näytä luettelossa",
+    "translatorNavTitle": "Pikahaku",
+    "translatorTitle": "Pikahakuikkuna",
+    "translatorFabTitle": "Pikahaku-kuvake",
+    "translatorFabDesc": "Siirry pikahakuikkunaan kuvakkeen kautta.",
+    "translatorFabToggleLabel": "Näyttö, kun teksti on valittuna",
+    "translatorTplTitle": "Ponnahdusikkunan kehotemalli",
+    "translatorTplDesc": "Ensimmäistä päämallia käytetään ponnahdusikkunan oletuskomentona.",
+    "translatorPrimaryTemplates": "Tärkeimmät mallit",
+    "translatorTemplatesNotes": "*Tämä ponnahdusikkuna jakaa samat mallit sivupalkin kanssa. Jos haluat muokata tai lisätä mallia, muokkaa sitä <b>sivupalkin asetuksista</b>.",
+    "translatorIntroTitle": "🤔 Mikä on pikahaku?",
+    "translatorIntroDesc": "Quick Lookup on ChatGPT-sivupalkin nopea toiminto, joka tarjoaa joukon hyödyllisiä työkaluja.\n\nSe tulee näkyviin heti, kun valitset tekstiä. Yhdellä napsautuksella voit nopeasti kääntää tekstejä, kirjoittaa ne uudelleen, saada selityksiä ja paljon muuta. Lisäksi voit järjestää työkalujen järjestystä uudelleen ja mukauttaa omia kehotteitasi.\n\nAktivoidaksesi ChatGPT-sivupalkin, sinun tarvitsee vain napsauttaa Pikahaku-kuvaketta.",
+    "translatorHostFabConfigLabel": "Luettelo verkkosivustoista, joissa Quick Lookup on poistettu käytöstä",
+    "feedbackTypes": {
+      "bug": {
+        "name": "Ongelmaraportti",
+        "title": {
+          "label": "Ongelman yhteenveto",
+          "tip": "Kerro meille muutamalla sanalla, mikä meni pieleen."
+        },
+        "detail": {
+          "label": "Ongelman yksityiskohdat",
+          "tip": "Kuvaile yksityiskohtaisesti, mikä meni pieleen, mitä toimenpiteitä olet tehnyt, ja saamasi virheilmoitukset."
+        }
+      },
+      "fr": {
+        "name": "Ominaisuuspyyntö",
+        "title": {
+          "label": "Otsikko",
+          "tip": "Mitä pyyntösi koskee?"
+        },
+        "detail": {
+          "label": "Kuvaus",
+          "tip": "Anna yksityiskohtainen kuvaus haluamastasi uudesta ominaisuudesta."
+        }
+      }
+    }
+  },
+  "sidebarPanel": {
+    "askChatGPT": "Kysy ChatGPT:ltä:",
+    "savePrompt": "Tallenna kehote",
+    "saveNewPrompt": "Tallenna uutena kehotteena",
+    "replacePrompt": "Vaihda kehote",
+    "inputPlaceholder1": "Syötä kehote tai valitse valikosta",
+    "inputPlaceholder2": "Liitä tai syötä sisältö tähän",
+    "startNewLine": "Aloita uusi rivi painamalla {{shortcut}}",
+    "inputPlaceholderCodes": "Liitä tai syötä koodit tähän",
+    "inputPlaceholderQA": "Liitä tai syötä kysymys tähän",
+    "response": "Vastaus:",
+    "stopGenerating": "Lopeta tuottaminen",
+    "regenerate": "Luo vastaus uudelleen"
+  },
+  "translator": {
+    "quickActions": "Pikahakuja",
+    "disableHostFabLabel": "Poista käytöstä tällä sivustolla",
+    "disableFabLabel": "Poista käytöstä kaikilla verkkosivustoilla"
+  },
+  "changeLogPage": {
+    "rate5Star": "<b>Pidätkö laajennustamme?</b> Auta meitä kasvamaan antamalla meille viisi tähteä verkkokaupassa",
+    "newInVersion": "Mitä uutta versiossa {{versionId}}",
+    "logs": {
+      "1_0_11": [
+        "Pääset nopeasti toimiin ponnahdusikkunan kautta avaamatta sivupalkkia.",
+        "Lisää tuki lisäkielille.",
+        "Säilytä käyttäjän kieliasetus, kun käytät käännösominaisuutta.",
+        "Ratkaise pikanäppäinristiriidat alustoilla, kuten GitHub ja muilla."
+      ],
+      "1_0_10": [
+        "Tue yli 50 kieltä nyt!"
+      ],
+      "1_0_8": [
+        "Tuki GPT-4 Plus-käyttäjille! Tarkista asetussivu!"
+      ],
+      "1_0_7": [
+        "Muista viimeksi käytetty kehote",
+        "Optimoi chatGPT-paneelin sijainti hakusivuilla",
+        "Lisää vaihtoehto sijoittaa sivupalkin kuvake vasemmalle puolelle",
+        "Optimoi paketin koko",
+        "Lisää tumma tila",
+        "Tue API url -välityspalvelinta"
+      ],
+      "1_0_6": [
+        "Paranna yhteenvetoominaisuutta Youtube-sivulla"
+      ],
+      "1_0_5": [
+        "Muista sivupalkin kuvakkeen sijainti",
+        "Paranna pikanäppäimiä",
+        "Tallenna kehotemallit suoraan sivupalkista"
+      ],
+      "1_0_4": [
+        "Tilaa kehotteet uudelleen avattavasta luettelosta",
+        "Arkistoi kehotekohteet, joita et käytä",
+        "Tukivastaus yli 50 kielellä"
+      ],
+      "1_0_3": [
+        "CMD/Ctrl + Enter tehdäksesi nopean \"Lähetä\"",
+        "Mahdollisuus piilottaa paneeli hakutulossivulla",
+        "Tue ESC piilottaaksesi sivupalkin",
+        "Tuki tiivistää pitkän artikkelin"
+      ],
+      "1_0_2": [
+        "Lisää pysäytyspainike lopettaaksesi vastauksen luomisen",
+        "Muuta tiivistyskohdan painiketta"
+      ],
+      "1_0_1": [
+        "Paranna yhteenvetoominaisuutta Youtube-sivulla",
+        "Korjaa joitain kopioimiseen/liitämiseen ja tulostamiseen liittyviä virheitä"
+      ]
+    }
+  },
+  "searchTool": {
+    "questionMark": "Käynnistä ChatGPT lisäämällä kysymysmerkki kyselysi jälkeen",
+    "askForQuery": "Pyydä tämä kysely ChatGPT:ltä",
+    "fiveStart": "Pidätkö tästä laajennuksesta? Anna meille 5 tähden arvio osoitteessa {{store}}",
+    "loginAndCloudflareCheck": "Kirjaudu sisään ja läpäise Cloudflare-tarkastus osoitteessa {{web}}",
+    "braveTrouble": "Ei toimi vieläkään? Seuraa {{url}}",
+    "cloudflareCheck": "OpenAI vaatii turvatarkastuksen läpäisemistä silloin tällöin. Jos tämä toistuu, vaihda tekoälyn tarjoajaksi OpenAI API <i>laajennusvaihtoehdoissa</i>.",
+    "failedResponse": "ChatGPT:n vastauksen lataaminen epäonnistui:",
+    "waitResponse": "Odotetaan ChatGPT-vastausta..."
+  },
+  "msg": {
+    "enterAPIKey": "Anna OpenAI API-avaimesi",
+    "selectModel": "Valitse kelvollinen malli",
+    "changeSaved": "muutokset tallennettu",
+    "fiveStart": "Anna meille 5 tähteä",
+    "errSiderApiLimit": "Olet käyttänyt kaikki tarjoamamme ilmaiset krediitit. Noudata <i>näitä ohjeita</i> saadaksesi API OpenAI:lta.",
+    "loginAndCloudflareCheck": "Käytä sitä kirjautumalla sisään ja läpäisemällä Cloudflare-tarkistus osoitteessa <i>chat.openai.com</i>",
+    "invalidApiKey": "API-avain on virheellinen, hanki toinen.",
+    "getApiKeyGuide": "Tarvitset OpenAI API-avaimen, jotta se toimii. Seuraa opastamme saadaksesi API-avaimen ja 18 dollarin OpenAI-saldoa <i>ilmaiseksi</i>.",
+    "thankForFeedback": "Kiitos. Lomake lähetettiin onnistuneesti. Otamme sinuun yhteyttä pian.",
+    "writeSomething": "Kirjoita jotain.",
+    "enterEmail": "Anna sähköpostiosoite saadaksesi päivityksiä ongelmasta.",
+    "emailRequired": "Sähköposti vaaditaan.",
+    "promptNameRequired": "Kehotteen nimi on pakollinen.",
+    "nameYourPrompt": "Nimeä kehote",
+    "promptTplRequired": "Nopea malli vaaditaan.",
+    "deletePromptWarn": "Haluatko poistaa tämän kehotemallin?",
+    "restorePromptWarn": "Haluatko palauttaa tämän kehotemallin?",
+    "notValidEmail": "ei kelvollinen sähköposti"
+  },
+  "options": {
+    "theme": {
+      "auto": "Automaattinen",
+      "light": "kirkas tila",
+      "dark": "tumma tila"
+    },
+    "triggerMode": {
+      "always": {
+        "title": "Aina",
+        "desc": "Kysy ChatGPT:tä jokaisessa haussa"
+      },
+      "questionMark": {
+        "title": "Kysymysmerkki",
+        "desc": "Kysy ChatGPT:ltä, päättyvätkö avainsanat kysymysmerkkiin (?)"
+      },
+      "manually": {
+        "title": "Käsin",
+        "desc": "Kysy ChatGPT:tä vain, kun napsautat painiketta"
+      }
+    },
+    "sidebarLocation": {
+      "left": "vasen puoli",
+      "right": "oikea puoli"
+    },
+    "searchPromptTpl": {
+      "default": {
+        "title": "Oletus",
+        "template": "Voitko kertoa minulle jotain aiheesta {{keywords}}? Jos mahdollista, voitko antaa jotain linkkejä aiheesta? Jos {{keywords}} on koodiin liittyvä kysymys, kirjoita vain koodi"
+      },
+      "list": {
+        "title": "Avainsanat kysymyksiin",
+        "template": "Luettele 1 suosituin kysymys aiheesta \"{{keywords}}\". Vastaa sitten tähän kysymykseen. Listaa lopuksi vielä 4 kysymystä."
+      },
+      "suggest": {
+        "title": "Hanki aiheeseen liittyviä avainsanoja",
+        "template": "{{keywords}} ovat hakusanojani Googlessa. Anna minulle 5 sarjaa aiheeseen liittyviä avainsanoja."
+      }
+    },
+    "sidebarPromptTpl": {
+      "summarize": {
+        "title": "Tee yhteenveto",
+        "template": "Tee yhteenveto toisen luokan opiskelijalle:"
+      },
+      "similar-pages": {
+        "title": "Samanlaisia sivuja",
+        "template": "Etsi 10 samanlaista sivua seuraavaan sisältöön linkin kera:"
+      },
+      "grammar": {
+        "title": "Kielioppi",
+        "template": "Korjaa tämä tavalliseen englannin kieleen:"
+      },
+      "explain": {
+        "title": "Selittää",
+        "template": "Selitä seuraava sisältö:"
+      },
+      "explain-codes": {
+        "title": "Selitä koodit",
+        "template": "Selitä seuraavat koodit:"
+      },
+      "rewrite": {
+        "title": "Kirjoita uudelleen",
+        "template": "Kirjoita seuraava sisältö uudelleen:"
+      },
+      "translate": {
+        "title": "Kääntää",
+        "template": "Käännä seuraava sisältö {{lang}} kielelle:"
+      },
+      "qa": {
+        "title": "Q&A",
+        "template": "Vastaa tähän kysymykseen:"
+      }
+    }
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "sidebar": "Bar sisi",
+  "shortcut": "Kekunci pintasan",
+  "ask": "Tanya",
+  "save": "Simpanlah",
+  "cancel": "Batal",
+  "ok": "okey",
+  "submit": "Hantar",
+  "send": "Hantar",
+  "copy": "Salinan",
+  "copied": "disalin",
+  "clear": "Jelas",
+  "collapse": "Runtuhkan bar sisi",
+  "done": "Selesai",
+  "manage": "Mengurus",
+  "template": "templat",
+  "edit": "Sunting",
+  "add": "Tambah",
+  "feedback": "Maklum balas",
+  "tweetit": "Tweet",
+  "whatNew": "Ciri-ciri baru",
+  "gotIt": "faham",
+  "settings": "tetapan",
+  "general": "Konfigurasi umum",
+  "archive": "arkib",
+  "searchPage": "Halaman Carian",
+  "addons": "Alat tambah",
+  "webStore": "Kedai Web",
+  "webApp": "Apl Web",
+  "language": "Bahasa",
+  "theme": "Tema",
+  "model": "Model",
+  "version": "Versi",
+  "more": "Lagi",
+  "listen": "Dengar",
+  "customPrompt": "Gesaan tersuai",
+  "currentTpl": "Templat semasa:",
+  "editTpl": "Edit templat ini",
+  "delteTpl": "Padamkan templat ini",
+  "restoreTpl": "Pulihkan templat ini",
+  "archiveTpl": "Arkibkan templat ini",
+  "showTpl": "Tunjukkan templat ini",
+  "promptName": "Nama Gesaan",
+  "promptContent": "Kandungan Gesa",
+  "contactUs": "Hubungi Kami",
+  "issueType": "Jenis Isu",
+  "pinExt": "Sambungan pin",
+  "yourEmailAddress": "Alamat E-mel anda",
+  "troubleshooting": "Penyelesaian masalah",
+  "openSidebar": "Buka bar sisi",
+  "pasteSelection": "Tampal pilihan",
+  "pasteTextPage": "Tampal teks daripada halaman",
+  "getAnotherKey": "Dapatkan Kunci Lain",
+  "showSearchPanel": "Tunjukkan Panel Carian",
+  "getItNow": "Dapatkannya sekarang",
+  "alwaysDisplay": "Sentiasa Paparkan",
+  "popupPage": {
+    "thank": "Terima kasih kerana menggunakan sambungan {{APP_NAME}}!",
+    "desc": "Anda boleh menggunakan sambungan ini pada kebanyakan halaman web, kecuali halaman yang penyemak imbas mengehadkan perjalanan skrip, seperti kedai web sambungan dan halaman tetapan penyemak imbas.",
+    "try": "Jangan ragu untuk mencuba sambungan ini pada mana-mana halaman web lain, <i>seperti yang ini</i>."
+  },
+  "setupPage": {
+    "welcome": "Selamat datang ke {{APP_NAME}}! Inilah permulaan perjalanan anda:",
+    "pinTips": "Sematkan {{APP_NAME}} untuk akses mudah",
+    "stepTitle": "Untuk mengakses {{APP_NAME}} dengan lebih mudah, sila pastikan ikon bar sisi disematkan dengan mengikuti langkah di bawah:",
+    "step1": "Klik ikon teka-teki {{icon}} di sebelah avatar profil anda.",
+    "step2": "Dalam menu lungsur, cari {{APP_NAME}}.",
+    "step3": "Klik \"Ikon Pin\" untuk menyematnya."
+  },
+  "getKeyPage": {
+    "welcome": "Selamat datang ke {{APP_NAME}}! Inilah perjalanan anda untuk bermula:",
+    "stepTitle": "Cara mendapatkan kunci API dan Kredit OpenAI $18 <i>secara percuma</i>.",
+    "step1": "Langkah 1: Dapatkan kunci API",
+    "step1-1": "<i>Log masuk akaun OpenAI anda</i> Jika anda tidak mempunyai akaun, Daftar <b>DI SINI</b>",
+    "step1-2": "Lawati halaman Kunci API OpenAI",
+    "step1-3": "Buat kunci rahsia baharu dan salinnya seperti berikut",
+    "step2": "Langkah 2: Tampal Kunci API dalam kotak di bawah",
+    "step2-tips": "jangan risau. Kunci API anda hanya digunakan secara setempat dalam sambungan ChatGPT. Menggunakan API adalah lebih stabil daripada secara langsung menggunakan ChatGPT.",
+    "step3": "Langkah 3: Semak sehingga <i>kredit $18 anda di sini</i>"
+  },
+  "optionPage": {
+    "howToAccess": "Bagaimana untuk mengakses ChatGPT",
+    "sidebarProvider": "{{APP_NAME}} akan menyediakan akses dan tidak perlu menyediakannya.",
+    "webappProvider": "Aplikasi web ChatGPT yang menjanakan API adalah percuma, tetapi kadangkala ia mungkin tidak stabil.",
+    "webappGPT4": "Disyorkan untuk pengguna Plus (Sokongan GPT-4)",
+    "GPT4Desc": "Jika anda seorang <b>pengguna ChatGPT Plus</b>, anda kini mempunyai pilihan untuk memilih <b>GPT-4</b>. Walau bagaimanapun, OpenAI mungkin mengehadkan bilangan mesej yang boleh anda hantar setiap hari. Jika anda bukan pengguna Plus, anda mungkin tidak boleh menggunakannya atau ia mungkin tidak stabil.",
+    "apiKeyProvider": "API OpenAI rasmi adalah lebih stabil dan caj berdasarkan penggunaan.",
+    "apiKeyLocally": "Kunci API anda disimpan secara setempat pada penyemak imbas anda dan tidak pernah dihantar ke tempat lain.",
+    "ownURL": "Gunakan URL saya sendiri",
+    "apiFreeGuide": "Ikuti panduan untuk mendapatkan kunci API dan sehingga $18 kredit daripada OpenAI <i>secara percuma</i>",
+    "displaySearchRes": "Paparkan respons ChatGPT bersama halaman hasil carian",
+    "whenToAsk": "Bila nak tanya ChatGPT",
+    "promptTplForSearch": "Templat gesaan untuk Google dan lain-lain",
+    "addNewTplForSearch": "Tambahkan templat gesaan baharu",
+    "launchSidebar": "Lancarkan bar sisi",
+    "sidebarLocation": "Lokasi Bar sisi",
+    "sidebarLeftOrRight": "Letakkan bar sisi di sebelah kiri atau kanan",
+    "sidebarIcon": "Ikon Bar sisi",
+    "sidebarIconAccess": "Akses bar sisi melalui ikon yang terletak di sudut kanan bawah halaman. Anda boleh seret untuk menggerakkannya ke atas dan ke bawah",
+    "easiestWayUse": "Cara paling mudah untuk menggunakan {{APP_NAME}}",
+    "displayWhenSelect": "Paparkan apabila teks dipilih",
+    "promptTplForSidebar": "Templat gesaan untuk bar sisi",
+    "dragSidebarTpl": "Seret dan lepaskan untuk menyusun semula templat ATAU arkibkan yang anda tidak akan gunakan",
+    "addNewTplForSidebar": "Tambahkan templat gesaan baharu",
+    "editSearchTplTip": "gunakan {{keywords}} untuk merujuk kata kunci carian anda",
+    "editSearchTplPlaceholder": "{{keywords}} dalam kandungan segera akan digantikan dengan kata kunci carian anda secara automatik",
+    "editSidebarTplTip": "Tampal atau masukkan kandungan di sini",
+    "showOnList": "Tunjukkan pada senarai",
+    "translatorNavTitle": "Carian Pantas",
+    "translatorTitle": "Tetingkap Carian Pantas",
+    "translatorFabTitle": "Ikon Carian Pantas",
+    "translatorFabDesc": "Akses tetingkap carian pantas melalui ikon.",
+    "translatorFabToggleLabel": "Paparkan apabila teks dipilih",
+    "translatorTplTitle": "Templat gesaan untuk tetingkap timbul",
+    "translatorTplDesc": "Templat utama pertama akan digunakan sebagai arahan lalai untuk tetingkap pop timbul.",
+    "translatorPrimaryTemplates": "Templat utama",
+    "translatorTemplatesNotes": "*Timbul timbul ini berkongsi templat yang sama dengan bar sisi. Jika anda perlu mengedit atau menambah templat, sila ubah suainya dalam <b>Tetapan bar sisi</b>.",
+    "translatorIntroTitle": "🤔 Apakah Carian Pantas?",
+    "translatorIntroDesc": "Carian Pantas ialah tindakan pantas Bar Sisi ChatGPT, menyediakan pelbagai alatan berguna.\n\nIa muncul serta-merta apabila anda memilih teks. Dengan hanya satu klik, anda boleh menterjemah teks dengan cepat, menulis semula, mendapatkan penjelasan dan banyak lagi. Selain itu, anda boleh menyusun semula susunan alatan dan menyesuaikan gesaan anda sendiri.\n\nUntuk mengaktifkan ChatGPT Sidebar, anda hanya perlu klik pada ikon Carian Pantas.",
+    "translatorHostFabConfigLabel": "Senarai tapak web yang Carian Pantas dilumpuhkan",
+    "feedbackTypes": {
+      "bug": {
+        "name": "Laporan Masalah",
+        "title": {
+          "label": "Ringkasan Masalah",
+          "tip": "Beritahu kami apa yang salah dalam beberapa perkataan."
+        },
+        "detail": {
+          "label": "Butiran Masalah",
+          "tip": "Sila terangkan secara terperinci perkara yang salah, sebarang tindakan yang anda ambil dan mesej ralat yang anda dapat."
+        }
+      },
+      "fr": {
+        "name": "Permintaan Ciri",
+        "title": {
+          "label": "Tajuk",
+          "tip": "Apakah permintaan anda?"
+        },
+        "detail": {
+          "label": "Penerangan",
+          "tip": "Sila berikan penerangan terperinci tentang ciri baharu yang anda inginkan."
+        }
+      }
+    }
+  },
+  "sidebarPanel": {
+    "askChatGPT": "Tanya ChatGPT:",
+    "savePrompt": "Simpan segera",
+    "saveNewPrompt": "Simpan sebagai gesaan baharu",
+    "replacePrompt": "Gantikan gesaan",
+    "inputPlaceholder1": "Masukkan gesaan atau pilih daripada menu",
+    "inputPlaceholder2": "Tampal atau masukkan kandungan di sini",
+    "startNewLine": "Tekan {{shortcut}} untuk memulakan baris baharu",
+    "inputPlaceholderCodes": "Tampal atau masukkan kod di sini",
+    "inputPlaceholderQA": "Tampal atau masukkan soalan di sini",
+    "response": "jawapan:",
+    "stopGenerating": "Berhenti menjana",
+    "regenerate": "Menjana semula tindak balas"
+  },
+  "translator": {
+    "quickActions": "Pencarian pantas",
+    "disableHostFabLabel": "Lumpuhkan pada tapak web ini",
+    "disableFabLabel": "Lumpuhkan pada Semua tapak web"
+  },
+  "changeLogPage": {
+    "rate5Star": "<b>Suka sambungan kami?</b> Sila nilaikan kami lima bintang di kedai web untuk membantu kami berkembang",
+    "newInVersion": "Apa yang Baharu dalam versi {{versionId}}",
+    "logs": {
+      "1_0_11": [
+        "Akses tindakan dengan pantas melalui tetingkap pop timbul tanpa membuka bar sisi.",
+        "Tambahkan sokongan untuk bahasa tambahan.",
+        "Kekalkan pilihan bahasa pengguna apabila menggunakan ciri terjemahan.",
+        "Selesaikan konflik pintasan pada platform seperti GitHub dan lain-lain."
+      ],
+      "1_0_10": [
+        "Sokong 50+ bahasa sekarang!"
+      ],
+      "1_0_8": [
+        "Sokong GPT-4 untuk pengguna Plus! Semak halaman tetapan!"
+      ],
+      "1_0_7": [
+        "Ingat gesaan yang digunakan kali terakhir",
+        "Optimumkan kedudukan panel chatGPT pada halaman carian",
+        "Tambahkan pilihan untuk meletakkan ikon bar sisi dalam halaman di sebelah kiri",
+        "Optimumkan saiz pakej",
+        "Tambah mod gelap",
+        "Sokong proksi url API anda"
+      ],
+      "1_0_6": [
+        "Tingkatkan ciri ringkasan dalam halaman Youtube"
+      ],
+      "1_0_5": [
+        "Ingat lokasi ikon bar sisi",
+        "Perbaiki kekunci pintasan",
+        "Simpan templat segera dari bar sisi secara langsung"
+      ],
+      "1_0_4": [
+        "Susun semula item gesaan dalam senarai lungsur turun",
+        "Arkibkan item gesaan yang anda tidak akan gunakan",
+        "Respons sokongan dalam 50+ bahasa"
+      ],
+      "1_0_3": [
+        "CMD/Ctrl + Enter untuk melakukan \"Serah\" pantas",
+        "Pilihan untuk menyembunyikan panel dalam halaman hasil carian",
+        "Sokong ESC untuk menyembunyikan bar sisi",
+        "Sokongan meringkaskan artikel panjang"
+      ],
+      "1_0_2": [
+        "Tambah butang henti untuk berhenti menjana respons",
+        "Tukar tempat butang runtuh"
+      ],
+      "1_0_1": [
+        "Tingkatkan ciri ringkasan dalam halaman Youtube",
+        "Betulkan beberapa pepijat yang berkaitan dengan salin/tampal dan cetak"
+      ]
+    }
+  },
+  "searchTool": {
+    "questionMark": "Cetuskan ChatGPT dengan menambahkan tanda soal selepas pertanyaan anda",
+    "askForQuery": "Tanya ChatGPT untuk pertanyaan ini",
+    "fiveStart": "Nikmati sambungan ini? Beri kami rating 5 bintang di {{store}}",
+    "loginAndCloudflareCheck": "Sila log masuk dan lulus semakan Cloudflare di {{web}}",
+    "braveTrouble": "Masih tidak berfungsi? Ikuti {{url}}",
+    "cloudflareCheck": "OpenAI memerlukan lulus pemeriksaan keselamatan sekali-sekala. Jika ini terus berlaku, tukar penyedia AI kepada OpenAI API dalam <i>pilihan sambungan</i>.",
+    "failedResponse": "Gagal memuatkan respons daripada ChatGPT:",
+    "waitResponse": "Menunggu respons ChatGPT..."
+  },
+  "msg": {
+    "enterAPIKey": "Sila masukkan kunci API OpenAI anda",
+    "selectModel": "Sila pilih model yang sah",
+    "changeSaved": "Perubahan disimpan",
+    "fiveStart": "Beri kami 5 bintang",
+    "errSiderApiLimit": "Anda telah menggunakan semua kredit percuma yang kami berikan, sila ikuti <i>arahan di sini</i> untuk mendapatkan API daripada OpenAI.",
+    "loginAndCloudflareCheck": "Untuk menggunakannya, sila log masuk dan lulus semakan Cloudflare di <i>chat.openai.com</i>",
+    "invalidApiKey": "Kunci API tidak sah, sila dapatkan satu lagi.",
+    "getApiKeyGuide": "Anda memerlukan kunci API OpenAI untuk menjadikannya berfungsi. Ikuti panduan kami untuk mendapatkan kunci API dan kredit OpenAI $18 <i>secara percuma</i>.",
+    "thankForFeedback": "Terima kasih. Borang telah berjaya diserahkan. Kami akan menghubungi anda sebentar lagi.",
+    "writeSomething": "Tolong tulis sesuatu.",
+    "enterEmail": "Masukkan alamat e-mel untuk menerima kemas kini tentang isu tersebut.",
+    "emailRequired": "E-mel diperlukan.",
+    "promptNameRequired": "Nama segera diperlukan.",
+    "nameYourPrompt": "Namakan gesaan anda",
+    "promptTplRequired": "Templat segera diperlukan.",
+    "deletePromptWarn": "Adakah anda mahu memadamkan templat gesaan ini?",
+    "restorePromptWarn": "Adakah anda mahu memulihkan templat gesaan ini?",
+    "notValidEmail": "bukan e-mel yang sah"
+  },
+  "options": {
+    "theme": {
+      "auto": "automatik",
+      "light": "mod terang",
+      "dark": "mod gelap"
+    },
+    "triggerMode": {
+      "always": {
+        "title": "Sentiasa",
+        "desc": "Tanya ChatGPT pada setiap carian"
+      },
+      "questionMark": {
+        "title": "Tanda soal",
+        "desc": "Tanya ChatGPT jika kata kunci berakhir dengan tanda soal (?)"
+      },
+      "manually": {
+        "title": "Secara manual",
+        "desc": "Tanya ChatGPT hanya apabila anda mengklik butang"
+      }
+    },
+    "sidebarLocation": {
+      "left": "sebelah kiri",
+      "right": "sebelah kanan"
+    },
+    "searchPromptTpl": {
+      "default": {
+        "title": "Lalai",
+        "template": "Bolehkah anda memberitahu saya sesuatu tentang {{keywords}}? Jika boleh, bolehkah anda memberi saya beberapa pautan mengenainya? Jika {{keywords}} ialah soalan berkaitan kod, sila tulis kod tersebut"
+      },
+      "list": {
+        "title": "Kata kunci kepada Soalan",
+        "template": "Senaraikan 1 soalan paling popular tentang \"{{keywords}}\". Kemudian, Jawab soalan ini. Akhir sekali, senaraikan 4 soalan lagi."
+      },
+      "suggest": {
+        "title": "Dapatkan kata kunci yang berkaitan",
+        "template": "{{keywords}} ialah kata kunci carian saya di Google. Tolong berikan saya 5 set kata kunci yang berkaitan."
+      }
+    },
+    "sidebarPromptTpl": {
+      "summarize": {
+        "title": "rumuskan",
+        "template": "Ringkaskan ini untuk pelajar darjah dua:"
+      },
+      "similar-pages": {
+        "title": "Muka surat yang serupa",
+        "template": "Cari 10 halaman yang serupa dengan kandungan berikut dengan pautan:"
+      },
+      "grammar": {
+        "title": "Tatabahasa",
+        "template": "Betulkan ini kepada bahasa Inggeris standard:"
+      },
+      "explain": {
+        "title": "Terangkan",
+        "template": "Jelaskan kandungan berikut:"
+      },
+      "explain-codes": {
+        "title": "Terangkan Kod",
+        "template": "Terangkan kod berikut:"
+      },
+      "rewrite": {
+        "title": "Tulis semula",
+        "template": "Tulis semula kandungan berikut:"
+      },
+      "translate": {
+        "title": "Terjemah",
+        "template": "Terjemahkan kandungan berikut kepada bahasa {{lang}}:"
+      },
+      "qa": {
+        "title": "Soal Jawab",
+        "template": "Jawab soalan ini:"
+      }
+    }
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "sidebar": "사이드바",
+  "shortcut": "단축 키",
+  "ask": "묻다",
+  "save": "저장해",
+  "cancel": "취소",
+  "ok": "좋아요",
+  "submit": "제출하다",
+  "send": "보내다",
+  "copy": "복사",
+  "copied": "복사됨",
+  "clear": "분명한",
+  "collapse": "사이드바 접기",
+  "done": "완료",
+  "manage": "관리하다",
+  "template": "주형",
+  "edit": "편집하다",
+  "add": "추가하다",
+  "feedback": "피드백",
+  "tweetit": "트윗하기",
+  "whatNew": "새로운 기능",
+  "gotIt": "알았어요",
+  "settings": "설정",
+  "general": "일반 구성",
+  "archive": "보관소",
+  "searchPage": "검색 페이지",
+  "addons": "부가 기능",
+  "webStore": "웹 스토어",
+  "webApp": "웹 앱",
+  "language": "언어",
+  "theme": "주제",
+  "model": "모델",
+  "version": "버전",
+  "more": "더",
+  "listen": "듣다",
+  "customPrompt": "맞춤 프롬프트",
+  "currentTpl": "현재 템플릿:",
+  "editTpl": "이 템플릿 편집",
+  "delteTpl": "이 템플릿 삭제",
+  "restoreTpl": "이 템플릿 복원",
+  "archiveTpl": "이 템플릿 보관",
+  "showTpl": "이 템플릿 보기",
+  "promptName": "프롬프트 이름",
+  "promptContent": "신속한 콘텐츠",
+  "contactUs": "문의하기",
+  "issueType": "문제 유형",
+  "pinExt": "핀 확장",
+  "yourEmailAddress": "귀하의 이메일 주소",
+  "troubleshooting": "문제 해결",
+  "openSidebar": "사이드바 열기",
+  "pasteSelection": "선택 붙여넣기",
+  "pasteTextPage": "페이지에서 텍스트 붙여넣기",
+  "getAnotherKey": "다른 키 얻기",
+  "showSearchPanel": "검색 패널 표시",
+  "getItNow": "지금 사세요",
+  "alwaysDisplay": "항상 표시",
+  "popupPage": {
+    "thank": "{{APP_NAME}} 확장 프로그램을 사용해 주셔서 감사합니다!",
+    "desc": "확장 웹 스토어 및 브라우저 설정 페이지와 같이 브라우저가 스크립트 실행을 제한하는 페이지를 제외하고 대부분의 웹 페이지에서 이 확장을 사용할 수 있습니다.",
+    "try": "<i>이 페이지와 같은</i> 다른 웹페이지에서 이 확장 프로그램을 사용해 보세요."
+  },
+  "setupPage": {
+    "welcome": "{{APP_NAME}}에 오신 것을 환영합니다! 여정의 시작은 다음과 같습니다.",
+    "pinTips": "쉽게 액세스할 수 있도록 {{APP_NAME}} 고정",
+    "stepTitle": "{{APP_NAME}}에 더 쉽게 액세스하려면 아래 단계에 따라 사이드바 아이콘을 고정된 상태로 유지하세요.",
+    "step1": "프로필 아바타 옆에 있는 퍼즐 아이콘 {{icon}}을 클릭하세요.",
+    "step2": "드롭다운 메뉴에서 {{APP_NAME}}을(를) 찾습니다.",
+    "step3": "\"핀 아이콘\"을 클릭하여 고정합니다."
+  },
+  "getKeyPage": {
+    "welcome": "{{APP_NAME}}에 오신 것을 환영합니다! 시작할 여정은 다음과 같습니다.",
+    "stepTitle": "API 키와 $18 OpenAI 크레딧을 <i>무료로</i> 받는 방법.",
+    "step1": "1단계: API 키 받기",
+    "step1-1": "<i>OpenAI 계정에 로그인</i> 계정이 없으면 <b>여기</b>에서 가입하세요.",
+    "step1-2": "OpenAI API 키 페이지 방문",
+    "step1-3": "새 비밀 키를 생성하고 다음과 같이 복사합니다.",
+    "step2": "2단계: 아래 상자에 API 키 붙여넣기",
+    "step2-tips": "괜찮아요. API 키는 ChatGPT 확장 프로그램 내에서만 로컬로 사용됩니다. API를 사용하는 것이 ChatGPT를 직접 사용하는 것보다 안정적입니다.",
+    "step3": "3단계: <i>여기에서 최대 $18 크레딧</i>을 확인하세요."
+  },
+  "optionPage": {
+    "howToAccess": "ChatGPT에 액세스하는 방법",
+    "sidebarProvider": "{{APP_NAME}}에서 액세스를 제공하므로 설정할 필요가 없습니다.",
+    "webappProvider": "ChatGPT 웹앱을 지원하는 API는 무료이지만 때때로 불안정할 수 있습니다.",
+    "webappGPT4": "Plus 사용자에게 권장(GPT-4 지원)",
+    "GPT4Desc": "<b>ChatGPT Plus 사용자</b>인 경우 이제 <b>GPT-4</b>를 선택할 수 있습니다. 그러나 OpenAI는 하루에 보낼 수 있는 메시지 수를 제한할 수 있습니다. Plus 회원이 아니시면 이용이 불가능하거나 불안정할 수 있습니다.",
+    "apiKeyProvider": "공식 OpenAI API는 더 안정적이며 사용량에 따라 요금이 부과됩니다.",
+    "apiKeyLocally": "API 키는 브라우저에 로컬로 저장되며 다른 곳으로 전송되지 않습니다.",
+    "ownURL": "내 URL 사용",
+    "apiFreeGuide": "가이드를 따라 OpenAI에서 <i>무료로</i> API 키와 최대 $18 크레딧을 받으세요.",
+    "displaySearchRes": "검색 결과 페이지와 함께 ChatGPT 응답 표시",
+    "whenToAsk": "ChatGPT를 요청할 때",
+    "promptTplForSearch": "Google 및 기타 사용자를 위한 프롬프트 템플릿",
+    "addNewTplForSearch": "새 프롬프트 템플릿 추가",
+    "launchSidebar": "사이드바 실행",
+    "sidebarLocation": "사이드바 위치",
+    "sidebarLeftOrRight": "사이드바를 왼쪽 또는 오른쪽에 배치",
+    "sidebarIcon": "사이드바 아이콘",
+    "sidebarIconAccess": "페이지 오른쪽 하단 모서리에 있는 아이콘을 통해 사이드바에 액세스합니다. 드래그하여 위아래로 이동할 수 있습니다.",
+    "easiestWayUse": "{{APP_NAME}}을(를) 사용하는 가장 쉬운 방법",
+    "displayWhenSelect": "텍스트 선택 시 표시",
+    "promptTplForSidebar": "사이드바용 프롬프트 템플릿",
+    "dragSidebarTpl": "드래그 앤 드롭하여 템플릿을 재정렬하거나 사용하지 않을 템플릿을 보관하십시오.",
+    "addNewTplForSidebar": "새 프롬프트 템플릿 추가",
+    "editSearchTplTip": "{{keywords}}를 사용하여 검색 키워드 참조",
+    "editSearchTplPlaceholder": "프롬프트 콘텐츠의 {{keywords}}는 자동으로 검색 키워드로 대체됩니다.",
+    "editSidebarTplTip": "여기에 콘텐츠를 붙여넣거나 입력하세요.",
+    "showOnList": "목록에 표시",
+    "translatorNavTitle": "빠른 조회",
+    "translatorTitle": "빠른 조회 창",
+    "translatorFabTitle": "빠른 조회 아이콘",
+    "translatorFabDesc": "아이콘을 통해 빠른 조회 창에 접근합니다.",
+    "translatorFabToggleLabel": "텍스트 선택 시 표시",
+    "translatorTplTitle": "팝업 창에 대한 프롬프트 템플릿",
+    "translatorTplDesc": "첫 번째 기본 템플릿은 팝업 창의 기본 명령으로 사용됩니다.",
+    "translatorPrimaryTemplates": "기본 템플릿",
+    "translatorTemplatesNotes": "*이 팝업은 사이드바와 동일한 템플릿을 공유합니다. 템플릿을 수정하거나 추가해야 하는 경우 <b>사이드바 설정</b>에서 수정하세요.",
+    "translatorIntroTitle": "🤔 빠른 조회란?",
+    "translatorIntroDesc": "빠른 조회는 유용한 도구를 다양하게 제공하는 ChatGPT 사이드바의 빠른 작업입니다.\n\n텍스트를 선택하면 즉시 나타납니다. 단 한 번의 클릭으로 텍스트를 빠르게 번역하고, 다시 쓰고, 설명을 얻는 등의 작업을 수행할 수 있습니다. 또한 도구의 순서를 재정렬하고 자신만의 프롬프트를 사용자 정의할 수 있습니다.\n\nChatGPT 사이드바를 활성화하려면 Quick Lookup 아이콘을 클릭하기만 하면 됩니다.",
+    "translatorHostFabConfigLabel": "빠른 조회가 비활성화된 웹사이트 목록",
+    "feedbackTypes": {
+      "bug": {
+        "name": "문제 보고서",
+        "title": {
+          "label": "문제 요약",
+          "tip": "몇 마디로 무엇이 잘못되었는지 알려주세요."
+        },
+        "detail": {
+          "label": "문제 세부 정보",
+          "tip": "무엇이 잘못되었는지, 취한 조치 및 받은 오류 메시지를 자세히 설명하십시오."
+        }
+      },
+      "fr": {
+        "name": "기능 요청",
+        "title": {
+          "label": "제목",
+          "tip": "무엇에 대한 요청입니까?"
+        },
+        "detail": {
+          "label": "설명",
+          "tip": "원하는 새 기능에 대한 자세한 설명을 제공하십시오."
+        }
+      }
+    }
+  },
+  "sidebarPanel": {
+    "askChatGPT": "ChatGPT에게 물어보세요:",
+    "savePrompt": "프롬프트 저장",
+    "saveNewPrompt": "새 프롬프트로 저장",
+    "replacePrompt": "프롬프트 바꾸기",
+    "inputPlaceholder1": "입력 프롬프트 또는 메뉴에서 선택",
+    "inputPlaceholder2": "여기에 콘텐츠를 붙여넣거나 입력하세요.",
+    "startNewLine": "새 줄을 시작하려면 {{shortcut}}를 누르세요.",
+    "inputPlaceholderCodes": "여기에 코드를 붙여넣거나 입력하세요.",
+    "inputPlaceholderQA": "여기에 질문을 붙여넣거나 입력하세요.",
+    "response": "응답:",
+    "stopGenerating": "생성 중지",
+    "regenerate": "응답 재생성"
+  },
+  "translator": {
+    "quickActions": "빠른 조회",
+    "disableHostFabLabel": "이 웹사이트에서 비활성화",
+    "disableFabLabel": "모든 웹사이트에서 비활성화"
+  },
+  "changeLogPage": {
+    "rate5Star": "<b>저희 확장 프로그램이 마음에 드시나요?</b> 저희가 성장할 수 있도록 웹 스토어에서 별 다섯 개를 평가해 주세요.",
+    "newInVersion": "{{versionId}} 버전의 새로운 기능",
+    "logs": {
+      "1_0_11": [
+        "사이드바를 열지 않고도 팝업 창을 통해 작업에 빠르게 액세스할 수 있습니다.",
+        "추가 언어에 대한 지원을 추가합니다.",
+        "번역 기능을 사용할 때 사용자의 언어 기본 설정을 유지합니다.",
+        "GitHub 및 기타 플랫폼과 같은 플랫폼에서 바로 가기 충돌을 해결합니다."
+      ],
+      "1_0_10": [
+        "지금 50개 이상의 언어를 지원하세요!"
+      ],
+      "1_0_8": [
+        "플러스 사용자를 위한 GPT-4 지원! 설정 페이지를 확인하세요!"
+      ],
+      "1_0_7": [
+        "마지막으로 사용한 프롬프트 기억",
+        "검색 페이지에서 chatGPT 패널의 위치 최적화",
+        "사이드바 인페이지 아이콘을 왼쪽에 배치하는 옵션 추가",
+        "패키지 크기 최적화",
+        "다크 모드 추가",
+        "API URL 프록시 지원"
+      ],
+      "1_0_6": [
+        "Youtube 페이지의 요약 기능 개선"
+      ],
+      "1_0_5": [
+        "사이드바 아이콘 위치 기억",
+        "단축키 개선",
+        "사이드바에서 직접 프롬프트 템플릿 저장"
+      ],
+      "1_0_4": [
+        "드롭다운 목록에서 프롬프트 항목 재정렬",
+        "사용하지 않을 프롬프트 항목 보관",
+        "50개 이상의 언어로 응답 지원"
+      ],
+      "1_0_3": [
+        "CMD/Ctrl + Enter를 눌러 빠른 \"제출\"",
+        "검색 결과 페이지에서 패널을 숨기는 옵션",
+        "사이드바 숨기기 ESC 지원",
+        "지원 요약 긴 기사"
+      ],
+      "1_0_2": [
+        "응답 생성을 중지하는 중지 버튼 추가",
+        "축소 버튼 위치 변경"
+      ],
+      "1_0_1": [
+        "Youtube 페이지의 요약 기능 개선",
+        "복사/붙여넣기 및 인쇄와 관련된 일부 버그 수정"
+      ]
+    }
+  },
+  "searchTool": {
+    "questionMark": "쿼리 뒤에 물음표를 추가하여 ChatGPT를 트리거합니다.",
+    "askForQuery": "이 쿼리에 대해 ChatGPT에 요청",
+    "fiveStart": "이 확장 프로그램이 마음에 드십니까? {{store}}에서 별점 5점을 주세요.",
+    "loginAndCloudflareCheck": "{{web}}에서 로그인하고 Cloudflare 검사를 통과하세요.",
+    "braveTrouble": "그래도 작동이 안되는? {{url}} 팔로우",
+    "cloudflareCheck": "OpenAI는 때때로 보안 검사를 통과해야 합니다. 이 문제가 계속 발생하면 <i>확장 옵션</i>에서 AI 공급자를 OpenAI API로 변경하세요.",
+    "failedResponse": "ChatGPT에서 응답 로드 실패:",
+    "waitResponse": "ChatGPT 응답을 기다리는 중..."
+  },
+  "msg": {
+    "enterAPIKey": "OpenAI API 키를 입력하세요.",
+    "selectModel": "유효한 모델을 선택하십시오",
+    "changeSaved": "변경사항이 저장됨",
+    "fiveStart": "별점 5개 주세요",
+    "errSiderApiLimit": "저희가 제공한 무료 크레딧을 모두 사용하셨습니다. OpenAI에서 API를 받으려면 <i>여기의 지침</i>을 따르십시오.",
+    "loginAndCloudflareCheck": "사용하려면 로그인하고 <i>chat.openai.com</i>에서 Cloudflare 검사를 통과하세요.",
+    "invalidApiKey": "API 키가 유효하지 않습니다. 다른 키를 받으십시오.",
+    "getApiKeyGuide": "작동하려면 OpenAI API 키가 필요합니다. 가이드를 따라 API 키와 $18 OpenAI 크레딧을 <i>무료로</i> 받으십시오.",
+    "thankForFeedback": "감사합니다. 양식이 성공적으로 제출되었습니다. 곧 연락드리겠습니다.",
+    "writeSomething": "무언가를 써주세요.",
+    "enterEmail": "문제에 대한 업데이트를 받을 이메일 주소를 입력하세요.",
+    "emailRequired": "이메일이 필요합니다.",
+    "promptNameRequired": "프롬프트 이름이 필요합니다.",
+    "nameYourPrompt": "프롬프트 이름 지정",
+    "promptTplRequired": "프롬프트 템플릿이 필요합니다.",
+    "deletePromptWarn": "이 프롬프트 템플릿을 삭제하시겠습니까?",
+    "restorePromptWarn": "이 프롬프트 템플릿을 복원하시겠습니까?",
+    "notValidEmail": "유효한 이메일이 아닙니다"
+  },
+  "options": {
+    "theme": {
+      "auto": "자동적 인",
+      "light": "밝은 모드",
+      "dark": "다크 모드"
+    },
+    "triggerMode": {
+      "always": {
+        "title": "언제나",
+        "desc": "검색할 때마다 ChatGPT에 물어보세요"
+      },
+      "questionMark": {
+        "title": "물음표",
+        "desc": "키워드가 물음표(?)로 끝나는지 ChatGPT에 물어보세요."
+      },
+      "manually": {
+        "title": "수동으로",
+        "desc": "버튼을 클릭할 때만 ChatGPT에게 물어보세요"
+      }
+    },
+    "sidebarLocation": {
+      "left": "왼쪽",
+      "right": "오른쪽"
+    },
+    "searchPromptTpl": {
+      "default": {
+        "title": "기본",
+        "template": "{{keywords}}에 대해 말씀해 주시겠습니까? 가능하다면 관련 링크 좀 주실 수 있나요? {{keywords}}가 코드 관련 질문이라면 코드를 작성해주세요."
+      },
+      "list": {
+        "title": "질문에 대한 키워드",
+        "template": "\"{{keywords}}\"에 대한 가장 인기 있는 질문 1개를 나열하세요. 그런 다음 이 질문에 답하십시오. 마지막으로 다른 4개의 질문을 나열하십시오."
+      },
+      "suggest": {
+        "title": "관련 키워드 가져오기",
+        "template": "{{keywords}}는 Google에서 내 검색 키워드입니다. 5세트의 관련 키워드를 알려주세요."
+      }
+    },
+    "sidebarPromptTpl": {
+      "summarize": {
+        "title": "요약하다",
+        "template": "2학년 학생을 위해 이것을 요약하십시오."
+      },
+      "similar-pages": {
+        "title": "유사한 페이지",
+        "template": "링크가 있는 다음 콘텐츠와 유사한 페이지 10개 찾기:"
+      },
+      "grammar": {
+        "title": "문법",
+        "template": "이것을 표준 영어로 수정하십시오."
+      },
+      "explain": {
+        "title": "설명하다",
+        "template": "다음 내용을 설명하십시오."
+      },
+      "explain-codes": {
+        "title": "코드 설명",
+        "template": "다음 코드를 설명하십시오."
+      },
+      "rewrite": {
+        "title": "고쳐 쓰기",
+        "template": "다음 내용을 다시 작성합니다."
+      },
+      "translate": {
+        "title": "번역하다",
+        "template": "다음 콘텐츠를 {{lang}} 언어로 번역:"
+      },
+      "qa": {
+        "title": "Q&A",
+        "template": "이 질문에 대답하세요:"
+      }
+    }
+  }
+}

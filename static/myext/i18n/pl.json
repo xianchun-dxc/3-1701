@@ -1,0 +1,321 @@
+{
+  "sidebar": "Pasek boczny",
+  "shortcut": "Skrót klawiszowy",
+  "ask": "Zapytać",
+  "save": "Zapisz to",
+  "cancel": "Anulować",
+  "ok": "OK",
+  "submit": "Składać",
+  "send": "Wysłać",
+  "copy": "Kopiuj",
+  "copied": "Skopiowane",
+  "clear": "Jasne",
+  "collapse": "Zwiń pasek boczny",
+  "done": "Zrobione",
+  "manage": "Zarządzać",
+  "template": "szablon",
+  "edit": "Edytować",
+  "add": "Dodać",
+  "feedback": "Informacja zwrotna",
+  "tweetit": "Zatwituj",
+  "whatNew": "Nowe funkcje",
+  "gotIt": "Rozumiem",
+  "settings": "Ustawienia",
+  "general": "Konfiguracja ogólna",
+  "archive": "archiwum",
+  "searchPage": "Strona wyszukiwania",
+  "addons": "Dodatki",
+  "webStore": "Sklep internetowy",
+  "webApp": "Aplikacja internetowa",
+  "language": "Język",
+  "theme": "Temat",
+  "model": "Model",
+  "version": "Wersja",
+  "more": "Więcej",
+  "listen": "Słuchać",
+  "customPrompt": "Monit niestandardowy",
+  "currentTpl": "Obecny szablon:",
+  "editTpl": "Edytuj ten szablon",
+  "delteTpl": "Usuń ten szablon",
+  "restoreTpl": "Przywróć ten szablon",
+  "archiveTpl": "Zarchiwizuj ten szablon",
+  "showTpl": "Pokaż ten szablon",
+  "promptName": "Nazwa zachęty",
+  "promptContent": "Szybka treść",
+  "contactUs": "Skontaktuj się z nami",
+  "issueType": "rodzaj zagadnienia",
+  "pinExt": "Przedłużenie pinów",
+  "yourEmailAddress": "Twój adres email",
+  "troubleshooting": "Rozwiązywanie problemów",
+  "openSidebar": "Otwórz pasek boczny",
+  "pasteSelection": "Wklej wybór",
+  "pasteTextPage": "Wklej tekst ze strony",
+  "getAnotherKey": "Zdobądź kolejny klucz",
+  "showSearchPanel": "Pokaż panel wyszukiwania",
+  "getItNow": "Zdobądź to teraz",
+  "alwaysDisplay": "Zawsze wyświetlaj",
+  "popupPage": {
+    "thank": "Dziękujemy za korzystanie z rozszerzenia {{APP_NAME}}!",
+    "desc": "Możesz używać tego rozszerzenia na większości stron internetowych, z wyjątkiem stron, na których przeglądarka ogranicza uruchamianie skryptów, takich jak sklep internetowy rozszerzenia i strony ustawień przeglądarki.",
+    "try": "Możesz wypróbować to rozszerzenie na dowolnej innej stronie internetowej, <i>takiej jak ta</i>."
+  },
+  "setupPage": {
+    "welcome": "Witamy w {{APP_NAME}}! Oto początek Twojej podróży:",
+    "pinTips": "Przypnij aplikację {{APP_NAME}}, aby mieć do niej łatwy dostęp",
+    "stepTitle": "Aby uzyskać łatwiejszy dostęp do aplikacji {{APP_NAME}}, nie wyłączaj ikony paska bocznego, wykonując poniższe czynności:",
+    "step1": "Kliknij ikonę puzzli {{icon}} obok swojego awatara profilowego.",
+    "step2": "W rozwijanym menu znajdź {{APP_NAME}}.",
+    "step3": "Kliknij ikonę „Przypnij”, aby ją przypiąć."
+  },
+  "getKeyPage": {
+    "welcome": "Witamy w {{APP_NAME}}! Oto Twoja podróż do rozpoczęcia:",
+    "stepTitle": "Jak uzyskać klucz API i kredyty OpenAI o wartości 18 USD <i>za darmo</i>.",
+    "step1": "Krok 1: Uzyskaj klucz API",
+    "step1-1": "<i>Zaloguj się na swoje konto OpenAI</i> Jeśli nie masz konta, zarejestruj się <b>TUTAJ</b>",
+    "step1-2": "Odwiedź stronę OpenAI API Key",
+    "step1-3": "Utwórz nowy tajny klucz i skopiuj go w następujący sposób",
+    "step2": "Krok 2: Wklej klucz API w polu poniżej",
+    "step2-tips": "Nie martw się. Twój klucz API jest używany tylko lokalnie w rozszerzeniu ChatGPT. Korzystanie z API jest bardziej stabilne niż bezpośrednie korzystanie z ChatGPT.",
+    "step3": "Krok 3: Sprawdź swoje środki do <i>18 USD tutaj</i>"
+  },
+  "optionPage": {
+    "howToAccess": "Jak uzyskać dostęp do ChatGPT",
+    "sidebarProvider": "Aplikacja {{APP_NAME}} zapewni dostęp i nie trzeba jej konfigurować.",
+    "webappProvider": "Aplikacja internetowa ChatGPT obsługująca interfejs API jest bezpłatna, ale czasami może działać niestabilnie.",
+    "webappGPT4": "Zalecane dla użytkownika Plus (wsparcie GPT-4)",
+    "GPT4Desc": "Jeśli jesteś <b>użytkownikiem ChatGPT Plus</b>, masz teraz możliwość wyboru <b>GPT-4</b>. Jednak OpenAI może ograniczyć liczbę wiadomości, które możesz wysłać dziennie. Jeśli nie jesteś użytkownikiem Plusa, możesz nie być w stanie z niego korzystać lub może on nie działać stabilnie.",
+    "apiKeyProvider": "Oficjalny interfejs API OpenAI jest bardziej stabilny, a opłaty zależą od użycia.",
+    "apiKeyLocally": "Twój klucz API jest przechowywany lokalnie w Twojej przeglądarce i nigdy nie jest wysyłany nigdzie indziej.",
+    "ownURL": "Użyj mojego własnego adresu URL",
+    "apiFreeGuide": "Postępuj zgodnie z instrukcjami, aby otrzymać klucz API i do 18 USD kredytów od OpenAI <i>za darmo</i>",
+    "displaySearchRes": "Wyświetl odpowiedź ChatGPT obok stron wyników wyszukiwania",
+    "whenToAsk": "Kiedy pytać ChatGPT",
+    "promptTplForSearch": "Szablon monitu dla Google i innych",
+    "addNewTplForSearch": "Dodaj nowy szablon monitu",
+    "launchSidebar": "Uruchom pasek boczny",
+    "sidebarLocation": "Lokalizacja paska bocznego",
+    "sidebarLeftOrRight": "Umieść pasek boczny po lewej lub prawej stronie",
+    "sidebarIcon": "Ikona paska bocznego",
+    "sidebarIconAccess": "Uzyskaj dostęp do paska bocznego za pomocą ikony znajdującej się w prawym dolnym rogu strony. Możesz przeciągnąć, aby przesunąć go w górę iw dół",
+    "easiestWayUse": "Najłatwiejszy sposób korzystania z {{APP_NAME}}",
+    "displayWhenSelect": "Wyświetlaj, gdy wybrany jest tekst",
+    "promptTplForSidebar": "Szablon monitu dla paska bocznego",
+    "dragSidebarTpl": "Przeciągnij i upuść, aby zmienić kolejność szablonów LUB zarchiwizować te, których nie będziesz używać",
+    "addNewTplForSidebar": "Dodaj nowy szablon monitu",
+    "editSearchTplTip": "użyj {{keywords}}, aby skierować słowa kluczowe wyszukiwania",
+    "editSearchTplPlaceholder": "{{keywords}} w treści monitu zostanie automatycznie zastąpione wyszukiwanymi słowami kluczowymi",
+    "editSidebarTplTip": "Wklej lub wprowadź treść tutaj",
+    "showOnList": "Pokaż na liście",
+    "translatorNavTitle": "Szybkie wyszukiwanie",
+    "translatorTitle": "Okno szybkiego wyszukiwania",
+    "translatorFabTitle": "Ikona szybkiego wyszukiwania",
+    "translatorFabDesc": "Przejdź do okna szybkiego wyszukiwania za pomocą ikony.",
+    "translatorFabToggleLabel": "Wyświetlaj, gdy wybrany jest tekst",
+    "translatorTplTitle": "Szablon monitu dla wyskakującego okienka",
+    "translatorTplDesc": "Pierwszy główny szablon zostanie użyty jako domyślne polecenie dla wyskakującego okienka.",
+    "translatorPrimaryTemplates": "Główne szablony",
+    "translatorTemplatesNotes": "*To wyskakujące okienko ma te same szablony co pasek boczny. Jeśli chcesz edytować lub dodać szablon, zmodyfikuj go w <b>Ustawieniach paska bocznego</b>.",
+    "translatorIntroTitle": "🤔 Co to jest Szybkie wyszukiwanie?",
+    "translatorIntroDesc": "Szybkie wyszukiwanie to szybka akcja paska bocznego ChatGPT, zapewniająca szereg przydatnych narzędzi.\n\nPojawia się natychmiast po zaznaczeniu tekstu. Za pomocą jednego kliknięcia możesz szybko tłumaczyć teksty, pisać je od nowa, uzyskiwać wyjaśnienia i wiele więcej. Dodatkowo możesz zmienić kolejność narzędzi i dostosować własne podpowiedzi.\n\nAby aktywować pasek boczny ChatGPT, wystarczy kliknąć ikonę szybkiego wyszukiwania.",
+    "translatorHostFabConfigLabel": "Lista witryn, w których szybkie wyszukiwanie jest wyłączone",
+    "feedbackTypes": {
+      "bug": {
+        "name": "Raport o problemie",
+        "title": {
+          "label": "Podsumowanie problemu",
+          "tip": "Daj nam znać w kilku słowach, co poszło nie tak."
+        },
+        "detail": {
+          "label": "Szczegóły problemu",
+          "tip": "Opisz szczegółowo, co poszło nie tak, wszelkie podjęte działania i komunikaty o błędach."
+        }
+      },
+      "fr": {
+        "name": "Żądanie funkcji",
+        "title": {
+          "label": "Tytuł",
+          "tip": "Czego dotyczy twoja prośba?"
+        },
+        "detail": {
+          "label": "Opis",
+          "tip": "Podaj szczegółowy opis żądanej nowej funkcji."
+        }
+      }
+    }
+  },
+  "sidebarPanel": {
+    "askChatGPT": "Zapytaj ChatGPT:",
+    "savePrompt": "Zachowaj monit",
+    "saveNewPrompt": "Zapisz jako nowy monit",
+    "replacePrompt": "Zastąp monit",
+    "inputPlaceholder1": "Wprowadź monit lub wybierz z menu",
+    "inputPlaceholder2": "Wklej lub wprowadź treść tutaj",
+    "startNewLine": "Naciśnij {{shortcut}}, aby rozpocząć nową linię",
+    "inputPlaceholderCodes": "Wklej lub wprowadź kody tutaj",
+    "inputPlaceholderQA": "Wklej lub wpisz pytanie tutaj",
+    "response": "Odpowiedź:",
+    "stopGenerating": "Przestań generować",
+    "regenerate": "Zregeneruj odpowiedź"
+  },
+  "translator": {
+    "quickActions": "Szybkie wyszukiwania",
+    "disableHostFabLabel": "Wyłącz na tej stronie",
+    "disableFabLabel": "Wyłącz na wszystkich stronach internetowych"
+  },
+  "changeLogPage": {
+    "rate5Star": "<b>Spodobało Ci się nasze rozszerzenie?</b> Oceń nas w sklepie internetowym na pięć gwiazdek, aby pomóc nam się rozwijać",
+    "newInVersion": "Co nowego w wersji {{versionId}}",
+    "logs": {
+      "1_0_11": [
+        "Szybki dostęp do działań za pomocą wyskakującego okienka bez otwierania paska bocznego.",
+        "Dodaj obsługę dodatkowych języków.",
+        "Zachowaj preferencje językowe użytkownika podczas korzystania z funkcji tłumaczenia.",
+        "Rozwiązuj konflikty skrótów na platformach takich jak GitHub i inne."
+      ],
+      "1_0_10": [
+        "Obsługuj teraz ponad 50 języków!"
+      ],
+      "1_0_8": [
+        "Wspieraj GPT-4 dla użytkowników Plusa! Sprawdź stronę ustawień!"
+      ],
+      "1_0_7": [
+        "Zapamiętaj monit użyty ostatnio",
+        "Zoptymalizuj pozycję panelu chatGPT na stronach wyszukiwania",
+        "Dodaj opcję umieszczenia ikony paska bocznego na stronie po lewej stronie",
+        "Zoptymalizuj rozmiar pakietu",
+        "Dodaj tryb ciemny",
+        "Obsługuj serwer proxy adresu URL interfejsu API"
+      ],
+      "1_0_6": [
+        "Popraw funkcję podsumowania na stronie Youtube"
+      ],
+      "1_0_5": [
+        "Zapamiętaj lokalizację ikony paska bocznego",
+        "Popraw klawisze skrótów",
+        "Zapisz szablony monitów bezpośrednio z paska bocznego"
+      ],
+      "1_0_4": [
+        "Zmień kolejność pozycji monitu na liście rozwijanej",
+        "Zarchiwizuj elementy zachęty, których nie będziesz używać",
+        "Odpowiedź wsparcia w ponad 50 językach"
+      ],
+      "1_0_3": [
+        "CMD/Ctrl + Enter, aby wykonać szybkie „Prześlij”",
+        "Możliwość ukrycia panelu na stronie wyników wyszukiwania",
+        "Wsparcie ESC, aby ukryć pasek boczny",
+        "Wsparcie podsumowuje długi artykuł"
+      ],
+      "1_0_2": [
+        "Dodaj przycisk zatrzymania, aby zatrzymać generowanie odpowiedzi",
+        "Zmień miejsce zwinięcia przycisku"
+      ],
+      "1_0_1": [
+        "Popraw funkcję podsumowania na stronie Youtube",
+        "Napraw niektóre błędy związane z kopiowaniem/wklejaniem i drukowaniem"
+      ]
+    }
+  },
+  "searchTool": {
+    "questionMark": "Uruchom ChatGPT, dodając znak zapytania po zapytaniu",
+    "askForQuery": "Zapytaj ChatGPT o to zapytanie",
+    "fiveStart": "Podoba Ci się to rozszerzenie? Daj nam ocenę 5 gwiazdek w {{store}}",
+    "loginAndCloudflareCheck": "Zaloguj się i przekaż test Cloudflare na {{web}}",
+    "braveTrouble": "Wciąż nie działa? Obserwuj {{url}}",
+    "cloudflareCheck": "OpenAI wymaga od czasu do czasu przejścia kontroli bezpieczeństwa. Jeśli to się powtarza, zmień dostawcę AI na OpenAI API w <i>opcjach rozszerzeń</i>.",
+    "failedResponse": "Nie udało się załadować odpowiedzi z ChatGPT:",
+    "waitResponse": "Oczekiwanie na odpowiedź ChatGPT..."
+  },
+  "msg": {
+    "enterAPIKey": "Wprowadź klucz API OpenAI",
+    "selectModel": "Wybierz prawidłowy model",
+    "changeSaved": "Zmiany zapisane",
+    "fiveStart": "Daj nam 5 gwiazdek",
+    "errSiderApiLimit": "Wykorzystałeś wszystkie udostępnione przez nas bezpłatne kredyty. Postępuj zgodnie z <i>instrukcjami tutaj</i>, aby uzyskać API od OpenAI.",
+    "loginAndCloudflareCheck": "Aby z niego skorzystać, zaloguj się i zdaj test Cloudflare na <i>chat.openai.com</i>",
+    "invalidApiKey": "Klucz API jest nieprawidłowy, poproś o inny.",
+    "getApiKeyGuide": "Aby to działało, potrzebujesz klucza OpenAI API. Postępuj zgodnie z naszym przewodnikiem, aby uzyskać klucz API i kredyty OpenAI w wysokości 18 USD <i>za darmo</i>.",
+    "thankForFeedback": "Dziękuję. Formularz został przesłany pomyślnie. Skontaktujemy się z Tobą wkrótce.",
+    "writeSomething": "Proszę coś napisać.",
+    "enterEmail": "Wprowadź adres e-mail, aby otrzymywać aktualizacje dotyczące problemu.",
+    "emailRequired": "Email jest wymagany.",
+    "promptNameRequired": "Nazwa zachęty jest wymagana.",
+    "nameYourPrompt": "Nazwij swój monit",
+    "promptTplRequired": "Wymagany jest szablon monitu.",
+    "deletePromptWarn": "Czy chcesz usunąć ten szablon monitu?",
+    "restorePromptWarn": "Czy chcesz przywrócić ten szablon monitu?",
+    "notValidEmail": "nie prawidłowy adres e-mail"
+  },
+  "options": {
+    "theme": {
+      "auto": "automatyczny",
+      "light": "jasny tryb",
+      "dark": "tryb ciemny"
+    },
+    "triggerMode": {
+      "always": {
+        "title": "Zawsze",
+        "desc": "Zapytaj ChatGPT przy każdym wyszukiwaniu"
+      },
+      "questionMark": {
+        "title": "Znak zapytania",
+        "desc": "Zapytaj ChatGPT, czy słowa kluczowe kończą się znakiem zapytania (?)"
+      },
+      "manually": {
+        "title": "Ręcznie",
+        "desc": "Zapytaj ChatGPT tylko po kliknięciu przycisku"
+      }
+    },
+    "sidebarLocation": {
+      "left": "lewa strona",
+      "right": "prawa strona"
+    },
+    "searchPromptTpl": {
+      "default": {
+        "title": "Domyślny",
+        "template": "Czy możesz mi powiedzieć coś o {{keywords}}? Jeśli to możliwe, możesz podać mi kilka linków na ten temat? Jeśli {{keywords}} jest pytaniem związanym z kodem, po prostu wpisz kod"
+      },
+      "list": {
+        "title": "Słowa kluczowe do pytań",
+        "template": "Wymień 1 najpopularniejsze pytanie dotyczące „{{keywords}}”. Następnie odpowiedz na to pytanie. Na koniec wypisz kolejne 4 pytania."
+      },
+      "suggest": {
+        "title": "Uzyskaj powiązane słowa kluczowe",
+        "template": "{{keywords}} to moje słowa kluczowe wyszukiwania w Google. Podaj mi 5 zestawów powiązanych słów kluczowych."
+      }
+    },
+    "sidebarPromptTpl": {
+      "summarize": {
+        "title": "Podsumować",
+        "template": "Podsumuj to dla ucznia drugiej klasy:"
+      },
+      "similar-pages": {
+        "title": "Podobne strony",
+        "template": "Znajdź 10 podobnych stron do następującej treści z linkiem:"
+      },
+      "grammar": {
+        "title": "Gramatyka",
+        "template": "Popraw to na standardowy angielski:"
+      },
+      "explain": {
+        "title": "Wyjaśnić",
+        "template": "Wyjaśnij następującą treść:"
+      },
+      "explain-codes": {
+        "title": "Wyjaśnij kody",
+        "template": "Wyjaśnij następujące kody:"
+      },
+      "rewrite": {
+        "title": "Przepisać",
+        "template": "Przepisz następującą treść:"
+      },
+      "translate": {
+        "title": "Tłumaczyć",
+        "template": "Przetłumacz następującą treść na język {{lang}}:"
+      },
+      "qa": {
+        "title": "Pytania i odpowiedzi",
+        "template": "Odpowiedz na to pytanie:"
+      }
+    }
+  }
+}

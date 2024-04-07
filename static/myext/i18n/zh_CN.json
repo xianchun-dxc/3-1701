@@ -1,0 +1,321 @@
+{
+  "sidebar": "侧边栏",
+  "shortcut": "快捷键",
+  "ask": "问",
+  "save": "保存",
+  "cancel": "取消",
+  "ok": "好的",
+  "submit": "提交",
+  "send": "发送",
+  "copy": "复制",
+  "copied": "已复制",
+  "clear": "清除",
+  "collapse": "收起侧边栏",
+  "done": "完毕",
+  "manage": "管理",
+  "template": "模板",
+  "edit": "编辑",
+  "add": "添加",
+  "feedback": "反馈",
+  "tweetit": "发推",
+  "whatNew": "新功能",
+  "gotIt": "知道了",
+  "settings": "设置",
+  "general": "通用配置",
+  "archive": "归档",
+  "searchPage": "搜索页面",
+  "addons": "插件",
+  "webStore": "网上商店",
+  "webApp": "网络应用",
+  "language": "语言",
+  "theme": "主题",
+  "model": "模型",
+  "version": "版本",
+  "more": "更多的",
+  "listen": "听",
+  "customPrompt": "自定义提示",
+  "currentTpl": "当前模板：",
+  "editTpl": "编辑此模板",
+  "delteTpl": "删除此模板",
+  "restoreTpl": "恢复此模板",
+  "archiveTpl": "存档此模板",
+  "showTpl": "显示此模板",
+  "promptName": "提示名称",
+  "promptContent": "提示内容",
+  "contactUs": "联系我们",
+  "issueType": "问题类型",
+  "pinExt": "固定扩展",
+  "yourEmailAddress": "您的电子邮件地址",
+  "troubleshooting": "故障排除",
+  "openSidebar": "打开侧边栏",
+  "pasteSelection": "粘贴选择",
+  "pasteTextPage": "从页面粘贴文本",
+  "getAnotherKey": "获取另一个密钥",
+  "showSearchPanel": "显示搜索面板",
+  "getItNow": "立即获取",
+  "alwaysDisplay": "始终显示",
+  "popupPage": {
+    "thank": "感谢您使用 {{APP_NAME}} 扩展程序！",
+    "desc": "您可以在大多数网页上使用此扩展程序，但浏览器限制脚本运行的页面除外，例如扩展程序网上商店和浏览器设置页面。",
+    "try": "欢迎在任何其他网页上试用此扩展程序，<i>例如这个</i>。"
+  },
+  "setupPage": {
+    "welcome": "欢迎使用{{APP_NAME}}！ 这是您旅程的开始：",
+    "pinTips": "固定 {{APP_NAME}} 以便于访问",
+    "stepTitle": "要更轻松地访问 {{APP_NAME}}，请按照以下步骤固定侧边栏图标：",
+    "step1": "单击个人资料头像旁边的拼图图标 {{icon}}。",
+    "step2": "在下拉菜单中，找到{{APP_NAME}}。",
+    "step3": "单击“固定图标”将其固定。"
+  },
+  "getKeyPage": {
+    "welcome": "欢迎使用{{APP_NAME}}！ 这是您开始的旅程：",
+    "stepTitle": "如何<i>免费</i>获取 API 密钥和 18 美元的 OpenAI 积分。",
+    "step1": "第 1 步：获取 API 密钥",
+    "step1-1": "<i>登录您的 OpenAI 帐户</i> 如果您没有帐户，请在<b>此处</b>注册",
+    "step1-2": "访问 OpenAI API 密钥页面",
+    "step1-3": "创建一个新的密钥并按如下方式复制它",
+    "step2": "第 2 步：将 API 密钥粘贴到下面的框中",
+    "step2-tips": "不用担心。 您的 API 密钥仅在 ChatGPT 扩展中本地使用。 使用 API 比直接使用 ChatGPT 更稳定。",
+    "step3": "第 3 步：在<i>此处</i>查看您18美元的积分"
+  },
+  "optionPage": {
+    "howToAccess": "如何访问 ChatGPT",
+    "sidebarProvider": "{{APP_NAME}} 将提供访问权限，无需设置。",
+    "webappProvider": "为 ChatGPT webapp 提供支持的 API 是免费的，但有时可能不稳定。",
+    "webappGPT4": "推荐给 Plus 用户（支持 GPT-4）",
+    "GPT4Desc": "如果您是 <b>ChatGPT Plus 用户</b>，您现在可以选择 <b>GPT-4</b>。 但是，OpenAI 可能会限制您每天可以发送的消息数量。 如果您不是 Plus 用户，您可能无法使用它或者它可能不稳定。",
+    "apiKeyProvider": "官方 OpenAI API 更稳定，按使用量收费。",
+    "apiKeyLocally": "您的 API 密钥存储在您的浏览器本地，绝不会发送到其他任何地方。",
+    "ownURL": "使用我自己的网址",
+    "apiFreeGuide": "按照指南从 OpenAI <i>免费</i>获取 API 密钥和高达 18 美元的积分",
+    "displaySearchRes": "在搜索结果页面旁边显示 ChatGPT 响应",
+    "whenToAsk": "何时询问 ChatGPT",
+    "promptTplForSearch": "谷歌和其他人的提示模板",
+    "addNewTplForSearch": "添加新的提示模板",
+    "launchSidebar": "启动侧边栏",
+    "sidebarLocation": "侧边栏位置",
+    "sidebarLeftOrRight": "将侧边栏放在左侧或右侧",
+    "sidebarIcon": "侧边栏图标",
+    "sidebarIconAccess": "通过位于页面右下角的图标访问侧边栏。 您可以拖动它上下移动",
+    "easiestWayUse": "使用{{APP_NAME}}的最简单方法",
+    "displayWhenSelect": "选择文本时显示",
+    "promptTplForSidebar": "侧边栏提示模板",
+    "dragSidebarTpl": "拖放以重新排序模板或存档那些您不会使用的模板",
+    "addNewTplForSidebar": "添加新的提示模板",
+    "editSearchTplTip": "使用 {{keywords}} 来引用您的搜索关键字",
+    "editSearchTplPlaceholder": "提示内容中的{{keywords}}会自动替换成你搜索的关键词",
+    "editSidebarTplTip": "在此处粘贴或输入内容",
+    "showOnList": "显示在列表中",
+    "translatorNavTitle": "快速查询",
+    "translatorTitle": "快速查找窗口",
+    "translatorFabTitle": "快速查找图标",
+    "translatorFabDesc": "通过图标访问快速查找窗口。",
+    "translatorFabToggleLabel": "选择文本时显示",
+    "translatorTplTitle": "弹窗提示模板",
+    "translatorTplDesc": "第一个主模板将用作弹出窗口的默认命令。",
+    "translatorPrimaryTemplates": "主要模板",
+    "translatorTemplatesNotes": "*此弹出窗口与侧边栏共享相同的模板。 如需编辑或添加模板，请在<b>侧边栏设置</b>中进行修改。",
+    "translatorIntroTitle": "🤔 什么是快速查找？",
+    "translatorIntroDesc": "Quick Lookup 是 ChatGPT Sidebar 的快速操作，提供了一系列有用的工具。\n\n当您选择文本时它会立即出现。 只需单击一下，您就可以快速翻译文本、重写文本、获取解释等等。 此外，您还可以重新排列工具的顺序并自定义您自己的提示。\n\n要激活 ChatGPT 边栏，您需要做的就是单击“快速查找”图标。",
+    "translatorHostFabConfigLabel": "禁用快速查找的网站列表",
+    "feedbackTypes": {
+      "bug": {
+        "name": "问题报告",
+        "title": {
+          "label": "问题总结",
+          "tip": "用几句话告诉我们出了什么问题。"
+        },
+        "detail": {
+          "label": "问题详情",
+          "tip": "请详细描述出了什么问题、您采取的任何操作以及收到的错误消息。"
+        }
+      },
+      "fr": {
+        "name": "功能要求",
+        "title": {
+          "label": "标题",
+          "tip": "你的要求是什么？"
+        },
+        "detail": {
+          "label": "描述",
+          "tip": "请提供您想要的新功能的详细描述。"
+        }
+      }
+    }
+  },
+  "sidebarPanel": {
+    "askChatGPT": "询问 ChatGPT：",
+    "savePrompt": "保存提示",
+    "saveNewPrompt": "另存为新提示",
+    "replacePrompt": "更换提示",
+    "inputPlaceholder1": "输入提示或从菜单中选择",
+    "inputPlaceholder2": "在此处粘贴或输入内容",
+    "startNewLine": "按 {{shortcut}} 开始新的一行",
+    "inputPlaceholderCodes": "在此处粘贴或输入代码",
+    "inputPlaceholderQA": "在此处粘贴或输入问题",
+    "response": "回复：",
+    "stopGenerating": "停止生成",
+    "regenerate": "重新生成响应"
+  },
+  "translator": {
+    "quickActions": "快速查找",
+    "disableHostFabLabel": "在本网站上禁用",
+    "disableFabLabel": "在所有网站上禁用"
+  },
+  "changeLogPage": {
+    "rate5Star": "<b>喜欢我们的扩展吗？</b>请在网上商店给我们五颗星评价，以帮助我们成长",
+    "newInVersion": "{{versionId}} 版本的新功能",
+    "logs": {
+      "1_0_11": [
+        "无需打开侧边栏即可通过弹出窗口快速访问操作。",
+        "添加对其他语言的支持。",
+        "使用翻译功能时保留用户的语言偏好。",
+        "解决 GitHub 等平台上的快捷方式冲突。"
+      ],
+      "1_0_10": [
+        "现在支持 50 多种语言！"
+      ],
+      "1_0_8": [
+        "为 Plus 用户支持 GPT-4！ 检查设置页面！"
+      ],
+      "1_0_7": [
+        "记住上次使用的提示",
+        "优化chatGPT面板在搜索页面的位置",
+        "添加一个选项，将侧边栏页内图标放在左侧",
+        "优化包大小",
+        "添加深色模式",
+        "支持您的 API url 代理"
+      ],
+      "1_0_6": [
+        "改进 Youtube 页面中的摘要功能"
+      ],
+      "1_0_5": [
+        "记住侧边栏图标的位置",
+        "改进快捷键",
+        "直接从侧边栏保存提示模板"
+      ],
+      "1_0_4": [
+        "重新排序下拉列表中的提示项",
+        "归档您不会使用的提示项",
+        "支持 50 多种语言的回复"
+      ],
+      "1_0_3": [
+        "CMD/Ctrl + Enter 快速“提交”",
+        "在搜索结果页面中隐藏面板的选项",
+        "支持ESC隐藏侧边栏",
+        "支持总结长文"
+      ],
+      "1_0_2": [
+        "添加停止按钮以停止生成响应",
+        "更改折叠按钮的位置"
+      ],
+      "1_0_1": [
+        "改进 Youtube 页面中的摘要功能",
+        "修复一些与复制/粘贴和打印相关的错误"
+      ]
+    }
+  },
+  "searchTool": {
+    "questionMark": "通过在查询后附加问号来触发 ChatGPT",
+    "askForQuery": "向 ChatGPT 询问此查询",
+    "fiveStart": "喜欢这个扩展吗？ 在{{store}}给我们一个 5 星评级",
+    "loginAndCloudflareCheck": "请在 {{web}} 登录并通过 Cloudflare 检查",
+    "braveTrouble": "还是行不通？ 关注{{url}}",
+    "cloudflareCheck": "OpenAI 需要每隔一段时间通过一次安全检查。 如果这种情况持续发生，请在<i>扩展选项</i>中将 AI 提供程序更改为 OpenAI API。",
+    "failedResponse": "无法从 ChatGPT 加载响应：",
+    "waitResponse": "等待 ChatGPT 响应..."
+  },
+  "msg": {
+    "enterAPIKey": "请输入您的 OpenAI API 密钥",
+    "selectModel": "请选择有效型号",
+    "changeSaved": "更改已保存",
+    "fiveStart": "给我们一个5星",
+    "errSiderApiLimit": "您已经使用了我们提供的所有免费积分，请按照<i>此处的说明</i>从 OpenAI 获取 API。",
+    "loginAndCloudflareCheck": "要使用它，请在 <i>chat.openai.com</i> 登录并通过 Cloudflare 检查",
+    "invalidApiKey": "API 密钥无效，请重新获取。",
+    "getApiKeyGuide": "您需要一个 OpenAI API 密钥才能使其工作。 按照我们的指南获取 API 密钥和 18 美元的 OpenAI 积分<i>免费</i>。",
+    "thankForFeedback": "谢谢。 表单已成功提交。 我们会尽快与您联系。",
+    "writeSomething": "请写点什么。",
+    "enterEmail": "输入电子邮件地址以接收有关该问题的更新。",
+    "emailRequired": "电子邮件是必需的。",
+    "promptNameRequired": "提示名称是必需的。",
+    "nameYourPrompt": "为您的提示命名",
+    "promptTplRequired": "提示模板是必需的。",
+    "deletePromptWarn": "是否要删除此提示模板？",
+    "restorePromptWarn": "是否要恢复此提示模板？",
+    "notValidEmail": "不是有效的电子邮件"
+  },
+  "options": {
+    "theme": {
+      "auto": "自动",
+      "light": "明亮模式",
+      "dark": "黑暗模式"
+    },
+    "triggerMode": {
+      "always": {
+        "title": "总是",
+        "desc": "在每次搜索时询问 ChatGPT"
+      },
+      "questionMark": {
+        "title": "问号",
+        "desc": "询问 ChatGPT 关键字是否以问号（？）结尾"
+      },
+      "manually": {
+        "title": "手动",
+        "desc": "仅在单击按钮时询问 ChatGPT"
+      }
+    },
+    "sidebarLocation": {
+      "left": "左边",
+      "right": "右边"
+    },
+    "searchPromptTpl": {
+      "default": {
+        "title": "默认",
+        "template": "你能告诉我一些关于 {{keywords}} 的事情吗？ 如果可能的话，你能给我一些关于它的链接吗？ 如果 {{keywords}} 是代码相关的问题，请只写代码"
+      },
+      "list": {
+        "title": "问题关键词",
+        "template": "列出 1 个关于“{{keywords}}”的最常见问题。 然后，回答这个问题。 最后，列出另外4个问题。"
+      },
+      "suggest": {
+        "title": "获取相关关键词",
+        "template": "{{keywords}} 是我在 Google 中的搜索关键字。 请给我5组相关关键词。"
+      }
+    },
+    "sidebarPromptTpl": {
+      "summarize": {
+        "title": "总结",
+        "template": "给一个二年级的学生总结一下："
+      },
+      "similar-pages": {
+        "title": "相似页面",
+        "template": "通过链接找到 10 个与以下内容相似的页面："
+      },
+      "grammar": {
+        "title": "语法",
+        "template": "将其更正为标准英语："
+      },
+      "explain": {
+        "title": "解释",
+        "template": "解释以下内容："
+      },
+      "explain-codes": {
+        "title": "解释代码",
+        "template": "解释以下代码："
+      },
+      "rewrite": {
+        "title": "改写",
+        "template": "重写以下内容："
+      },
+      "translate": {
+        "title": "翻译",
+        "template": "将以下内容翻译成{{lang}}语言："
+      },
+      "qa": {
+        "title": "问答",
+        "template": "回答这个问题："
+      }
+    }
+  }
+}

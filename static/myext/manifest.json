@@ -1,0 +1,27 @@
+{
+  "action": {
+    "default_title": "DXC"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "js": ["content-script.js"],
+      "matches": ["https://yiyan.baidu.com/*"],
+      "css": ["content-script.css"]
+    }
+  ],
+  "default_locale": "en",
+  "description": "DXC",
+  "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCbd7QpcL4cTggjFeO2iFhV5th1x8lzRQCANUG1N1zwNy7C5XsEzCPQDOYBEk2ZZrzZ0gFZ5pC663duVkP2zQ9yga14Jmj3gtKdLYmaHcCPKE/PdVqFGv4Fj+seQC/X/NlzvfuJPpNfPfmPEy61N1PX+Ws9gzA/s+MskOypNR4NYwIDAQAB",
+  "manifest_version": 3,
+  "name": "DXC",
+  "version": "1.0.0",
+  "web_accessible_resources": [
+    {
+      "resources": ["day.css", "night.css"],
+      "matches": ["https://*/*"]
+    }
+  ]
+}

@@ -1,0 +1,321 @@
+{
+  "sidebar": "Bara laterală",
+  "shortcut": "Scurtătură",
+  "ask": "Cere",
+  "save": "Salvați-l",
+  "cancel": "Anulare",
+  "ok": "Bine",
+  "submit": "Trimite",
+  "send": "Trimite",
+  "copy": "Copie",
+  "copied": "Copiat",
+  "clear": "clar",
+  "collapse": "Restrângeți bara laterală",
+  "done": "Terminat",
+  "manage": "Administra",
+  "template": "șablon",
+  "edit": "Editați | ×",
+  "add": "Adăuga",
+  "feedback": "Părere",
+  "tweetit": "Tweet",
+  "whatNew": "Noi funcționalități",
+  "gotIt": "Am înţeles",
+  "settings": "Setări",
+  "general": "Configurație generală",
+  "archive": "Arhiva",
+  "searchPage": "Pagina de căutare",
+  "addons": "Suplimente",
+  "webStore": "Magazin online",
+  "webApp": "Aplicația web",
+  "language": "Limba",
+  "theme": "Temă",
+  "model": "Model",
+  "version": "Versiune",
+  "more": "Mai mult",
+  "listen": "Asculta",
+  "customPrompt": "Solicitare personalizată",
+  "currentTpl": "Șablon curent:",
+  "editTpl": "Editați acest șablon",
+  "delteTpl": "Ștergeți acest șablon",
+  "restoreTpl": "Restaurați acest șablon",
+  "archiveTpl": "Arhivați acest șablon",
+  "showTpl": "Afișați acest șablon",
+  "promptName": "Nume prompt",
+  "promptContent": "Conținut prompt",
+  "contactUs": "Contactaţi-ne",
+  "issueType": "Tipul problemei",
+  "pinExt": "Extensie PIN",
+  "yourEmailAddress": "Adresa dvs. de e-mail",
+  "troubleshooting": "Depanare",
+  "openSidebar": "Deschideți bara laterală",
+  "pasteSelection": "Lipiți selecția",
+  "pasteTextPage": "Lipiți text din pagină",
+  "getAnotherKey": "Obțineți o altă cheie",
+  "showSearchPanel": "Afișați panoul de căutare",
+  "getItNow": "Ia-l acum",
+  "alwaysDisplay": "Afișează întotdeauna",
+  "popupPage": {
+    "thank": "Vă mulțumim că folosiți extensia {{APP_NAME}}!",
+    "desc": "Puteți utiliza această extensie pe majoritatea paginilor web, cu excepția paginilor în care browserul restricționează rularea scripturilor, cum ar fi magazinul web de extensii și paginile de setări ale browserului.",
+    "try": "Simțiți-vă liber să încercați această extensie pe orice altă pagină web, <i>cum ar fi aceasta</i>."
+  },
+  "setupPage": {
+    "welcome": "Bun venit la {{APP_NAME}}! Iată începutul călătoriei tale:",
+    "pinTips": "Fixați {{APP_NAME}} pentru acces ușor",
+    "stepTitle": "Pentru a accesa mai ușor {{APP_NAME}}, păstrați pictograma barei laterale fixată urmând pașii de mai jos:",
+    "step1": "Faceți clic pe pictograma puzzle {{icon}} de lângă avatarul dvs. de profil.",
+    "step2": "În meniul derulant, găsiți {{APP_NAME}}.",
+    "step3": "Faceți clic pe „pictograma Pin” pentru a o fixa."
+  },
+  "getKeyPage": {
+    "welcome": "Bun venit la {{APP_NAME}}! Iată călătoria ta pentru a începe:",
+    "stepTitle": "Cum să obțineți o cheie API și credite OpenAI de 18 USD <i>gratuit</i>.",
+    "step1": "Pasul 1: Obțineți cheia API",
+    "step1-1": "<i>Conectați-vă contul OpenAI</i> Dacă nu aveți un cont, înscrieți-vă <b>AICI</b>",
+    "step1-2": "Vizitați pagina OpenAI API Key",
+    "step1-3": "Creați o nouă cheie secretă și copiați-o după cum urmează",
+    "step2": "Pasul 2: inserați cheia API în caseta de mai jos",
+    "step2-tips": "Nu vă faceți griji. Cheia dvs. API este utilizată numai local în cadrul extensiei ChatGPT. Utilizarea API-ului este mai stabilă decât utilizarea directă a ChatGPT.",
+    "step3": "Pasul 3: verificați aici creditele de până la <i>18 USD</i>"
+  },
+  "optionPage": {
+    "howToAccess": "Cum să accesezi ChatGPT",
+    "sidebarProvider": "{{APP_NAME}} va oferi acces și nu este nevoie să o configurați.",
+    "webappProvider": "API-ul care alimentează aplicația web ChatGPT este gratuit, dar poate fi instabil uneori.",
+    "webappGPT4": "Recomandat pentru utilizatorii Plus (suport GPT-4)",
+    "GPT4Desc": "Dacă sunteți <b>utilizator ChatGPT Plus</b>, acum aveți opțiunea de a alege <b>GPT-4</b>. Cu toate acestea, OpenAI poate limita numărul de mesaje pe care le puteți trimite pe zi. Dacă nu sunteți utilizator Plus, este posibil să nu îl puteți utiliza sau să nu fie stabil.",
+    "apiKeyProvider": "API-ul oficial OpenAI este mai stabil și se taxează în funcție de utilizare.",
+    "apiKeyLocally": "Cheia dvs. API este stocată local în browser și nu este trimisă nicăieri altundeva.",
+    "ownURL": "Folosește-mi propriul URL",
+    "apiFreeGuide": "Urmați ghidul pentru a obține cheia API și credite de până la 18 USD de la OpenAI <i>gratuit</i>",
+    "displaySearchRes": "Afișați răspunsul ChatGPT alături de paginile cu rezultatele căutării",
+    "whenToAsk": "Când să întrebați ChatGPT",
+    "promptTplForSearch": "Șablon prompt pentru Google și alții",
+    "addNewTplForSearch": "Adăugați un nou șablon de prompt",
+    "launchSidebar": "Lansați bara laterală",
+    "sidebarLocation": "Locația barei laterale",
+    "sidebarLeftOrRight": "Așezați bara laterală pe partea stângă sau dreaptă",
+    "sidebarIcon": "Pictograma bară laterală",
+    "sidebarIconAccess": "Accesați bara laterală prin pictograma situată în colțul din dreapta jos al paginii. Puteți trage pentru a o muta în sus și în jos",
+    "easiestWayUse": "Cel mai simplu mod de a folosi {{APP_NAME}}",
+    "displayWhenSelect": "Afișează când este selectat text",
+    "promptTplForSidebar": "Șablon prompt pentru bara laterală",
+    "dragSidebarTpl": "Trageți și plasați pentru a reordona șablonul SAU arhivați-le pe cele pe care nu le veți folosi",
+    "addNewTplForSidebar": "Adăugați un nou șablon de prompt",
+    "editSearchTplTip": "utilizați {{keywords}} pentru a trimite cuvintele cheie de căutare",
+    "editSearchTplPlaceholder": "{{keywords}} din conținutul promptului va fi înlocuit automat cu cuvintele cheie de căutare",
+    "editSidebarTplTip": "Lipiți sau introduceți conținut aici",
+    "showOnList": "Arată pe listă",
+    "translatorNavTitle": "Căutare rapidă",
+    "translatorTitle": "Fereastra de căutare rapidă",
+    "translatorFabTitle": "Pictograma Căutare rapidă",
+    "translatorFabDesc": "Accesați fereastra de căutare rapidă prin pictogramă.",
+    "translatorFabToggleLabel": "Afișează când este selectat text",
+    "translatorTplTitle": "Șablon de solicitare pentru fereastra pop-up",
+    "translatorTplDesc": "Primul șablon principal va fi folosit ca comandă implicită pentru fereastra pop-up.",
+    "translatorPrimaryTemplates": "Șabloane principale",
+    "translatorTemplatesNotes": "*Acest pop-up partajează aceleași șabloane cu bara laterală. Dacă trebuie să editați sau să adăugați un șablon, modificați-l în <b>Setări din bara laterală</b>.",
+    "translatorIntroTitle": "🤔 Ce este Căutarea rapidă?",
+    "translatorIntroDesc": "Căutare rapidă este o acțiune rapidă a barei laterale ChatGPT, care oferă o serie de instrumente utile.\n\nApare instantaneu atunci când selectați text. Cu un singur clic, puteți traduce rapid texte, le rescrie, obține explicații și multe altele. În plus, puteți să rearanjați ordinea instrumentelor și să vă personalizați propriile solicitări.\n\nPentru a activa ChatGPT Sidebar, tot ce trebuie să faceți este să faceți clic pe pictograma Căutare rapidă.",
+    "translatorHostFabConfigLabel": "Lista site-urilor web pe care Căutarea rapidă este dezactivată",
+    "feedbackTypes": {
+      "bug": {
+        "name": "Raport de problemă",
+        "title": {
+          "label": "Rezumatul problemei",
+          "tip": "Spune-ne ce a mers prost în câteva cuvinte."
+        },
+        "detail": {
+          "label": "Detalii probleme",
+          "tip": "Descrieți în detaliu ce a mers prost, orice acțiuni pe care le-ați întreprins și mesajele de eroare pe care le-ați primit."
+        }
+      },
+      "fr": {
+        "name": "Solicitare caracteristică",
+        "title": {
+          "label": "Titlu",
+          "tip": "Despre ce este cererea ta?"
+        },
+        "detail": {
+          "label": "Descriere",
+          "tip": "Vă rugăm să furnizați o descriere detaliată a funcției noi pe care o doriți."
+        }
+      }
+    }
+  },
+  "sidebarPanel": {
+    "askChatGPT": "Întrebați ChatGPT:",
+    "savePrompt": "Salvați promptul",
+    "saveNewPrompt": "Salvați ca un prompt nou",
+    "replacePrompt": "Înlocuiți promptul",
+    "inputPlaceholder1": "Introduceți promptul sau alegeți din meniu",
+    "inputPlaceholder2": "Lipiți sau introduceți conținut aici",
+    "startNewLine": "Apăsați pe {{shortcut}} pentru a începe o nouă linie",
+    "inputPlaceholderCodes": "Lipiți sau introduceți coduri aici",
+    "inputPlaceholderQA": "Lipiți sau introduceți întrebarea aici",
+    "response": "Raspuns:",
+    "stopGenerating": "Nu mai generați",
+    "regenerate": "Regenerați răspunsul"
+  },
+  "translator": {
+    "quickActions": "Căutări rapide",
+    "disableHostFabLabel": "Dezactivați pe acest site web",
+    "disableFabLabel": "Dezactivați pe Toate site-urile web"
+  },
+  "changeLogPage": {
+    "rate5Star": "<b>Îți place extensia noastră?</b> Evaluează-ne cinci stele pe magazinul web pentru a ne ajuta să creștem",
+    "newInVersion": "Ce este nou în versiunea {{versionId}}",
+    "logs": {
+      "1_0_11": [
+        "Accesați rapid acțiunile printr-o fereastră pop-up fără a deschide bara laterală.",
+        "Adăugați suport pentru limbi suplimentare.",
+        "Păstrați preferința de limbă a utilizatorului atunci când utilizați funcția de traducere.",
+        "Rezolvați conflictele de comenzi rapide pe platforme precum GitHub și altele."
+      ],
+      "1_0_10": [
+        "Acceptă acum peste 50 de limbi!"
+      ],
+      "1_0_8": [
+        "Suportă GPT-4 pentru utilizatorii Plus! Verificați pagina de setări!"
+      ],
+      "1_0_7": [
+        "Amintiți-vă promptul folosit ultima dată",
+        "Optimizați poziția panoului chatGPT pe paginile de căutare",
+        "Adăugați o opțiune pentru a plasa pictograma din bara laterală în pagină în partea stângă",
+        "Optimizați dimensiunea pachetului",
+        "Adăugați modul întunecat",
+        "Acceptați proxy-ul dvs. URL API"
+      ],
+      "1_0_6": [
+        "Îmbunătățiți funcția de rezumat în pagina Youtube"
+      ],
+      "1_0_5": [
+        "Amintiți-vă locația pictogramei barei laterale",
+        "Îmbunătățiți tastele de comenzi rapide",
+        "Salvați șabloanele de solicitare direct din bara laterală"
+      ],
+      "1_0_4": [
+        "Reordonați elementele prompte din lista verticală",
+        "Arhivați elementele prompte pe care nu le veți folosi",
+        "Răspuns de asistență în peste 50 de limbi"
+      ],
+      "1_0_3": [
+        "CMD/Ctrl + Enter pentru a face „Trimite” rapid",
+        "Opțiunea de a ascunde panoul în pagina cu rezultatele căutării",
+        "Suport ESC pentru a ascunde bara laterală",
+        "Suport articol lung"
+      ],
+      "1_0_2": [
+        "Adăugați butonul de oprire pentru a opri generarea de răspuns",
+        "Schimbați locul de restrângere a butonului"
+      ],
+      "1_0_1": [
+        "Îmbunătățiți funcția de rezumat în pagina Youtube",
+        "Remediați unele erori legate de copiere/lipire și imprimare"
+      ]
+    }
+  },
+  "searchTool": {
+    "questionMark": "Declanșează ChatGPT adăugând un semn de întrebare după interogare",
+    "askForQuery": "Întrebați ChatGPT pentru această interogare",
+    "fiveStart": "Vă place această extensie? Oferiți-ne o evaluare de 5 stele la {{store}}",
+    "loginAndCloudflareCheck": "Vă rugăm să vă conectați și să treceți verificarea Cloudflare la {{web}}",
+    "braveTrouble": "Încă nu funcționează? Urmăriți {{url}}",
+    "cloudflareCheck": "OpenAI necesită trecerea unui control de securitate din când în când. Dacă acest lucru continuă să se întâmple, schimbați furnizorul AI la OpenAI API în <i>opțiunile de extensie</i>.",
+    "failedResponse": "Nu s-a încărcat răspunsul de la ChatGPT:",
+    "waitResponse": "Se așteaptă răspunsul ChatGPT..."
+  },
+  "msg": {
+    "enterAPIKey": "Vă rugăm să introduceți cheia dvs. API OpenAI",
+    "selectModel": "Vă rugăm să selectați un model valid",
+    "changeSaved": "schimbarile au fost salvate",
+    "fiveStart": "Oferă-ne un 5 stele",
+    "errSiderApiLimit": "Ați folosit toate creditele gratuite oferite de noi, vă rugăm să urmați <i>instrucțiunile de aici</i> pentru a obține un API de la OpenAI.",
+    "loginAndCloudflareCheck": "Pentru a-l folosi, vă rugăm să vă conectați și să treceți verificarea Cloudflare la <i>chat.openai.com</i>",
+    "invalidApiKey": "Cheia API este nevalidă, vă rugăm să obțineți alta.",
+    "getApiKeyGuide": "Aveți nevoie de o cheie API OpenAI pentru a o face să funcționeze. Urmați ghidul nostru pentru a obține cheia API și credite OpenAI de 18 USD <i>gratuit</i>.",
+    "thankForFeedback": "Mulțumesc. Formularul a fost trimis cu succes. Vă vom contacta în scurt timp.",
+    "writeSomething": "Vă rog să scrieți ceva.",
+    "enterEmail": "Introdu o adresă de e-mail pentru a primi actualizări cu privire la problemă.",
+    "emailRequired": "E-mailul este necesar.",
+    "promptNameRequired": "Este necesar un nume prompt.",
+    "nameYourPrompt": "Denumiți solicitarea dvs",
+    "promptTplRequired": "Este necesar un șablon prompt.",
+    "deletePromptWarn": "Doriți să ștergeți acest șablon de solicitare?",
+    "restorePromptWarn": "Doriți să restaurați acest șablon de solicitare?",
+    "notValidEmail": "nu este un e-mail valid"
+  },
+  "options": {
+    "theme": {
+      "auto": "automat",
+      "light": "modul luminos",
+      "dark": "modul întunecat"
+    },
+    "triggerMode": {
+      "always": {
+        "title": "Mereu",
+        "desc": "Întrebați ChatGPT la fiecare căutare"
+      },
+      "questionMark": {
+        "title": "Semnul întrebării",
+        "desc": "Întrebați ChatGPT dacă cuvintele cheie se termină cu un semn de întrebare (?)"
+      },
+      "manually": {
+        "title": "Manual",
+        "desc": "Întrebați ChatGPT numai când faceți clic pe butonul"
+      }
+    },
+    "sidebarLocation": {
+      "left": "partea stanga",
+      "right": "partea dreapta"
+    },
+    "searchPromptTpl": {
+      "default": {
+        "title": "Mod implicit",
+        "template": "Îmi puteți spune ceva despre {{keywords}}? Dacă este posibil, îmi puteți da câteva link-uri despre asta? Dacă {{keywords}} este o întrebare legată de cod, vă rugăm să scrieți codul"
+      },
+      "list": {
+        "title": "Cuvinte cheie la întrebări",
+        "template": "Listați 1 întrebare cea mai populară despre „{{keywords}}”. Apoi, Răspunde la această întrebare. În cele din urmă, enumerați alte 4 întrebări."
+      },
+      "suggest": {
+        "title": "Obțineți cuvinte cheie asemănătoare",
+        "template": "{{keywords}} sunt cuvintele mele cheie de căutare în Google. Vă rog să-mi oferiți 5 seturi de cuvinte cheie similare."
+      }
+    },
+    "sidebarPromptTpl": {
+      "summarize": {
+        "title": "Rezuma",
+        "template": "Rezumați acest lucru pentru un elev de clasa a doua:"
+      },
+      "similar-pages": {
+        "title": "Pagini similare",
+        "template": "Găsiți 10 pagini similare cu următorul conținut cu link:"
+      },
+      "grammar": {
+        "title": "Gramatică",
+        "template": "Corectați acest lucru în limba engleză standard:"
+      },
+      "explain": {
+        "title": "Explica",
+        "template": "Explicați următorul conținut:"
+      },
+      "explain-codes": {
+        "title": "Explicați codurile",
+        "template": "Explicați următoarele coduri:"
+      },
+      "rewrite": {
+        "title": "Rescrie",
+        "template": "Rescrie următorul conținut:"
+      },
+      "translate": {
+        "title": "Traduceți",
+        "template": "Traduceți următorul conținut în limba {{lang}}:"
+      },
+      "qa": {
+        "title": "Întrebări și răspunsuri",
+        "template": "Raspunde la intrebare:"
+      }
+    }
+  }
+}

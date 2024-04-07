@@ -1,0 +1,321 @@
+{
+  "sidebar": "サイドバー",
+  "shortcut": "ショートカットキー",
+  "ask": "聞く",
+  "save": "それを保存",
+  "cancel": "キャンセル",
+  "ok": "OK",
+  "submit": "送信",
+  "send": "送信",
+  "copy": "コピー",
+  "copied": "コピーしました",
+  "clear": "クリア",
+  "collapse": "サイドバーを折りたたむ",
+  "done": "終わり",
+  "manage": "管理",
+  "template": "レンプレート",
+  "edit": "編集",
+  "add": "追加",
+  "feedback": "フィードバック",
+  "tweetit": "ツイートする",
+  "whatNew": "新機能",
+  "gotIt": "とった",
+  "settings": "設定",
+  "general": "一般的な構成",
+  "archive": "アーカイブ",
+  "searchPage": "検索ページ",
+  "addons": "アドオン",
+  "webStore": "ウェブストア",
+  "webApp": "ウェブアプリ",
+  "language": "言語",
+  "theme": "テーマ",
+  "model": "モデル",
+  "version": "バージョン",
+  "more": "もっと",
+  "listen": "聞く",
+  "customPrompt": "カスタム プロンプト",
+  "currentTpl": "現在のテンプレート:",
+  "editTpl": "このテンプレートを編集",
+  "delteTpl": "このテンプレートを削除",
+  "restoreTpl": "このテンプレートを復元する",
+  "archiveTpl": "このテンプレートをアーカイブする",
+  "showTpl": "このテンプレートを表示",
+  "promptName": "プロンプト名",
+  "promptContent": "プロンプトの内容",
+  "contactUs": "お問い合わせ",
+  "issueType": "問題の種類",
+  "pinExt": "ピンエクステンション",
+  "yourEmailAddress": "あなたのメールアドレス",
+  "troubleshooting": "トラブルシューティング",
+  "openSidebar": "サイドバーを開く",
+  "pasteSelection": "選択範囲を貼り付け",
+  "pasteTextPage": "ページからテキストを貼り付け",
+  "getAnotherKey": "別のキーを入手する",
+  "showSearchPanel": "検索パネルを表示",
+  "getItNow": "今すぐ入手",
+  "alwaysDisplay": "常に表示",
+  "popupPage": {
+    "thank": "{{APP_NAME}} 拡張機能をご利用いただきありがとうございます。",
+    "desc": "この拡張機能は、拡張 Web ストアやブラウザー設定ページなど、ブラウザーがスクリプトの実行を制限するページを除いて、ほとんどの Web ページで使用できます。",
+    "try": "この拡張機能は、<i>このページなど</i>の他の Web ページで自由に試してみてください。"
+  },
+  "setupPage": {
+    "welcome": "{{APP_NAME}} へようこそ！ これがあなたの旅の始まりです：",
+    "pinTips": "{{APP_NAME}} を固定して簡単にアクセスできるようにします",
+    "stepTitle": "{{APP_NAME}} に簡単にアクセスするには、次の手順に従ってサイドバー アイコンを固定したままにしてください。",
+    "step1": "プロフィール アバターの横にあるパズル アイコン {{icon}} をクリックします。",
+    "step2": "ドロップダウン メニューで {{APP_NAME}} を見つけます。",
+    "step3": "「ピンアイコン」をクリックしてピン留めします。"
+  },
+  "getKeyPage": {
+    "welcome": "{{APP_NAME}} へようこそ！ これがあなたの旅の始まりです：",
+    "stepTitle": "API キーと $18 の OpenAI クレジットを<i>無料</i>で取得する方法。",
+    "step1": "ステップ 1: API キーを取得する",
+    "step1-1": "<i>OpenAI アカウントにログイン</i> アカウントをお持ちでない場合は、<b>こちら</b>からサインアップしてください",
+    "step1-2": "OpenAI API キーページにアクセス",
+    "step1-3": "新しい秘密鍵を作成し、次のようにコピーします",
+    "step2": "ステップ 2: 下のボックスに API キーを貼り付けます",
+    "step2-tips": "心配しないで。 API キーは、ChatGPT 拡張機能内でローカルにのみ使用されます。 API を使用すると、ChatGPT を直接使用するよりも安定します。",
+    "step3": "ステップ 3: ここで最大 <i>$18 のクレジット</i>を確認してください"
+  },
+  "optionPage": {
+    "howToAccess": "ChatGPTへのアクセス方法",
+    "sidebarProvider": "{{APP_NAME}} はアクセスを提供するため、設定する必要はありません。",
+    "webappProvider": "ChatGPT ウェブアプリを動かす API は無料ですが、時々不安定になることがあります。",
+    "webappGPT4": "Plus ユーザーにおすすめ (GPT-4 をサポート)",
+    "GPT4Desc": "<b>ChatGPT Plus ユーザー</b>の場合は、<b>GPT-4</b> を選択するオプションがあります。 ただし、OpenAI は、1 日に送信できるメッセージの数を制限する場合があります。 Plusをご利用でない場合、ご利用いただけない場合や安定しない場合がございます。",
+    "apiKeyProvider": "公式の OpenAI API はより安定しており、使用量に基づいて課金されます。",
+    "apiKeyLocally": "API キーはブラウザにローカルに保存され、他の場所に送信されることはありません。",
+    "ownURL": "自分の URL を使用する",
+    "apiFreeGuide": "ガイドに従って、OpenAI から API キーと最大 $18 のクレジットを<i>無料</i>で取得します",
+    "displaySearchRes": "検索結果ページと一緒に ChatGPT レスポンスを表示する",
+    "whenToAsk": "ChatGPTにいつ質問するか",
+    "promptTplForSearch": "Google などのプロンプト テンプレート",
+    "addNewTplForSearch": "新しいプロンプト テンプレートを追加する",
+    "launchSidebar": "サイドバーを起動する",
+    "sidebarLocation": "サイドバーの場所",
+    "sidebarLeftOrRight": "サイドバーを左右どちらかに配置",
+    "sidebarIcon": "サイドバーのアイコン",
+    "sidebarIconAccess": "ページの右下隅にあるアイコンからサイドバーにアクセスします。 ドラッグして上下に移動できます",
+    "easiestWayUse": "{{APP_NAME}} を使用する最も簡単な方法",
+    "displayWhenSelect": "テキスト選択時の表示",
+    "promptTplForSidebar": "サイドバーのプロンプト テンプレート",
+    "dragSidebarTpl": "ドラッグ アンド ドロップでテンプレートを並べ替えるか、使用しないテンプレートをアーカイブします",
+    "addNewTplForSidebar": "新しいプロンプト テンプレートを追加",
+    "editSearchTplTip": "{{keywords}} を使用して検索キーワードを参照してください",
+    "editSearchTplPlaceholder": "プロンプト コンテンツの {{keywords}} は、検索キーワードに自動的に置き換えられます",
+    "editSidebarTplTip": "ここにコンテンツを貼り付けるか入力します",
+    "showOnList": "リストに表示",
+    "translatorNavTitle": "クイック ルックアップ",
+    "translatorTitle": "クイック ルックアップ ウィンドウ",
+    "translatorFabTitle": "クイック ルックアップ アイコン",
+    "translatorFabDesc": "アイコンからクイック ルックアップ ウィンドウにアクセスします。",
+    "translatorFabToggleLabel": "テキスト選択時の表示",
+    "translatorTplTitle": "ポップアップ ウィンドウのプロンプト テンプレート",
+    "translatorTplDesc": "最初のメイン テンプレートは、ポップアップ ウィンドウのデフォルト コマンドとして使用されます。",
+    "translatorPrimaryTemplates": "主なテンプレート",
+    "translatorTemplatesNotes": "※このポップアップはサイドバーと同じテンプレートを共有しています。 テンプレートを編集または追加する必要がある場合は、<b>サイドバーの設定</b>で変更してください。",
+    "translatorIntroTitle": "🤔クイックルックアップとは？",
+    "translatorIntroDesc": "クイック ルックアップは ChatGPT サイドバーのクイック アクションであり、さまざまな便利なツールを提供します。\n\nテキストを選択するとすぐに表示されます。 ワンクリックで、テキストをすばやく翻訳したり、書き直したり、説明を取得したりできます。 さらに、ツールの順序を並べ替えたり、独自のプロンプトをカスタマイズしたりできます。\n\nChatGPT サイドバーを有効にするには、クイック ルックアップ アイコンをクリックするだけです。",
+    "translatorHostFabConfigLabel": "クイック ルックアップが無効になっている Web サイトのリスト",
+    "feedbackTypes": {
+      "bug": {
+        "name": "問題報告",
+        "title": {
+          "label": "問題の概要",
+          "tip": "何がうまくいかなかったのか、一言で教えてください。"
+        },
+        "detail": {
+          "label": "問題の詳細",
+          "tip": "何が問題だったのか、あなたがとった行動、あなたが受け取ったエラーメッセージを詳しく説明してください."
+        }
+      },
+      "fr": {
+        "name": "機能リクエスト",
+        "title": {
+          "label": "タイトル",
+          "tip": "あなたの要求は何ですか？"
+        },
+        "detail": {
+          "label": "説明",
+          "tip": "必要な新機能の詳細な説明を入力してください。"
+        }
+      }
+    }
+  },
+  "sidebarPanel": {
+    "askChatGPT": "ChatGPT に質問する:",
+    "savePrompt": "プロンプトを保存",
+    "saveNewPrompt": "新しいプロンプトとして保存",
+    "replacePrompt": "プロンプトを置き換える",
+    "inputPlaceholder1": "入力プロンプトまたはメニューから選択",
+    "inputPlaceholder2": "ここにコンテンツを貼り付けるか入力します",
+    "startNewLine": "{{shortcut}} を押して新しい行を開始します",
+    "inputPlaceholderCodes": "ここにコードを貼り付けるか入力してください",
+    "inputPlaceholderQA": "ここに質問を貼り付けるか、入力してください",
+    "response": "応答：",
+    "stopGenerating": "生成停止",
+    "regenerate": "応答を再生成する"
+  },
+  "translator": {
+    "quickActions": "クイックルックアップ",
+    "disableHostFabLabel": "このウェブサイトで無効にする",
+    "disableFabLabel": "すべての Web サイトで無効にする"
+  },
+  "changeLogPage": {
+    "rate5Star": "<b>私たちの拡張機能を気に入っていただけましたか?</b> ウェブ ストアで 5 つ星を評価してください。",
+    "newInVersion": "バージョン {{versionId}} の新機能",
+    "logs": {
+      "1_0_11": [
+        "サイドバーを開かなくても、ポップアップ ウィンドウからアクションにすばやくアクセスできます。",
+        "追加の言語のサポートを追加します。",
+        "翻訳機能を使用するときに、ユーザーの言語設定を保持します。",
+        "GitHub などのプラットフォームでのショートカットの競合を解決します。"
+      ],
+      "1_0_10": [
+        "今すぐ 50 以上の言語をサポートしてください!"
+      ],
+      "1_0_8": [
+        "Plusユーザー向けにGPT-4をサポート！ 設定ページをチェック！"
+      ],
+      "1_0_7": [
+        "前回使用したプロンプトを記憶する",
+        "検索ページでの chatGPT パネルの位置を最適化する",
+        "サイドバーのページはめ込みアイコンを左側に配置するオプションを追加",
+        "パッケージサイズの最適化",
+        "ダークモードを追加",
+        "API URL プロキシをサポートする"
+      ],
+      "1_0_6": [
+        "Youtubeページのまとめ機能を改善"
+      ],
+      "1_0_5": [
+        "サイドバー アイコンの場所を覚えておく",
+        "ショートカットキーを改善する",
+        "プロンプト テンプレートをサイドバーから直接保存する"
+      ],
+      "1_0_4": [
+        "ドロップダウン リストのプロンプト項目を並べ替える",
+        "使用しないプロンプト アイテムをアーカイブする",
+        "50 以上の言語での対応をサポート"
+      ],
+      "1_0_3": [
+        "CMD/Ctrl + Enter ですばやく「送信」",
+        "検索結果ページでパネルを非表示にするオプション",
+        "サイドバーを非表示にする ESC をサポート",
+        "長い記事を要約するサポート"
+      ],
+      "1_0_2": [
+        "レスポンスの生成を停止する停止ボタンを追加",
+        "折りたたみボタンの場所を変更"
+      ],
+      "1_0_1": [
+        "Youtubeページのまとめ機能を改善",
+        "コピー＆ペーストと印刷に関するいくつかのバグを修正"
+      ]
+    }
+  },
+  "searchTool": {
+    "questionMark": "クエリの後に疑問符を追加して ChatGPT をトリガーします",
+    "askForQuery": "このクエリについては ChatGPT に問い合わせてください",
+    "fiveStart": "この拡張機能を楽しんでいますか? {{store}} で 5 つ星の評価を付けてください",
+    "loginAndCloudflareCheck": "{{web}}にログインしてCloudflareチェックに合格してください",
+    "braveTrouble": "まだ動かない？ {{url}}をフォロー",
+    "cloudflareCheck": "OpenAI では、時々セキュリティ チェックに合格する必要があります。 これが引き続き発生する場合は、<i>拡張オプション</i>で AI プロバイダーを OpenAI API に変更してください。",
+    "failedResponse": "ChatGPT からの応答を読み込めませんでした:",
+    "waitResponse": "ChatGPT の応答を待っています..."
+  },
+  "msg": {
+    "enterAPIKey": "OpenAI API キーを入力してください",
+    "selectModel": "有効なモデルを選択してください",
+    "changeSaved": "変更が保存されました",
+    "fiveStart": "5つ星をください",
+    "errSiderApiLimit": "私たちが提供する無料クレジットをすべて使用しました。<i>こちらの手順</i>に従って、OpenAI から API を取得してください。",
+    "loginAndCloudflareCheck": "使用するには、<i>chat.openai.com</i> でログインして Cloudflare チェックに合格してください。",
+    "invalidApiKey": "API キーが無効です。別のキーを取得してください。",
+    "getApiKeyGuide": "これを機能させるには、OpenAI API キーが必要です。 ガイドに従って、API キーと $18 の OpenAI クレジットを<i>無料</i>で取得してください。",
+    "thankForFeedback": "ありがとう。 フォームは正常に送信されました。 まもなくご連絡いたします。",
+    "writeSomething": "何か書いてください。",
+    "enterEmail": "問題の最新情報を受け取るには、電子メール アドレスを入力してください。",
+    "emailRequired": "メールアドレスが必要です。",
+    "promptNameRequired": "プロンプト名が必要です。",
+    "nameYourPrompt": "プロンプトに名前を付ける",
+    "promptTplRequired": "プロンプト テンプレートが必要です。",
+    "deletePromptWarn": "このプロンプト テンプレートを削除しますか?",
+    "restorePromptWarn": "このプロンプト テンプレートを復元しますか?",
+    "notValidEmail": "有効な電子メールではありません"
+  },
+  "options": {
+    "theme": {
+      "auto": "自動",
+      "light": "ブライトモード",
+      "dark": "ダークモード"
+    },
+    "triggerMode": {
+      "always": {
+        "title": "いつも",
+        "desc": "すべての検索で ChatGPT に質問する"
+      },
+      "questionMark": {
+        "title": "疑問符",
+        "desc": "キーワードが疑問符 (?) で終わっている場合は、ChatGPT に問い合わせてください。"
+      },
+      "manually": {
+        "title": "手動で",
+        "desc": "ボタンをクリックしたときのみ ChatGPT に質問する"
+      }
+    },
+    "sidebarLocation": {
+      "left": "左側",
+      "right": "右側"
+    },
+    "searchPromptTpl": {
+      "default": {
+        "title": "デフォルト",
+        "template": "{{keywords}}について教えていただけますか？ 可能であれば、それに関するいくつかのリンクを教えていただけますか? {{keywords}} がコード関連の質問の場合は、コードのみを記述してください"
+      },
+      "list": {
+        "title": "質問のキーワード",
+        "template": "「{{keywords}}」に関して最も多い質問を 1 つ挙げてください。 次に、この質問に答えてください。 最後に、さらに 4 つの質問を挙げてください。"
+      },
+      "suggest": {
+        "title": "関連キーワードを取得する",
+        "template": "{{keywords}} は Google での検索キーワードです。 関連するキーワードを5セット教えてください。"
+      }
+    },
+    "sidebarPromptTpl": {
+      "summarize": {
+        "title": "要約する",
+        "template": "2年生のためにこれを要約します。"
+      },
+      "similar-pages": {
+        "title": "類似ページ",
+        "template": "次のコンテンツに類似したページを 10 個見つけてリンクを張る:"
+      },
+      "grammar": {
+        "title": "文法",
+        "template": "これを標準英語に修正します。"
+      },
+      "explain": {
+        "title": "説明",
+        "template": "次の内容を説明します。"
+      },
+      "explain-codes": {
+        "title": "コードの説明",
+        "template": "次のコードについて説明します。"
+      },
+      "rewrite": {
+        "title": "リライト",
+        "template": "次の内容を書き換えます。"
+      },
+      "translate": {
+        "title": "翻訳",
+        "template": "次のコンテンツを {{lang}} 言語に翻訳してください:"
+      },
+      "qa": {
+        "title": "質疑応答",
+        "template": "この質問に答えてください："
+      }
+    }
+  }
+}

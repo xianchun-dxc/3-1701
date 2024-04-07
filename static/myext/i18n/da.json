@@ -1,0 +1,321 @@
+{
+  "sidebar": "Sidebjælke",
+  "shortcut": "Genvejstast",
+  "ask": "Spørg",
+  "save": "Gem det",
+  "cancel": "Afbestille",
+  "ok": "Okay",
+  "submit": "Indsend",
+  "send": "Sende",
+  "copy": "Kopi",
+  "copied": "Kopieret",
+  "clear": "Klar",
+  "collapse": "Skjul sidebjælken",
+  "done": "Færdig",
+  "manage": "Styre",
+  "template": "skabelon",
+  "edit": "Redigere",
+  "add": "Tilføje",
+  "feedback": "Feedback",
+  "tweetit": "Tweete",
+  "whatNew": "Nyheder",
+  "gotIt": "Forstået",
+  "settings": "Indstillinger",
+  "general": "Generel konfiguration",
+  "archive": "arkiv",
+  "searchPage": "Søgeside",
+  "addons": "Tilføjelser",
+  "webStore": "Webbutik",
+  "webApp": "Web App",
+  "language": "Sprog",
+  "theme": "Tema",
+  "model": "Model",
+  "version": "Version",
+  "more": "Mere",
+  "listen": "Hør efter",
+  "customPrompt": "Brugerdefineret prompt",
+  "currentTpl": "Nuværende skabelon:",
+  "editTpl": "Rediger denne skabelon",
+  "delteTpl": "Slet denne skabelon",
+  "restoreTpl": "Gendan denne skabelon",
+  "archiveTpl": "Arkiver denne skabelon",
+  "showTpl": "Vis denne skabelon",
+  "promptName": "Spørgsmålsnavn",
+  "promptContent": "Spørg indhold",
+  "contactUs": "Kontakt os",
+  "issueType": "Problemtype",
+  "pinExt": "Pin forlængelse",
+  "yourEmailAddress": "Din email adresse",
+  "troubleshooting": "Fejlfinding",
+  "openSidebar": "Åbn sidepanelet",
+  "pasteSelection": "Indsæt markering",
+  "pasteTextPage": "Indsæt tekst fra side",
+  "getAnotherKey": "Få en anden nøgle",
+  "showSearchPanel": "Vis søgepanel",
+  "getItNow": "Hent den nu",
+  "alwaysDisplay": "Vis altid",
+  "popupPage": {
+    "thank": "Tak, fordi du bruger {{APP_NAME}}-udvidelsen!",
+    "desc": "Du kan bruge denne udvidelse på de fleste websider, med undtagelse af sider, hvor browseren begrænser kørsel af scripts, såsom udvidelsens webbutik og browserindstillingssider.",
+    "try": "Du er velkommen til at prøve denne udvidelse på en hvilken som helst anden webside, <i>såsom denne</i>."
+  },
+  "setupPage": {
+    "welcome": "Velkommen til {{APP_NAME}}! Her er starten på din rejse:",
+    "pinTips": "Fastgør {{APP_NAME}} for nem adgang",
+    "stepTitle": "For at få lettere adgang til {{APP_NAME}} skal du holde sidebjælkeikonet fastgjort ved at følge trinene nedenfor:",
+    "step1": "Klik på puslespilikonet {{icon}} ud for din profilavatar.",
+    "step2": "Find {{APP_NAME}} i rullemenuen.",
+    "step3": "Klik på \"Pin-ikonet\" for at fastgøre det."
+  },
+  "getKeyPage": {
+    "welcome": "Velkommen til {{APP_NAME}}! Her er din rejse at begynde:",
+    "stepTitle": "Sådan får du en API-nøgle og $18 OpenAI Credits <i>gratis</i>.",
+    "step1": "Trin 1: Hent API-nøgle",
+    "step1-1": "<i>Log på din OpenAI-konto</i> Hvis du ikke har en konto, skal du tilmelde dig <b>HER</b>",
+    "step1-2": "Besøg OpenAI API Key-siden",
+    "step1-3": "Opret en ny hemmelig nøgle og kopier den som følger",
+    "step2": "Trin 2: Indsæt API-nøgle i boksen nedenfor",
+    "step2-tips": "Bare rolig. Din API-nøgle bruges kun lokalt i ChatGPT-udvidelsen. Brug af API er mere stabilt end direkte brug af ChatGPT.",
+    "step3": "Trin 3: Tjek dine op til <i>$18 kreditter her</i>"
+  },
+  "optionPage": {
+    "howToAccess": "Sådan får du adgang til ChatGPT",
+    "sidebarProvider": "{{APP_NAME}} giver adgang, og det er ikke nødvendigt at konfigurere det.",
+    "webappProvider": "API'en, der driver ChatGPT-webappen, er gratis, men den kan til tider være ustabil.",
+    "webappGPT4": "Anbefalet til Plus-bruger (Support GPT-4)",
+    "GPT4Desc": "Hvis du er <b>ChatGPT Plus-bruger</b>, har du nu mulighed for at vælge <b>GPT-4</b>. OpenAI kan dog begrænse antallet af beskeder, du kan sende pr. dag. Hvis du ikke er Plus-bruger, kan du muligvis ikke bruge den, eller den er muligvis ikke stabil.",
+    "apiKeyProvider": "Den officielle OpenAI API er mere stabil og opkræves baseret på brug.",
+    "apiKeyLocally": "Din API-nøgle gemmes lokalt i din browser og sendes aldrig andre steder.",
+    "ownURL": "Brug min egen URL",
+    "apiFreeGuide": "Følg guiden for at få API-nøglen og op til $18 kreditter fra OpenAI <i>gratis</i>",
+    "displaySearchRes": "Vis ChatGPT-svar sammen med søgeresultatsider",
+    "whenToAsk": "Hvornår skal man spørge ChatGPT",
+    "promptTplForSearch": "Spørgsmålsskabelon til Google og andre",
+    "addNewTplForSearch": "Tilføj en ny promptskabelon",
+    "launchSidebar": "Start sidebjælken",
+    "sidebarLocation": "Sidebjælkeplacering",
+    "sidebarLeftOrRight": "Placer sidebjælken på venstre eller højre side",
+    "sidebarIcon": "Sidebar-ikon",
+    "sidebarIconAccess": "Få adgang til sidebjælken via ikonet i nederste højre hjørne af siden. Du kan trække for at flytte den op og ned",
+    "easiestWayUse": "Den nemmeste måde at bruge {{APP_NAME}}",
+    "displayWhenSelect": "Vises, når tekst er valgt",
+    "promptTplForSidebar": "Spørg skabelon til sidebjælke",
+    "dragSidebarTpl": "Træk og slip for at omarrangere skabelonen ELLER arkivere dem, du ikke vil bruge",
+    "addNewTplForSidebar": "Tilføj ny promptskabelon",
+    "editSearchTplTip": "brug {{keywords}} til at henvise til dine søgeord",
+    "editSearchTplPlaceholder": "{{keywords}} i promptens indhold vil automatisk blive erstattet med dine søgeord",
+    "editSidebarTplTip": "Indsæt eller indtast indhold her",
+    "showOnList": "Vis på listen",
+    "translatorNavTitle": "Hurtigt opslag",
+    "translatorTitle": "Hurtigt opslagsvindue",
+    "translatorFabTitle": "Hurtigt opslag-ikon",
+    "translatorFabDesc": "Få adgang til hurtigopslagsvinduet via ikonet.",
+    "translatorFabToggleLabel": "Vises, når tekst er valgt",
+    "translatorTplTitle": "Spørg skabelon til popup-vindue",
+    "translatorTplDesc": "Den første hovedskabelon vil blive brugt som standardkommando for popup-vinduet.",
+    "translatorPrimaryTemplates": "Hovedskabeloner",
+    "translatorTemplatesNotes": "*Denne popup deler de samme skabeloner med sidebjælken. Hvis du har brug for at redigere eller tilføje en skabelon, bedes du ændre den i <b>sidebjælkeindstillingerne</b>.",
+    "translatorIntroTitle": "🤔 Hvad er Quick Lookup?",
+    "translatorIntroDesc": "Hurtigt opslag er en hurtig handling af ChatGPT Sidebar, der giver en række nyttige værktøjer.\n\nDen vises med det samme, når du vælger tekst. Med blot et enkelt klik kan du hurtigt oversætte tekster, omskrive dem, få forklaringer og meget mere. Derudover er du i stand til at omarrangere rækkefølgen af værktøjerne og tilpasse dine egne prompter.\n\nFor at aktivere ChatGPT Sidebar skal du blot klikke på ikonet Hurtigt opslag.",
+    "translatorHostFabConfigLabel": "Liste over websteder, hvor Hurtigt opslag er deaktiveret",
+    "feedbackTypes": {
+      "bug": {
+        "name": "Problemrapport",
+        "title": {
+          "label": "Problemoversigt",
+          "tip": "Fortæl os med et par ord, hvad der gik galt."
+        },
+        "detail": {
+          "label": "Problemdetaljer",
+          "tip": "Beskriv venligst i detaljer, hvad der gik galt, eventuelle handlinger, du foretog, og fejlmeddelelser, du fik."
+        }
+      },
+      "fr": {
+        "name": "Funktionsanmodning",
+        "title": {
+          "label": "Titel",
+          "tip": "Hvad handler din anmodning om?"
+        },
+        "detail": {
+          "label": "Beskrivelse",
+          "tip": "Angiv en detaljeret beskrivelse af den nye funktion, du ønsker."
+        }
+      }
+    }
+  },
+  "sidebarPanel": {
+    "askChatGPT": "Spørg ChatGPT:",
+    "savePrompt": "Gem prompt",
+    "saveNewPrompt": "Gem som en ny prompt",
+    "replacePrompt": "Udskift prompten",
+    "inputPlaceholder1": "Indtast prompt eller vælg fra menuen",
+    "inputPlaceholder2": "Indsæt eller indtast indhold her",
+    "startNewLine": "Tryk på {{shortcut}} for at starte en ny linje",
+    "inputPlaceholderCodes": "Indsæt eller indtast koder her",
+    "inputPlaceholderQA": "Indsæt eller indtast spørgsmål her",
+    "response": "Respons:",
+    "stopGenerating": "Stop med at generere",
+    "regenerate": "Gendan respons"
+  },
+  "translator": {
+    "quickActions": "Hurtige opslag",
+    "disableHostFabLabel": "Deaktiver på denne hjemmeside",
+    "disableFabLabel": "Deaktiver på alle websteder"
+  },
+  "changeLogPage": {
+    "rate5Star": "<b>Elsker du vores udvidelse?</b> Bedøm os venligst fem stjerner i webbutikken for at hjælpe os med at vokse",
+    "newInVersion": "Hvad er nyt i version {{versionId}}",
+    "logs": {
+      "1_0_11": [
+        "Få hurtigt adgang til handlinger gennem et pop op-vindue uden at åbne sidebjælken.",
+        "Tilføj understøttelse af yderligere sprog.",
+        "Bevar brugerens sprogpræference, når du bruger oversættelsesfunktionen.",
+        "Løs genvejskonflikter på platforme som GitHub og andre."
+      ],
+      "1_0_10": [
+        "Understøtter 50+ sprog nu!"
+      ],
+      "1_0_8": [
+        "Support GPT-4 for Plus-brugere! Tjek indstillingssiden!"
+      ],
+      "1_0_7": [
+        "Husk prompt brugt sidste gang",
+        "Optimer placeringen af chatGPT-panelet på søgesider",
+        "Tilføj en mulighed for at placere sidebjælkeikonet i venstre side",
+        "Optimer pakkestørrelsen",
+        "Tilføj mørk tilstand",
+        "Understøtte din API url proxy"
+      ],
+      "1_0_6": [
+        "Forbedre opsummeringsfunktionen på Youtube-siden"
+      ],
+      "1_0_5": [
+        "Husk placeringen af sidebjælkeikonet",
+        "Forbedre genvejstaster",
+        "Gem promptskabeloner direkte fra sidebjælken"
+      ],
+      "1_0_4": [
+        "Genbestil prompt-elementer i rullelisten",
+        "Arkiver prompt elementer, du ikke vil bruge",
+        "Supportsvar på mere end 50 sprog"
+      ],
+      "1_0_3": [
+        "CMD/Ctrl + Enter for at gøre hurtig \"Send\"",
+        "Mulighed for at skjule panelet på søgeresultatsiden",
+        "Understøtte ESC for at skjule sidebjælken",
+        "Support opsummere lang artikel"
+      ],
+      "1_0_2": [
+        "Tilføj stop-knap for at stoppe med at generere svar",
+        "Skift sted for skjul-knap"
+      ],
+      "1_0_1": [
+        "Forbedre opsummeringsfunktionen på Youtube-siden",
+        "Ret nogle fejl relateret til copy/paste og print"
+      ]
+    }
+  },
+  "searchTool": {
+    "questionMark": "Udløs ChatGPT ved at tilføje et spørgsmålstegn efter din forespørgsel",
+    "askForQuery": "Spørg ChatGPT om denne forespørgsel",
+    "fiveStart": "Nyder du denne udvidelse? Giv os en 5-stjernet vurdering hos {{store}}",
+    "loginAndCloudflareCheck": "Log ind og bestå Cloudflare-tjek på {{web}}",
+    "braveTrouble": "Virker stadig ikke? Følg {{url}}",
+    "cloudflareCheck": "OpenAI kræver en gang imellem at bestå et sikkerhedstjek. Hvis dette bliver ved med at ske, skal du ændre AI-udbyder til OpenAI API i <i>udvidelsesmulighederne</i>.",
+    "failedResponse": "Kunne ikke indlæse svar fra ChatGPT:",
+    "waitResponse": "Venter på ChatGPT-svar..."
+  },
+  "msg": {
+    "enterAPIKey": "Indtast venligst din OpenAI API-nøgle",
+    "selectModel": "Vælg venligst en gyldig model",
+    "changeSaved": "Ændringer gemt",
+    "fiveStart": "Giv os et 5-stjernet",
+    "errSiderApiLimit": "Du har brugt alle de gratis kreditter, vi har leveret, følg venligst <i>instruktionerne her</i> for at få en API fra OpenAI.",
+    "loginAndCloudflareCheck": "For at bruge det, skal du logge ind og bestå Cloudflare-tjek på <i>chat.openai.com</i>",
+    "invalidApiKey": "API-nøgle er ugyldig. Hent venligst en anden.",
+    "getApiKeyGuide": "Du skal bruge en OpenAI API-nøgle for at få det til at fungere. Følg vores guide for at få API-nøglen og $18 OpenAI-kreditter <i>gratis</i>.",
+    "thankForFeedback": "Tak skal du have. Formularen blev indsendt. Vi kontakter dig snarest.",
+    "writeSomething": "Skriv venligst noget.",
+    "enterEmail": "Indtast en e-mailadresse for at modtage opdateringer om problemet.",
+    "emailRequired": "E-mail er påkrævet.",
+    "promptNameRequired": "Spørgsmålsnavn er påkrævet.",
+    "nameYourPrompt": "Navngiv din prompt",
+    "promptTplRequired": "Spørgsmålsskabelon er påkrævet.",
+    "deletePromptWarn": "Vil du slette denne promptskabelon?",
+    "restorePromptWarn": "Vil du gendanne denne promptskabelon?",
+    "notValidEmail": "ikke en gyldig e-mail"
+  },
+  "options": {
+    "theme": {
+      "auto": "automatisk",
+      "light": "lys tilstand",
+      "dark": "mørk tilstand"
+    },
+    "triggerMode": {
+      "always": {
+        "title": "Altid",
+        "desc": "Spørg ChatGPT ved hver søgning"
+      },
+      "questionMark": {
+        "title": "Spørgsmålstegn",
+        "desc": "Spørg ChatGPT, hvis søgeordene slutter med et spørgsmålstegn (?)"
+      },
+      "manually": {
+        "title": "Manuelt",
+        "desc": "Spørg kun ChatGPT, når du klikker på knappen"
+      }
+    },
+    "sidebarLocation": {
+      "left": "venstre side",
+      "right": "højre side"
+    },
+    "searchPromptTpl": {
+      "default": {
+        "title": "Standard",
+        "template": "Kan du fortælle mig noget om {{keywords}}? Hvis det er muligt, kan du give mig nogle links om det? Hvis {{keywords}} er et koderelateret spørgsmål, skal du blot skrive koden"
+      },
+      "list": {
+        "title": "Nøgleord til spørgsmål",
+        "template": "Angiv 1 mest populære spørgsmål om \"{{keywords}}\". Så svar på dette spørgsmål. Skriv endelig yderligere 4 spørgsmål."
+      },
+      "suggest": {
+        "title": "Få relaterede søgeord",
+        "template": "{{keywords}} er mine søgeord i Google. Giv mig venligst 5 sæt relaterede søgeord."
+      }
+    },
+    "sidebarPromptTpl": {
+      "summarize": {
+        "title": "Sammenfatte",
+        "template": "Opsummer dette for en elev i anden klasse:"
+      },
+      "similar-pages": {
+        "title": "Lignende sider",
+        "template": "Find 10 sider, der ligner følgende indhold med link:"
+      },
+      "grammar": {
+        "title": "Grammatik",
+        "template": "Ret dette til standard engelsk:"
+      },
+      "explain": {
+        "title": "Forklare",
+        "template": "Forklar følgende indhold:"
+      },
+      "explain-codes": {
+        "title": "Forklar koder",
+        "template": "Forklar følgende koder:"
+      },
+      "rewrite": {
+        "title": "Omskriv",
+        "template": "Omskriv følgende indhold:"
+      },
+      "translate": {
+        "title": "Oversætte",
+        "template": "Oversæt følgende indhold til sproget {{lang}}:"
+      },
+      "qa": {
+        "title": "Spørgsmål og svar",
+        "template": "Besvar dette spørgsmål:"
+      }
+    }
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "sidebar": "Barra laterale",
+  "shortcut": "Tasto di scelta rapida",
+  "ask": "Chiedere",
+  "save": "Salvarla",
+  "cancel": "Annulla",
+  "ok": "OK",
+  "submit": "Invia",
+  "send": "Inviare",
+  "copy": "copia",
+  "copied": "Copiato",
+  "clear": "Chiara",
+  "collapse": "Comprimi la barra laterale",
+  "done": "Fatto",
+  "manage": "Maneggio",
+  "template": "modella",
+  "edit": "Modificare",
+  "add": "Aggiungere",
+  "feedback": "Feedback",
+  "tweetit": "Twittare",
+  "whatNew": "Novità",
+  "gotIt": "Fatto",
+  "settings": "Impostazioni",
+  "general": "Configurazione generale",
+  "archive": "archivio",
+  "searchPage": "Pagina di ricerca",
+  "addons": "Componenti aggiuntivi",
+  "webStore": "Negozio online",
+  "webApp": "Applicazione web",
+  "language": "Lingua",
+  "theme": "Tema",
+  "model": "Modello",
+  "version": "Versione",
+  "more": "Di più",
+  "listen": "Ascoltare",
+  "customPrompt": "Richiesta personalizzata",
+  "currentTpl": "Modello attuale:",
+  "editTpl": "Modifica questo modello",
+  "delteTpl": "Elimina questo modello",
+  "restoreTpl": "Ripristina questo modello",
+  "archiveTpl": "Archivia questo modello",
+  "showTpl": "Mostra questo modello",
+  "promptName": "Nome rapido",
+  "promptContent": "Contenuto rapido",
+  "contactUs": "Contattaci",
+  "issueType": "tipo di problema",
+  "pinExt": "Estensione del perno",
+  "yourEmailAddress": "Il tuo indirizzo di posta elettronica",
+  "troubleshooting": "Risoluzione dei problemi",
+  "openSidebar": "Apri la barra laterale",
+  "pasteSelection": "Incolla selezione",
+  "pasteTextPage": "Incolla il testo dalla pagina",
+  "getAnotherKey": "Ottieni un'altra chiave",
+  "showSearchPanel": "Mostra pannello di ricerca",
+  "getItNow": "Scaricalo ora",
+  "alwaysDisplay": "Visualizza sempre",
+  "popupPage": {
+    "thank": "Grazie per aver utilizzato l'estensione {{APP_NAME}}!",
+    "desc": "È possibile utilizzare questa estensione sulla maggior parte delle pagine Web, ad eccezione delle pagine in cui il browser limita l'esecuzione di script, come l'estensione Web Store e le pagine delle impostazioni del browser.",
+    "try": "Sentiti libero di provare questa estensione su qualsiasi altra pagina web, <i>come questa</i>."
+  },
+  "setupPage": {
+    "welcome": "Benvenuto in {{APP_NAME}}! Ecco l'inizio del tuo viaggio:",
+    "pinTips": "Fissa {{APP_NAME}} per accedervi facilmente",
+    "stepTitle": "Per accedere più facilmente all'{{APP_NAME}}, mantieni l'icona della barra laterale bloccata procedendo nel seguente modo:",
+    "step1": "Fai clic sull'icona del puzzle {{icon}} accanto all'avatar del tuo profilo.",
+    "step2": "Nel menu a tendina, trova {{APP_NAME}}.",
+    "step3": "Fai clic sull'icona \"Fissa\" per fissarla."
+  },
+  "getKeyPage": {
+    "welcome": "Benvenuto in {{APP_NAME}}! Ecco il tuo viaggio per iniziare:",
+    "stepTitle": "Come ottenere una chiave API e $ 18 di crediti OpenAI <i>gratis</i>.",
+    "step1": "Passaggio 1: ottieni la chiave API",
+    "step1-1": "<i>Accedi al tuo account OpenAI</i> Se non hai un account, registrati <b>QUI</b>",
+    "step1-2": "Visita la pagina della chiave API OpenAI",
+    "step1-3": "Crea una nuova chiave segreta e copiala come segue",
+    "step2": "Passaggio 2: incolla la chiave API nella casella sottostante",
+    "step2-tips": "Non preoccuparti. La tua chiave API viene utilizzata solo localmente all'interno dell'estensione ChatGPT. L'utilizzo dell'API è più stabile rispetto all'utilizzo diretto di ChatGPT.",
+    "step3": "Passaggio 3: controlla qui i tuoi crediti fino a <i>$ 18</i>"
+  },
+  "optionPage": {
+    "howToAccess": "Come accedere a ChatGPT",
+    "sidebarProvider": "L'{{APP_NAME}} fornirà l'accesso e non è necessario configurarlo.",
+    "webappProvider": "L'API che alimenta la webapp ChatGPT è gratuita, ma a volte potrebbe essere instabile.",
+    "webappGPT4": "Consigliato per utenti Plus (supporto GPT-4)",
+    "GPT4Desc": "Se sei un <b>utente ChatGPT Plus</b>, ora hai la possibilità di scegliere <b>GPT-4</b>. Tuttavia, OpenAI può limitare il numero di messaggi che puoi inviare al giorno. Se non sei un utente Plus, potresti non essere in grado di usarlo o potrebbe non essere stabile.",
+    "apiKeyProvider": "L'API OpenAI ufficiale è più stabile e addebita in base all'utilizzo.",
+    "apiKeyLocally": "La tua chiave API viene memorizzata localmente sul tuo browser e non viene mai inviata da nessun'altra parte.",
+    "ownURL": "Usa il mio URL",
+    "apiFreeGuide": "Segui la guida per ottenere la chiave API e fino a $ 18 di crediti da OpenAI <i>gratuitamente</i>",
+    "displaySearchRes": "Visualizza la risposta ChatGPT accanto alle pagine dei risultati di ricerca",
+    "whenToAsk": "Quando chiedere a ChatGPT",
+    "promptTplForSearch": "Modello di prompt per Google e altri",
+    "addNewTplForSearch": "Aggiungi un nuovo modello di prompt",
+    "launchSidebar": "Avvia la barra laterale",
+    "sidebarLocation": "Posizione della barra laterale",
+    "sidebarLeftOrRight": "Posiziona la barra laterale sul lato sinistro o destro",
+    "sidebarIcon": "Icona della barra laterale",
+    "sidebarIconAccess": "Accedi alla barra laterale tramite l'icona situata nell'angolo in basso a destra della pagina. Puoi trascinare per spostarlo su e giù",
+    "easiestWayUse": "Il modo più semplice per usare {{APP_NAME}}",
+    "displayWhenSelect": "Visualizza quando il testo è selezionato",
+    "promptTplForSidebar": "Modello di prompt per la barra laterale",
+    "dragSidebarTpl": "Trascina e rilascia per riordinare il modello OPPURE archivia quelli che non utilizzerai",
+    "addNewTplForSidebar": "Aggiungi un nuovo modello di richiesta",
+    "editSearchTplTip": "usa {{keywords}} per fare riferimento alle tue parole chiave di ricerca",
+    "editSearchTplPlaceholder": "{{keywords}} nel contenuto del prompt verranno automaticamente sostituite con le tue parole chiave di ricerca",
+    "editSidebarTplTip": "Incolla o inserisci il contenuto qui",
+    "showOnList": "Mostra nell'elenco",
+    "translatorNavTitle": "Ricerca rapida",
+    "translatorTitle": "Finestra di ricerca rapida",
+    "translatorFabTitle": "Icona di ricerca rapida",
+    "translatorFabDesc": "Accedi alla finestra di ricerca rapida tramite l'icona.",
+    "translatorFabToggleLabel": "Visualizza quando il testo è selezionato",
+    "translatorTplTitle": "Modello di prompt per finestra popup",
+    "translatorTplDesc": "Il primo modello principale verrà utilizzato come comando predefinito per la finestra popup.",
+    "translatorPrimaryTemplates": "Modelli principali",
+    "translatorTemplatesNotes": "*Questo popup condivide gli stessi modelli con la barra laterale. Se devi modificare o aggiungere un modello, modificalo nelle <b>Impostazioni della barra laterale</b>.",
+    "translatorIntroTitle": "🤔 Che cos'è Ricerca rapida?",
+    "translatorIntroDesc": "Quick Lookup è un'azione rapida della barra laterale di ChatGPT, che fornisce una gamma di strumenti utili.\n\nAppare istantaneamente quando selezioni il testo. Con un solo clic puoi tradurre velocemente testi, riscriverli, ottenere spiegazioni e molto altro. Inoltre, puoi riorganizzare l'ordine degli strumenti e personalizzare i tuoi prompt.\n\nPer attivare ChatGPT Sidebar, tutto ciò che devi fare è cliccare sull'icona Quick Lookup.",
+    "translatorHostFabConfigLabel": "Elenco dei siti Web in cui la ricerca rapida è disabilitata",
+    "feedbackTypes": {
+      "bug": {
+        "name": "Rapporto sul problema",
+        "title": {
+          "label": "Riepilogo del problema",
+          "tip": "Facci sapere cosa è andato storto in poche parole."
+        },
+        "detail": {
+          "label": "Dettagli del problema",
+          "tip": "Descrivi in dettaglio cosa è andato storto, eventuali azioni intraprese e messaggi di errore ricevuti."
+        }
+      },
+      "fr": {
+        "name": "Richiesta di funzionalità",
+        "title": {
+          "label": "Titolo",
+          "tip": "Di cosa tratta la tua richiesta?"
+        },
+        "detail": {
+          "label": "Descrizione",
+          "tip": "Fornisci una descrizione dettagliata della nuova funzionalità che desideri."
+        }
+      }
+    }
+  },
+  "sidebarPanel": {
+    "askChatGPT": "Chiedi a ChatGPT:",
+    "savePrompt": "Richiesta di salvataggio",
+    "saveNewPrompt": "Salva come nuovo prompt",
+    "replacePrompt": "Sostituisci il prompt",
+    "inputPlaceholder1": "Prompt di input o scegliere dal menu",
+    "inputPlaceholder2": "Incolla o inserisci il contenuto qui",
+    "startNewLine": "Premi {{shortcut}} per iniziare una nuova riga",
+    "inputPlaceholderCodes": "Incolla o inserisci i codici qui",
+    "inputPlaceholderQA": "Incolla o inserisci la domanda qui",
+    "response": "Risposta:",
+    "stopGenerating": "Smettila di generare",
+    "regenerate": "Rigenera la risposta"
+  },
+  "translator": {
+    "quickActions": "Ricerche rapide",
+    "disableHostFabLabel": "Disabilita su questo sito web",
+    "disableFabLabel": "Disabilita su tutti i siti web"
+  },
+  "changeLogPage": {
+    "rate5Star": "<b>Ti piace la nostra estensione?</b> Assegnaci cinque stelle nel web store per aiutarci a crescere",
+    "newInVersion": "Novità della versione {{versionId}}",
+    "logs": {
+      "1_0_11": [
+        "Accedi rapidamente alle azioni tramite una finestra pop-up senza aprire la barra laterale.",
+        "Aggiungi il supporto per altre lingue.",
+        "Mantieni la preferenza della lingua dell'utente quando utilizzi la funzione di traduzione.",
+        "Risolvi i conflitti di collegamento su piattaforme come GitHub e altri."
+      ],
+      "1_0_10": [
+        "Supporta più di 50 lingue ora!"
+      ],
+      "1_0_8": [
+        "Supporta GPT-4 per gli utenti Plus! Controlla la pagina delle impostazioni!"
+      ],
+      "1_0_7": [
+        "Ricorda il prompt utilizzato l'ultima volta",
+        "Ottimizza la posizione del pannello chatGPT nelle pagine di ricerca",
+        "Aggiungi un'opzione per inserire l'icona in-page della barra laterale sul lato sinistro",
+        "Ottimizza le dimensioni del pacchetto",
+        "Aggiungi la modalità oscura",
+        "Supporta il proxy dell'URL dell'API"
+      ],
+      "1_0_6": [
+        "Migliora la funzione di riepilogo nella pagina Youtube"
+      ],
+      "1_0_5": [
+        "Ricorda la posizione dell'icona della barra laterale",
+        "Migliora i tasti di scelta rapida",
+        "Salva i modelli di prompt direttamente dalla barra laterale"
+      ],
+      "1_0_4": [
+        "Riordina gli elementi del prompt nell'elenco a discesa",
+        "Archivia gli elementi di richiesta che non utilizzerai",
+        "Supporta la risposta in oltre 50 lingue"
+      ],
+      "1_0_3": [
+        "CMD/Ctrl + Invio per eseguire rapidamente \"Invia\"",
+        "Opzione per nascondere il pannello nella pagina dei risultati di ricerca",
+        "Supporta ESC per nascondere la barra laterale",
+        "Il supporto riassume l'articolo lungo"
+      ],
+      "1_0_2": [
+        "Aggiungi il pulsante di arresto per interrompere la generazione della risposta",
+        "Cambia la posizione del pulsante di compressione"
+      ],
+      "1_0_1": [
+        "Migliora la funzione di riepilogo nella pagina Youtube",
+        "Risolti alcuni bug relativi al copia/incolla e alla stampa"
+      ]
+    }
+  },
+  "searchTool": {
+    "questionMark": "Attiva ChatGPT aggiungendo un punto interrogativo dopo la tua domanda",
+    "askForQuery": "Chiedi a ChatGPT questa query",
+    "fiveStart": "Ti piace questa estensione? Dacci una valutazione a 5 stelle su {{store}}",
+    "loginAndCloudflareCheck": "Accedi e supera il controllo Cloudflare su {{web}}",
+    "braveTrouble": "Continua a non funzionare? Segui {{url}}",
+    "cloudflareCheck": "OpenAI richiede di superare un controllo di sicurezza ogni tanto. Se continua a succedere, cambia il provider AI in OpenAI API nelle <i>opzioni di estensione</i>.",
+    "failedResponse": "Impossibile caricare la risposta da ChatGPT:",
+    "waitResponse": "In attesa di risposta ChatGPT..."
+  },
+  "msg": {
+    "enterAPIKey": "Inserisci la tua chiave API OpenAI",
+    "selectModel": "Seleziona un modello valido",
+    "changeSaved": "modifiche salvate",
+    "fiveStart": "Dacci un 5 stelle",
+    "errSiderApiLimit": "Hai utilizzato tutti i crediti gratuiti da noi forniti, segui le <i>istruzioni qui</i> per ottenere un'API da OpenAI.",
+    "loginAndCloudflareCheck": "Per usarlo, accedi e supera il controllo Cloudflare su <i>chat.openai.com</i>",
+    "invalidApiKey": "La chiave API non è valida, prendine un'altra.",
+    "getApiKeyGuide": "Hai bisogno di una chiave API OpenAI per farlo funzionare. Segui la nostra guida per ottenere la chiave API e $ 18 di crediti OpenAI <i>gratis</i>.",
+    "thankForFeedback": "Grazie. Il modulo è stato inviato con successo. Ti contatteremo a breve.",
+    "writeSomething": "Per favore scrivi qualcosa.",
+    "enterEmail": "Inserisci un indirizzo email per ricevere aggiornamenti sul problema.",
+    "emailRequired": "L'e-mail è obbligatoria.",
+    "promptNameRequired": "Il nome del prompt è obbligatorio.",
+    "nameYourPrompt": "Assegna un nome al prompt",
+    "promptTplRequired": "Il modello di richiesta è obbligatorio.",
+    "deletePromptWarn": "Eliminare questo modello di prompt?",
+    "restorePromptWarn": "Vuoi ripristinare questo modello di prompt?",
+    "notValidEmail": "e-mail non valida"
+  },
+  "options": {
+    "theme": {
+      "auto": "automatico",
+      "light": "modalità luminosa",
+      "dark": "Modalità scura"
+    },
+    "triggerMode": {
+      "always": {
+        "title": "Sempre",
+        "desc": "Chiedi a ChatGPT su ogni ricerca"
+      },
+      "questionMark": {
+        "title": "Punto interrogativo",
+        "desc": "Chiedi a ChatGPT se le parole chiave terminano con un punto interrogativo (?)"
+      },
+      "manually": {
+        "title": "Manualmente",
+        "desc": "Chiedi a ChatGPT solo quando fai clic sul pulsante"
+      }
+    },
+    "sidebarLocation": {
+      "left": "lato sinistro",
+      "right": "lato destro"
+    },
+    "searchPromptTpl": {
+      "default": {
+        "title": "Predefinita",
+        "template": "Puoi dirmi qualcosa su {{keywords}}? Se possibile, puoi darmi qualche link a riguardo? Se {{keywords}} è una domanda relativa al codice, scrivi semplicemente il codice"
+      },
+      "list": {
+        "title": "Parole chiave alle domande",
+        "template": "Elenca 1 domanda più popolare su \"{{keywords}}\". Quindi, rispondi a questa domanda. Infine, elenca altre 4 domande."
+      },
+      "suggest": {
+        "title": "Ottieni parole chiave correlate",
+        "template": "{{keywords}} sono le mie parole chiave di ricerca in Google. Per favore, dammi 5 serie di parole chiave correlate."
+      }
+    },
+    "sidebarPromptTpl": {
+      "summarize": {
+        "title": "Riassumere",
+        "template": "Riassumi questo per uno studente di seconda elementare:"
+      },
+      "similar-pages": {
+        "title": "Pagine simili",
+        "template": "Trova 10 pagine simili al seguente contenuto con link:"
+      },
+      "grammar": {
+        "title": "Grammatica",
+        "template": "Correggi questo in inglese standard:"
+      },
+      "explain": {
+        "title": "Spiegare",
+        "template": "Spiega il seguente contenuto:"
+      },
+      "explain-codes": {
+        "title": "Spiega i codici",
+        "template": "Spiega i seguenti codici:"
+      },
+      "rewrite": {
+        "title": "Riscrivere",
+        "template": "Riscrivi il seguente contenuto:"
+      },
+      "translate": {
+        "title": "Tradurre",
+        "template": "Traduci il seguente contenuto in {{lang}} lingua:"
+      },
+      "qa": {
+        "title": "Domande e risposte",
+        "template": "Rispondi a questa domanda:"
+      }
+    }
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "sidebar": "Sidebar",
+  "shortcut": "Shortcut key",
+  "ask": "Magtanong",
+  "save": "I-save ito",
+  "cancel": "Kanselahin",
+  "ok": "OK",
+  "submit": "Ipasa",
+  "send": "Ipadala",
+  "copy": "Kopya",
+  "copied": "Kinopya",
+  "clear": "Maaliwalas",
+  "collapse": "I-collapse ang sidebar",
+  "done": "Tapos na",
+  "manage": "Pamahalaan",
+  "template": "template",
+  "edit": "I-edit",
+  "add": "Idagdag",
+  "feedback": "Feedback",
+  "tweetit": "Mag-Tweet",
+  "whatNew": "Mga Bagong Tampok",
+  "gotIt": "Nakuha ko",
+  "settings": "Mga setting",
+  "general": "Pangkalahatang pagsasaayos",
+  "archive": "archive",
+  "searchPage": "Pahina ng Paghahanap",
+  "addons": "Mga add-on",
+  "webStore": "Web Store",
+  "webApp": "Web App",
+  "language": "Wika",
+  "theme": "Tema",
+  "model": "Modelo",
+  "version": "Bersyon",
+  "more": "Higit pa",
+  "listen": "Makinig ka",
+  "customPrompt": "Custom na prompt",
+  "currentTpl": "Kasalukuyang template:",
+  "editTpl": "I-edit ang template na ito",
+  "delteTpl": "Tanggalin ang template na ito",
+  "restoreTpl": "Ibalik ang template na ito",
+  "archiveTpl": "I-archive ang template na ito",
+  "showTpl": "Ipakita ang template na ito",
+  "promptName": "Pangalan ng Prompt",
+  "promptContent": "Maagap na Nilalaman",
+  "contactUs": "Makipag-ugnayan sa amin",
+  "issueType": "Uri ng Issue",
+  "pinExt": "Pin extension",
+  "yourEmailAddress": "Ang iyong email address",
+  "troubleshooting": "Pag-troubleshoot",
+  "openSidebar": "Buksan ang sidebar",
+  "pasteSelection": "I-paste ang seleksyon",
+  "pasteTextPage": "I-paste ang teksto mula sa pahina",
+  "getAnotherKey": "Kumuha ng Isa pang Susi",
+  "showSearchPanel": "Ipakita ang Search Panel",
+  "getItNow": "Kunin Ito Ngayon",
+  "alwaysDisplay": "Laging Display",
+  "popupPage": {
+    "thank": "Salamat sa paggamit ng {{APP_NAME}} extension!",
+    "desc": "Magagamit mo ang extension na ito sa karamihan ng mga web page, maliban sa mga page kung saan pinaghihigpitan ng browser ang pagpapatakbo ng mga script, gaya ng extension na web store at mga pahina ng mga setting ng browser.",
+    "try": "Huwag mag-atubiling subukan ang extension na ito sa anumang iba pang webpage, <i>tulad ng isang ito</i>."
+  },
+  "setupPage": {
+    "welcome": "Maligayang pagdating sa {{APP_NAME}}! Narito ang simula ng iyong paglalakbay:",
+    "pinTips": "I-pin ang {{APP_NAME}} para sa madaling pag-access",
+    "stepTitle": "Upang mas madaling ma-access ang {{APP_NAME}}, mangyaring panatilihing naka-pin ang icon ng sidebar sa pamamagitan ng pagsunod sa mga hakbang sa ibaba:",
+    "step1": "I-click ang icon ng puzzle {{icon}} sa tabi ng iyong profile avatar.",
+    "step2": "Sa drop-down na menu, hanapin ang {{APP_NAME}}.",
+    "step3": "I-click ang “Pin icon” para i-pin ito."
+  },
+  "getKeyPage": {
+    "welcome": "Maligayang pagdating sa {{APP_NAME}}! Narito ang iyong paglalakbay upang magsimula:",
+    "stepTitle": "Paano makakuha ng API key at $18 OpenAI Credits <i>nang libre</i>.",
+    "step1": "Hakbang 1: Kunin ang API key",
+    "step1-1": "<i>Mag-login sa iyong OpenAI account</i> Kung wala kang account, Mag-sign up <b>DITO</b>",
+    "step1-2": "Bisitahin ang pahina ng OpenAI API Key",
+    "step1-3": "Gumawa ng bagong lihim na key at kopyahin ito bilang sumusunod",
+    "step2": "Hakbang 2: I-paste ang API Key sa kahon sa ibaba",
+    "step2-tips": "Huwag kang mag-alala. Ginagamit lang ang iyong API key sa loob ng extension ng ChatGPT. Ang paggamit ng API ay mas matatag kaysa sa direktang paggamit ng ChatGPT.",
+    "step3": "Hakbang 3: Tingnan ang iyong hanggang <i>$18 na mga kredito dito</i>"
+  },
+  "optionPage": {
+    "howToAccess": "Paano ma-access ang ChatGPT",
+    "sidebarProvider": "Ang {{APP_NAME}} ay magbibigay ng access, at hindi na kailangang i-set up ito.",
+    "webappProvider": "Ang API na nagpapagana sa ChatGPT webapp ay libre, ngunit maaaring hindi ito matatag kung minsan.",
+    "webappGPT4": "Inirerekomenda para sa Plus user (Suporta sa GPT-4)",
+    "GPT4Desc": "Kung ikaw ay isang <b>ChatGPT Plus user</b>, mayroon ka na ngayong opsyon na piliin ang <b>GPT-4</b>. Gayunpaman, maaaring limitahan ng OpenAI ang bilang ng mga mensahe na maaari mong ipadala bawat araw. Kung hindi ka gumagamit ng Plus, maaaring hindi mo ito magagamit o maaaring hindi ito matatag.",
+    "apiKeyProvider": "Ang opisyal na OpenAI API ay mas matatag at may mga singil batay sa paggamit.",
+    "apiKeyLocally": "Ang iyong API Key ay lokal na nakaimbak sa iyong browser at hindi na ipinadala kahit saan pa.",
+    "ownURL": "Gamitin ang sarili kong URL",
+    "apiFreeGuide": "Sundin ang gabay upang makuha ang API key at hanggang $18 na kredito mula sa OpenAI <i>nang libre</i>",
+    "displaySearchRes": "Ipakita ang tugon ng ChatGPT sa tabi ng mga pahina ng resulta ng paghahanap",
+    "whenToAsk": "Kailan magtatanong sa ChatGPT",
+    "promptTplForSearch": "Prompt na template para sa Google at iba pa",
+    "addNewTplForSearch": "Magdagdag ng bagong prompt template",
+    "launchSidebar": "Ilunsad ang sidebar",
+    "sidebarLocation": "Lokasyon ng Sidebar",
+    "sidebarLeftOrRight": "Ilagay ang sidebar sa kaliwa o kanang bahagi",
+    "sidebarIcon": "Icon ng Sidebar",
+    "sidebarIconAccess": "I-access ang sidebar sa pamamagitan ng icon na matatagpuan sa kanang sulok sa ibaba ng page. Maaari mong i-drag upang ilipat ito pataas at pababa",
+    "easiestWayUse": "Ang pinakamadaling paraan upang gamitin ang {{APP_NAME}}",
+    "displayWhenSelect": "Ipakita kapag pinili ang teksto",
+    "promptTplForSidebar": "Prompt na template para sa sidebar",
+    "dragSidebarTpl": "I-drag at i-drop upang muling isaayos ang template O i-archive ang mga hindi mo gagamitin",
+    "addNewTplForSidebar": "Magdagdag ng bagong prompt template",
+    "editSearchTplTip": "gumamit ng {{keywords}} upang i-refer ang iyong mga keyword sa paghahanap",
+    "editSearchTplPlaceholder": "Ang {{keywords}} sa prompt na nilalaman ay awtomatikong papalitan ng iyong mga keyword sa paghahanap",
+    "editSidebarTplTip": "I-paste o i-input ang nilalaman dito",
+    "showOnList": "Ipakita sa listahan",
+    "translatorNavTitle": "Mabilis na Paghahanap",
+    "translatorTitle": "Quick Lookup Window",
+    "translatorFabTitle": "Icon ng Mabilisang Paghahanap",
+    "translatorFabDesc": "I-access ang quick lookup window sa pamamagitan ng icon.",
+    "translatorFabToggleLabel": "Ipakita kapag pinili ang teksto",
+    "translatorTplTitle": "Prompt na template para sa popup window",
+    "translatorTplDesc": "Ang unang pangunahing template ay gagamitin bilang default na command para sa popup window.",
+    "translatorPrimaryTemplates": "Mga pangunahing template",
+    "translatorTemplatesNotes": "*Ang popup na ito ay nagbabahagi ng parehong mga template sa sidebar. Kung kailangan mong mag-edit o magdagdag ng template, mangyaring baguhin ito sa <b>Mga Setting ng sidebar</b>.",
+    "translatorIntroTitle": "🤔 Ano ang Quick Lookup?",
+    "translatorIntroDesc": "Ang Quick Lookup ay isang mabilis na pagkilos ng ChatGPT Sidebar, na nagbibigay ng hanay ng mga kapaki-pakinabang na tool.\n\nLumilitaw ito kaagad kapag pinili mo ang teksto. Sa isang pag-click lang, maaari mong mabilis na isalin ang mga teksto, muling isulat ang mga ito, makakuha ng mga paliwanag, at marami pang iba. Bukod pa rito, nagagawa mong muling ayusin ang pagkakasunud-sunod ng mga tool at i-customize ang sarili mong mga prompt.\n\nUpang i-activate ang ChatGPT Sidebar, ang kailangan mo lang gawin ay mag-click sa icon ng Quick Lookup.",
+    "translatorHostFabConfigLabel": "Listahan ng mga website kung saan hindi pinagana ang Quick Lookup",
+    "feedbackTypes": {
+      "bug": {
+        "name": "Ulat ng Problema",
+        "title": {
+          "label": "Buod ng Problema",
+          "tip": "Ipaalam sa amin kung ano ang naging mali sa ilang salita."
+        },
+        "detail": {
+          "label": "Mga Detalye ng Problema",
+          "tip": "Pakilarawan nang detalyado kung ano ang naging mali, anumang mga pagkilos na ginawa mo, at mga mensahe ng error na nakuha mo."
+        }
+      },
+      "fr": {
+        "name": "Kahilingan sa Tampok",
+        "title": {
+          "label": "Pamagat",
+          "tip": "Tungkol saan ang iyong kahilingan?"
+        },
+        "detail": {
+          "label": "Paglalarawan",
+          "tip": "Mangyaring magbigay ng isang detalyadong paglalarawan ng bagong tampok na gusto mo."
+        }
+      }
+    }
+  },
+  "sidebarPanel": {
+    "askChatGPT": "Tanungin ang ChatGPT:",
+    "savePrompt": "I-save ang prompt",
+    "saveNewPrompt": "I-save bilang bagong prompt",
+    "replacePrompt": "Palitan ang prompt",
+    "inputPlaceholder1": "Mag-input ng prompt o pumili mula sa menu",
+    "inputPlaceholder2": "I-paste o i-input ang nilalaman dito",
+    "startNewLine": "Pindutin ang {{shortcut}} upang magsimula ng bagong linya",
+    "inputPlaceholderCodes": "I-paste o i-input ang mga code dito",
+    "inputPlaceholderQA": "I-paste o ipasok ang tanong dito",
+    "response": "Tugon:",
+    "stopGenerating": "Itigil ang pagbuo",
+    "regenerate": "I-regenerate ang tugon"
+  },
+  "translator": {
+    "quickActions": "Mabilis na paghahanap",
+    "disableHostFabLabel": "Huwag paganahin sa website na ito",
+    "disableFabLabel": "Huwag paganahin sa Lahat ng mga website"
+  },
+  "changeLogPage": {
+    "rate5Star": "<b>Nagustuhan mo ba ang aming extension?</b> Paki-rate kami ng limang bituin sa web store upang matulungan kaming lumago",
+    "newInVersion": "Ano ang Bago sa bersyon {{versionId}}",
+    "logs": {
+      "1_0_11": [
+        "Mabilis na i-access ang mga aksyon sa pamamagitan ng isang pop-up window nang hindi binubuksan ang sidebar.",
+        "Magdagdag ng suporta para sa mga karagdagang wika.",
+        "Panatilihin ang kagustuhan sa wika ng gumagamit kapag ginagamit ang tampok na pagsasalin.",
+        "Lutasin ang mga salungatan sa shortcut sa mga platform tulad ng GitHub at iba pa."
+      ],
+      "1_0_10": [
+        "Suportahan ang 50+ wika ngayon!"
+      ],
+      "1_0_8": [
+        "Suportahan ang GPT-4 para sa mga gumagamit ng Plus! Suriin ang pahina ng mga setting!"
+      ],
+      "1_0_7": [
+        "Tandaang ginamit noong nakaraang beses ang prompt",
+        "I-optimize ang posisyon ng panel ng chatGPT sa mga pahina ng paghahanap",
+        "Magdagdag ng opsyon upang ilagay ang icon ng sidebar sa pahina sa kaliwang bahagi",
+        "I-optimize ang laki ng package",
+        "Magdagdag ng dark mode",
+        "Suportahan ang iyong API url proxy"
+      ],
+      "1_0_6": [
+        "Pagbutihin ang tampok na buod sa pahina ng Youtube"
+      ],
+      "1_0_5": [
+        "Tandaan ang lokasyon ng icon ng sidebar",
+        "Pagbutihin ang mga shortcut key",
+        "Direktang i-save ang mga prompt template mula sa sidebar"
+      ],
+      "1_0_4": [
+        "Muling mag-order ng mga prompt na item sa dropdown na listahan",
+        "I-archive ang mga prompt na item na hindi mo gagamitin",
+        "Suporta sa tugon sa 50+ wika"
+      ],
+      "1_0_3": [
+        "CMD/Ctrl + Enter para gawin ang mabilisang “Isumite”",
+        "Pagpipilian upang itago ang panel sa pahina ng mga resulta ng paghahanap",
+        "Suportahan ang ESC upang itago ang sidebar",
+        "Suporta sa pagbubuod ng mahabang artikulo"
+      ],
+      "1_0_2": [
+        "Magdagdag ng stop button upang ihinto ang pagbuo ng tugon",
+        "Baguhin ang lugar ng pindutan ng pag-collapse"
+      ],
+      "1_0_1": [
+        "Pagbutihin ang tampok na buod sa pahina ng Youtube",
+        "Ayusin ang ilang mga bug na nauugnay sa pagkopya/pag-paste at pag-print"
+      ]
+    }
+  },
+  "searchTool": {
+    "questionMark": "I-trigger ang ChatGPT sa pamamagitan ng pagdaragdag ng tandang pananong pagkatapos ng iyong query",
+    "askForQuery": "Tanungin ang ChatGPT para sa query na ito",
+    "fiveStart": "Masiyahan sa extension na ito? Bigyan kami ng 5-star na rating sa {{store}}",
+    "loginAndCloudflareCheck": "Mangyaring mag-login at ipasa ang Cloudflare check sa {{web}}",
+    "braveTrouble": "Hindi pa rin gumagana? Sundin ang {{url}}",
+    "cloudflareCheck": "Ang OpenAI ay nangangailangan ng pagpasa ng isang security check paminsan-minsan. Kung patuloy itong nangyayari, baguhin ang AI provider sa OpenAI API sa <i>mga opsyon sa extension</i>.",
+    "failedResponse": "Nabigong i-load ang tugon mula sa ChatGPT:",
+    "waitResponse": "Naghihintay ng tugon ng ChatGPT..."
+  },
+  "msg": {
+    "enterAPIKey": "Pakilagay ang iyong OpenAI API key",
+    "selectModel": "Mangyaring pumili ng wastong modelo",
+    "changeSaved": "Nai-save ang mga Pagbabago",
+    "fiveStart": "Bigyan kami ng 5-star",
+    "errSiderApiLimit": "Nagamit mo na ang lahat ng libreng kredito na ibinigay namin, mangyaring sundin ang <i>mga tagubilin dito</i> upang makakuha ng API mula sa OpenAI.",
+    "loginAndCloudflareCheck": "Upang magamit ito, mangyaring mag-login at ipasa ang Cloudflare check sa <i>chat.openai.com</i>",
+    "invalidApiKey": "Di-wasto ang API key, mangyaring kumuha ng isa pa.",
+    "getApiKeyGuide": "Kailangan mo ng OpenAI API key para gumana ito. Sundin ang aming gabay para makuha ang API key at $18 na OpenAI credits <i>libre</i>.",
+    "thankForFeedback": "Salamat. Matagumpay na naisumite ang form. Makikipag-ugnayan kami sa iyo sa ilang sandali.",
+    "writeSomething": "Mangyaring sumulat ng isang bagay.",
+    "enterEmail": "Maglagay ng email address para makatanggap ng mga update sa isyu.",
+    "emailRequired": "Kinakailangan ang email.",
+    "promptNameRequired": "Kinakailangan ang prompt na pangalan.",
+    "nameYourPrompt": "Pangalanan ang iyong prompt",
+    "promptTplRequired": "Kinakailangan ang prompt na template.",
+    "deletePromptWarn": "Gusto mo bang tanggalin ang prompt na template na ito?",
+    "restorePromptWarn": "Gusto mo bang ibalik ang prompt na template na ito?",
+    "notValidEmail": "hindi isang wastong email"
+  },
+  "options": {
+    "theme": {
+      "auto": "awtomatiko",
+      "light": "maliwanag na mode",
+      "dark": "madilim na mode"
+    },
+    "triggerMode": {
+      "always": {
+        "title": "Laging",
+        "desc": "Magtanong sa ChatGPT sa bawat paghahanap"
+      },
+      "questionMark": {
+        "title": "Tandang pananong",
+        "desc": "Tanungin ang ChatGPT kung ang mga keyword ay nagtatapos sa isang tandang pananong (?)"
+      },
+      "manually": {
+        "title": "Manu-manong",
+        "desc": "Magtanong lamang sa ChatGPT kapag na-click mo ang button"
+      }
+    },
+    "sidebarLocation": {
+      "left": "kaliwang bahagi",
+      "right": "kanang bahagi"
+    },
+    "searchPromptTpl": {
+      "default": {
+        "title": "Default",
+        "template": "Maaari mo bang sabihin sa akin ang tungkol sa {{keywords}}? Kung maaari, maaari mo ba akong bigyan ng ilang mga link tungkol dito? Kung ang {{keywords}} ay isang tanong na may kaugnayan sa code, mangyaring isulat lamang ang code"
+      },
+      "list": {
+        "title": "Mga Keyword sa Mga Tanong",
+        "template": "Maglista ng 1 pinakasikat na tanong tungkol sa \"{{keywords}}\". Pagkatapos, Sagutin ang tanong na ito. Sa wakas, maglista ng isa pang 4 na tanong."
+      },
+      "suggest": {
+        "title": "Kumuha ng mga nauugnay na keyword",
+        "template": "Ang {{keywords}} ay ang aking mga keyword sa paghahanap sa Google. Mangyaring bigyan ako ng 5 set ng mga kaugnay na keyword."
+      }
+    },
+    "sidebarPromptTpl": {
+      "summarize": {
+        "title": "Ibuod",
+        "template": "Ibuod ito para sa isang mag-aaral sa ikalawang baitang:"
+      },
+      "similar-pages": {
+        "title": "Mga katulad na pahina",
+        "template": "Maghanap ng 10 katulad na pahina sa sumusunod na nilalaman na may link:"
+      },
+      "grammar": {
+        "title": "Gramatika",
+        "template": "Iwasto ito sa karaniwang Ingles:"
+      },
+      "explain": {
+        "title": "Ipaliwanag",
+        "template": "Ipaliwanag ang sumusunod na nilalaman:"
+      },
+      "explain-codes": {
+        "title": "Ipaliwanag ang mga Code",
+        "template": "Ipaliwanag ang mga sumusunod na code:"
+      },
+      "rewrite": {
+        "title": "Isulat muli",
+        "template": "Isulat muli ang sumusunod na nilalaman:"
+      },
+      "translate": {
+        "title": "Isalin",
+        "template": "Isalin ang sumusunod na nilalaman sa {{lang}} na wika:"
+      },
+      "qa": {
+        "title": "Q&A",
+        "template": "Sagutin ang tanong na ito:"
+      }
+    }
+  }
+}

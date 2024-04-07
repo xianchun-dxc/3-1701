@@ -1,0 +1,321 @@
+{
+  "sidebar": "Sidofält",
+  "shortcut": "Snabbtangent",
+  "ask": "Fråga",
+  "save": "Spara den",
+  "cancel": "Annullera",
+  "ok": "OK",
+  "submit": "Skicka in",
+  "send": "Skicka",
+  "copy": "Kopiera",
+  "copied": "Kopierade",
+  "clear": "Klar",
+  "collapse": "Dölj sidofältet",
+  "done": "Gjort",
+  "manage": "Hantera",
+  "template": "mall",
+  "edit": "Redigera",
+  "add": "Lägg till",
+  "feedback": "Respons",
+  "tweetit": "Tweeta",
+  "whatNew": "Nyheter",
+  "gotIt": "Jag fattar",
+  "settings": "inställningar",
+  "general": "Allmän konfiguration",
+  "archive": "arkiv",
+  "searchPage": "Söksida",
+  "addons": "Tillägg",
+  "webStore": "Webbutik",
+  "webApp": "Webb-app",
+  "language": "Språk",
+  "theme": "Tema",
+  "model": "Modell",
+  "version": "Version",
+  "more": "Mer",
+  "listen": "Lyssna",
+  "customPrompt": "Anpassad uppmaning",
+  "currentTpl": "Aktuell mall:",
+  "editTpl": "Redigera den här mallen",
+  "delteTpl": "Ta bort den här mallen",
+  "restoreTpl": "Återställ den här mallen",
+  "archiveTpl": "Arkivera den här mallen",
+  "showTpl": "Visa denna mall",
+  "promptName": "Snabbnamn",
+  "promptContent": "Snabbt innehåll",
+  "contactUs": "Kontakta oss",
+  "issueType": "Problemtyp",
+  "pinExt": "Stiftförlängning",
+  "yourEmailAddress": "Din e-postadress",
+  "troubleshooting": "Felsökning",
+  "openSidebar": "Öppna sidofältet",
+  "pasteSelection": "Klistra in urval",
+  "pasteTextPage": "Klistra in text från sidan",
+  "getAnotherKey": "Skaffa en annan nyckel",
+  "showSearchPanel": "Visa sökpanelen",
+  "getItNow": "Hämta den nu",
+  "alwaysDisplay": "Visa alltid",
+  "popupPage": {
+    "thank": "Tack för att du använder tillägget {{APP_NAME}}!",
+    "desc": "Du kan använda detta tillägg på de flesta webbsidor, med undantag för sidor där webbläsaren begränsar körningen av skript, såsom tilläggets webbbutik och webbläsarinställningar.",
+    "try": "Testa gärna detta tillägg på vilken annan webbsida som helst, <i>som den här</i>."
+  },
+  "setupPage": {
+    "welcome": "Välkommen till {{APP_NAME}}! Här är början på din resa:",
+    "pinTips": "Fäst {{APP_NAME}} för enkel åtkomst",
+    "stepTitle": "För att lättare få åtkomst till {{APP_NAME}}, håll sidofältsikonen fäst genom att följa stegen nedan:",
+    "step1": "Klicka på pusselikonen {{icon}} bredvid din profilavatar.",
+    "step2": "Hitta {{APP_NAME}} i rullgardinsmenyn.",
+    "step3": "Klicka på \"Fäst ikonen\" för att fästa den."
+  },
+  "getKeyPage": {
+    "welcome": "Välkommen till {{APP_NAME}}! Här är din resa att börja:",
+    "stepTitle": "Hur man får en API-nyckel och $18 OpenAI Credits <i>gratis</i>.",
+    "step1": "Steg 1: Hämta API-nyckel",
+    "step1-1": "<i>Logga in på ditt OpenAI-konto</i> Om du inte har ett konto, registrera dig <b>HÄR</b>",
+    "step1-2": "Besök sidan för OpenAI API-nyckel",
+    "step1-3": "Skapa en ny hemlig nyckel och kopiera den enligt följande",
+    "step2": "Steg 2: Klistra in API-nyckeln i rutan nedan",
+    "step2-tips": "Oroa dig inte. Din API-nyckel används endast lokalt i ChatGPT-tillägget. Att använda API är mer stabilt än att använda ChatGPT direkt.",
+    "step3": "Steg 3: Kontrollera dina upp till <i>$18 krediter här</i>"
+  },
+  "optionPage": {
+    "howToAccess": "Hur man kommer åt ChatGPT",
+    "sidebarProvider": "{{APP_NAME}} ger åtkomst, och du behöver inte konfigurera den.",
+    "webappProvider": "API:et som driver ChatGPT-webbappen är gratis, men den kan ibland vara instabil.",
+    "webappGPT4": "Rekommenderas för Plus-användare (Support GPT-4)",
+    "GPT4Desc": "Om du är en <b>ChatGPT Plus-användare</b> har du nu möjlighet att välja <b>GPT-4</b>. Däremot kan OpenAI begränsa antalet meddelanden du kan skicka per dag. Om du inte är en Plus-användare kanske du inte kan använda den eller så är den inte stabil.",
+    "apiKeyProvider": "Det officiella OpenAI API är mer stabilt och debiteras baserat på användning.",
+    "apiKeyLocally": "Din API-nyckel lagras lokalt i din webbläsare och skickas aldrig någon annanstans.",
+    "ownURL": "Använd min egen URL",
+    "apiFreeGuide": "Följ guiden för att få API-nyckeln och upp till $18 krediter från OpenAI <i>gratis</i>",
+    "displaySearchRes": "Visa ChatGPT-svar bredvid sökresultatsidor",
+    "whenToAsk": "När ska man fråga ChatGPT",
+    "promptTplForSearch": "Snabbmall för Google och andra",
+    "addNewTplForSearch": "Lägg till en ny promptmall",
+    "launchSidebar": "Starta sidofältet",
+    "sidebarLocation": "Sidofältsplats",
+    "sidebarLeftOrRight": "Placera sidofältet på vänster eller höger sida",
+    "sidebarIcon": "Sidofältsikon",
+    "sidebarIconAccess": "Öppna sidofältet genom ikonen som finns i det nedre högra hörnet på sidan. Du kan dra för att flytta den upp och ned",
+    "easiestWayUse": "Det enklaste sättet att använda {{APP_NAME}}",
+    "displayWhenSelect": "Visas när text är vald",
+    "promptTplForSidebar": "Snabbmall för sidofältet",
+    "dragSidebarTpl": "Dra och släpp för att ändra ordning på mallen ELLER arkivera de du inte kommer att använda",
+    "addNewTplForSidebar": "Lägg till ny promptmall",
+    "editSearchTplTip": "använd {{keywords}} för att hänvisa till dina sökord",
+    "editSearchTplPlaceholder": "{{keywords}} i promptens innehåll kommer automatiskt att ersättas med dina sökord",
+    "editSidebarTplTip": "Klistra in eller ange innehåll här",
+    "showOnList": "Visa på listan",
+    "translatorNavTitle": "Snabbsökning",
+    "translatorTitle": "Snabbsökningsfönster",
+    "translatorFabTitle": "Snabbsökningsikon",
+    "translatorFabDesc": "Öppna snabbsökningsfönstret via ikonen.",
+    "translatorFabToggleLabel": "Visas när text är vald",
+    "translatorTplTitle": "Fråga mall för popup-fönster",
+    "translatorTplDesc": "Den första huvudmallen kommer att användas som standardkommando för popup-fönstret.",
+    "translatorPrimaryTemplates": "Huvudmallar",
+    "translatorTemplatesNotes": "*Denna popup delar samma mallar som sidofältet. Om du behöver redigera eller lägga till en mall, vänligen ändra den i <b>inställningar för sidofältet</b>.",
+    "translatorIntroTitle": "🤔 Vad är Quick Lookup?",
+    "translatorIntroDesc": "Quick Lookup är en snabb åtgärd av ChatGPT Sidebar, som tillhandahåller en rad användbara verktyg.\n\nDet visas direkt när du väljer text. Med bara ett klick kan du snabbt översätta texter, skriva om dem, få förklaringar och mycket mer. Dessutom kan du ändra ordningen på verktygen och anpassa dina egna uppmaningar.\n\nFör att aktivera ChatGPT Sidebar behöver du bara klicka på snabbsökningsikonen.",
+    "translatorHostFabConfigLabel": "Lista över webbplatser där Quick Lookup är inaktiverat",
+    "feedbackTypes": {
+      "bug": {
+        "name": "Problemrapport",
+        "title": {
+          "label": "Problemsammanfattning",
+          "tip": "Låt oss veta vad som gick fel med några få ord."
+        },
+        "detail": {
+          "label": "Problemdetaljer",
+          "tip": "Beskriv i detalj vad som gick fel, eventuella åtgärder du vidtog och felmeddelanden du fick."
+        }
+      },
+      "fr": {
+        "name": "Funktionsbegäran",
+        "title": {
+          "label": "Titel",
+          "tip": "Vad handlar din förfrågan om?"
+        },
+        "detail": {
+          "label": "Beskrivning",
+          "tip": "Ange en detaljerad beskrivning av den nya funktion du vill ha."
+        }
+      }
+    }
+  },
+  "sidebarPanel": {
+    "askChatGPT": "Fråga ChatGPT:",
+    "savePrompt": "Spara uppmaning",
+    "saveNewPrompt": "Spara som en ny prompt",
+    "replacePrompt": "Byt ut prompten",
+    "inputPlaceholder1": "Inmatningsprompt eller välj från menyn",
+    "inputPlaceholder2": "Klistra in eller ange innehåll här",
+    "startNewLine": "Tryck på {{shortcut}} för att starta en ny rad",
+    "inputPlaceholderCodes": "Klistra in eller mata in koder här",
+    "inputPlaceholderQA": "Klistra in eller skriv in fråga här",
+    "response": "Svar:",
+    "stopGenerating": "Sluta generera",
+    "regenerate": "Återskapa svar"
+  },
+  "translator": {
+    "quickActions": "Snabba uppslag",
+    "disableHostFabLabel": "Inaktivera på denna webbplats",
+    "disableFabLabel": "Inaktivera på alla webbplatser"
+  },
+  "changeLogPage": {
+    "rate5Star": "<b>Älskar du vårt tillägg?</b> Ge oss fem stjärnor i webbbutiken för att hjälpa oss växa",
+    "newInVersion": "Vad är nytt i version {{versionId}}",
+    "logs": {
+      "1_0_11": [
+        "Få snabbt åtkomst till åtgärder genom ett popup-fönster utan att öppna sidofältet.",
+        "Lägg till stöd för ytterligare språk.",
+        "Behåll användarens språkpreferens när du använder översättningsfunktionen.",
+        "Lös genvägskonflikter på plattformar som GitHub och andra."
+      ],
+      "1_0_10": [
+        "Stöd över 50 språk nu!"
+      ],
+      "1_0_8": [
+        "Stöd GPT-4 för Plus-användare! Kolla inställningssidan!"
+      ],
+      "1_0_7": [
+        "Kom ihåg prompten som användes förra gången",
+        "Optimera positionen för chatGPT-panelen på söksidor",
+        "Lägg till ett alternativ för att placera sidofältsikonen på sidan till vänster",
+        "Optimera förpackningsstorleken",
+        "Lägg till mörkt läge",
+        "Stöd din API-url-proxy"
+      ],
+      "1_0_6": [
+        "Förbättra sammanfattningsfunktionen på Youtube-sidan"
+      ],
+      "1_0_5": [
+        "Kom ihåg platsen för sidofältsikonen",
+        "Förbättra kortkommandon",
+        "Spara promptmallar direkt från sidofältet"
+      ],
+      "1_0_4": [
+        "Beställ om artiklar i rullgardinsmenyn",
+        "Arkivera objekt som du inte kommer att använda",
+        "Supportsvar på 50+ språk"
+      ],
+      "1_0_3": [
+        "CMD/Ctrl + Enter för att göra snabb \"Skicka\"",
+        "Möjlighet att dölja panelen på sökresultatsidan",
+        "Stöd ESC för att dölja sidofältet",
+        "Support sammanfatta lång artikel"
+      ],
+      "1_0_2": [
+        "Lägg till stoppknapp för att sluta generera svar",
+        "Ändra plats för komprimeringsknappen"
+      ],
+      "1_0_1": [
+        "Förbättra sammanfattningsfunktionen på Youtube-sidan",
+        "Fixa några buggar relaterade till kopiera/klistra in och skriva ut"
+      ]
+    }
+  },
+  "searchTool": {
+    "questionMark": "Aktivera ChatGPT genom att lägga till ett frågetecken efter din fråga",
+    "askForQuery": "Fråga ChatGPT om denna fråga",
+    "fiveStart": "Gillar du den här förlängningen? Ge oss ett 5-stjärnigt betyg på {{store}}",
+    "loginAndCloudflareCheck": "Logga in och klara Cloudflare-kontrollen på {{web}}",
+    "braveTrouble": "Funkar fortfarande inte? Följ {{url}}",
+    "cloudflareCheck": "OpenAI kräver att du klarar en säkerhetskontroll då och då. Om detta fortsätter att hända, byt AI-leverantör till OpenAI API i <i>tilläggsalternativen</i>.",
+    "failedResponse": "Det gick inte att ladda svar från ChatGPT:",
+    "waitResponse": "Väntar på ChatGPT-svar..."
+  },
+  "msg": {
+    "enterAPIKey": "Ange din OpenAI API-nyckel",
+    "selectModel": "Välj en giltig modell",
+    "changeSaved": "ändringar sparade",
+    "fiveStart": "Ge oss en 5-stjärnig",
+    "errSiderApiLimit": "Du har använt alla gratiskrediter som vi tillhandahåller, följ <i>instruktionerna här</i> för att få ett API från OpenAI.",
+    "loginAndCloudflareCheck": "För att använda det, vänligen logga in och klara Cloudflare-kontrollen på <i>chat.openai.com</i>",
+    "invalidApiKey": "API-nyckeln är ogiltig, skaffa en annan.",
+    "getApiKeyGuide": "Du behöver en OpenAI API-nyckel för att få det att fungera. Följ vår guide för att få API-nyckeln och $18 OpenAI-krediter <i>gratis</i>.",
+    "thankForFeedback": "Tack. Formuläret har skickats in. Vi kommer att kontakta dig inom kort.",
+    "writeSomething": "Snälla skriv något.",
+    "enterEmail": "Ange en e-postadress för att få uppdateringar om problemet.",
+    "emailRequired": "E-post krävs.",
+    "promptNameRequired": "Uppmaningsnamn krävs.",
+    "nameYourPrompt": "Namnge din prompt",
+    "promptTplRequired": "Snabbmall krävs.",
+    "deletePromptWarn": "Vill du ta bort den här meddelandemallen?",
+    "restorePromptWarn": "Vill du återställa den här promptmallen?",
+    "notValidEmail": "inte ett giltigt mejl"
+  },
+  "options": {
+    "theme": {
+      "auto": "automatisk",
+      "light": "ljust läge",
+      "dark": "mörkt läge"
+    },
+    "triggerMode": {
+      "always": {
+        "title": "Alltid",
+        "desc": "Fråga ChatGPT vid varje sökning"
+      },
+      "questionMark": {
+        "title": "Frågetecken",
+        "desc": "Fråga ChatGPT om sökorden slutar med ett frågetecken (?)"
+      },
+      "manually": {
+        "title": "Manuellt",
+        "desc": "Fråga ChatGPT endast när du klickar på knappen"
+      }
+    },
+    "sidebarLocation": {
+      "left": "vänster sida",
+      "right": "höger sida"
+    },
+    "searchPromptTpl": {
+      "default": {
+        "title": "Standard",
+        "template": "Kan du berätta något om {{keywords}}? Om möjligt, kan du ge mig några länkar om det? Om {{keywords}} är en kodrelaterad fråga, skriv bara koden"
+      },
+      "list": {
+        "title": "Nyckelord till frågor",
+        "template": "Lista 1 mest populära fråga om \"{{keywords}}\". Sedan, svara på den här frågan. Till sist, lista ytterligare fyra frågor."
+      },
+      "suggest": {
+        "title": "Få relaterade sökord",
+        "template": "{{keywords}} är mina sökord i Google. Ge mig 5 uppsättningar relaterade sökord."
+      }
+    },
+    "sidebarPromptTpl": {
+      "summarize": {
+        "title": "Sammanfatta",
+        "template": "Sammanfatta detta för en elev i andra klass:"
+      },
+      "similar-pages": {
+        "title": "Liknande sidor",
+        "template": "Hitta 10 liknande sidor till följande innehåll med länk:"
+      },
+      "grammar": {
+        "title": "Grammatik",
+        "template": "Rätta detta till standard engelska:"
+      },
+      "explain": {
+        "title": "Förklara",
+        "template": "Förklara följande innehåll:"
+      },
+      "explain-codes": {
+        "title": "Förklara koder",
+        "template": "Förklara följande koder:"
+      },
+      "rewrite": {
+        "title": "Skriva om",
+        "template": "Skriv om följande innehåll:"
+      },
+      "translate": {
+        "title": "Översätt",
+        "template": "Översätt följande innehåll till språket {{lang}}:"
+      },
+      "qa": {
+        "title": "Frågor och svar",
+        "template": "Svara på denna fråga:"
+      }
+    }
+  }
+}

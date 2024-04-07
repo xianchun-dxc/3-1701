@@ -1,0 +1,321 @@
+{
+  "sidebar": "Barra lateral",
+  "shortcut": "Tecla de drecera",
+  "ask": "Pregunta",
+  "save": "Guarda-ho",
+  "cancel": "Cancel · lar",
+  "ok": "D'acord",
+  "submit": "Presentar",
+  "send": "Enviar",
+  "copy": "Còpia",
+  "copied": "Copiat",
+  "clear": "Clar",
+  "collapse": "Replega la barra lateral",
+  "done": "Fet",
+  "manage": "Gestionar",
+  "template": "plantilla",
+  "edit": "Edita",
+  "add": "Afegeix",
+  "feedback": "Feedback",
+  "tweetit": "Tuitejar",
+  "whatNew": "Novetats",
+  "gotIt": "Ho tinc",
+  "settings": "Configuració",
+  "general": "Configuració general",
+  "archive": "Arxiu",
+  "searchPage": "Pàgina de cerca",
+  "addons": "Complements",
+  "webStore": "Botiga web",
+  "webApp": "Aplicació web",
+  "language": "Llenguatge",
+  "theme": "Tema",
+  "model": "Model",
+  "version": "Versió",
+  "more": "Més",
+  "listen": "Escolta",
+  "customPrompt": "Sol·licitud personalitzada",
+  "currentTpl": "Plantilla actual:",
+  "editTpl": "Editeu aquesta plantilla",
+  "delteTpl": "Suprimeix aquesta plantilla",
+  "restoreTpl": "Restaura aquesta plantilla",
+  "archiveTpl": "Arxiva aquesta plantilla",
+  "showTpl": "Mostra aquesta plantilla",
+  "promptName": "Nom del missatge",
+  "promptContent": "Contingut prompte",
+  "contactUs": "Contacta amb nosaltres",
+  "issueType": "Tipus de problema",
+  "pinExt": "Extensió de pin",
+  "yourEmailAddress": "La teva adreça de correu electrònic",
+  "troubleshooting": "Resolució de problemes",
+  "openSidebar": "Obre la barra lateral",
+  "pasteSelection": "Enganxa la selecció",
+  "pasteTextPage": "Enganxa el text de la pàgina",
+  "getAnotherKey": "Obteniu una altra clau",
+  "showSearchPanel": "Mostra el panell de cerca",
+  "getItNow": "Agafa-ho ara",
+  "alwaysDisplay": "Mostra sempre",
+  "popupPage": {
+    "thank": "Gràcies per utilitzar l'extensió {{APP_NAME}}!",
+    "desc": "Podeu utilitzar aquesta extensió a la majoria de pàgines web, amb l'excepció de les pàgines on el navegador restringeix l'execució d'scripts, com ara la botiga web d'extensions i les pàgines de configuració del navegador.",
+    "try": "No dubteu a provar aquesta extensió a qualsevol altra pàgina web, <i>com aquesta</i>."
+  },
+  "setupPage": {
+    "welcome": "Benvingut a {{APP_NAME}}! Aquí teniu l'inici del vostre viatge:",
+    "pinTips": "Fixeu {{APP_NAME}} per accedir fàcilment",
+    "stepTitle": "Per accedir a l'{{APP_NAME}} més fàcil, manteniu la icona de la barra lateral fixada seguint els passos següents:",
+    "step1": "Feu clic a la icona del trencaclosques {{icon}} al costat del vostre avatar de perfil.",
+    "step2": "Al menú desplegable, cerqueu {{APP_NAME}}.",
+    "step3": "Feu clic a la \"icona de fixació\" per fixar-la."
+  },
+  "getKeyPage": {
+    "welcome": "Benvingut a {{APP_NAME}}! Aquí teniu el vostre viatge per començar:",
+    "stepTitle": "Com obtenir una clau API i crèdits OpenAI de 18 dòlars <i>gratis</i>.",
+    "step1": "Pas 1: obteniu la clau API",
+    "step1-1": "<i>Inicieu la sessió al vostre compte d'OpenAI</i> Si no teniu cap compte, registreu-vos <b>AQUÍ</b>",
+    "step1-2": "Visiteu la pàgina de claus de l'API d'OpenAI",
+    "step1-3": "Creeu una nova clau secreta i copieu-la de la següent manera",
+    "step2": "Pas 2: enganxeu la clau de l'API al quadre següent",
+    "step2-tips": "No et preocupis. La vostra clau d'API només s'utilitza localment a l'extensió ChatGPT. L'ús de l'API és més estable que l'ús directe de ChatGPT.",
+    "step3": "Pas 3: comproveu els vostres crèdits de fins a <i>$18 aquí</i>"
+  },
+  "optionPage": {
+    "howToAccess": "Com accedir a ChatGPT",
+    "sidebarProvider": "L'{{APP_NAME}} proporcionarà accés i no cal que la configureu.",
+    "webappProvider": "L'API que alimenta l'aplicació web ChatGPT és gratuïta, però de vegades pot ser inestable.",
+    "webappGPT4": "Recomanat per a usuaris Plus (suport GPT-4)",
+    "GPT4Desc": "Si sou un <b>usuari de ChatGPT Plus</b>, ara teniu l'opció de triar <b>GPT-4</b>. Tanmateix, OpenAI pot limitar el nombre de missatges que podeu enviar al dia. Si no sou un usuari de Plus, és possible que no el pugueu utilitzar o que no sigui estable.",
+    "apiKeyProvider": "L'API oficial d'OpenAI és més estable i es cobra segons l'ús.",
+    "apiKeyLocally": "La vostra clau d'API s'emmagatzema localment al vostre navegador i mai no s'envia a cap altre lloc.",
+    "ownURL": "Utilitzeu el meu propi URL",
+    "apiFreeGuide": "Seguiu la guia per obtenir la clau de l'API i fins a 18 $ de crèdits d'OpenAI <i>gratis</i>",
+    "displaySearchRes": "Mostra la resposta de ChatGPT al costat de les pàgines de resultats de la cerca",
+    "whenToAsk": "Quan demanar a ChatGPT",
+    "promptTplForSearch": "Plantilla de sol·licitud per a Google i altres",
+    "addNewTplForSearch": "Afegiu una nova plantilla de sol·licitud",
+    "launchSidebar": "Inicieu la barra lateral",
+    "sidebarLocation": "Ubicació de la barra lateral",
+    "sidebarLeftOrRight": "Col·loqueu la barra lateral al costat esquerre o dret",
+    "sidebarIcon": "Icona de la barra lateral",
+    "sidebarIconAccess": "Accediu a la barra lateral mitjançant la icona situada a l'extrem inferior dret de la pàgina. Podeu arrossegar-lo per moure'l cap amunt i cap avall",
+    "easiestWayUse": "La manera més fàcil d'utilitzar {{APP_NAME}}",
+    "displayWhenSelect": "Mostra quan se selecciona el text",
+    "promptTplForSidebar": "Plantilla de sol·licitud per a la barra lateral",
+    "dragSidebarTpl": "Arrossegueu i deixeu anar per reordenar la plantilla O arxivar aquelles que no utilitzareu",
+    "addNewTplForSidebar": "Afegeix una nova plantilla de sol·licitud",
+    "editSearchTplTip": "utilitzeu {{keywords}} per fer referència a les vostres paraules clau de cerca",
+    "editSearchTplPlaceholder": "{{keywords}} al contingut de la sol·licitud se substituirà automàticament per les vostres paraules clau de cerca",
+    "editSidebarTplTip": "Enganxeu o introduïu contingut aquí",
+    "showOnList": "Mostra a la llista",
+    "translatorNavTitle": "Cerca ràpida",
+    "translatorTitle": "Finestra de cerca ràpida",
+    "translatorFabTitle": "Icona de cerca ràpida",
+    "translatorFabDesc": "Accediu a la finestra de cerca ràpida mitjançant la icona.",
+    "translatorFabToggleLabel": "Mostra quan se selecciona el text",
+    "translatorTplTitle": "Plantilla de sol·licitud per a la finestra emergent",
+    "translatorTplDesc": "La primera plantilla principal s'utilitzarà com a comanda predeterminada per a la finestra emergent.",
+    "translatorPrimaryTemplates": "Plantilles principals",
+    "translatorTemplatesNotes": "*Aquesta finestra emergent comparteix les mateixes plantilles amb la barra lateral. Si necessiteu editar o afegir una plantilla, modifiqueu-la a la <b>Configuració de la barra lateral</b>.",
+    "translatorIntroTitle": "🤔 Què és la cerca ràpida?",
+    "translatorIntroDesc": "La cerca ràpida és una acció ràpida de la barra lateral de ChatGPT, que ofereix una sèrie d'eines útils.\n\nApareix a l'instant quan seleccioneu text. Amb només un clic, podeu traduir textos ràpidament, reescriure-los, obtenir explicacions i molt més. A més, podeu reorganitzar l'ordre de les eines i personalitzar les vostres pròpies indicacions.\n\nPer activar la barra lateral de ChatGPT, tot el que heu de fer és fer clic a la icona de cerca ràpida.",
+    "translatorHostFabConfigLabel": "Llista de llocs web on la cerca ràpida està desactivada",
+    "feedbackTypes": {
+      "bug": {
+        "name": "Informe de problemes",
+        "title": {
+          "label": "Resum del problema",
+          "tip": "Feu-nos saber què ha fallat en poques paraules."
+        },
+        "detail": {
+          "label": "Detalls del problema",
+          "tip": "Si us plau, descriu amb detall què ha fallat, les accions que heu fet i els missatges d'error que heu rebut."
+        }
+      },
+      "fr": {
+        "name": "Sol·licitud de funció",
+        "title": {
+          "label": "Títol",
+          "tip": "De què va la teva petició?"
+        },
+        "detail": {
+          "label": "Descripció",
+          "tip": "Proporcioneu una descripció detallada de la funció nova que voleu."
+        }
+      }
+    }
+  },
+  "sidebarPanel": {
+    "askChatGPT": "Pregunta a ChatGPT:",
+    "savePrompt": "Desa el missatge",
+    "saveNewPrompt": "Desa com a sol·licitud nova",
+    "replacePrompt": "Substituïu el missatge",
+    "inputPlaceholder1": "Introduïu la sol·licitud o trieu del menú",
+    "inputPlaceholder2": "Enganxeu o introduïu contingut aquí",
+    "startNewLine": "Premeu {{shortcut}} per començar una línia nova",
+    "inputPlaceholderCodes": "Enganxeu o introduïu codis aquí",
+    "inputPlaceholderQA": "Enganxeu o introduïu la pregunta aquí",
+    "response": "Resposta:",
+    "stopGenerating": "Deixar de generar",
+    "regenerate": "Resposta regenerada"
+  },
+  "translator": {
+    "quickActions": "Recerques ràpides",
+    "disableHostFabLabel": "Desactivar en aquest lloc web",
+    "disableFabLabel": "Desactivar a tots els llocs web"
+  },
+  "changeLogPage": {
+    "rate5Star": "<b>T'agrada la nostra extensió?</b> Valoreu-nos amb cinc estrelles a la botiga web per ajudar-nos a créixer",
+    "newInVersion": "Novetats a la versió {{versionId}}",
+    "logs": {
+      "1_0_11": [
+        "Accediu ràpidament a les accions mitjançant una finestra emergent sense obrir la barra lateral.",
+        "Afegiu suport per a idiomes addicionals.",
+        "Conserveu la preferència d'idioma de l'usuari quan utilitzeu la funció de traducció.",
+        "Resoldre conflictes de dreceres a plataformes com GitHub i altres."
+      ],
+      "1_0_10": [
+        "Admet més de 50 idiomes ara!"
+      ],
+      "1_0_8": [
+        "Admet GPT-4 per als usuaris Plus! Comproveu la pàgina de configuració!"
+      ],
+      "1_0_7": [
+        "Recordeu l'indicador utilitzat l'última vegada",
+        "Optimitzeu la posició del panell de xatGPT a les pàgines de cerca",
+        "Afegiu una opció per posar la icona de la barra lateral a la pàgina al costat esquerre",
+        "Optimitzar la mida del paquet",
+        "Afegeix el mode fosc",
+        "Admet el vostre proxy d'URL de l'API"
+      ],
+      "1_0_6": [
+        "Millora la funció de resum a la pàgina de Youtube"
+      ],
+      "1_0_5": [
+        "Recordeu la ubicació de la icona de la barra lateral",
+        "Millora les tecles de drecera",
+        "Deseu les plantilles de sol·licitud directament des de la barra lateral"
+      ],
+      "1_0_4": [
+        "Torneu a ordenar els elements del missatge a la llista desplegable",
+        "Arxiveu els elements de sol·licitud que no utilitzareu",
+        "Resposta de suport en més de 50 idiomes"
+      ],
+      "1_0_3": [
+        "CMD/Ctrl + Intro per fer \"Enviar\" ràpid",
+        "Opció per amagar el tauler a la pàgina de resultats de la cerca",
+        "Suport ESC per ocultar la barra lateral",
+        "Suport de resum article llarg"
+      ],
+      "1_0_2": [
+        "Afegeix un botó d'aturada per deixar de generar resposta",
+        "Canvia el botó de col·lapse del lloc"
+      ],
+      "1_0_1": [
+        "Millora la funció de resum a la pàgina de Youtube",
+        "Corregiu alguns errors relacionats amb copiar/enganxar i imprimir"
+      ]
+    }
+  },
+  "searchTool": {
+    "questionMark": "Activa ChatGPT afegint un signe d'interrogació després de la teva consulta",
+    "askForQuery": "Demaneu aquesta consulta a ChatGPT",
+    "fiveStart": "Us agrada aquesta extensió? Doneu-nos una puntuació de 5 estrelles a {{store}}",
+    "loginAndCloudflareCheck": "Si us plau, inicieu la sessió i supereu la comprovació de Cloudflare a {{web}}",
+    "braveTrouble": "Encara no funciona? Segueix {{url}}",
+    "cloudflareCheck": "OpenAI requereix passar un control de seguretat de tant en tant. Si això continua passant, canvieu el proveïdor d'AI per OpenAI API a les <i>opcions d'extensió</i>.",
+    "failedResponse": "No s'ha pogut carregar la resposta de ChatGPT:",
+    "waitResponse": "S'està esperant la resposta de ChatGPT..."
+  },
+  "msg": {
+    "enterAPIKey": "Introduïu la vostra clau de l'API OpenAI",
+    "selectModel": "Seleccioneu un model vàlid",
+    "changeSaved": "S'han guardat els canvis",
+    "fiveStart": "Dóna'ns un 5 estrelles",
+    "errSiderApiLimit": "Heu utilitzat tots els crèdits gratuïts que us proporcionem, seguiu les <i>instruccions aquí</i> per obtenir una API d'OpenAI.",
+    "loginAndCloudflareCheck": "Per utilitzar-lo, inicieu sessió i supereu la comprovació de Cloudflare a <i>chat.openai.com</i>",
+    "invalidApiKey": "La clau de l'API no és vàlida, obteniu-ne una altra.",
+    "getApiKeyGuide": "Necessites una clau d'API OpenAI perquè funcioni. Seguiu la nostra guia per obtenir la clau API i crèdits OpenAI de 18 $ <i>gratis</i>.",
+    "thankForFeedback": "Gràcies. El formulari s'ha enviat correctament. En breu ens posarem en contacte amb tu.",
+    "writeSomething": "Si us plau, escriu alguna cosa.",
+    "enterEmail": "Introduïu una adreça de correu electrònic per rebre actualitzacions sobre el problema.",
+    "emailRequired": "El correu electrònic és obligatori.",
+    "promptNameRequired": "El nom ràpid és obligatori.",
+    "nameYourPrompt": "Anomena el teu missatge",
+    "promptTplRequired": "Cal una plantilla ràpida.",
+    "deletePromptWarn": "Voleu suprimir aquesta plantilla de sol·licitud?",
+    "restorePromptWarn": "Voleu restaurar aquesta plantilla de sol·licitud?",
+    "notValidEmail": "no és un correu electrònic vàlid"
+  },
+  "options": {
+    "theme": {
+      "auto": "automàtic",
+      "light": "mode brillant",
+      "dark": "mode fosc"
+    },
+    "triggerMode": {
+      "always": {
+        "title": "Sempre",
+        "desc": "Pregunta a ChatGPT a cada cerca"
+      },
+      "questionMark": {
+        "title": "Signe d'interrogació",
+        "desc": "Pregunteu a ChatGPT si les paraules clau acaben amb un signe d'interrogació (?)"
+      },
+      "manually": {
+        "title": "Manualment",
+        "desc": "Pregunteu a ChatGPT només quan feu clic al botó"
+      }
+    },
+    "sidebarLocation": {
+      "left": "costat esquerre",
+      "right": "costat dret"
+    },
+    "searchPromptTpl": {
+      "default": {
+        "title": "Per defecte",
+        "template": "Em pots dir alguna cosa sobre {{keywords}}? Si és possible, em pots donar alguns enllaços al respecte? Si {{keywords}} és una pregunta relacionada amb el codi, només cal que escriviu el codi"
+      },
+      "list": {
+        "title": "Paraules clau per a preguntes",
+        "template": "Llista 1 pregunta més popular sobre \"{{keywords}}\". Aleshores, respon a aquesta pregunta. Finalment, enumera 4 preguntes més."
+      },
+      "suggest": {
+        "title": "Obteniu paraules clau relacionades",
+        "template": "{{keywords}} són les meves paraules clau de cerca a Google. Si us plau, doneu-me 5 conjunts de paraules clau relacionades."
+      }
+    },
+    "sidebarPromptTpl": {
+      "summarize": {
+        "title": "Resumir",
+        "template": "Resumeix això per a un estudiant de segon grau:"
+      },
+      "similar-pages": {
+        "title": "Pàgines semblants",
+        "template": "Trobeu 10 pàgines semblants al contingut següent amb enllaç:"
+      },
+      "grammar": {
+        "title": "Gramàtica",
+        "template": "Corregiu això amb l'anglès estàndard:"
+      },
+      "explain": {
+        "title": "Explica",
+        "template": "Explica el contingut següent:"
+      },
+      "explain-codes": {
+        "title": "Explica els codis",
+        "template": "Explica els codis següents:"
+      },
+      "rewrite": {
+        "title": "Reescriure",
+        "template": "Torna a escriure el contingut següent:"
+      },
+      "translate": {
+        "title": "Traduir",
+        "template": "Tradueix el contingut següent a l'idioma {{lang}}:"
+      },
+      "qa": {
+        "title": "Q&A",
+        "template": "Respon aquesta pregunta:"
+      }
+    }
+  }
+}

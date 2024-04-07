@@ -1,0 +1,321 @@
+{
+  "sidebar": "kenar çubuğu",
+  "shortcut": "Kısayol tuşu",
+  "ask": "Sormak",
+  "save": "Kaydet",
+  "cancel": "İptal etmek",
+  "ok": "TAMAM",
+  "submit": "Göndermek",
+  "send": "Göndermek",
+  "copy": "kopyala",
+  "copied": "kopyalandı",
+  "clear": "Temizlemek",
+  "collapse": "Kenar çubuğunu daralt",
+  "done": "Tamamlamak",
+  "manage": "Üstesinden gelmek",
+  "template": "şablon",
+  "edit": "Düzenlemek",
+  "add": "Eklemek",
+  "feedback": "Geri bildirim",
+  "tweetit": "Tweetle",
+  "whatNew": "Yeni Özellikler",
+  "gotIt": "Anladım",
+  "settings": "Ayarlar",
+  "general": "Genel yapılandırma",
+  "archive": "Arşiv",
+  "searchPage": "Arama Sayfası",
+  "addons": "eklentiler",
+  "webStore": "İnternet mağazası",
+  "webApp": "internet uygulaması",
+  "language": "Dil",
+  "theme": "Tema",
+  "model": "Modeli",
+  "version": "Sürüm",
+  "more": "Daha",
+  "listen": "Dinlemek",
+  "customPrompt": "Özel bilgi istemi",
+  "currentTpl": "Geçerli şablon:",
+  "editTpl": "Bu şablonu düzenle",
+  "delteTpl": "Bu şablonu sil",
+  "restoreTpl": "Bu şablonu geri yükle",
+  "archiveTpl": "Bu şablonu arşivle",
+  "showTpl": "Bu şablonu göster",
+  "promptName": "İstem Adı",
+  "promptContent": "Bilgi İstemi İçeriği",
+  "contactUs": "Bize Ulaşın",
+  "issueType": "Sorun Tipi",
+  "pinExt": "Pin uzantısı",
+  "yourEmailAddress": "E-posta Adresiniz",
+  "troubleshooting": "Sorun giderme",
+  "openSidebar": "Kenar çubuğunu aç",
+  "pasteSelection": "Seçimi yapıştır",
+  "pasteTextPage": "Sayfadan metin yapıştır",
+  "getAnotherKey": "Başka Bir Anahtar Al",
+  "showSearchPanel": "Arama Panelini Göster",
+  "getItNow": "Şimdi sahip ol",
+  "alwaysDisplay": "Her Zaman Görüntüle",
+  "popupPage": {
+    "thank": "{{APP_NAME}} uzantısını kullandığınız için teşekkür ederiz!",
+    "desc": "Bu uzantıyı, uzantı web mağazası ve tarayıcı ayarları sayfaları gibi tarayıcının komut dosyalarının çalışmasını kısıtladığı sayfalar dışında çoğu web sayfasında kullanabilirsiniz.",
+    "try": "Bu uzantıyı <i>bunun gibi</i> başka bir web sayfasında denemekten çekinmeyin."
+  },
+  "setupPage": {
+    "welcome": "{{APP_NAME}}'a hoş geldiniz! İşte yolculuğunuzun başlangıcı:",
+    "pinTips": "Kolay erişim için {{APP_NAME}} uygulamasını sabitleyin",
+    "stepTitle": "{{APP_NAME}} uygulamasına daha kolay erişmek için lütfen aşağıdaki adımları izleyerek kenar çubuğu simgesini sabit tutun:",
+    "step1": "Profil avatarının yanındaki yapboz simgesine {{icon}} tıkla.",
+    "step2": "Açılır menüde {{APP_NAME}} uygulamasını bulun.",
+    "step3": "Sabitlemek için \"Sabitle simgesini\" tıklayın."
+  },
+  "getKeyPage": {
+    "welcome": "{{APP_NAME}}'a hoş geldiniz! İşte başlama yolculuğunuz:",
+    "stepTitle": "<i>Ücretsiz</i> bir API anahtarı ve 18 ABD Doları değerinde OpenAI Kredisi nasıl alınır?",
+    "step1": "1. Adım: API anahtarını alın",
+    "step1-1": "<i>OpenAI hesabınıza giriş yapın</i> Hesabınız yoksa <b>BURADAN</b> kaydolun",
+    "step1-2": "OpenAI API Anahtarı sayfasını ziyaret edin",
+    "step1-3": "Yeni bir gizli anahtar oluşturun ve aşağıdaki gibi kopyalayın",
+    "step2": "2. Adım: API Anahtarını aşağıdaki kutuya yapıştırın",
+    "step2-tips": "Merak etme. API anahtarınız yalnızca yerel olarak ChatGPT uzantısında kullanılır. API'yi kullanmak, ChatGPT'yi doğrudan kullanmaktan daha kararlıdır.",
+    "step3": "3. Adım: <i>18$'a kadar kredinizi buradan</i> kontrol edin"
+  },
+  "optionPage": {
+    "howToAccess": "ChatGPT'ye nasıl erişilir?",
+    "sidebarProvider": "{{APP_NAME}}, erişim sağlayacaktır ve kurulumuna gerek yoktur.",
+    "webappProvider": "ChatGPT web uygulamasını destekleyen API ücretsizdir, ancak bazen kararsız olabilir.",
+    "webappGPT4": "Plus kullanıcıları için önerilir (GPT-4 desteği)",
+    "GPT4Desc": "Bir <b>ChatGPT Plus kullanıcısıysanız</b>, artık <b>GPT-4</b>'ü seçme seçeneğiniz vardır. Ancak OpenAI, günde gönderebileceğiniz mesaj sayısını sınırlayabilir. Plus kullanıcısı değilseniz kullanamayabilirsiniz veya stabil olmayabilir.",
+    "apiKeyProvider": "Resmi OpenAI API'si daha kararlıdır ve kullanıma göre ücretlendirilir.",
+    "apiKeyLocally": "API Anahtarınız tarayıcınızda yerel olarak saklanır ve asla başka bir yere gönderilmez.",
+    "ownURL": "Kendi URL'mi kullan",
+    "apiFreeGuide": "API anahtarını ve OpenAI'den <i>ücretsiz</i> 18 ABD dolarına kadar kredi almak için kılavuzu takip edin",
+    "displaySearchRes": "Arama sonuç sayfalarının yanında ChatGPT yanıtını görüntüleyin",
+    "whenToAsk": "ChatGPT'ye ne zaman sorulmalı?",
+    "promptTplForSearch": "Google ve diğerleri için bilgi istemi şablonu",
+    "addNewTplForSearch": "Yeni bilgi istemi şablonu ekle",
+    "launchSidebar": "Kenar çubuğunu başlat",
+    "sidebarLocation": "Kenar Çubuğu Konumu",
+    "sidebarLeftOrRight": "Kenar çubuğunu sol veya sağ tarafa yerleştirin",
+    "sidebarIcon": "Kenar Çubuğu Simgesi",
+    "sidebarIconAccess": "Sayfanın sağ alt köşesinde bulunan simge aracılığıyla kenar çubuğuna erişin. Yukarı ve aşağı taşımak için sürükleyebilirsiniz",
+    "easiestWayUse": "{{APP_NAME}} kullanmanın en kolay yolu",
+    "displayWhenSelect": "Metin seçildiğinde göster",
+    "promptTplForSidebar": "Kenar çubuğu için bilgi istemi şablonu",
+    "dragSidebarTpl": "Şablonu yeniden sıralamak için sürükleyip bırakın VEYA kullanmayacağınızı arşivleyin",
+    "addNewTplForSidebar": "Yeni bilgi istemi şablonu ekle",
+    "editSearchTplTip": "arama anahtar kelimelerinizi yönlendirmek için {{keywords}} kullanın",
+    "editSearchTplPlaceholder": "Bilgi istemi içeriğindeki {{keywords}}, sihirli bir şekilde arama anahtar kelimelerinizle değiştirilecek",
+    "editSidebarTplTip": "İçeriği buraya yapıştırın veya girin",
+    "showOnList": "Listede göster",
+    "translatorNavTitle": "Hızlı Arama",
+    "translatorTitle": "Hızlı Arama Penceresi",
+    "translatorFabTitle": "Hızlı Arama simgesi",
+    "translatorFabDesc": "Simge aracılığıyla hızlı arama penceresine erişin.",
+    "translatorFabToggleLabel": "Metin seçildiğinde göster",
+    "translatorTplTitle": "Açılır pencere için bilgi istemi şablonu",
+    "translatorTplDesc": "İlk ana şablon, açılır pencere için varsayılan komut olarak kullanılacaktır.",
+    "translatorPrimaryTemplates": "Ana şablonlar",
+    "translatorTemplatesNotes": "*Bu açılır pencere, kenar çubuğuyla aynı şablonları paylaşır. Bir şablonu düzenlemeniz veya eklemeniz gerekirse, lütfen şablonu <b>kenar çubuğundaki Ayarlar</b>'da değiştirin.",
+    "translatorIntroTitle": "🤔 Hızlı Arama nedir?",
+    "translatorIntroDesc": "Hızlı Arama, bir dizi yararlı araç sağlayan, ChatGPT Kenar Çubuğunun hızlı bir eylemidir.\n\nMetni seçtiğinizde anında görünür. Tek bir tıklama ile metinleri hızlıca çevirebilir, yeniden yazabilir, açıklamalar alabilir ve çok daha fazlasını yapabilirsiniz. Ek olarak, araçların sırasını yeniden düzenleyebilir ve kendi istemlerinizi özelleştirebilirsiniz.\n\nChatGPT Kenar Çubuğunu etkinleştirmek için tek yapmanız gereken Hızlı Arama simgesine tıklamak.",
+    "translatorHostFabConfigLabel": "Hızlı Arama'nın devre dışı bırakıldığı web sitelerinin listesi",
+    "feedbackTypes": {
+      "bug": {
+        "name": "Sorun Raporu",
+        "title": {
+          "label": "Sorun Özeti",
+          "tip": "Birkaç kelimeyle neyin yanlış gittiğini bize bildirin."
+        },
+        "detail": {
+          "label": "Sorun Ayrıntıları",
+          "tip": "Lütfen neyin yanlış gittiğini, yaptığınız işlemleri ve aldığınız hata mesajlarını ayrıntılı olarak açıklayın."
+        }
+      },
+      "fr": {
+        "name": "Özellik isteği",
+        "title": {
+          "label": "Başlık",
+          "tip": "Talebiniz ne hakkında?"
+        },
+        "detail": {
+          "label": "Tanım",
+          "tip": "Lütfen istediğiniz yeni özelliğin ayrıntılı bir açıklamasını sağlayın."
+        }
+      }
+    }
+  },
+  "sidebarPanel": {
+    "askChatGPT": "ChatGPT'ye sorun:",
+    "savePrompt": "İstemi kaydet",
+    "saveNewPrompt": "Yeni bilgi istemi olarak kaydet",
+    "replacePrompt": "İstemi değiştir",
+    "inputPlaceholder1": "Giriş istemi veya menüden seçim yapın",
+    "inputPlaceholder2": "İçeriği buraya yapıştırın veya girin",
+    "startNewLine": "Yeni bir satır başlatmak için {{shortcut}} tuşuna basın",
+    "inputPlaceholderCodes": "Kodları buraya yapıştırın veya girin",
+    "inputPlaceholderQA": "Soruyu buraya yapıştırın veya girin",
+    "response": "Cevap:",
+    "stopGenerating": "Oluşturmayı durdur",
+    "regenerate": "Yanıtı yeniden oluştur"
+  },
+  "translator": {
+    "quickActions": "hızlı aramalar",
+    "disableHostFabLabel": "Bu web sitesinde devre dışı bırak",
+    "disableFabLabel": "Tüm web sitelerinde devre dışı bırak"
+  },
+  "changeLogPage": {
+    "rate5Star": "<b>Uzantımızı beğendiniz mi?</b> Büyümemize yardımcı olması için lütfen web mağazasında bize beş yıldız verin",
+    "newInVersion": "{{versionId}} sürümündeki Yenilikler",
+    "logs": {
+      "1_0_11": [
+        "Kenar çubuğunu açmadan bir açılır pencere aracılığıyla eylemlere hızla erişin.",
+        "Ek diller için destek ekleyin.",
+        "Çeviri özelliğini kullanırken kullanıcının dil tercihini koruyun.",
+        "GitHub ve diğerleri gibi platformlarda kısayol çakışmalarını çözün."
+      ],
+      "1_0_10": [
+        "Şimdi 50'den fazla dili destekleyin!"
+      ],
+      "1_0_8": [
+        "Plus kullanıcıları için GPT-4'ü destekleyin! Ayarlar sayfasını kontrol edin!"
+      ],
+      "1_0_7": [
+        "Geçen sefer kullanılan istemi hatırla",
+        "Arama sayfalarında chatGPT panelinin konumunu optimize edin",
+        "Kenar çubuğu sayfa içi simgesini sol tarafa koymak için bir seçenek ekleyin",
+        "Paket boyutunu optimize edin",
+        "Karanlık mod ekle",
+        "API url proxy'nizi destekleyin"
+      ],
+      "1_0_6": [
+        "Youtube sayfasında özetleme özelliğini geliştirin"
+      ],
+      "1_0_5": [
+        "Kenar çubuğu simgesinin konumunu hatırla",
+        "Kısayol tuşlarını geliştirin",
+        "Bilgi istemi şablonlarını doğrudan kenar çubuğundan kaydedin"
+      ],
+      "1_0_4": [
+        "Açılır listedeki bilgi istemi öğelerini yeniden sıralayın",
+        "Kullanmayacağınız bilgi istemi öğelerini arşivleyin",
+        "50'den fazla dilde destek yanıtı"
+      ],
+      "1_0_3": [
+        "Hızlı \"Gönder\" yapmak için CMD/Ctrl + Enter",
+        "Arama sonuçları sayfasında paneli gizleme seçeneği",
+        "Kenar çubuğunu gizlemek için ESC'yi destekleyin",
+        "Destek uzun makaleyi özetle"
+      ],
+      "1_0_2": [
+        "Yanıt oluşturmayı durdurmak için durdur düğmesi ekleyin",
+        "Daralt düğmesinin yerini değiştir"
+      ],
+      "1_0_1": [
+        "Youtube sayfasında özetleme özelliğini geliştirin",
+        "Kopyala/yapıştır ve yazdır ile ilgili bazı hataları düzeltin"
+      ]
+    }
+  },
+  "searchTool": {
+    "questionMark": "Sorgunuzdan sonra bir soru işareti ekleyerek ChatGPT'yi tetikleyin",
+    "askForQuery": "Bu sorgu için ChatGPT'ye sorun",
+    "fiveStart": "Bu uzantıyı beğendiniz mi? {{store}}'da bize 5 yıldız verin",
+    "loginAndCloudflareCheck": "Lütfen giriş yapın ve {{web}} adresinden Cloudflare kontrolünü geçin",
+    "braveTrouble": "Hala çalışmıyor? {{url}}'yi takip et",
+    "cloudflareCheck": "OpenAI, arada bir güvenlik kontrolünden geçmeyi gerektirir. Bu durum devam ederse, <i>uzantı seçeneklerinde</i> AI sağlayıcısını OpenAI API olarak değiştirin.",
+    "failedResponse": "ChatGPT'den yanıt yüklenemedi:",
+    "waitResponse": "ChatGPT yanıtı bekleniyor..."
+  },
+  "msg": {
+    "enterAPIKey": "Lütfen OpenAI API anahtarınızı girin",
+    "selectModel": "Lütfen geçerli bir model seçin",
+    "changeSaved": "değişiklikler kaydedildi",
+    "fiveStart": "Bize 5 yıldız verin",
+    "errSiderApiLimit": "Tarafımızdan sağlanan tüm ücretsiz kredileri kullandınız, OpenAI'den bir API almak için lütfen <i>buradaki talimatları</i> takip edin.",
+    "loginAndCloudflareCheck": "Kullanmak için lütfen oturum açın ve <i>chat.openai.com</i> adresinden Cloudflare kontrolünden geçin.",
+    "invalidApiKey": "API anahtarı geçersiz, lütfen başka bir tane alın.",
+    "getApiKeyGuide": "Çalışması için bir OpenAI API anahtarına ihtiyacınız var. API anahtarını ve <i>ücretsiz</i> 18 $ OpenAI kredisi almak için kılavuzumuzu takip edin.",
+    "thankForFeedback": "Teşekkür ederim. Form başarıyla gönderildi. Kısa süre içinde sizinle iletişime geçeceğiz.",
+    "writeSomething": "Lütfen bir şeyler yazın.",
+    "enterEmail": "Sorunla ilgili güncellemeleri almak için bir e-posta adresi girin.",
+    "emailRequired": "Email gereklidir.",
+    "promptNameRequired": "Bilgi istemi adı gerekli.",
+    "nameYourPrompt": "İsteminize bir ad verin",
+    "promptTplRequired": "Bilgi istemi şablonu gerekli.",
+    "deletePromptWarn": "Bu bilgi istemi şablonunu silmek istiyor musunuz?",
+    "restorePromptWarn": "Bu bilgi istemi şablonunu geri yüklemek istiyor musunuz?",
+    "notValidEmail": "geçerli bir e-posta değil"
+  },
+  "options": {
+    "theme": {
+      "auto": "otomatik",
+      "light": "parlak mod",
+      "dark": "karanlık mod"
+    },
+    "triggerMode": {
+      "always": {
+        "title": "Her zaman",
+        "desc": "Her aramada ChatGPT'ye sorun"
+      },
+      "questionMark": {
+        "title": "Soru işareti",
+        "desc": "ChatGPT'ye anahtar kelimelerin soru işaretiyle (?) bitip bitmediğini sorun."
+      },
+      "manually": {
+        "title": "manuel olarak",
+        "desc": "ChatGPT'ye yalnızca düğmeyi tıkladığınızda sorun"
+      }
+    },
+    "sidebarLocation": {
+      "left": "Sol Taraf",
+      "right": "Sağ Taraf"
+    },
+    "searchPromptTpl": {
+      "default": {
+        "title": "Varsayılan",
+        "template": "Bana {{keywords}} hakkında bir şeyler söyleyebilir misin? Mümkünse bana bununla ilgili linkler verebilir misiniz? {{keywords}} kodla ilgili bir soruysa, lütfen kodu yazmanız yeterli"
+      },
+      "list": {
+        "title": "Soruların Anahtar Kelimeleri",
+        "template": "\"{{keywords}}\" ile ilgili en popüler 1 soruyu listeleyin. Ardından, bu soruyu cevaplayın. Son olarak, 4 soru daha listeleyin."
+      },
+      "suggest": {
+        "title": "Alakalı anahtar kelimeler alın",
+        "template": "{{keywords}}, Google'da arama anahtar kelimelerimdir. Lütfen bana 5 takım ilgili anahtar kelime verin."
+      }
+    },
+    "sidebarPromptTpl": {
+      "summarize": {
+        "title": "özetle",
+        "template": "Bunu ikinci sınıf öğrencisi için özetleyin:"
+      },
+      "similar-pages": {
+        "title": "benzer sayfalar",
+        "template": "Bağlantı ile aşağıdaki içeriğe benzer 10 sayfa bulun:"
+      },
+      "grammar": {
+        "title": "Dilbilgisi",
+        "template": "Bunu standart İngilizce olarak düzeltin:"
+      },
+      "explain": {
+        "title": "Açıklamak",
+        "template": "Aşağıdaki içeriği açıklayın:"
+      },
+      "explain-codes": {
+        "title": "Kodları Açıkla",
+        "template": "Aşağıdaki kodları açıklayınız:"
+      },
+      "rewrite": {
+        "title": "Yeniden yazmak",
+        "template": "Aşağıdaki içeriği yeniden yazın:"
+      },
+      "translate": {
+        "title": "Çevirmek",
+        "template": "Aşağıdaki içeriği {{lang}} diline çevirin:"
+      },
+      "qa": {
+        "title": "Soru-Cevap",
+        "template": "Bu soruyu cevaplayın:"
+      }
+    }
+  }
+}

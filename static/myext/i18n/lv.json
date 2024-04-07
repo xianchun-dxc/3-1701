@@ -1,0 +1,321 @@
+{
+  "sidebar": "Sānjosla",
+  "shortcut": "Īsinājumtaustiņš",
+  "ask": "Jautājiet",
+  "save": "Saglabājiet to",
+  "cancel": "Atcelt",
+  "ok": "labi",
+  "submit": "Iesniegt",
+  "send": "Sūtīt",
+  "copy": "Kopēt",
+  "copied": "Kopēts",
+  "clear": "Skaidrs",
+  "collapse": "Sakļaut sānjoslu",
+  "done": "Gatavs",
+  "manage": "Pārvaldīt",
+  "template": "veidne",
+  "edit": "Rediģēt",
+  "add": "Pievienot",
+  "feedback": "Atsauksmes",
+  "tweetit": "Tvītot",
+  "whatNew": "Jaunas funkcijas",
+  "gotIt": "Sapratu",
+  "settings": "Iestatījumi",
+  "general": "Vispārējā konfigurācija",
+  "archive": "arhīvs",
+  "searchPage": "Meklēšanas lapa",
+  "addons": "Papildinājumi",
+  "webStore": "Interneta veikals",
+  "webApp": "Web App",
+  "language": "Valoda",
+  "theme": "Tēma",
+  "model": "Modelis",
+  "version": "Versija",
+  "more": "Vairāk",
+  "listen": "Klausies",
+  "customPrompt": "Pielāgota uzvedne",
+  "currentTpl": "Pašreizējā veidne:",
+  "editTpl": "Rediģēt šo veidni",
+  "delteTpl": "Dzēst šo veidni",
+  "restoreTpl": "Atjaunojiet šo veidni",
+  "archiveTpl": "Arhivējiet šo veidni",
+  "showTpl": "Rādīt šo veidni",
+  "promptName": "Uzvednes nosaukums",
+  "promptContent": "Uzvednes saturs",
+  "contactUs": "Sazinies ar mums",
+  "issueType": "Problēmas veids",
+  "pinExt": "Piespraudes paplašinājums",
+  "yourEmailAddress": "Tava epasta adrese",
+  "troubleshooting": "Problēmu novēršana",
+  "openSidebar": "Atveriet sānjoslu",
+  "pasteSelection": "Ielīmēt atlasi",
+  "pasteTextPage": "Ielīmējiet tekstu no lapas",
+  "getAnotherKey": "Iegūstiet citu atslēgu",
+  "showSearchPanel": "Rādīt meklēšanas paneli",
+  "getItNow": "Iegūstiet to tūlīt",
+  "alwaysDisplay": "Vienmēr rādīt",
+  "popupPage": {
+    "thank": "Paldies, ka izmantojat paplašinājumu {{APP_NAME}}!",
+    "desc": "Šo paplašinājumu varat izmantot lielākajā daļā tīmekļa lapu, izņemot lapas, kurās pārlūkprogramma ierobežo skriptu darbību, piemēram, paplašinājumu interneta veikala un pārlūkprogrammas iestatījumu lapas.",
+    "try": "Jūtieties brīvi izmēģināt šo paplašinājumu jebkurā citā tīmekļa lapā, <i>piemēram, šajā</i>."
+  },
+  "setupPage": {
+    "welcome": "Laipni lūdzam lietotnē {{APP_NAME}}! Šeit ir jūsu ceļojuma sākums:",
+    "pinTips": "Piespraudiet lietotni {{APP_NAME}}, lai varētu viegli piekļūt",
+    "stepTitle": "Lai vieglāk piekļūtu lietotnei {{APP_NAME}}, lūdzu, turiet piespraustu sānjoslas ikonu, veicot tālāk norādītās darbības.",
+    "step1": "Noklikšķiniet uz mīklas ikonas {{icon}} blakus savam profila iemiesojumam.",
+    "step2": "Nolaižamajā izvēlnē atrodiet lietotni {{APP_NAME}}.",
+    "step3": "Noklikšķiniet uz \"Piespraust ikonas\", lai to piespraustu."
+  },
+  "getKeyPage": {
+    "welcome": "Laipni lūdzam lietotnē {{APP_NAME}}! Lūk, jāsāk jūsu ceļojums:",
+    "stepTitle": "Kā iegūt API atslēgu un $18 OpenAI kredītus <i>bez maksas</i>.",
+    "step1": "1. darbība: iegūstiet API atslēgu",
+    "step1-1": "<i>Piesakieties savā OpenAI kontā</i> Ja jums nav konta, reģistrējieties <b>ŠEIT</b>",
+    "step1-2": "Apmeklējiet OpenAI API atslēgas lapu",
+    "step1-3": "Izveidojiet jaunu slepeno atslēgu un kopējiet to, kā norādīts tālāk",
+    "step2": "2. darbība. Ielīmējiet API atslēgu tālāk esošajā lodziņā",
+    "step2-tips": "Neuztraucieties. Jūsu API atslēga tiek izmantota tikai lokāli paplašinājumā ChatGPT. API izmantošana ir stabilāka nekā tieša ChatGPT izmantošana.",
+    "step3": "3. darbība: pārbaudiet savus līdz pat <i>18 ASV dolāru kredītus šeit</i>"
+  },
+  "optionPage": {
+    "howToAccess": "Kā piekļūt ChatGPT",
+    "sidebarProvider": "Lietotne {{APP_NAME}} nodrošinās piekļuvi, un tā nav jāiestata.",
+    "webappProvider": "API, kas nodrošina ChatGPT tīmekļa lietotni, ir bezmaksas, taču dažkārt tā var būt nestabila.",
+    "webappGPT4": "Ieteicams Plus lietotājam (atbalsta GPT-4)",
+    "GPT4Desc": "Ja esat <b>ChatGPT Plus lietotājs</b>, tagad varat izvēlēties <b>GPT-4</b>. Tomēr OpenAI var ierobežot dienā nosūtīto ziņojumu skaitu. Ja neesat Plus lietotājs, iespējams, nevarēsit to izmantot vai arī tas var nebūt stabils.",
+    "apiKeyProvider": "Oficiālā OpenAI API ir stabilāka, un maksa tiek iekasēta atkarībā no lietojuma.",
+    "apiKeyLocally": "Jūsu API atslēga tiek saglabāta lokāli jūsu pārlūkprogrammā un nekad netiek nosūtīta nekur citur.",
+    "ownURL": "Izmantojiet savu URL",
+    "apiFreeGuide": "Izpildiet ceļvedi, lai iegūtu API atslēgu un līdz pat 18 ASV dolāru kredītus no OpenAI <i>bez maksas</i>",
+    "displaySearchRes": "Rādīt ChatGPT atbildi līdzās meklēšanas rezultātu lapām",
+    "whenToAsk": "Kad jautāt ChatGPT",
+    "promptTplForSearch": "Uzvednes veidne Google un citiem",
+    "addNewTplForSearch": "Pievienojiet jaunu uzvednes veidni",
+    "launchSidebar": "Palaidiet sānjoslu",
+    "sidebarLocation": "Sānjoslas atrašanās vieta",
+    "sidebarLeftOrRight": "Novietojiet sānjoslu kreisajā vai labajā pusē",
+    "sidebarIcon": "Sānjoslas ikona",
+    "sidebarIconAccess": "Piekļūstiet sānjoslai, izmantojot ikonu, kas atrodas lapas apakšējā labajā stūrī. Varat vilkt, lai to pārvietotu uz augšu un uz leju",
+    "easiestWayUse": "Vienkāršākais veids, kā izmantot lietotni {{APP_NAME}}",
+    "displayWhenSelect": "Parādīt, kad ir atlasīts teksts",
+    "promptTplForSidebar": "Uzvednes veidne sānjoslai",
+    "dragSidebarTpl": "Velciet un nometiet, lai pārkārtotu veidni VAI arhivētu tās, kuras neizmantosit",
+    "addNewTplForSidebar": "Pievienojiet jaunu uzvednes veidni",
+    "editSearchTplTip": "izmantojiet {{keywords}}, lai atsauktos uz meklēšanas atslēgvārdiem",
+    "editSearchTplPlaceholder": "{{keywords}} uzvednes saturā tiks automātiski aizstāti ar jūsu meklēšanas atslēgvārdiem",
+    "editSidebarTplTip": "Ielīmējiet vai ievadiet saturu šeit",
+    "showOnList": "Parādīt sarakstā",
+    "translatorNavTitle": "Ātrā meklēšana",
+    "translatorTitle": "Ātrās uzmeklēšanas logs",
+    "translatorFabTitle": "Ātrās uzmeklēšanas ikona",
+    "translatorFabDesc": "Piekļūstiet ātrās uzmeklēšanas logam, izmantojot ikonu.",
+    "translatorFabToggleLabel": "Parādīt, kad ir atlasīts teksts",
+    "translatorTplTitle": "Uznirstošā loga uzvednes veidne",
+    "translatorTplDesc": "Pirmā galvenā veidne tiks izmantota kā noklusējuma komanda uznirstošajā logā.",
+    "translatorPrimaryTemplates": "Galvenās veidnes",
+    "translatorTemplatesNotes": "* Šim uznirstošajam logam ir tādas pašas veidnes kā sānjoslai. Ja vēlaties rediģēt vai pievienot veidni, lūdzu, mainiet to <b>sānjoslas iestatījumos</b>.",
+    "translatorIntroTitle": "🤔 Kas ir ātrā uzmeklēšana?",
+    "translatorIntroDesc": "Ātrā uzmeklēšana ir ātra ChatGPT sānjoslas darbība, kas nodrošina virkni noderīgu rīku.\n\nTas parādās uzreiz, kad atlasāt tekstu. Tikai ar vienu klikšķi varat ātri iztulkot tekstus, pārrakstīt tos, saņemt paskaidrojumus un daudz ko citu. Turklāt jūs varat pārkārtot rīku secību un pielāgot savas uzvednes.\n\nLai aktivizētu ChatGPT sānjoslu, viss, kas jums jādara, ir jānoklikšķina uz ātrās uzmeklēšanas ikonas.",
+    "translatorHostFabConfigLabel": "To vietņu saraksts, kurās ir atspējota ātrā uzmeklēšana",
+    "feedbackTypes": {
+      "bug": {
+        "name": "Problēmas ziņojums",
+        "title": {
+          "label": "Problēmas kopsavilkums",
+          "tip": "Dažos vārdos pastāstiet mums, kas nogāja greizi."
+        },
+        "detail": {
+          "label": "Sīkāka informācija par problēmu",
+          "tip": "Lūdzu, detalizēti aprakstiet, kas nogāja greizi, kādas darbības veicat, un saņemtos kļūdu ziņojumus."
+        }
+      },
+      "fr": {
+        "name": "Funkcijas pieprasījums",
+        "title": {
+          "label": "Nosaukums",
+          "tip": "Par ko ir jūsu pieprasījums?"
+        },
+        "detail": {
+          "label": "Apraksts",
+          "tip": "Lūdzu, sniedziet detalizētu jaunās funkcijas aprakstu."
+        }
+      }
+    }
+  },
+  "sidebarPanel": {
+    "askChatGPT": "Jautājiet ChatGPT:",
+    "savePrompt": "Saglabāt uzvedni",
+    "saveNewPrompt": "Saglabāt kā jaunu uzvedni",
+    "replacePrompt": "Nomainiet uzvedni",
+    "inputPlaceholder1": "Ievadiet uzvedni vai izvēlieties no izvēlnes",
+    "inputPlaceholder2": "Ielīmējiet vai ievadiet saturu šeit",
+    "startNewLine": "Nospiediet {{shortcut}}, lai sāktu jaunu rindiņu",
+    "inputPlaceholderCodes": "Šeit ielīmējiet vai ievadiet kodus",
+    "inputPlaceholderQA": "Ielīmējiet vai ievadiet jautājumu šeit",
+    "response": "Atbilde:",
+    "stopGenerating": "Beidziet ģenerēt",
+    "regenerate": "Atjaunot reakciju"
+  },
+  "translator": {
+    "quickActions": "Ātrie meklējumi",
+    "disableHostFabLabel": "Atspējot šajā vietnē",
+    "disableFabLabel": "Atspējot visās vietnēs"
+  },
+  "changeLogPage": {
+    "rate5Star": "<b>Vai jums patīk mūsu paplašinājums?</b> Lūdzu, novērtējiet mūs ar piecām zvaigznēm interneta veikalā, lai palīdzētu mums augt",
+    "newInVersion": "Kas jauns versijā {{versionId}}",
+    "logs": {
+      "1_0_11": [
+        "Ātri piekļūstiet darbībām, izmantojot uznirstošo logu, neatverot sānjoslu.",
+        "Pievienojiet atbalstu papildu valodām.",
+        "Izmantojot tulkošanas funkciju, saglabājiet lietotāja valodas preferences.",
+        "Atrisiniet saīsņu konfliktus tādās platformās kā GitHub un citās."
+      ],
+      "1_0_10": [
+        "Atbalstiet vairāk nekā 50 valodas tūlīt!"
+      ],
+      "1_0_8": [
+        "Atbalstiet GPT-4 Plus lietotājiem! Pārbaudiet iestatījumu lapu!"
+      ],
+      "1_0_7": [
+        "Atcerieties pēdējo reizi izmantoto uzvedni",
+        "Optimizējiet chatGPT paneļa pozīciju meklēšanas lapās",
+        "Pievienojiet opciju, lai sānjoslas ikonu ievietotu lapas kreisajā pusē",
+        "Optimizējiet iepakojuma izmēru",
+        "Pievienojiet tumšo režīmu",
+        "Atbalstiet savu API URL starpniekserveri"
+      ],
+      "1_0_6": [
+        "Uzlabojiet kopsavilkuma funkciju Youtube lapā"
+      ],
+      "1_0_5": [
+        "Atcerieties sānjoslas ikonas atrašanās vietu",
+        "Uzlabojiet īsinājumtaustiņus",
+        "Saglabājiet uzvedņu veidnes tieši no sānjoslas"
+      ],
+      "1_0_4": [
+        "Pārkārtojiet uzvednes vienumus nolaižamajā sarakstā",
+        "Arhivējiet uzvednes vienumus, kurus neizmantosit",
+        "Atbalstiet atbildi vairāk nekā 50 valodās"
+      ],
+      "1_0_3": [
+        "CMD/Ctrl + Enter, lai ātri veiktu “Iesniegt”",
+        "Iespēja paslēpt paneli meklēšanas rezultātu lapā",
+        "Atbalstiet ESC, lai paslēptu sānjoslu",
+        "Atbalsta kopsavilkums garš raksts"
+      ],
+      "1_0_2": [
+        "Pievienot apturēšanas pogu, lai pārtrauktu atbildes ģenerēšanu",
+        "Mainiet sabrukšanas vietu"
+      ],
+      "1_0_1": [
+        "Uzlabojiet kopsavilkuma funkciju Youtube lapā",
+        "Izlabojiet dažas kļūdas, kas saistītas ar kopēšanu/ielīmēšanu un drukāšanu"
+      ]
+    }
+  },
+  "searchTool": {
+    "questionMark": "Aktivizējiet ChatGPT, pēc vaicājuma pievienojot jautājuma zīmi",
+    "askForQuery": "Jautājiet ChatGPT šim vaicājumam",
+    "fiveStart": "Vai jums patīk šis paplašinājums? Piešķiriet mums 5 zvaigžņu vērtējumu veikalā {{store}}",
+    "loginAndCloudflareCheck": "Lūdzu, piesakieties un iziet Cloudflare pārbaudi vietnē {{web}}",
+    "braveTrouble": "Joprojām nedarbojas? Sekot vietnei {{url}}",
+    "cloudflareCheck": "OpenAI ik pa laikam pieprasa iziet drošības pārbaudi. Ja tas turpinās, mainiet AI nodrošinātāju uz OpenAI API sadaļā <i>paplašināšanas opcijas</i>.",
+    "failedResponse": "Neizdevās ielādēt atbildi no ChatGPT:",
+    "waitResponse": "Gaida ChatGPT atbildi..."
+  },
+  "msg": {
+    "enterAPIKey": "Lūdzu, ievadiet savu OpenAI API atslēgu",
+    "selectModel": "Lūdzu, atlasiet derīgu modeli",
+    "changeSaved": "Izmaiņas saglabātas",
+    "fiveStart": "Piešķiriet mums 5 zvaigžņu",
+    "errSiderApiLimit": "Jūs esat izmantojis visus mūsu nodrošinātos bezmaksas kredītus. Lai iegūtu API no OpenAI, lūdzu, izpildiet <i>šeit sniegtos norādījumus</i>.",
+    "loginAndCloudflareCheck": "Lai to izmantotu, lūdzu, piesakieties un nokārtojiet Cloudflare pārbaudi vietnē <i>chat.openai.com</i>.",
+    "invalidApiKey": "API atslēga nav derīga, lūdzu, iegūstiet citu.",
+    "getApiKeyGuide": "Lai tā darbotos, nepieciešama OpenAI API atslēga. Izpildiet mūsu ceļvedi, lai iegūtu API atslēgu un $18 OpenAI kredītus <i>bez maksas</i>.",
+    "thankForFeedback": "Paldies. Veidlapa tika veiksmīgi iesniegta. Mēs ar jums sazināsimies tuvākajā laikā.",
+    "writeSomething": "Lūdzu, uzrakstiet kaut ko.",
+    "enterEmail": "Ievadiet e-pasta adresi, lai saņemtu atjauninājumus par problēmu.",
+    "emailRequired": "Nepieciešams e-pasts.",
+    "promptNameRequired": "Nepieciešams uzvednes nosaukums.",
+    "nameYourPrompt": "Nosauciet uzvedni",
+    "promptTplRequired": "Nepieciešama uzvednes veidne.",
+    "deletePromptWarn": "Vai vēlaties dzēst šo uzvednes veidni?",
+    "restorePromptWarn": "Vai vēlaties atjaunot šo uzvednes veidni?",
+    "notValidEmail": "nav derīgs e-pasts"
+  },
+  "options": {
+    "theme": {
+      "auto": "automātiski",
+      "light": "gaišais režīms",
+      "dark": "tumšais režīms"
+    },
+    "triggerMode": {
+      "always": {
+        "title": "Vienmēr",
+        "desc": "Jautājiet ChatGPT katrā meklēšanā"
+      },
+      "questionMark": {
+        "title": "Jautājuma zīme",
+        "desc": "Jautājiet ChatGPT, vai atslēgvārdi beidzas ar jautājuma zīmi (?)"
+      },
+      "manually": {
+        "title": "Manuāli",
+        "desc": "Jautājiet ChatGPT tikai tad, kad noklikšķināt uz pogas"
+      }
+    },
+    "sidebarLocation": {
+      "left": "kreisā puse",
+      "right": "labā puse"
+    },
+    "searchPromptTpl": {
+      "default": {
+        "title": "Noklusējums",
+        "template": "Vai varat pastāstīt kaut ko par {{keywords}}? Ja iespējams, vai varat sniegt man dažas saites par to? Ja {{keywords}} ir ar kodu saistīts jautājums, lūdzu, vienkārši ierakstiet kodu"
+      },
+      "list": {
+        "title": "Atslēgvārdi uz jautājumiem",
+        "template": "Norādiet 1 populārāko jautājumu par “{{keywords}}”. Tad atbildiet uz šo jautājumu. Visbeidzot, uzskaitiet vēl 4 jautājumus."
+      },
+      "suggest": {
+        "title": "Iegūstiet saistītos atslēgvārdus",
+        "template": "{{keywords}} ir mani meklēšanas atslēgvārdi Google tīklā. Lūdzu, sniedziet man 5 saistītu atslēgvārdu kopas."
+      }
+    },
+    "sidebarPromptTpl": {
+      "summarize": {
+        "title": "Apkopojiet",
+        "template": "Apkopojiet to otrās klases skolēnam:"
+      },
+      "similar-pages": {
+        "title": "Līdzīgas lapas",
+        "template": "Atrodiet 10 līdzīgas lapas ar šo saturu ar saiti:"
+      },
+      "grammar": {
+        "title": "Gramatika",
+        "template": "Labojiet to standarta angļu valodā:"
+      },
+      "explain": {
+        "title": "Paskaidrojiet",
+        "template": "Izskaidrojiet šādu saturu:"
+      },
+      "explain-codes": {
+        "title": "Izskaidrojiet kodus",
+        "template": "Izskaidrojiet šādus kodus:"
+      },
+      "rewrite": {
+        "title": "Pārrakstīt",
+        "template": "Pārrakstiet šādu saturu:"
+      },
+      "translate": {
+        "title": "Tulkot",
+        "template": "Tulkojiet šo saturu {{lang}} valodā:"
+      },
+      "qa": {
+        "title": "Jautājumi un atbildes",
+        "template": "Atbildi uz šo jautājumu:"
+      }
+    }
+  }
+}

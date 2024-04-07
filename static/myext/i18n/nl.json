@@ -1,0 +1,321 @@
+{
+  "sidebar": "Zijbalk",
+  "shortcut": "Sneltoets",
+  "ask": "Vragen",
+  "save": "Bewaar het",
+  "cancel": "Annuleren",
+  "ok": "OK",
+  "submit": "Indienen",
+  "send": "Versturen",
+  "copy": "Kopiëren",
+  "copied": "Gekopieerd",
+  "clear": "Duidelijk",
+  "collapse": "Zijbalk samenvouwen",
+  "done": "Klaar",
+  "manage": "Beheren",
+  "template": "sjabloon",
+  "edit": "Bewerking",
+  "add": "Toevoegen",
+  "feedback": "Feedback",
+  "tweetit": "Tweeten",
+  "whatNew": "Nieuwste functies",
+  "gotIt": "Begrepen",
+  "settings": "Instellingen",
+  "general": "Algemene configuratie",
+  "archive": "archief",
+  "searchPage": "Zoek pagina",
+  "addons": "Add-ons",
+  "webStore": "Webwinkel",
+  "webApp": "web applicatie",
+  "language": "Taal",
+  "theme": "Thema",
+  "model": "Model",
+  "version": "Versie",
+  "more": "Meer",
+  "listen": "Luisteren",
+  "customPrompt": "Aangepaste prompt",
+  "currentTpl": "Huidige sjabloon:",
+  "editTpl": "Bewerk dit sjabloon",
+  "delteTpl": "Verwijder dit sjabloon",
+  "restoreTpl": "Herstel deze sjabloon",
+  "archiveTpl": "Archiveer deze sjabloon",
+  "showTpl": "Laat dit sjabloon zien",
+  "promptName": "Prompt naam",
+  "promptContent": "Snelle inhoud",
+  "contactUs": "Neem contact met ons op",
+  "issueType": "Type probleem",
+  "pinExt": "Pin-extensie",
+  "yourEmailAddress": "Jouw e-mailadres",
+  "troubleshooting": "Probleemoplossen",
+  "openSidebar": "Zijbalk openen",
+  "pasteSelection": "Selectie plakken",
+  "pasteTextPage": "Tekst van pagina plakken",
+  "getAnotherKey": "Krijg een andere sleutel",
+  "showSearchPanel": "Zoekvenster tonen",
+  "getItNow": "Profiteer nu",
+  "alwaysDisplay": "Altijd weergeven",
+  "popupPage": {
+    "thank": "Bedankt voor het gebruik van de {{APP_NAME}}-extensie!",
+    "desc": "U kunt deze extensie op de meeste webpagina's gebruiken, met uitzondering van pagina's waar de browser het uitvoeren van scripts beperkt, zoals de extensie webwinkel en pagina's met browserinstellingen.",
+    "try": "Probeer deze extensie gerust uit op een andere webpagina, <i>zoals deze</i>."
+  },
+  "setupPage": {
+    "welcome": "Welkom bij {{APP_NAME}}! Hier is het begin van uw reis:",
+    "pinTips": "Pin {{APP_NAME}} vast voor gemakkelijke toegang",
+    "stepTitle": "Om gemakkelijker toegang te krijgen tot de {{APP_NAME}}, houdt u het zijbalkpictogram vastgezet door de onderstaande stappen te volgen:",
+    "step1": "Klik op het puzzelpictogram {{icon}} naast je profielavatar.",
+    "step2": "Zoek {{APP_NAME}} in het vervolgkeuzemenu.",
+    "step3": "Klik op het \"Pin-pictogram\" om het vast te zetten."
+  },
+  "getKeyPage": {
+    "welcome": "Welkom bij {{APP_NAME}}! Hier is je reis om te beginnen:",
+    "stepTitle": "Hoe u een API-sleutel en $ 18 OpenAI-credits <i>gratis</i> kunt krijgen.",
+    "step1": "Stap 1: API-sleutel ophalen",
+    "step1-1": "<i>Log in op uw OpenAI-account</i> Als u geen account heeft, meldt u zich <b>HIER</b> aan",
+    "step1-2": "Bezoek de OpenAI API Key-pagina",
+    "step1-3": "Maak een nieuwe geheime sleutel en kopieer deze als volgt",
+    "step2": "Stap 2: Plak de API-sleutel in het onderstaande vak",
+    "step2-tips": "Maak je geen zorgen. Uw API-sleutel wordt alleen lokaal gebruikt binnen de ChatGPT-extensie. Het gebruik van de API is stabieler dan het direct gebruiken van ChatGPT.",
+    "step3": "Stap 3: controleer hier uw tegoed tot <i>€ 18</i>"
+  },
+  "optionPage": {
+    "howToAccess": "Toegang krijgen tot ChatGPT",
+    "sidebarProvider": "De {{APP_NAME}} biedt toegang en u hoeft deze niet in te stellen.",
+    "webappProvider": "De API die de ChatGPT-webapp aandrijft, is gratis, maar kan soms onstabiel zijn.",
+    "webappGPT4": "Aanbevolen voor Plus-gebruiker (ondersteuning voor GPT-4)",
+    "GPT4Desc": "Als u een <b>ChatGPT Plus-gebruiker</b> bent, heeft u nu de mogelijkheid om <b>GPT-4</b> te kiezen. OpenAI kan echter het aantal berichten beperken dat u per dag kunt verzenden. Als u geen Plus-gebruiker bent, kunt u het mogelijk niet gebruiken of is het mogelijk niet stabiel.",
+    "apiKeyProvider": "De officiële OpenAI API is stabieler en rekent af op basis van gebruik.",
+    "apiKeyLocally": "Uw API-sleutel wordt lokaal in uw browser opgeslagen en wordt nooit ergens anders naartoe verzonden.",
+    "ownURL": "Gebruik mijn eigen URL",
+    "apiFreeGuide": "Volg de gids om <i>gratis</i> de API-sleutel en tot $18 credits van OpenAI te krijgen",
+    "displaySearchRes": "Geef ChatGPT-antwoord weer naast pagina's met zoekresultaten",
+    "whenToAsk": "Wanneer ChatGPT vragen",
+    "promptTplForSearch": "Prompt-sjabloon voor Google en anderen",
+    "addNewTplForSearch": "Voeg een nieuwe aanwijzingssjabloon toe",
+    "launchSidebar": "Start de zijbalk",
+    "sidebarLocation": "Zijbalk locatie",
+    "sidebarLeftOrRight": "Plaats de zijbalk aan de linker- of rechterkant",
+    "sidebarIcon": "Zijbalk Icoon",
+    "sidebarIconAccess": "Toegang tot de zijbalk via het pictogram in de rechter benedenhoek van de pagina. U kunt slepen om het omhoog en omlaag te verplaatsen",
+    "easiestWayUse": "De makkelijkste manier om {{APP_NAME}} te gebruiken",
+    "displayWhenSelect": "Weergave wanneer tekst is geselecteerd",
+    "promptTplForSidebar": "Prompt-sjabloon voor zijbalk",
+    "dragSidebarTpl": "Slepen en neerzetten om sjablonen opnieuw te ordenen OF archiveren die u niet zult gebruiken",
+    "addNewTplForSidebar": "Nieuwe aanwijzingssjabloon toevoegen",
+    "editSearchTplTip": "gebruik {{keywords}} om uw zoekwoorden te verwijzen",
+    "editSearchTplPlaceholder": "{{keywords}} in de promptinhoud wordt automatisch vervangen door uw zoekwoorden",
+    "editSidebarTplTip": "Plak of voer hier inhoud in",
+    "showOnList": "Toon op de lijst",
+    "translatorNavTitle": "Snel opzoeken",
+    "translatorTitle": "Snel opzoekvenster",
+    "translatorFabTitle": "Pictogram Snel opzoeken",
+    "translatorFabDesc": "Open het snelzoekvenster via het pictogram.",
+    "translatorFabToggleLabel": "Weergave wanneer tekst is geselecteerd",
+    "translatorTplTitle": "Prompt-sjabloon voor pop-upvenster",
+    "translatorTplDesc": "De eerste hoofdsjabloon wordt gebruikt als de standaardopdracht voor het pop-upvenster.",
+    "translatorPrimaryTemplates": "Belangrijkste sjablonen",
+    "translatorTemplatesNotes": "*Deze pop-up deelt dezelfde sjablonen met de zijbalk. Als u een sjabloon moet bewerken of toevoegen, pas deze dan aan in de <b>zijbalkinstellingen</b>.",
+    "translatorIntroTitle": "🤔 Wat is Snel opzoeken?",
+    "translatorIntroDesc": "Quick Lookup is een snelle actie van ChatGPT Sidebar en biedt een reeks handige tools.\n\nHet verschijnt direct wanneer u tekst selecteert. Met slechts één klik kun je snel teksten vertalen, herschrijven, uitleg krijgen en nog veel meer. Bovendien kunt u de volgorde van de tools herschikken en uw eigen prompts aanpassen.\n\nOm ChatGPT Sidebar te activeren, hoeft u alleen maar op het pictogram Snel opzoeken te klikken.",
+    "translatorHostFabConfigLabel": "Lijst met websites waar Snel opzoeken is uitgeschakeld",
+    "feedbackTypes": {
+      "bug": {
+        "name": "Probleemrapportage",
+        "title": {
+          "label": "Samenvatting probleem",
+          "tip": "Laat ons in een paar woorden weten wat er mis is gegaan."
+        },
+        "detail": {
+          "label": "Probleemdetails",
+          "tip": "Beschrijf in detail wat er mis is gegaan, welke acties je hebt ondernomen en welke foutmeldingen je hebt gekregen."
+        }
+      },
+      "fr": {
+        "name": "Functieverzoek",
+        "title": {
+          "label": "Titel",
+          "tip": "Waar gaat je verzoek over?"
+        },
+        "detail": {
+          "label": "Beschrijving",
+          "tip": "Geef een gedetailleerde beschrijving van de nieuwe functie die u wilt."
+        }
+      }
+    }
+  },
+  "sidebarPanel": {
+    "askChatGPT": "Vraag ChatGPT:",
+    "savePrompt": "Sla prompt op",
+    "saveNewPrompt": "Opslaan als een nieuwe prompt",
+    "replacePrompt": "Vervang de prompt",
+    "inputPlaceholder1": "Voer een prompt in of kies uit het menu",
+    "inputPlaceholder2": "Plak of voer hier inhoud in",
+    "startNewLine": "Druk op {{shortcut}} om een nieuwe regel te beginnen",
+    "inputPlaceholderCodes": "Plak of voer hier codes in",
+    "inputPlaceholderQA": "Plak of voer de vraag hier in",
+    "response": "Antwoord:",
+    "stopGenerating": "Stop met genereren",
+    "regenerate": "Reactie opnieuw genereren"
+  },
+  "translator": {
+    "quickActions": "Snel opzoeken",
+    "disableHostFabLabel": "Uitschakelen op deze website",
+    "disableFabLabel": "Uitschakelen op alle websites"
+  },
+  "changeLogPage": {
+    "rate5Star": "<b>Ben je dol op onze extensie?</b> Beoordeel ons vijf sterren in de webwinkel om ons te helpen groeien",
+    "newInVersion": "Wat is er nieuw in versie {{versionId}}",
+    "logs": {
+      "1_0_11": [
+        "Krijg snel toegang tot acties via een pop-upvenster zonder de zijbalk te openen.",
+        "Voeg ondersteuning toe voor extra talen.",
+        "Behoud de taalvoorkeur van de gebruiker bij gebruik van de vertaalfunctie.",
+        "Los snelkoppelingsconflicten op platforms zoals GitHub en andere op."
+      ],
+      "1_0_10": [
+        "Ondersteun nu meer dan 50 talen!"
+      ],
+      "1_0_8": [
+        "Ondersteuning van GPT-4 voor Plus-gebruikers! Controleer de instellingenpagina!"
+      ],
+      "1_0_7": [
+        "Onthoud prompt die de laatste keer werd gebruikt",
+        "Optimaliseer de positie van het chatGPT-paneel op zoekpagina's",
+        "Voeg een optie toe om het zijbalkpictogram op de pagina aan de linkerkant te plaatsen",
+        "Optimaliseer de pakketgrootte",
+        "Voeg donkere modus toe",
+        "Ondersteun uw API-URL-proxy"
+      ],
+      "1_0_6": [
+        "Verbeter de samenvattingsfunctie op de YouTube-pagina"
+      ],
+      "1_0_5": [
+        "Onthoud de locatie van het zijbalkpictogram",
+        "Sneltoetsen verbeteren",
+        "Bewaar promptsjablonen rechtstreeks vanuit de zijbalk"
+      ],
+      "1_0_4": [
+        "Plaats promptitems opnieuw in de vervolgkeuzelijst",
+        "Archiveer promptitems die u niet zult gebruiken",
+        "Ondersteuningsreactie in meer dan 50 talen"
+      ],
+      "1_0_3": [
+        "CMD/Ctrl + Enter om snel \"Verzenden\" te doen",
+        "Optie om paneel te verbergen op de pagina met zoekresultaten",
+        "Ondersteuning ESC om zijbalk te verbergen",
+        "Ondersteuning vat een lang artikel samen"
+      ],
+      "1_0_2": [
+        "Voeg een stopknop toe om te stoppen met het genereren van reacties",
+        "Wijzig de plaats van de samenvouwknop"
+      ],
+      "1_0_1": [
+        "Verbeter de samenvattingsfunctie op de YouTube-pagina",
+        "Enkele bugs opgelost met betrekking tot kopiëren/plakken en afdrukken"
+      ]
+    }
+  },
+  "searchTool": {
+    "questionMark": "Activeer ChatGPT door een vraagteken achter uw zoekopdracht te plaatsen",
+    "askForQuery": "Stel deze vraag aan ChatGPT",
+    "fiveStart": "Geniet van deze extensie? Geef ons een 5-sterrenbeoordeling bij {{store}}",
+    "loginAndCloudflareCheck": "Log in en slaag voor de Cloudflare-controle op {{web}}",
+    "braveTrouble": "Werkt nog steeds niet? Volg {{url}}",
+    "cloudflareCheck": "OpenAI vereist af en toe een veiligheidscontrole. Als dit blijft gebeuren, wijzigt u de AI-provider in OpenAI API in de <i>extensie-opties</i>.",
+    "failedResponse": "Kan reactie van ChatGPT niet laden:",
+    "waitResponse": "Wachten op ChatGPT-antwoord..."
+  },
+  "msg": {
+    "enterAPIKey": "Voer uw OpenAI API-sleutel in",
+    "selectModel": "Selecteer een geldig model",
+    "changeSaved": "Wijzigingen opgeslagen",
+    "fiveStart": "Geef ons een 5-sterren",
+    "errSiderApiLimit": "U heeft alle door ons verstrekte gratis credits gebruikt. Volg de <i>instructies hier</i> om een API van OpenAI te krijgen.",
+    "loginAndCloudflareCheck": "Om het te gebruiken, logt u in en passeert u de Cloudflare-controle op <i>chat.openai.com</i>",
+    "invalidApiKey": "API-sleutel is ongeldig, vraag een andere aan.",
+    "getApiKeyGuide": "U hebt een OpenAI API-sleutel nodig om het te laten werken. Volg onze gids om <i>gratis</i> de API-sleutel en $ 18 OpenAI-tegoeden te krijgen.",
+    "thankForFeedback": "Bedankt. Het formulier is succesvol verzonden. We nemen spoedig contact met u op.",
+    "writeSomething": "Schrijf alsjeblieft iets.",
+    "enterEmail": "Voer een e-mailadres in om updates over het probleem te ontvangen.",
+    "emailRequired": "E-mail is vereist.",
+    "promptNameRequired": "Promptnaam is vereist.",
+    "nameYourPrompt": "Geef uw prompt een naam",
+    "promptTplRequired": "Prompt-sjabloon is vereist.",
+    "deletePromptWarn": "Wilt u deze promptsjabloon verwijderen?",
+    "restorePromptWarn": "Wilt u deze promptsjabloon herstellen?",
+    "notValidEmail": "geen geldige e-mail"
+  },
+  "options": {
+    "theme": {
+      "auto": "automatisch",
+      "light": "heldere modus",
+      "dark": "donkere modus"
+    },
+    "triggerMode": {
+      "always": {
+        "title": "Altijd",
+        "desc": "Vraag ChatGPT bij elke zoekopdracht"
+      },
+      "questionMark": {
+        "title": "Vraagteken",
+        "desc": "Vraag ChatGPT of de zoekwoorden eindigen op een vraagteken (?)"
+      },
+      "manually": {
+        "title": "Handmatig",
+        "desc": "Vraag ChatGPT alleen wanneer u op de knop klikt"
+      }
+    },
+    "sidebarLocation": {
+      "left": "linkerkant",
+      "right": "rechter zijde"
+    },
+    "searchPromptTpl": {
+      "default": {
+        "title": "Standaard",
+        "template": "Kun je me iets vertellen over {{keywords}}? Kun je me, indien mogelijk, wat links erover geven? Als {{keywords}} een codegerelateerde vraag is, schrijf dan gewoon de code"
+      },
+      "list": {
+        "title": "Sleutelwoorden voor vragen",
+        "template": "Noem de 1 meest populaire vraag over \"{{keywords}}\". Beantwoord dan deze vraag. Noteer ten slotte nog 4 vragen."
+      },
+      "suggest": {
+        "title": "Verkrijg gerelateerde zoekwoorden",
+        "template": "{{keywords}} zijn mijn zoekwoorden in Google. Geef me alsjeblieft 5 sets gerelateerde zoekwoorden."
+      }
+    },
+    "sidebarPromptTpl": {
+      "summarize": {
+        "title": "Samenvatten",
+        "template": "Vat dit samen voor een leerling uit de tweede klas:"
+      },
+      "similar-pages": {
+        "title": "Vergelijkbare pagina's",
+        "template": "Zoek 10 vergelijkbare pagina's met de volgende inhoud met link:"
+      },
+      "grammar": {
+        "title": "Grammatica",
+        "template": "Corrigeer dit naar standaard Engels:"
+      },
+      "explain": {
+        "title": "Uitleggen",
+        "template": "Leg de volgende inhoud uit:"
+      },
+      "explain-codes": {
+        "title": "Leg codes uit",
+        "template": "Leg de volgende codes uit:"
+      },
+      "rewrite": {
+        "title": "Herschrijven",
+        "template": "Herschrijf de volgende inhoud:"
+      },
+      "translate": {
+        "title": "Vertalen",
+        "template": "Vertaal de volgende inhoud naar {{lang}} taal:"
+      },
+      "qa": {
+        "title": "V&A",
+        "template": "Beantwoord deze vraag:"
+      }
+    }
+  }
+}
