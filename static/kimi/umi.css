@@ -1,0 +1,123 @@
+.control___g12Hp {
+  position: fixed;
+  bottom: 220px;
+  left: -42px;
+  z-index: 100010;
+  transition: all 0.2s;
+}
+.control___g12Hp.show___yNUY3 {
+  left: 20px;
+}
+.control___g12Hp .show_status {
+  position: absolute;
+  top: 0px;
+  right: -18px;
+  width: 12px;
+  height: 20px;
+  cursor: pointer;
+}
+.control___g12Hp .show_status .gua {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.control___g12Hp .show_status .gua .yao {
+  width: 100%;
+  height: 2px;
+  background: #666;
+  position: relative;
+}
+.control___g12Hp .show_status .gua .yao.yin {
+  background: transparent;
+}
+.control___g12Hp .show_status .gua .yao.yin:before {
+  display: block;
+  content: "";
+  width: 5px;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #666;
+}
+.control___g12Hp .show_status .gua .yao.yin:after {
+  display: block;
+  content: "";
+  width: 5px;
+  height: 2px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #666;
+}
+.control___g12Hp .show_status.highlight .gua .yao {
+  background: red;
+}
+.control___g12Hp .show_status.highlight .yao.yin {
+  background: transparent;
+}
+.control___g12Hp .show_status.highlight .yao.yin:before {
+  background: red;
+}
+.control___g12Hp .show_status.highlight .yao.yin:after {
+  background: red;
+}
+.pageControl___K7hSX {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid red;
+  display: flex;
+  background: #fff;
+  color: red;
+  transition: all 0.2s;
+}
+.pageControl___K7hSX .control_btn {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  width: 40px;
+  height: 20px;
+  border-radius: 20px 20px 0 0;
+  background: red;
+  transition: all 0.5s;
+  transform-origin: center bottom;
+  cursor: pointer;
+}
+.pageControl___K7hSX .control_btn:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background: red;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  z-index: 10;
+}
+.pageControl___K7hSX .control_btn:after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border: 5px solid red;
+  border-radius: 50%;
+  z-index: 10;
+}
+.pageControl___K7hSX .control_content {
+  position: absolute;
+  left: 32px;
+  bottom: 50px;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+.pageControl___K7hSX:hover .control_btn {
+  transform: rotate(360deg);
+}

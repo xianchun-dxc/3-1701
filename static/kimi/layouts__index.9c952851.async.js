@@ -520,7 +520,6 @@
                         i.headers
                       )),
                       (e.next = 5),
-                      console.log(JSON.stringify(i.body)),
                       fetch(
                         a,
                         g()(
@@ -783,6 +782,8 @@
             });
           },
           sendMessage: function (t, r, n) {
+            r.messages[0].content =
+              localStorage.getItem("inputValue") || "请翻译输入问题为英文";
             return e({
               url: "/chat/:id/completion/stream",
               method: "POST",
@@ -848,11 +849,11 @@
               body: g()({}, t)
             });
           },
-          shareScreenShot: function (t, r, n) {
+          shareScreenShot: function (t, r) {
             return e({
               url: "/chat/share/screenshot",
               method: "POST",
-              body: { id: t, device: "web", theme: r, url: n }
+              body: { id: t, device: "web", theme: r }
             });
           },
           contentApproval: function (t) {
