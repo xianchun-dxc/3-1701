@@ -1,16 +1,17 @@
 const { app, session, BrowserWindow, ipcMain, screen } = require("electron");
 const express = require("express");
 const path = require("path");
-const http = require("http");
-const fs = require("fs");
 const ElectronStore = require("electron-store");
 const store = new ElectronStore();
+const mobileAgent =
+  "Mozilla/5.0 (Linux; Android 10; Pixel 3 Build/QP1A.191005.007.A3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.116 Mobile Safari/537.36";
 
 let leftWindow;
 let midWindow;
 let rightWindow;
 let mainWindow;
 let bottomWindow;
+let zhipuWindow;
 let firstLoad = true;
 function startHttpServer() {
   if (!firstLoad) {
@@ -78,6 +79,25 @@ function createWindow() {
     .then(() => {
       startHttpServer();
 
+      session.defaultSession.webRequest.onBeforeRequest((details, callback) => {
+        const url = details.url.toLocaleLowerCase();
+        if (
+          url.includes("acs-") ||
+          url.includes("moonshot.cn/kimi-chat") || // kimi
+          url.includes("https://chatglm.cn/js/") || // chatglm
+          url.includes("https://chatglm.cn/css/") || // chatglm
+          url.includes("https://chatglm.cn/jmlink.js") || // chatglm
+          url.includes("https://chatglm.cn/sensorsdata.min.js") || // chatglm
+          url.includes("https://chatglm.cn/sat-props-patch/index.js") || // chatglm
+          url.includes("https://static.tiangong.cn/wwwsite/") || // tiangong
+          url.includes("static/eb/js/index")
+        ) {
+          callback({ cancel: true });
+        } else {
+          callback({});
+        }
+      });
+
       mainWindow = new BrowserWindow({
         frame: false,
         width: primaryDisplay.size.width,
@@ -111,31 +131,68 @@ function createWindow() {
           nodeIntegration: true,
           contextIsolation: false,
           webviewTag: true,
-          userAgent:
-            "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/605.1",
           devTools: true
         }
       });
 
-      session.defaultSession.webRequest.onBeforeRequest((details, callback) => {
-        const url = details.url.toLocaleLowerCase();
-        if (
-          url.includes("acs-") ||
-          url.includes("moonshot.cn/kimi-chat") || // kimi
-          url.includes("static/eb/js/index")
-        ) {
-          callback({ cancel: true });
-        } else {
-          callback({});
+      // leftWindow.loadURL("https://yiyan.baidu.com");
+      // leftWindow.loadURL("https://xinghuo.xfyun.cn/");
+      // leftWindow.webContents.setUserAgent(mobileAgent);
+      // leftWindow.webContents.executeJavaScript(`
+      //     var script = document.createElement('script');
+      //     script.type = "text/javascript";
+      //     script.src = "http://127.0.0.1:8884/index.0402.js";
+      //     document.head.appendChild(script);
+      // `);
+
+      zhipuWindow = new BrowserWindow({
+        x: mainWindow.getBounds().x + 5,
+        y: mainWindow.getBounds().y + 32,
+        frame: false,
+        width: windowWidth,
+        height: mainWindow.getBounds().height - 90,
+        autoHideMenuBar: true,
+        parent: mainWindow,
+        movable: false,
+        resizable: false,
+        skipTaskbar: true,
+        webPreferences: {
+          nodeIntegration: true,
+          contextIsolation: false,
+          webviewTag: true,
+          devTools: true
         }
       });
-
-      // leftWindow.loadURL("https://yiyan.baidu.com");
-      leftWindow.loadURL("https://xinghuo.xfyun.cn/");
-      leftWindow.webContents.executeJavaScript(`
+      zhipuWindow.webContents.setUserAgent(mobileAgent);
+      zhipuWindow.loadURL("https://chatglm.cn/");
+      zhipuWindow.webContents.executeJavaScript(`
           var script = document.createElement('script');
           script.type = "text/javascript";
-          script.src = "http://127.0.0.1:8884/index.0402.js";
+          script.src = "http://127.0.0.1:8884/chatglm/js/app.js";
+          document.head.appendChild(script);
+          var script = document.createElement('script');
+          script.type = "text/javascript";
+          script.src = "http://127.0.0.1:8884/chatglm/js/vendors.js";
+          document.head.appendChild(script);
+          var script = document.createElement('script');
+          script.type = "text/javascript";
+          script.src = "http://127.0.0.1:8884/chatglm/jmlink.js";
+          document.head.appendChild(script);
+          var script = document.createElement('script');
+          script.type = "text/javascript";
+          script.src = "http://127.0.0.1:8884/chatglm/sensorsdata.min.js";
+          document.head.appendChild(script);
+          var script = document.createElement('script');
+          script.type = "text/javascript";
+          script.src = "http://127.0.0.1:8884/chatglm/sat-props-patch/index.js";
+          document.head.appendChild(script);
+          var script = document.createElement('link');
+          script.rel = "stylesheet";
+          script.href = "http://127.0.0.1:8884/chatglm/css/app.css";
+          document.head.appendChild(script);
+          var script = document.createElement('link');
+          script.rel = "stylesheet";
+          script.href = "http://127.0.0.1:8884/chatglm/css/vendors.css";
           document.head.appendChild(script);
       `);
 
@@ -195,15 +252,20 @@ function createWindow() {
         resizable: false,
         skipTaskbar: true,
         webPreferences: {
-          nodeIntegration: false,
+          nodeIntegration: true,
           contextIsolation: false,
-          webviewTag: true,
-          userAgent:
-            "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/605.1",
           devTools: true
         }
       });
-      rightWindow.loadURL("https://www.tiangong.cn/chat/universal/016");
+      // rightWindow.webContents.setUserAgent(mobileAgent);
+      rightWindow.loadURL("https://xinghuo.xfyun.cn");
+      // rightWindow.loadURL("https://www.tiangong.cn");
+      // rightWindow.webContents.executeJavaScript(`
+      //     var script = document.createElement('script');
+      //     script.type = "module";
+      //     script.src = "http://192.168.3.20:8884/tiangong/index.js";
+      //     document.head.appendChild(script);
+      // `);
 
       bottomWindow = new BrowserWindow({
         x: mainWindow.getBounds().x + 5,
@@ -232,6 +294,9 @@ function createWindow() {
       });
 
       ipcMain.on("inputBox", (event, value) => {
+        zhipuWindow.webContents.executeJavaScript(`
+          localStorage.setItem("inputValue", ${JSON.stringify(value)});
+        `);
         midWindow.webContents.executeJavaScript(`
           localStorage.setItem("inputValue", ${JSON.stringify(value)});
         `);
@@ -267,6 +332,9 @@ function createWindow() {
         if (url === "submit") {
           midWindow.webContents.executeJavaScript(`
             document.getElementById("send-button").click();
+          `);
+          zhipuWindow.webContents.executeJavaScript(`
+            document.querySelector(".button-right-inner").click()
           `);
           return;
         }

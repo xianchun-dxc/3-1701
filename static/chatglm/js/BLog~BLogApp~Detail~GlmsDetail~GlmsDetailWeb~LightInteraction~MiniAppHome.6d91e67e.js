@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["BLog~BLogApp~Detail~GlmsDetail~GlmsDetailWeb~LightInteraction~MiniAppHome"],{"1b99":function(i,n,o){}}]);

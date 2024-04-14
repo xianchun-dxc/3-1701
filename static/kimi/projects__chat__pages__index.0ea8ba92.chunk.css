@@ -540,6 +540,7 @@
   border: 1px solid var(--border-1);
   cursor: pointer;
   background-color: var(--msh-chat-list-prompts-bg);
+  display: none;
 }
 .withContent___TKW3m:hover {
   background-color: var(--msh-chat-list-prompts-hover-bg);
@@ -1445,6 +1446,7 @@
   width: 100%;
   margin: 0 auto;
   padding: 0 calc(var(--msh-spacing-unit) * 4);
+  display: none;
 }
 .chatBottom___jS9Jd .createButton___mq17X {
   width: 50%;
