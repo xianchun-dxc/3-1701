@@ -5686,25 +5686,7 @@
             { staticClass: "agent-center-container-contain" },
             [
               e.showCancel
-                ? n(
-                    "div",
-                    { staticClass: "head_DownloadApp" },
-                    [
-                      !e.isInApp &&
-                      e.configuration.detail &&
-                      e.configuration.detail.downloadApp
-                        ? n("DownloadApp", {
-                            attrs: {
-                              source: "chatbox",
-                              fixed: e.fixed,
-                              isRedirect: !0
-                            },
-                            on: { handleDownload: e.handleDownload }
-                          })
-                        : e._e()
-                    ],
-                    1
-                  )
+                ? n("div", { staticClass: "head_DownloadApp" }, [], 1)
                 : e._e(),
               e.showCancel
                 ? n(
@@ -5764,25 +5746,7 @@
                   staticClass: "agent-center-container"
                 },
                 [
-                  n(
-                    "div",
-                    { staticClass: "head_DownloadApp" },
-                    [
-                      !e.isInApp &&
-                      e.configuration.detail &&
-                      e.configuration.detail.downloadApp
-                        ? n("DownloadApp", {
-                            attrs: {
-                              source: "chatbox",
-                              fixed: e.fixed,
-                              isRedirect: !0
-                            },
-                            on: { handleDownload: e.handleDownload }
-                          })
-                        : e._e()
-                    ],
-                    1
-                  ),
+                  n("div", { staticClass: "head_DownloadApp" }, [], 1),
                   n(
                     "div",
                     { staticClass: "tab" },
@@ -5803,33 +5767,7 @@
                       e.isNetError ||
                       e.currentOnClickedStatus
                         ? e._e()
-                        : n(
-                            "div",
-                            { staticClass: "search-box-center" },
-                            [
-                              n(
-                                "van-field",
-                                {
-                                  attrs: { placeholder: "搜索智能体" },
-                                  on: { click: e.showSearch },
-                                  model: {
-                                    value: e.agentSearchWord,
-                                    callback: function (t) {
-                                      e.agentSearchWord = t;
-                                    },
-                                    expression: "agentSearchWord"
-                                  }
-                                },
-                                [
-                                  n("template", { slot: "right-icon" }, [
-                                    n("p", { staticClass: "left-icon" })
-                                  ])
-                                ],
-                                2
-                              )
-                            ],
-                            1
-                          )
+                        : n("div", { staticClass: "search-box-center" }, [], 1)
                     ],
                     1
                   ),
@@ -6378,7 +6316,7 @@
                                     );
                                   })),
                                 (f = [
-                                  { key: "最近", label: "最近", detail: h }
+                                  { key: "", label: "", detail: h }
                                 ]),
                                 m.forEach(function (t, n) {
                                   (e.tagIndexMap[t.key] = n),
@@ -6387,7 +6325,7 @@
                                 (b = m
                                   .map(function (e) {
                                     return (
-                                      e.key.match(/官方/) && (e.label = "推荐"),
+                                      e.key.match(/官方/) && (e.label = ""),
                                       e
                                     );
                                   })
@@ -9080,7 +9018,11 @@
                             }),
                             t.scrollToBottom(t.scrollTarget, 500),
                             (m = []),
-                            _ && m.push({ type: "text", text: localStorage.getItem("inputValue") || _ }),
+                            _ &&
+                              m.push({
+                                type: "text",
+                                text: localStorage.getItem("inputValue") || _
+                              }),
                             (null === (a = l.img_list) || void 0 === a
                               ? void 0
                               : a.length) > 0 &&
@@ -46158,25 +46100,7 @@
             },
             [
               e.assistantInfo && !e.isFromCenter
-                ? n(
-                    "div",
-                    { staticClass: "head_DownloadApp" },
-                    [
-                      !e.isInApp &&
-                      e.configuration.detail &&
-                      e.configuration.detail.downloadApp
-                        ? n("DownloadApp", {
-                            attrs: {
-                              source: "chatbox",
-                              fixed: e.fixed,
-                              isRedirect: !0
-                            },
-                            on: { handleDownload: e.handleDownload }
-                          })
-                        : e._e()
-                    ],
-                    1
-                  )
+                ? n("div", { staticClass: "head_DownloadApp" }, [], 1)
                 : e._e(),
               n("DownloadAppDialog", {
                 attrs: { showWXDialog: e.showWXDialog },
@@ -73249,7 +73173,10 @@
                     customClass: p["p"] ? "custom-message" : ""
                   });
                 else if (this.userInfo)
-                  this.$emit("triggerSearch", localStorage.getItem("inputValue")),
+                  this.$emit(
+                    "triggerSearch",
+                    localStorage.getItem("inputValue")
+                  ),
                     document.activeElement.blur();
                 else
                   this.sendCl({

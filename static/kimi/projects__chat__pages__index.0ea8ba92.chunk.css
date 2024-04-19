@@ -959,6 +959,7 @@
 }
 .chatInput___bMC0h {
   position: relative;
+  display: none;
 }
 .chatInput___bMC0h .topModal___G6UoX {
   bottom: 100%;

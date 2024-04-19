@@ -3,6 +3,9 @@ body {
   background-color: #2a2acd;
   margin: 6px 8px;
 }
+.hide {
+  display: none !important;
+}
 .css-var-rda.ant-segmented {
   --ant-segmented-track-padding: 2px;
   --ant-segmented-track-bg: #ffffffa6;

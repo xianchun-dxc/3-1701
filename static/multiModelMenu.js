@@ -27,4 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("threeWindow").addEventListener("click", function () {
     ipcRenderer.send("event", "threeWindow");
   });
+  document.getElementById("skin").addEventListener("dblclick", function () {
+    ipcRenderer.send("event", "skin");
+  });
 });

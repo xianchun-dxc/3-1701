@@ -8,7 +8,7 @@
   "content_scripts": [
     {
       "js": ["content-script.js"],
-      "matches": ["https://yiyan.baidu.com/*"],
+      "matches": ["https://xxx.com/*"],
       "css": ["content-script.css"]
     }
   ],
