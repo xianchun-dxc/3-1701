@@ -89,29 +89,32 @@ function createWindow() {
       startHttpServer();
 
       if (store.get("isLogin")) {
-        session.defaultSession.webRequest.onBeforeRequest((details, callback) => {
-          const url = details.url.toLocaleLowerCase();
-          if (
-            url.includes("acs-") ||
-            url.includes("static/eb/js/index") || // baidu
-            url.includes("static/eb/js/vendors") || // baidu
-            url.includes("static/eb/css/index") || // baidu
-            url.includes("static/eb/css/vendors") || // baidu
-            url.includes("https://g.alicdn.com/tongyi/qianwen") || // tongyi
-            url.includes("https://g.alicdn.com/sd/baxia-entry") || // tongyi
-            url.includes("moonshot.cn/kimi-chat") || // kimi
-            url.includes("https://chatglm.cn/js/") || // chatglm
-            url.includes("https://chatglm.cn/css/") || // chatglm
-            url.includes("https://chatglm.cn/jmlink.js") || // chatglm
-            url.includes("https://chatglm.cn/sensorsdata.min.js") || // chatglm
-            url.includes("https://chatglm.cn/sat-props-patch/index.js") || // chatglm
-            url.includes("https://static.tiangong.cn/wwwsite/") // tiangong
-          ) {
-            callback({ cancel: true });
-          } else {
-            callback({});
+        session.defaultSession.webRequest.onBeforeRequest(
+          (details, callback) => {
+            const url = details.url.toLocaleLowerCase();
+            if (
+              url.includes("acs-") ||
+              url.includes("static/eb/js/index") || // baidu
+              url.includes("static/eb/js/vendors") || // baidu
+              url.includes("static/eb/css/index") || // baidu
+              url.includes("static/eb/css/vendors") || // baidu
+              url.includes("https://g.alicdn.com/tongyi/qianwen") || // tongyi
+              url.includes("https://g.alicdn.com/sd/baxia-entry") || // tongyi
+              url.includes("moonshot.cn/kimi-chat") || // kimi
+              url.includes("https://chatglm.cn/js/") || // chatglm
+              url.includes("https://chatglm.cn/css/") || // chatglm
+              url.includes("https://chatglm.cn/jmlink.js") || // chatglm
+              url.includes("https://chatglm.cn/sensorsdata.min.js") || // chatglm
+              url.includes("https://chatglm.cn/sat-props-patch/index.js") || // chatglm
+              url.includes("https://sfile.chatglm.cn/js/vue2/") || // chatglm
+              url.includes("https://static.tiangong.cn/wwwsite/") // tiangong
+            ) {
+              callback({ cancel: true });
+            } else {
+              callback({});
+            }
           }
-        });
+        );
       }
 
       mainWindow = new BrowserWindow({
@@ -348,7 +351,161 @@ function createWindow() {
         `);
       });
 
+      function hideAll() {
+        zhipuWindow.hide();
+        kimiWindow.hide();
+        tongyiWindow.hide();
+        yiyanWindow.hide();
+      }
+
+      function showOne(win) {
+        hideAll();
+        const windowWidth = Math.floor(
+          (mainWindow.getBounds().width - 5 * (1 + 1)) / 1
+        );
+        win.setBounds({
+          x: mainWindow.getBounds().x + 5,
+          y: mainWindow.getBounds().y + 32,
+          width: windowWidth,
+          height: mainWindow.getBounds().height - 90
+        });
+        win.show();
+      }
+
+      function showTwo(win1, win2) {
+        hideAll();
+        const windowWidth = Math.floor(
+          (mainWindow.getBounds().width - 5 * (1 + 2)) / 2
+        );
+        win1.setBounds({
+          x: mainWindow.getBounds().x + 5,
+          y: mainWindow.getBounds().y + 32,
+          width: windowWidth,
+          height: mainWindow.getBounds().height - 90
+        });
+        win2.setBounds({
+          x: mainWindow.getBounds().x + windowWidth + 10,
+          y: mainWindow.getBounds().y + 32,
+          width: windowWidth,
+          height: mainWindow.getBounds().height - 90
+        });
+        win1.show();
+        win2.show();
+      }
+
+      function showThree(win1, win2, win3) {
+        hideAll();
+        const windowWidth = Math.floor(
+          (mainWindow.getBounds().width - 5 * (1 + 3)) / 3
+        );
+        win1.setBounds({
+          x: mainWindow.getBounds().x + 5,
+          y: mainWindow.getBounds().y + 32,
+          width: windowWidth,
+          height: mainWindow.getBounds().height - 90
+        });
+        win2.setBounds({
+          x: mainWindow.getBounds().x + windowWidth + 10,
+          y: mainWindow.getBounds().y + 32,
+          width: windowWidth,
+          height: mainWindow.getBounds().height - 90
+        });
+        win3.setBounds({
+          x: mainWindow.getBounds().x + windowWidth * 2 + 15,
+          y: mainWindow.getBounds().y + 32,
+          width: windowWidth,
+          height: mainWindow.getBounds().height - 90,
+        });
+        win1.show();
+        win2.show();
+        win3.show();
+      }
+
+      function showFour(win1, win2, win3, win4) {
+        hideAll();
+        const windowWidth = Math.floor(
+          (mainWindow.getBounds().width - 5 * (1 + 4)) / 4
+        );
+        win1.setBounds({
+          x: mainWindow.getBounds().x + 5,
+          y: mainWindow.getBounds().y + 32,
+          width: windowWidth,
+          height: mainWindow.getBounds().height - 90
+        });
+        win2.setBounds({
+          x: mainWindow.getBounds().x + windowWidth + 10,
+          y: mainWindow.getBounds().y + 32,
+          width: windowWidth,
+          height: mainWindow.getBounds().height - 90
+        });
+        win3.setBounds({
+          x: mainWindow.getBounds().x + windowWidth * 2 + 15,
+          y: mainWindow.getBounds().y + 32,
+          width: windowWidth,
+          height: mainWindow.getBounds().height - 90,
+        });
+        win4.setBounds({
+          x: mainWindow.getBounds().x + windowWidth * 3 + 20,
+          y: mainWindow.getBounds().y + 32,
+          width: windowWidth,
+          height: mainWindow.getBounds().height - 90,
+        });
+        win1.show();
+        win2.show();
+        win3.show();
+        win4.show();
+      }
+
       ipcMain.on("event", (event, url) => {
+        const modelNum = store.get("modelNum") || 4;
+        if (url === "yiyan") {
+          if (modelNum === 1) {
+            showOne(yiyanWindow);
+          } else if (modelNum === 2) {
+            showTwo(yiyanWindow, kimiWindow);
+          } else if (modelNum === 3) {
+            showThree(yiyanWindow, kimiWindow, zhipuWindow);
+          } else if (modelNum === 4) {
+            showFour(yiyanWindow, kimiWindow, zhipuWindow, tongyiWindow);
+          }
+          return;
+        }
+        if (url === "tongyi") {
+          if (modelNum === 1) {
+            showOne(tongyiWindow);
+          } else if (modelNum === 2) {
+            showTwo(zhipuWindow, tongyiWindow);
+          } else if (modelNum === 3) {
+            showThree(kimiWindow, zhipuWindow, tongyiWindow);
+          } else if (modelNum === 4) {
+            showFour(yiyanWindow, kimiWindow, zhipuWindow, tongyiWindow);
+          }
+          return;
+        }
+        if (url === "kimi") {
+          if (modelNum === 1) {
+            showOne(kimiWindow);
+          } else if (modelNum === 2) {
+            showTwo(yiyanWindow, kimiWindow);
+          } else if (modelNum === 3) {
+            showThree(yiyanWindow, kimiWindow, zhipuWindow);
+          } else if (modelNum === 4) {
+            showFour(yiyanWindow, kimiWindow, zhipuWindow, tongyiWindow);
+          }
+          return;
+        }
+        if (url === "zhipu") {
+          if (modelNum === 1) {
+            showOne(zhipuWindow);
+          } else if (modelNum === 2) {
+            showTwo(zhipuWindow, tongyiWindow);
+          } else if (modelNum === 3) {
+            showThree(yiyanWindow, kimiWindow, zhipuWindow);
+          } else if (modelNum === 4) {
+            showFour(yiyanWindow, kimiWindow, zhipuWindow, tongyiWindow);
+          }
+          return;
+        }
         if (url === "minWin") {
           mainWindow.minimize();
           return;
@@ -363,19 +520,33 @@ function createWindow() {
         }
         if (url === "oneWindow") {
           initWidth(1);
+          yiyanWindow.show();
           kimiWindow.hide();
           tongyiWindow.hide();
+          zhipuWindow.hide();
           return;
         }
         if (url === "twoWindow") {
-          initWidth(4);
+          initWidth(2);
+          yiyanWindow.show();
           kimiWindow.show();
+          zhipuWindow.hide();
           tongyiWindow.hide();
           return;
         }
         if (url === "threeWindow") {
           initWidth(3);
+          yiyanWindow.show();
           kimiWindow.show();
+          zhipuWindow.show();
+          tongyiWindow.hide();
+          return;
+        }
+        if (url === "fourWindow") {
+          initWidth(4);
+          yiyanWindow.show();
+          kimiWindow.show();
+          zhipuWindow.show();
           tongyiWindow.show();
           return;
         }

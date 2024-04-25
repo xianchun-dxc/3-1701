@@ -27,7 +27,22 @@ document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("threeWindow").addEventListener("click", function () {
     ipcRenderer.send("event", "threeWindow");
   });
+  document.getElementById("fourWindow").addEventListener("click", function () {
+    ipcRenderer.send("event", "fourWindow");
+  });
   document.getElementById("skin").addEventListener("dblclick", function () {
     ipcRenderer.send("event", "skin");
+  });
+  document.getElementById("yiyan").addEventListener("click", function () {
+    ipcRenderer.send("event", "yiyan");
+  });
+  document.getElementById("tongyi").addEventListener("click", function () {
+    ipcRenderer.send("event", "tongyi");
+  });
+  document.getElementById("kimi").addEventListener("click", function () {
+    ipcRenderer.send("event", "kimi");
+  });
+  document.getElementById("zhipu").addEventListener("click", function () {
+    ipcRenderer.send("event", "zhipu");
   });
 });
