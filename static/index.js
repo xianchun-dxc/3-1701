@@ -404,21 +404,25 @@ function createWindow() {
           width: windowWidth,
           height: mainWindow.getBounds().height - 90
         });
-        win2.setBounds({
-          x: mainWindow.getBounds().x + windowWidth + 10,
-          y: mainWindow.getBounds().y + 32,
-          width: windowWidth,
-          height: mainWindow.getBounds().height - 90
-        });
-        win3.setBounds({
-          x: mainWindow.getBounds().x + windowWidth * 2 + 15,
-          y: mainWindow.getBounds().y + 32,
-          width: windowWidth,
-          height: mainWindow.getBounds().height - 90,
-        });
         win1.show();
-        win2.show();
-        win3.show();
+        if (win2) {
+          win2.setBounds({
+            x: mainWindow.getBounds().x + windowWidth + 10,
+            y: mainWindow.getBounds().y + 32,
+            width: windowWidth,
+            height: mainWindow.getBounds().height - 90
+          });
+          win2.show();
+        }
+        if (win3) {
+          win3.setBounds({
+            x: mainWindow.getBounds().x + windowWidth * 2 + 15,
+            y: mainWindow.getBounds().y + 32,
+            width: windowWidth,
+            height: mainWindow.getBounds().height - 90
+          });
+          win3.show();
+        }
       }
 
       function showFour(win1, win2, win3, win4) {
@@ -442,13 +446,13 @@ function createWindow() {
           x: mainWindow.getBounds().x + windowWidth * 2 + 15,
           y: mainWindow.getBounds().y + 32,
           width: windowWidth,
-          height: mainWindow.getBounds().height - 90,
+          height: mainWindow.getBounds().height - 90
         });
         win4.setBounds({
           x: mainWindow.getBounds().x + windowWidth * 3 + 20,
           y: mainWindow.getBounds().y + 32,
           width: windowWidth,
-          height: mainWindow.getBounds().height - 90,
+          height: mainWindow.getBounds().height - 90
         });
         win1.show();
         win2.show();
@@ -461,53 +465,154 @@ function createWindow() {
         if (url === "yiyan") {
           if (modelNum === 1) {
             showOne(yiyanWindow);
+            mainWindow.webContents.executeJavaScript(`
+              $('#zhipu').removeClass('ant-segmented-item-selected');
+              $('#tongyi').removeClass('ant-segmented-item-selected');
+              $('#yiyan').addClass('ant-segmented-item-selected');
+              $('#kimi').removeClass('ant-segmented-item-selected');
+            `);
           } else if (modelNum === 2) {
             showTwo(yiyanWindow, kimiWindow);
+            mainWindow.webContents.executeJavaScript(`
+              $('#zhipu').removeClass('ant-segmented-item-selected');
+              $('#tongyi').removeClass('ant-segmented-item-selected');
+              $('#yiyan').addClass('ant-segmented-item-selected');
+              $('#kimi').addClass('ant-segmented-item-selected');
+            `);
           } else if (modelNum === 3) {
             showThree(yiyanWindow, kimiWindow, zhipuWindow);
+            mainWindow.webContents.executeJavaScript(`
+              $('#zhipu').addClass('ant-segmented-item-selected');
+              $('#tongyi').removeClass('ant-segmented-item-selected');
+              $('#yiyan').addClass('ant-segmented-item-selected');
+              $('#kimi').addClass('ant-segmented-item-selected');
+            `);
           } else if (modelNum === 4) {
             showFour(yiyanWindow, kimiWindow, zhipuWindow, tongyiWindow);
+            mainWindow.webContents.executeJavaScript(`
+              $('#zhipu').addClass('ant-segmented-item-selected');
+              $('#tongyi').addClass('ant-segmented-item-selected');
+              $('#yiyan').addClass('ant-segmented-item-selected');
+              $('#kimi').addClass('ant-segmented-item-selected');
+            `);
           }
+          bottomWindow.focus();
           return;
         }
         if (url === "tongyi") {
           if (modelNum === 1) {
             showOne(tongyiWindow);
+            mainWindow.webContents.executeJavaScript(`
+              $('#zhipu').removeClass('ant-segmented-item-selected');
+              $('#tongyi').addClass('ant-segmented-item-selected');
+              $('#yiyan').removeClass('ant-segmented-item-selected');
+              $('#kimi').removeClass('ant-segmented-item-selected');
+            `);
           } else if (modelNum === 2) {
             showTwo(zhipuWindow, tongyiWindow);
+            mainWindow.webContents.executeJavaScript(`
+              $('#zhipu').addClass('ant-segmented-item-selected');
+              $('#tongyi').addClass('ant-segmented-item-selected');
+              $('#yiyan').removeClass('ant-segmented-item-selected');
+              $('#kimi').removeClass('ant-segmented-item-selected');
+            `);
           } else if (modelNum === 3) {
-            showThree(kimiWindow, zhipuWindow, tongyiWindow);
+            showThree(tongyiWindow);
+            mainWindow.webContents.executeJavaScript(`
+              $('#tongyi').addClass('ant-segmented-item-selected');
+              $('#zhipu').removeClass('ant-segmented-item-selected');
+              $('#yiyan').removeClass('ant-segmented-item-selected');
+              $('#kimi').removeClass('ant-segmented-item-selected');
+            `);
           } else if (modelNum === 4) {
             showFour(yiyanWindow, kimiWindow, zhipuWindow, tongyiWindow);
+            mainWindow.webContents.executeJavaScript(`
+              $('#zhipu').addClass('ant-segmented-item-selected');
+              $('#tongyi').addClass('ant-segmented-item-selected');
+              $('#yiyan').addClass('ant-segmented-item-selected');
+              $('#kimi').addClass('ant-segmented-item-selected');
+            `);
           }
+          bottomWindow.focus();
           return;
         }
         if (url === "kimi") {
           if (modelNum === 1) {
             showOne(kimiWindow);
+            mainWindow.webContents.executeJavaScript(`
+              $('#zhipu').removeClass('ant-segmented-item-selected');
+              $('#tongyi').removeClass('ant-segmented-item-selected');
+              $('#yiyan').removeClass('ant-segmented-item-selected');
+              $('#kimi').addClass('ant-segmented-item-selected');
+            `);
           } else if (modelNum === 2) {
             showTwo(yiyanWindow, kimiWindow);
+            mainWindow.webContents.executeJavaScript(`
+              $('#zhipu').removeClass('ant-segmented-item-selected');
+              $('#tongyi').removeClass('ant-segmented-item-selected');
+              $('#yiyan').addClass('ant-segmented-item-selected');
+              $('#kimi').addClass('ant-segmented-item-selected');
+            `);
           } else if (modelNum === 3) {
             showThree(yiyanWindow, kimiWindow, zhipuWindow);
+            mainWindow.webContents.executeJavaScript(`
+              $('#zhipu').addClass('ant-segmented-item-selected');
+              $('#tongyi').removeClass('ant-segmented-item-selected');
+              $('#yiyan').addClass('ant-segmented-item-selected');
+              $('#kimi').addClass('ant-segmented-item-selected');
+            `);
           } else if (modelNum === 4) {
             showFour(yiyanWindow, kimiWindow, zhipuWindow, tongyiWindow);
+            mainWindow.webContents.executeJavaScript(`
+              $('#zhipu').addClass('ant-segmented-item-selected');
+              $('#tongyi').addClass('ant-segmented-item-selected');
+              $('#yiyan').addClass('ant-segmented-item-selected');
+              $('#kimi').addClass('ant-segmented-item-selected');
+            `);
           }
+          bottomWindow.focus();
           return;
         }
         if (url === "zhipu") {
           if (modelNum === 1) {
             showOne(zhipuWindow);
+            mainWindow.webContents.executeJavaScript(`
+              $('#zhipu').addClass('ant-segmented-item-selected');
+              $('#tongyi').removeClass('ant-segmented-item-selected');
+              $('#yiyan').removeClass('ant-segmented-item-selected');
+              $('#kimi').removeClass('ant-segmented-item-selected');
+            `);
           } else if (modelNum === 2) {
             showTwo(zhipuWindow, tongyiWindow);
+            mainWindow.webContents.executeJavaScript(`
+              $('#zhipu').addClass('ant-segmented-item-selected');
+              $('#tongyi').addClass('ant-segmented-item-selected');
+              $('#yiyan').removeClass('ant-segmented-item-selected');
+              $('#kimi').removeClass('ant-segmented-item-selected');
+            `);
           } else if (modelNum === 3) {
             showThree(yiyanWindow, kimiWindow, zhipuWindow);
+            mainWindow.webContents.executeJavaScript(`
+              $('#zhipu').addClass('ant-segmented-item-selected');
+              $('#tongyi').removeClass('ant-segmented-item-selected');
+              $('#yiyan').addClass('ant-segmented-item-selected');
+              $('#kimi').addClass('ant-segmented-item-selected');
+            `);
           } else if (modelNum === 4) {
             showFour(yiyanWindow, kimiWindow, zhipuWindow, tongyiWindow);
+            mainWindow.webContents.executeJavaScript(`
+              $('#zhipu').addClass('ant-segmented-item-selected');
+              $('#tongyi').addClass('ant-segmented-item-selected');
+              $('#yiyan').addClass('ant-segmented-item-selected');
+              $('#kimi').addClass('ant-segmented-item-selected');
+            `);
           }
+          bottomWindow.focus();
           return;
         }
         if (url === "minWin") {
           mainWindow.minimize();
+          bottomWindow.focus();
           return;
         }
         if (url === "exit") {
@@ -520,34 +625,62 @@ function createWindow() {
         }
         if (url === "oneWindow") {
           initWidth(1);
+          mainWindow.webContents.executeJavaScript(`
+            $('#zhipu').removeClass('ant-segmented-item-selected');
+            $('#tongyi').removeClass('ant-segmented-item-selected');
+            $('#yiyan').addClass('ant-segmented-item-selected');
+            $('#kimi').removeClass('ant-segmented-item-selected');
+          `);
           yiyanWindow.show();
           kimiWindow.hide();
           tongyiWindow.hide();
           zhipuWindow.hide();
+          bottomWindow.focus();
           return;
         }
         if (url === "twoWindow") {
           initWidth(2);
+          mainWindow.webContents.executeJavaScript(`
+            $('#zhipu').removeClass('ant-segmented-item-selected');
+            $('#tongyi').removeClass('ant-segmented-item-selected');
+            $('#yiyan').addClass('ant-segmented-item-selected');
+            $('#kimi').addClass('ant-segmented-item-selected');
+          `);
           yiyanWindow.show();
           kimiWindow.show();
           zhipuWindow.hide();
           tongyiWindow.hide();
+          bottomWindow.focus();
           return;
         }
         if (url === "threeWindow") {
           initWidth(3);
+          mainWindow.webContents.executeJavaScript(`
+            $('#zhipu').addClass('ant-segmented-item-selected');
+            $('#tongyi').removeClass('ant-segmented-item-selected');
+            $('#yiyan').addClass('ant-segmented-item-selected');
+            $('#kimi').addClass('ant-segmented-item-selected');
+          `);
           yiyanWindow.show();
           kimiWindow.show();
           zhipuWindow.show();
           tongyiWindow.hide();
+          bottomWindow.focus();
           return;
         }
         if (url === "fourWindow") {
           initWidth(4);
+          mainWindow.webContents.executeJavaScript(`
+            $('#zhipu').addClass('ant-segmented-item-selected');
+            $('#tongyi').addClass('ant-segmented-item-selected');
+            $('#yiyan').addClass('ant-segmented-item-selected');
+            $('#kimi').addClass('ant-segmented-item-selected');
+          `);
           yiyanWindow.show();
           kimiWindow.show();
           zhipuWindow.show();
           tongyiWindow.show();
+          bottomWindow.focus();
           return;
         }
         if (url === "submit") {
