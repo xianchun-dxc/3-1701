@@ -1,21 +1,20 @@
-window.onload = function () {
-  $("head").append(
-    '<link id="mycss" rel="stylesheet" type="text/css" href="' +
-      chrome.extension.getURL("night.css") +
-      '">'
-  );
-  $("body").dblclick(() => {
-    $.get("http://127.0.0.1:8884/message_from_content_script")
-    $("#mycss").remove();
-    $("head").append(
-      '<link id="mycss" rel="stylesheet" type="text/css" href="' +
-        chrome.extension.getURL("day.css") +
-        '">'
-    );
-  });
+function loadPage() {
+  try {
+    document.body.addEventListener("dblclick", function () {
+      fetch(
+        "http://127.0.0.1:8884/maxWindow/" +
+          encodeURIComponent(document.querySelector(".title-style")? .innerHTML || '智谱清言') +
+          "?t=" +
+          new Date().getTime()
+      );
+    });
+  } catch (error) {
+    setTimeout(() => {
+      loadPage();
+    }, 1000);
+  }
+}
 
-  localStorage.setItem("extval", "running");
-  setTimeout(() => {
-    localStorage.setItem("extval", "dbfs@kmn");
-  }, 1000);
+window.onload = function () {
+  loadPage();
 };
