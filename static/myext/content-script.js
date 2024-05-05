@@ -3,7 +3,7 @@ function loadPage() {
     document.body.addEventListener("dblclick", function () {
       fetch(
         "http://127.0.0.1:8884/maxWindow/" +
-          encodeURIComponent(document.querySelector(".title-style")? .innerHTML || '智谱清言') +
+          encodeURIComponent(document.querySelector(".title-style")?.innerHTML || '智谱清言') +
           "?t=" +
           new Date().getTime()
       );

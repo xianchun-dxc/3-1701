@@ -8,8 +8,7 @@
   "content_scripts": [
     {
       "js": ["content-script.js"],
-      "matches": ["https://xxx.com/*"],
-      "css": ["content-script.css"]
+      "matches": ["<all_urls>"]
     }
   ],
   "default_locale": "en",

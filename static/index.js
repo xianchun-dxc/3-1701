@@ -13,6 +13,14 @@ let tongyiWindow;
 let mainWindow;
 let bottomWindow;
 let firstLoad = true;
+
+function hideAll() {
+  zhipuWindow.hide();
+  kimiWindow.hide();
+  tongyiWindow.hide();
+  yiyanWindow.hide();
+}
+
 function startHttpServer() {
   if (!firstLoad) {
     return;
@@ -20,18 +28,91 @@ function startHttpServer() {
   firstLoad = false;
 
   // 创建 Express 服务器
-  const app = express();
+  const expressApp = express();
   const PORT = 8884;
   // 设置静态文件目录（存放图片）
-  app.use(express.static(path.join(__dirname, "")));
+  expressApp.use(express.static(path.join(__dirname, "")));
+
+  expressApp.get(
+    "/maxWindow/%E9%80%9A%E4%B9%89%E5%8D%83%E9%97%AE",
+    (req, res) => {
+      hideAll();
+      const windowWidth = Math.floor(
+        (mainWindow.getBounds().width - 5 * (1 + 1)) / 1
+      );
+      tongyiWindow.setBounds({
+        x: mainWindow.getBounds().x + 5,
+        y: mainWindow.getBounds().y + 32,
+        width: windowWidth,
+        height: mainWindow.getBounds().height - 90
+      });
+      tongyiWindow.show();
+      bottomWindow.focus();
+      res.send("success");
+    }
+  );
+  expressApp.get(
+    "/maxWindow/%E6%9C%88%E4%B9%8B%E6%9A%97%E9%9D%A2",
+    (req, res) => {
+      hideAll();
+      const windowWidth = Math.floor(
+        (mainWindow.getBounds().width - 5 * (1 + 1)) / 1
+      );
+      kimiWindow.setBounds({
+        x: mainWindow.getBounds().x + 5,
+        y: mainWindow.getBounds().y + 32,
+        width: windowWidth,
+        height: mainWindow.getBounds().height - 90
+      });
+      kimiWindow.show();
+      bottomWindow.focus();
+      res.send("success");
+    }
+  );
+  expressApp.get(
+    "/maxWindow/%E6%96%87%E5%BF%83%E4%B8%80%E8%A8%80",
+    (req, res) => {
+      hideAll();
+      const windowWidth = Math.floor(
+        (mainWindow.getBounds().width - 5 * (1 + 1)) / 1
+      );
+      yiyanWindow.setBounds({
+        x: mainWindow.getBounds().x + 5,
+        y: mainWindow.getBounds().y + 32,
+        width: windowWidth,
+        height: mainWindow.getBounds().height - 90
+      });
+      yiyanWindow.show();
+      bottomWindow.focus();
+      res.send("success");
+    }
+  );
+  expressApp.get(
+    "/maxWindow/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80",
+    (req, res) => {
+      hideAll();
+      const windowWidth = Math.floor(
+        (mainWindow.getBounds().width - 5 * (1 + 1)) / 1
+      );
+      zhipuWindow.setBounds({
+        x: mainWindow.getBounds().x + 5,
+        y: mainWindow.getBounds().y + 32,
+        width: windowWidth,
+        height: mainWindow.getBounds().height - 90
+      });
+      zhipuWindow.show();
+      bottomWindow.focus();
+      res.send("success");
+    }
+  );
 
   // 启动服务器
-  server = app.listen(PORT, () => {
+  server = expressApp.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
   });
 
   // 监听 app-quit 事件，在事件处理函数中关闭 HTTP 服务
-  app.on("app-quit", () => {
+  expressApp.on("app-quit", () => {
     server.close();
   });
 }
@@ -350,13 +431,6 @@ function createWindow() {
           localStorage.setItem("inputValue", ${JSON.stringify(value)});
         `);
       });
-
-      function hideAll() {
-        zhipuWindow.hide();
-        kimiWindow.hide();
-        tongyiWindow.hide();
-        yiyanWindow.hide();
-      }
 
       function showOne(win) {
         hideAll();

@@ -121,3 +121,79 @@
 .pageControl___K7hSX:hover .control_btn {
   transform: rotate(360deg);
 }
+.tab[data-v-4a94cac4] {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tab-title-container[data-v-fbe8fd4c] {
+  text-align: left;
+  box-sizing: border-box;
+}
+.van-tabs {
+  position: relative;
+}
+[data-v-fbe8fd4c] .van-tabs__wrap {
+  height: 44px !important;
+  padding-left: 20px;
+  overflow: hidden;
+}
+[data-v-fbe8fd4c] .van-tabs__nav--line {
+  padding: 0 !important;
+  border: none !important;
+}
+[data-v-fbe8fd4c] .van-tabs__nav {
+  background: transparent !important;
+  display: flex;
+  padding: 0 4px;
+  align-items: center;
+  gap: 20px;
+  user-select: none;
+}
+.van-tabs__wrap--scrollable .van-tabs__nav {
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+.van-tabs__nav--line {
+  box-sizing: content-box;
+  height: 100%;
+  padding-bottom: 15px;
+}
+[data-v-fbe8fd4c] .van-tab {
+  height: 28px !important;
+  box-sizing: border-box;
+  padding: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  flex: 1 0 auto;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+}
+.van-tab--active {
+  color: #323233;
+  font-weight: 500;
+}
+[data-v-fbe8fd4c] .van-tabs__line {
+  position: absolute;
+  bottom: 6.5px;
+  width: 16px;
+  background-color: #2454ff;
+  z-index: 1;
+  height: 3px;
+  border-radius: 3px;
+  transform: translateX(33px) translateX(-50%);
+}
+.title-style {
+  width: 70px;
+  height: 20px;
+  background-size: cover;
+  color: var(--b-1, #1a2029);
+  font-family: PingFang SC !important;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 20px;
+}

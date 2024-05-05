@@ -6358,27 +6358,59 @@
             r = (0, c.E1)(function (e) {
               return e.user;
             });
-          return (0, W.jsxs)(i.Z, {
-            flex: !0,
-            center: !0,
-            className: mi,
+          return (0, W.jsx)("div", {
+            'data-v-4a94cac4': '',
+            className: 'tab',
             children: [
-              (0, W.jsx)(i.Z, {
-                flex: !0,
-                center: !0,
-                className: y()(pi),
-                children: r && (0, W.jsx)(Xr, { createNewChat: t })
-              }),
               (0, W.jsx)("div", {
-                className: fi,
-                children: !a && (0, W.jsx)(di, { isCase: n })
-              }),
-              (0, W.jsx)(Or.Z, {}),
-              r &&
-                (0, W.jsx)(Ur.Z, {
-                  redirectAfterLogout: z.Z.auth.login_portal
-                }),
-              !r && (0, W.jsx)(Vr, {})
+                'data-v-fbe8fd4c': '',
+                'data-v-4a94cac4': '',
+                className: 'tab-title-container',
+                children: [
+                  (0, W.jsx)("div", {
+                    'data-v-fbe8fd4c': '',
+                    className: 'van-tabs van-tabs--line',
+                    children: [
+                      (0, W.jsx)("div", {
+                        className: 'van-sticky',
+                        children: [
+                          (0, W.jsx)("div", {
+                            className: 'van-tabs__wrap van-tabs__wrap--scrollable',
+                            children: [
+                              (0, W.jsx)("div", {
+                                role: 'tablist',
+                                className: 'van-tabs__nav van-tabs__nav--line van-tabs__nav--complete',
+                                children: [
+                                  (0, W.jsx)("div", {
+                                    role: 'tab',
+                                    className: 'van-tab van-tab--active',
+                                    children: [
+                                      (0, W.jsx)("span", {
+                                        className: 'van-tab__text',
+                                        children: [
+                                          (0, W.jsx)("p", {
+                                            'data-v-fbe8fd4c': '',
+                                            className: 'title-style',
+                                            children: '月之暗面',
+                                          })
+                                        ]
+                                      })
+                                    ]
+                                  }),
+                                  (0, W.jsx)("div", {
+                                    className: 'van-tabs__line',
+                                    children: '',
+                                  })
+                                ]
+                              })
+                            ]
+                          })
+                        ]
+                      })
+                    ]
+                  })
+                ]
+              })
             ]
           });
         },
@@ -7131,7 +7163,61 @@
               column: !0,
               className: lo,
               children: [
-                (0, W.jsx)(no, {}),
+                (0, W.jsx)("div", {
+                  'data-v-4a94cac4': '',
+                  className: 'tab',
+                  children: [
+                    (0, W.jsx)("div", {
+                      'data-v-fbe8fd4c': '',
+                      'data-v-4a94cac4': '',
+                      className: 'tab-title-container',
+                      children: [
+                        (0, W.jsx)("div", {
+                          'data-v-fbe8fd4c': '',
+                          className: 'van-tabs van-tabs--line',
+                          children: [
+                            (0, W.jsx)("div", {
+                              className: 'van-sticky',
+                              children: [
+                                (0, W.jsx)("div", {
+                                  className: 'van-tabs__wrap van-tabs__wrap--scrollable',
+                                  children: [
+                                    (0, W.jsx)("div", {
+                                      role: 'tablist',
+                                      className: 'van-tabs__nav van-tabs__nav--line van-tabs__nav--complete',
+                                      children: [
+                                        (0, W.jsx)("div", {
+                                          role: 'tab',
+                                          className: 'van-tab van-tab--active',
+                                          children: [
+                                            (0, W.jsx)("span", {
+                                              className: 'van-tab__text',
+                                              children: [
+                                                (0, W.jsx)("p", {
+                                                  'data-v-fbe8fd4c': '',
+                                                  className: 'title-style',
+                                                  children: '月之暗面',
+                                                })
+                                              ]
+                                            })
+                                          ]
+                                        }),
+                                        (0, W.jsx)("div", {
+                                          className: 'van-tabs__line',
+                                          children: '',
+                                        })
+                                      ]
+                                    })
+                                  ]
+                                })
+                              ]
+                            })
+                          ]
+                        })
+                      ]
+                    })
+                  ]
+                }),
                 (0, W.jsx)(Zi.Z, {
                   maxWidth: "md",
                   className: uo,
