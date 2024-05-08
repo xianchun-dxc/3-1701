@@ -10,6 +10,7 @@ let yiyanWindow;
 let kimiWindow;
 let zhipuWindow;
 let tongyiWindow;
+let xunfeiWindow;
 let mainWindow;
 let bottomWindow;
 let firstLoad = true;
@@ -179,6 +180,7 @@ function createWindow() {
               url.includes("static/eb/js/vendors") || // baidu
               url.includes("static/eb/css/index") || // baidu
               url.includes("static/eb/css/vendors") || // baidu
+              url.includes("https://xhspdup.xfyun.cn/static/js/main.c7cc7a76.js") || // xunfei
               url.includes("https://g.alicdn.com/tongyi/qianwen") || // tongyi
               url.includes("https://g.alicdn.com/sd/baxia-entry") || // tongyi
               url.includes("moonshot.cn/kimi-chat") || // kimi
@@ -298,6 +300,34 @@ function createWindow() {
             var script = document.createElement('link');
             script.rel = "stylesheet";
             script.href = "http://127.0.0.1:8884/kimi/umi.css";
+            document.head.appendChild(script);
+        `);
+      }
+
+      xunfeiWindow = new BrowserWindow({
+        x: windowWidth + 10,
+        y: mainWindow.getBounds().y + 32,
+        frame: false,
+        width: windowWidth,
+        height: mainWindow.getBounds().height - 90,
+        autoHideMenuBar: true,
+        parent: mainWindow,
+        movable: false,
+        resizable: false,
+        skipTaskbar: true,
+        webPreferences: {
+          nodeIntegration: false,
+          contextIsolation: false,
+          devTools: true
+        }
+      });
+      xunfeiWindow.webContents.setUserAgent(mobileAgent);
+      xunfeiWindow.loadURL("https://xinghuo.xfyun.cn/desk");
+      if (store.get("isLogin")) {
+        xunfeiWindow.webContents.executeJavaScript(`
+            var script = document.createElement('script');
+            script.type = "text/javascript";
+            script.src = "http://127.0.0.1:8884/xunfei/js/xunfei.js";
             document.head.appendChild(script);
         `);
       }
@@ -428,6 +458,9 @@ function createWindow() {
           localStorage.setItem("inputValue", ${JSON.stringify(value)});
         `);
         yiyanWindow.webContents.executeJavaScript(`
+          localStorage.setItem("inputValue", ${JSON.stringify(value)});
+        `);
+        xunfeiWindow.webContents.executeJavaScript(`
           localStorage.setItem("inputValue", ${JSON.stringify(value)});
         `);
       });
@@ -770,6 +803,14 @@ function createWindow() {
           yiyanWindow.webContents.executeJavaScript(`
             document.querySelector(".send-button").click()
           `);
+          xunfeiWindow.webContents.executeJavaScript(`
+            document.querySelector(".chat_send__dBrgV").click()
+          `);
+          setTimeout(() => {
+            xunfeiWindow.webContents.executeJavaScript(`
+              document.querySelector(".chat_send__dBrgV").click()
+            `);
+          }, 100);
           return;
         }
       });
