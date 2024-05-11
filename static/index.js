@@ -180,7 +180,9 @@ function createWindow() {
               url.includes("static/eb/js/vendors") || // baidu
               url.includes("static/eb/css/index") || // baidu
               url.includes("static/eb/css/vendors") || // baidu
-              url.includes("https://xhspdup.xfyun.cn/static/js/main.c7cc7a76.js") || // xunfei
+              url.includes(
+                "https://xhspdup.xfyun.cn/static/js/main.c7cc7a76.js"
+              ) || // xunfei
               url.includes("https://g.alicdn.com/tongyi/qianwen") || // tongyi
               url.includes("https://g.alicdn.com/sd/baxia-entry") || // tongyi
               url.includes("moonshot.cn/kimi-chat") || // kimi
