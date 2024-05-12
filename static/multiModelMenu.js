@@ -45,4 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("zhipu").addEventListener("click", function () {
     ipcRenderer.send("event", "zhipu");
   });
+  document.getElementById("xunfei").addEventListener("click", function () {
+    ipcRenderer.send("event", "xunfei");
+  });
 });

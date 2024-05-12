@@ -3,7 +3,11 @@ body {
   background-color: #2a2acd;
   margin: 6px 8px;
 }
-.hide {
+.hide,
+#oneWindow,
+#twoWindow,
+#threeWindow,
+#fourWindow {
   display: none !important;
 }
 .css-var-rda.ant-segmented {
@@ -36,7 +40,7 @@ body {
   user-select: none;
 }
 .ant-segmented-item:hover {
-  background: #ffffffd6;
+  background: #ffffff5b;
 }
 .css-var-rda {
   --ant-blue: #1677ff;
@@ -402,6 +406,7 @@ body {
   border-radius: var(--ant-border-radius-sm);
   transform: translateZ(0);
   -webkit-app-region: no-drag;
+  margin-right: 2px;
 }
 .ant-segmented .ant-segmented-item-label {
   min-height: calc(

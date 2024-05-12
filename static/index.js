@@ -20,6 +20,30 @@ function hideAll() {
   kimiWindow.hide();
   tongyiWindow.hide();
   yiyanWindow.hide();
+  xunfeiWindow.hide();
+}
+
+function openTipsWindows(tips) {
+  const tipsWindow = new BrowserWindow({
+    frame: false,
+    width: 240,
+    height: 50,
+    autoHideMenuBar: true,
+    parent: mainWindow,
+    movable: false,
+    resizable: false,
+    skipTaskbar: true,
+    webPreferences: {
+      nodeIntegration: true,
+      contextIsolation: false
+    }
+  });
+  tipsWindow.loadFile("error.html");
+  tipsWindow.webContents.executeJavaScript(`document.body.append('${tips}')`);
+  setTimeout(() => {
+    tipsWindow.close();
+    tipsWindow.destroy();
+  }, 3000);
 }
 
 function startHttpServer() {
@@ -118,46 +142,6 @@ function startHttpServer() {
   });
 }
 
-function initWidth(modelNum) {
-  store.set("modelNum", modelNum);
-  const windowWidth = Math.floor(
-    (mainWindow.getBounds().width - 5 * (modelNum + 1)) / modelNum
-  );
-  yiyanWindow.setBounds({
-    x: mainWindow.getBounds().x + 5,
-    y: mainWindow.getBounds().y + 32,
-    width: windowWidth,
-    height: mainWindow.getBounds().height - 90
-  });
-  if (modelNum < 2) {
-    return;
-  }
-  kimiWindow.setBounds({
-    x: mainWindow.getBounds().x + windowWidth + 10,
-    y: mainWindow.getBounds().y + 32,
-    width: windowWidth,
-    height: mainWindow.getBounds().height - 90
-  });
-  if (modelNum < 3) {
-    return;
-  }
-  zhipuWindow.setBounds({
-    x: mainWindow.getBounds().x + windowWidth * 2 + 15,
-    y: mainWindow.getBounds().y + 32,
-    width: windowWidth,
-    height: mainWindow.getBounds().height - 90
-  });
-  if (modelNum < 4) {
-    return;
-  }
-  tongyiWindow.setBounds({
-    x: mainWindow.getBounds().x + windowWidth * 3 + 20,
-    y: mainWindow.getBounds().y + 32,
-    width: windowWidth,
-    height: mainWindow.getBounds().height - 90
-  });
-}
-
 function createWindow() {
   const modelNum = store.get("modelNum") || 4;
   const primaryDisplay = screen.getPrimaryDisplay();
@@ -220,142 +204,152 @@ function createWindow() {
       });
       mainWindow.loadFile("./menu.html");
 
-      yiyanWindow = new BrowserWindow({
-        x: mainWindow.getBounds().x + 5,
-        y: mainWindow.getBounds().y + 32,
-        frame: false,
-        width: windowWidth,
-        height: mainWindow.getBounds().height - 90,
-        autoHideMenuBar: true,
-        parent: mainWindow,
-        movable: false,
-        resizable: false,
-        skipTaskbar: true,
-        webPreferences: {
-          nodeIntegration: false,
-          contextIsolation: false,
-          devTools: true
-        }
-      });
+      function openYiyan() {
+        yiyanWindow = new BrowserWindow({
+          x: mainWindow.getBounds().x + 5,
+          y: mainWindow.getBounds().y + 32,
+          frame: false,
+          width: windowWidth,
+          height: mainWindow.getBounds().height - 90,
+          autoHideMenuBar: true,
+          parent: mainWindow,
+          movable: false,
+          resizable: false,
+          skipTaskbar: true,
+          webPreferences: {
+            nodeIntegration: false,
+            contextIsolation: false,
+            devTools: true
+          }
+        });
 
-      yiyanWindow.loadURL("https://yiyan.baidu.com");
-      if (store.get("isLogin")) {
-        yiyanWindow.webContents.executeJavaScript(`
-          var script = document.createElement('script');
-          script.type = "text/javascript";
-          script.src = "http://127.0.0.1:8884/baidu/baidu.js";
-          document.head.appendChild(script);
-          var script = document.createElement('script');
-          script.type = "text/javascript";
-          script.src = "http://127.0.0.1:8884/baidu/vendors.js";
-          document.head.appendChild(script);
-          var script = document.createElement('link');
-          script.rel = "stylesheet";
-          script.href = "http://127.0.0.1:8884/baidu/index.css";
-          document.head.appendChild(script);
-          var script = document.createElement('link');
-          script.rel = "stylesheet";
-          script.href = "http://127.0.0.1:8884/baidu/vendors.css";
-          document.head.appendChild(script);
-        `);
-      }
-
-      kimiWindow = new BrowserWindow({
-        x: windowWidth + 10,
-        y: mainWindow.getBounds().y + 32,
-        frame: false,
-        width: windowWidth,
-        height: mainWindow.getBounds().height - 90,
-        autoHideMenuBar: true,
-        parent: mainWindow,
-        movable: false,
-        resizable: false,
-        skipTaskbar: true,
-        webPreferences: {
-          nodeIntegration: true,
-          contextIsolation: false,
-          webviewTag: true,
-          userAgent:
-            "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/605.1",
-          devTools: true
-        }
-      });
-      kimiWindow.loadURL("https://kimi.moonshot.cn/");
-      if (store.get("isLogin")) {
-        kimiWindow.webContents.executeJavaScript(`
+        yiyanWindow.loadURL("https://yiyan.baidu.com");
+        if (store.get("isLogin")) {
+          yiyanWindow.webContents.executeJavaScript(`
             var script = document.createElement('script');
             script.type = "text/javascript";
-            script.src = "http://127.0.0.1:8884/kimi/umi.js";
+            script.src = "http://127.0.0.1:8884/baidu/baidu.js";
             document.head.appendChild(script);
             var script = document.createElement('script');
             script.type = "text/javascript";
-            script.src = "http://127.0.0.1:8884/kimi/framework.js";
-            document.head.appendChild(script);
-            var script = document.createElement('script');
-            script.type = "text/javascript";
-            script.src = "http://127.0.0.1:8884/kimi/react.production.min.js";
-            document.head.appendChild(script);
-            var script = document.createElement('script');
-            script.type = "text/javascript";
-            script.src = "http://127.0.0.1:8884/kimi/react-dom.production.min.js";
+            script.src = "http://127.0.0.1:8884/baidu/vendors.js";
             document.head.appendChild(script);
             var script = document.createElement('link');
             script.rel = "stylesheet";
-            script.href = "http://127.0.0.1:8884/kimi/umi.css";
+            script.href = "http://127.0.0.1:8884/baidu/index.css";
             document.head.appendChild(script);
-        `);
-      }
-
-      xunfeiWindow = new BrowserWindow({
-        x: windowWidth + 10,
-        y: mainWindow.getBounds().y + 32,
-        frame: false,
-        width: windowWidth,
-        height: mainWindow.getBounds().height - 90,
-        autoHideMenuBar: true,
-        parent: mainWindow,
-        movable: false,
-        resizable: false,
-        skipTaskbar: true,
-        webPreferences: {
-          nodeIntegration: false,
-          contextIsolation: false,
-          devTools: true
-        }
-      });
-      xunfeiWindow.webContents.setUserAgent(mobileAgent);
-      xunfeiWindow.loadURL("https://xinghuo.xfyun.cn/desk");
-      if (store.get("isLogin")) {
-        xunfeiWindow.webContents.executeJavaScript(`
-            var script = document.createElement('script');
-            script.type = "text/javascript";
-            script.src = "http://127.0.0.1:8884/xunfei/js/xunfei.js";
+            var script = document.createElement('link');
+            script.rel = "stylesheet";
+            script.href = "http://127.0.0.1:8884/baidu/vendors.css";
             document.head.appendChild(script);
-        `);
-      }
-
-      zhipuWindow = new BrowserWindow({
-        x: windowWidth * 2 + 15,
-        y: mainWindow.getBounds().y + 32,
-        frame: false,
-        width: windowWidth,
-        height: mainWindow.getBounds().height - 90,
-        autoHideMenuBar: true,
-        parent: mainWindow,
-        movable: false,
-        resizable: false,
-        skipTaskbar: true,
-        webPreferences: {
-          nodeIntegration: true,
-          contextIsolation: false,
-          webviewTag: true,
-          devTools: true
+          `);
         }
-      });
-      zhipuWindow.webContents.setUserAgent(mobileAgent);
-      zhipuWindow.loadURL("https://chatglm.cn/");
-      if (store.get("isLogin")) {
-        zhipuWindow.webContents.executeJavaScript(`
+      }
+      openYiyan();
+
+      function openKimi() {
+        kimiWindow = new BrowserWindow({
+          x: windowWidth + 10,
+          y: mainWindow.getBounds().y + 32,
+          frame: false,
+          width: windowWidth,
+          height: mainWindow.getBounds().height - 90,
+          autoHideMenuBar: true,
+          parent: mainWindow,
+          movable: false,
+          resizable: false,
+          skipTaskbar: true,
+          webPreferences: {
+            nodeIntegration: true,
+            contextIsolation: false,
+            webviewTag: true,
+            userAgent:
+              "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/605.1",
+            devTools: true
+          }
+        });
+        kimiWindow.loadURL("https://kimi.moonshot.cn/");
+        if (store.get("isLogin")) {
+          kimiWindow.webContents.executeJavaScript(`
+              var script = document.createElement('script');
+              script.type = "text/javascript";
+              script.src = "http://127.0.0.1:8884/kimi/umi.js";
+              document.head.appendChild(script);
+              var script = document.createElement('script');
+              script.type = "text/javascript";
+              script.src = "http://127.0.0.1:8884/kimi/framework.js";
+              document.head.appendChild(script);
+              var script = document.createElement('script');
+              script.type = "text/javascript";
+              script.src = "http://127.0.0.1:8884/kimi/react.production.min.js";
+              document.head.appendChild(script);
+              var script = document.createElement('script');
+              script.type = "text/javascript";
+              script.src = "http://127.0.0.1:8884/kimi/react-dom.production.min.js";
+              document.head.appendChild(script);
+              var script = document.createElement('link');
+              script.rel = "stylesheet";
+              script.href = "http://127.0.0.1:8884/kimi/umi.css";
+              document.head.appendChild(script);
+          `);
+        }
+      }
+      openKimi();
+
+      function openXunfei() {
+        xunfeiWindow = new BrowserWindow({
+          x: windowWidth + 10,
+          y: mainWindow.getBounds().y + 32,
+          frame: false,
+          width: windowWidth,
+          height: mainWindow.getBounds().height - 90,
+          autoHideMenuBar: true,
+          parent: mainWindow,
+          movable: false,
+          resizable: false,
+          skipTaskbar: true,
+          webPreferences: {
+            nodeIntegration: false,
+            contextIsolation: false,
+            devTools: true
+          }
+        });
+        xunfeiWindow.webContents.setUserAgent(mobileAgent);
+        xunfeiWindow.loadURL("https://xinghuo.xfyun.cn/desk");
+        if (store.get("isLogin")) {
+          xunfeiWindow.webContents.executeJavaScript(`
+              var script = document.createElement('script');
+              script.type = "text/javascript";
+              script.src = "http://127.0.0.1:8884/xunfei/js/xunfei.js";
+              document.head.appendChild(script);
+          `);
+        }
+      }
+      openXunfei();
+
+      function openZhipu() {
+        zhipuWindow = new BrowserWindow({
+          x: windowWidth * 2 + 15,
+          y: mainWindow.getBounds().y + 32,
+          frame: false,
+          width: windowWidth,
+          height: mainWindow.getBounds().height - 90,
+          autoHideMenuBar: true,
+          parent: mainWindow,
+          movable: false,
+          resizable: false,
+          skipTaskbar: true,
+          webPreferences: {
+            nodeIntegration: true,
+            contextIsolation: false,
+            webviewTag: true,
+            devTools: true
+          }
+        });
+        zhipuWindow.webContents.setUserAgent(mobileAgent);
+        zhipuWindow.loadURL("https://chatglm.cn/");
+        if (store.get("isLogin")) {
+          zhipuWindow.webContents.executeJavaScript(`
             var script = document.createElement('script');
             script.type = "text/javascript";
             script.src = "http://127.0.0.1:8884/chatglm/js/app.js";
@@ -385,29 +379,32 @@ function createWindow() {
             script.href = "http://127.0.0.1:8884/chatglm/css/vendors.css";
             document.head.appendChild(script);
         `);
-      }
-
-      tongyiWindow = new BrowserWindow({
-        x: windowWidth * 3 + 20,
-        y: mainWindow.getBounds().y + 32,
-        frame: false,
-        width: windowWidth,
-        height: mainWindow.getBounds().height - 90,
-        autoHideMenuBar: true,
-        parent: mainWindow,
-        movable: false,
-        resizable: false,
-        skipTaskbar: true,
-        webPreferences: {
-          nodeIntegration: true,
-          contextIsolation: false,
-          devTools: true
         }
-      });
-      tongyiWindow.webContents.setUserAgent(mobileAgent);
-      tongyiWindow.loadURL("https://tongyi.aliyun.com/qianwen");
-      if (store.get("isLogin")) {
-        tongyiWindow.webContents.executeJavaScript(`
+      }
+      openZhipu();
+
+      function openTongyi() {
+        tongyiWindow = new BrowserWindow({
+          x: windowWidth * 3 + 20,
+          y: mainWindow.getBounds().y + 32,
+          frame: false,
+          width: windowWidth,
+          height: mainWindow.getBounds().height - 90,
+          autoHideMenuBar: true,
+          parent: mainWindow,
+          movable: false,
+          resizable: false,
+          skipTaskbar: true,
+          webPreferences: {
+            nodeIntegration: true,
+            contextIsolation: false,
+            devTools: true
+          }
+        });
+        tongyiWindow.webContents.setUserAgent(mobileAgent);
+        tongyiWindow.loadURL("https://tongyi.aliyun.com/qianwen");
+        if (store.get("isLogin")) {
+          tongyiWindow.webContents.executeJavaScript(`
             var script = document.createElement('script');
             script.type = "text/javascript";
             script.src = "http://127.0.0.1:8884/tongyi/tongyi.js";
@@ -421,7 +418,9 @@ function createWindow() {
             script.href = "http://127.0.0.1:8884/tongyi/index.css";
             document.head.appendChild(script);
         `);
+        }
       }
+      openTongyi();
 
       bottomWindow = new BrowserWindow({
         x: mainWindow.getBounds().x + 5,
@@ -450,21 +449,31 @@ function createWindow() {
       });
 
       ipcMain.on("inputBox", (event, value) => {
-        zhipuWindow.webContents.executeJavaScript(`
-          localStorage.setItem("inputValue", ${JSON.stringify(value)});
-        `);
-        kimiWindow.webContents.executeJavaScript(`
-          localStorage.setItem("inputValue", ${JSON.stringify(value)});
-        `);
-        tongyiWindow.webContents.executeJavaScript(`
-          localStorage.setItem("inputValue", ${JSON.stringify(value)});
-        `);
-        yiyanWindow.webContents.executeJavaScript(`
-          localStorage.setItem("inputValue", ${JSON.stringify(value)});
-        `);
-        xunfeiWindow.webContents.executeJavaScript(`
-          localStorage.setItem("inputValue", ${JSON.stringify(value)});
-        `);
+        if (zhipuWindow) {
+          zhipuWindow.webContents.executeJavaScript(`
+            localStorage.setItem("inputValue", ${JSON.stringify(value)});
+          `);
+        }
+        if (kimiWindow) {
+          kimiWindow.webContents.executeJavaScript(`
+            localStorage.setItem("inputValue", ${JSON.stringify(value)});
+          `);
+        }
+        if (tongyiWindow) {
+          tongyiWindow.webContents.executeJavaScript(`
+            localStorage.setItem("inputValue", ${JSON.stringify(value)});
+          `);
+        }
+        if (yiyanWindow) {
+          yiyanWindow.webContents.executeJavaScript(`
+            localStorage.setItem("inputValue", ${JSON.stringify(value)});
+          `);
+        }
+        if (xunfeiWindow) {
+          xunfeiWindow.webContents.executeJavaScript(`
+            localStorage.setItem("inputValue", ${JSON.stringify(value)});
+          `);
+        }
       });
 
       function showOne(win) {
@@ -569,154 +578,77 @@ function createWindow() {
         win4.show();
       }
 
-      ipcMain.on("event", (event, url) => {
-        const modelNum = store.get("modelNum") || 4;
-        if (url === "yiyan") {
-          if (modelNum === 1) {
-            showOne(yiyanWindow);
+      const windowMap = {
+        yiyan: yiyanWindow,
+        kimi: kimiWindow,
+        zhipu: zhipuWindow,
+        xunfei: xunfeiWindow,
+        tongyi: tongyiWindow
+      };
+
+      const clickWin = (url) => {
+        let openedWindows = store.get("openedWindows") || [
+          "yiyan",
+          "kimi",
+          "zhipu",
+          "xunfei"
+        ];
+        if (url) {
+          if (openedWindows.includes(url)) {
+            const newWindows = openedWindows.filter((item) => item !== url);
+            openedWindows = newWindows;
             mainWindow.webContents.executeJavaScript(`
-              $('#zhipu').removeClass('ant-segmented-item-selected');
-              $('#tongyi').removeClass('ant-segmented-item-selected');
-              $('#yiyan').addClass('ant-segmented-item-selected');
-              $('#kimi').removeClass('ant-segmented-item-selected');
+              $('#${url}').removeClass('ant-segmented-item-selected');
             `);
-          } else if (modelNum === 2) {
-            showTwo(yiyanWindow, kimiWindow);
+          } else {
+            if (openedWindows.length === 4) {
+              openTipsWindows("最多选择4个大模型!");
+              return;
+            }
+            openedWindows.push(url);
             mainWindow.webContents.executeJavaScript(`
-              $('#zhipu').removeClass('ant-segmented-item-selected');
-              $('#tongyi').removeClass('ant-segmented-item-selected');
-              $('#yiyan').addClass('ant-segmented-item-selected');
-              $('#kimi').addClass('ant-segmented-item-selected');
-            `);
-          } else if (modelNum === 3) {
-            showThree(yiyanWindow, kimiWindow, zhipuWindow);
-            mainWindow.webContents.executeJavaScript(`
-              $('#zhipu').addClass('ant-segmented-item-selected');
-              $('#tongyi').removeClass('ant-segmented-item-selected');
-              $('#yiyan').addClass('ant-segmented-item-selected');
-              $('#kimi').addClass('ant-segmented-item-selected');
-            `);
-          } else if (modelNum === 4) {
-            showFour(yiyanWindow, kimiWindow, zhipuWindow, tongyiWindow);
-            mainWindow.webContents.executeJavaScript(`
-              $('#zhipu').addClass('ant-segmented-item-selected');
-              $('#tongyi').addClass('ant-segmented-item-selected');
-              $('#yiyan').addClass('ant-segmented-item-selected');
-              $('#kimi').addClass('ant-segmented-item-selected');
+              $('#${url}').addClass('ant-segmented-item-selected');
             `);
           }
-          bottomWindow.focus();
-          return;
+        } else {
+          for (let i = 0; i < openedWindows.length; i++) {
+            mainWindow.webContents.executeJavaScript(`
+              $('#${openedWindows[i]}').addClass('ant-segmented-item-selected');
+            `);
+          }
         }
-        if (url === "tongyi") {
-          if (modelNum === 1) {
-            showOne(tongyiWindow);
-            mainWindow.webContents.executeJavaScript(`
-              $('#zhipu').removeClass('ant-segmented-item-selected');
-              $('#tongyi').addClass('ant-segmented-item-selected');
-              $('#yiyan').removeClass('ant-segmented-item-selected');
-              $('#kimi').removeClass('ant-segmented-item-selected');
-            `);
-          } else if (modelNum === 2) {
-            showTwo(zhipuWindow, tongyiWindow);
-            mainWindow.webContents.executeJavaScript(`
-              $('#zhipu').addClass('ant-segmented-item-selected');
-              $('#tongyi').addClass('ant-segmented-item-selected');
-              $('#yiyan').removeClass('ant-segmented-item-selected');
-              $('#kimi').removeClass('ant-segmented-item-selected');
-            `);
-          } else if (modelNum === 3) {
-            showThree(tongyiWindow);
-            mainWindow.webContents.executeJavaScript(`
-              $('#tongyi').addClass('ant-segmented-item-selected');
-              $('#zhipu').removeClass('ant-segmented-item-selected');
-              $('#yiyan').removeClass('ant-segmented-item-selected');
-              $('#kimi').removeClass('ant-segmented-item-selected');
-            `);
-          } else if (modelNum === 4) {
-            showFour(yiyanWindow, kimiWindow, zhipuWindow, tongyiWindow);
-            mainWindow.webContents.executeJavaScript(`
-              $('#zhipu').addClass('ant-segmented-item-selected');
-              $('#tongyi').addClass('ant-segmented-item-selected');
-              $('#yiyan').addClass('ant-segmented-item-selected');
-              $('#kimi').addClass('ant-segmented-item-selected');
-            `);
-          }
-          bottomWindow.focus();
-          return;
+        openedWindows.sort();
+        store.set("openedWindows", openedWindows);
+        if (openedWindows.length === 1) {
+          showOne(windowMap[openedWindows[0]]);
+        } else if (openedWindows.length === 2) {
+          showTwo(windowMap[openedWindows[0]], windowMap[openedWindows[1]]);
+        } else if (openedWindows.length === 3) {
+          showThree(
+            windowMap[openedWindows[0]],
+            windowMap[openedWindows[1]],
+            windowMap[openedWindows[2]]
+          );
+        } else if (openedWindows.length === 4) {
+          showFour(
+            windowMap[openedWindows[0]],
+            windowMap[openedWindows[1]],
+            windowMap[openedWindows[2]],
+            windowMap[openedWindows[3]]
+          );
         }
-        if (url === "kimi") {
-          if (modelNum === 1) {
-            showOne(kimiWindow);
-            mainWindow.webContents.executeJavaScript(`
-              $('#zhipu').removeClass('ant-segmented-item-selected');
-              $('#tongyi').removeClass('ant-segmented-item-selected');
-              $('#yiyan').removeClass('ant-segmented-item-selected');
-              $('#kimi').addClass('ant-segmented-item-selected');
-            `);
-          } else if (modelNum === 2) {
-            showTwo(yiyanWindow, kimiWindow);
-            mainWindow.webContents.executeJavaScript(`
-              $('#zhipu').removeClass('ant-segmented-item-selected');
-              $('#tongyi').removeClass('ant-segmented-item-selected');
-              $('#yiyan').addClass('ant-segmented-item-selected');
-              $('#kimi').addClass('ant-segmented-item-selected');
-            `);
-          } else if (modelNum === 3) {
-            showThree(yiyanWindow, kimiWindow, zhipuWindow);
-            mainWindow.webContents.executeJavaScript(`
-              $('#zhipu').addClass('ant-segmented-item-selected');
-              $('#tongyi').removeClass('ant-segmented-item-selected');
-              $('#yiyan').addClass('ant-segmented-item-selected');
-              $('#kimi').addClass('ant-segmented-item-selected');
-            `);
-          } else if (modelNum === 4) {
-            showFour(yiyanWindow, kimiWindow, zhipuWindow, tongyiWindow);
-            mainWindow.webContents.executeJavaScript(`
-              $('#zhipu').addClass('ant-segmented-item-selected');
-              $('#tongyi').addClass('ant-segmented-item-selected');
-              $('#yiyan').addClass('ant-segmented-item-selected');
-              $('#kimi').addClass('ant-segmented-item-selected');
-            `);
-          }
-          bottomWindow.focus();
-          return;
-        }
-        if (url === "zhipu") {
-          if (modelNum === 1) {
-            showOne(zhipuWindow);
-            mainWindow.webContents.executeJavaScript(`
-              $('#zhipu').addClass('ant-segmented-item-selected');
-              $('#tongyi').removeClass('ant-segmented-item-selected');
-              $('#yiyan').removeClass('ant-segmented-item-selected');
-              $('#kimi').removeClass('ant-segmented-item-selected');
-            `);
-          } else if (modelNum === 2) {
-            showTwo(zhipuWindow, tongyiWindow);
-            mainWindow.webContents.executeJavaScript(`
-              $('#zhipu').addClass('ant-segmented-item-selected');
-              $('#tongyi').addClass('ant-segmented-item-selected');
-              $('#yiyan').removeClass('ant-segmented-item-selected');
-              $('#kimi').removeClass('ant-segmented-item-selected');
-            `);
-          } else if (modelNum === 3) {
-            showThree(yiyanWindow, kimiWindow, zhipuWindow);
-            mainWindow.webContents.executeJavaScript(`
-              $('#zhipu').addClass('ant-segmented-item-selected');
-              $('#tongyi').removeClass('ant-segmented-item-selected');
-              $('#yiyan').addClass('ant-segmented-item-selected');
-              $('#kimi').addClass('ant-segmented-item-selected');
-            `);
-          } else if (modelNum === 4) {
-            showFour(yiyanWindow, kimiWindow, zhipuWindow, tongyiWindow);
-            mainWindow.webContents.executeJavaScript(`
-              $('#zhipu').addClass('ant-segmented-item-selected');
-              $('#tongyi').addClass('ant-segmented-item-selected');
-              $('#yiyan').addClass('ant-segmented-item-selected');
-              $('#kimi').addClass('ant-segmented-item-selected');
-            `);
-          }
-          bottomWindow.focus();
+        bottomWindow.focus();
+      };
+
+      ipcMain.on("event", (_, url) => {
+        if (
+          url === "yiyan" ||
+          url === "tongyi" ||
+          url === "kimi" ||
+          url === "zhipu" ||
+          url === "xunfei"
+        ) {
+          clickWin(url);
           return;
         }
         if (url === "minWin") {
@@ -732,92 +664,42 @@ function createWindow() {
           store.set("isLogin", !store.get("isLogin"));
           return;
         }
-        if (url === "oneWindow") {
-          initWidth(1);
-          mainWindow.webContents.executeJavaScript(`
-            $('#zhipu').removeClass('ant-segmented-item-selected');
-            $('#tongyi').removeClass('ant-segmented-item-selected');
-            $('#yiyan').addClass('ant-segmented-item-selected');
-            $('#kimi').removeClass('ant-segmented-item-selected');
-          `);
-          yiyanWindow.show();
-          kimiWindow.hide();
-          tongyiWindow.hide();
-          zhipuWindow.hide();
-          bottomWindow.focus();
-          return;
-        }
-        if (url === "twoWindow") {
-          initWidth(2);
-          mainWindow.webContents.executeJavaScript(`
-            $('#zhipu').removeClass('ant-segmented-item-selected');
-            $('#tongyi').removeClass('ant-segmented-item-selected');
-            $('#yiyan').addClass('ant-segmented-item-selected');
-            $('#kimi').addClass('ant-segmented-item-selected');
-          `);
-          yiyanWindow.show();
-          kimiWindow.show();
-          zhipuWindow.hide();
-          tongyiWindow.hide();
-          bottomWindow.focus();
-          return;
-        }
-        if (url === "threeWindow") {
-          initWidth(3);
-          mainWindow.webContents.executeJavaScript(`
-            $('#zhipu').addClass('ant-segmented-item-selected');
-            $('#tongyi').removeClass('ant-segmented-item-selected');
-            $('#yiyan').addClass('ant-segmented-item-selected');
-            $('#kimi').addClass('ant-segmented-item-selected');
-          `);
-          yiyanWindow.show();
-          kimiWindow.show();
-          zhipuWindow.show();
-          tongyiWindow.hide();
-          bottomWindow.focus();
-          return;
-        }
-        if (url === "fourWindow") {
-          initWidth(4);
-          mainWindow.webContents.executeJavaScript(`
-            $('#zhipu').addClass('ant-segmented-item-selected');
-            $('#tongyi').addClass('ant-segmented-item-selected');
-            $('#yiyan').addClass('ant-segmented-item-selected');
-            $('#kimi').addClass('ant-segmented-item-selected');
-          `);
-          yiyanWindow.show();
-          kimiWindow.show();
-          zhipuWindow.show();
-          tongyiWindow.show();
-          bottomWindow.focus();
-          return;
-        }
         if (url === "submit") {
-          kimiWindow.webContents.executeJavaScript(`
-            document.getElementById("send-button").click();
-          `);
-          zhipuWindow.webContents.executeJavaScript(`
-            document.querySelector(".button-right-inner").click()
-          `);
-          tongyiWindow.webContents.executeJavaScript(`
-            document.querySelector(".send-button").click()
-          `);
-          yiyanWindow.webContents.executeJavaScript(`
-            document.querySelector(".send-button").click()
-          `);
-          xunfeiWindow.webContents.executeJavaScript(`
-            document.querySelector(".chat_send__dBrgV").click()
-          `);
-          setTimeout(() => {
+          if (kimiWindow) {
+            kimiWindow.webContents.executeJavaScript(`
+              document.getElementById("send-button").click();
+            `);
+          }
+          if (zhipuWindow) {
+            zhipuWindow.webContents.executeJavaScript(`
+              document.querySelector(".button-right-inner").click()
+            `);
+          }
+          if (tongyiWindow) {
+            tongyiWindow.webContents.executeJavaScript(`
+              document.querySelector(".send-button").click()
+            `);
+          }
+          if (yiyanWindow) {
+            yiyanWindow.webContents.executeJavaScript(`
+              document.querySelector(".send-button").click()
+            `);
+          }
+          if (xunfeiWindow) {
             xunfeiWindow.webContents.executeJavaScript(`
               document.querySelector(".chat_send__dBrgV").click()
             `);
-          }, 100);
+            setTimeout(() => {
+              xunfeiWindow.webContents.executeJavaScript(`
+                document.querySelector(".chat_send__dBrgV").click()
+              `);
+            }, 100);
+          }
           return;
         }
       });
-      initWidth(modelNum);
-      bottomWindow.focus();
+
+      clickWin();
     });
 }
 
